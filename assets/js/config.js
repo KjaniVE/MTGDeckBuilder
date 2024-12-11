@@ -18,3 +18,5 @@ const config = {
     "basic_lands": ["Plains", "Island", "Swamp", "Mountain", "Forest"],   
     "mana_types": ["W", "U", "B", "R", "G", "A", ""],
 }
+
+export {config}
