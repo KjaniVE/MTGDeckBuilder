@@ -1,7 +1,10 @@
 /* not given */
+import { initNavigation } from './navigation.js';
+import { initSubscribePage } from './pages/subscribe.js';
 
-document.addEventListener('DOMContentLoaded', init);
+init();
 
 function init(){      
-     
+     initNavigation();
+     initSubscribePage();
 }
