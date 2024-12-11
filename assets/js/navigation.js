@@ -17,7 +17,6 @@ function navigate(e){
 
 function navigateToPage(targetId){
     document.querySelectorAll(".page").forEach(page => {
-        console.log(targetId);
         if (page.id === targetId){
             page.classList.remove("hidden");
         } else {

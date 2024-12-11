@@ -56,7 +56,6 @@ function addRadioButtonsToForm() {
 
 function radioChangeDetect(e) {
     if (e.target.type === "radio") {
-        console.log(e.target.value);
         subscribeForm.selectedSet = e.target.value
     }
 }
@@ -67,7 +66,6 @@ function submitFrom(e) {
     const target = document.querySelector("form input[type='submit']").dataset.target;
 
     entries.forEach(entry => {
-        console.log(entry.name);
         subscribeForm[entry.name] = entry.value;
     });
 
@@ -75,7 +73,6 @@ function submitFrom(e) {
         subscribeForm.selectedSet = config.default_set;
     }
 
-    console.log(subscribeForm);
     navigateToPage(target);
 }
 
