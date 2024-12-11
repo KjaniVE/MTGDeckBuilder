@@ -13,7 +13,7 @@ function initNavigation(){
 
 function navigate(e){
     e.preventDefault();
-    const target = e.target;
+    const target = e.target.dataset.target;
     navigateToPage(target);
 }
 
