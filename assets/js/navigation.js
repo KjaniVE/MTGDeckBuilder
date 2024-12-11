@@ -1,10 +1,12 @@
 // ## GIVEN ##
 
+import {getRandomNumber} from "./utils.js";
+
 const NR_OF_BACKGROUNDS = 3;
 
 function initNavigation(){
-    console.log("initNavigation");
-    document.querySelectorAll("button .nav").forEach((button) => {
+    randomBackground();
+    document.querySelectorAll(".nav").forEach((button) => {
         button.addEventListener("click", navigate);
     });
 }
@@ -23,7 +25,15 @@ function navigateToPage(targetId){
             page.classList.add("hidden");
         }
     });
+    randomBackground();
 }
 
 export { initNavigation, navigateToPage };
 // ## YOUR ADDED FUNCTIONS ##
+
+
+function randomBackground() {
+    let $body = document.querySelector("body");
+    $body.className = "";
+    $body.classList.add(`background-0${getRandomNumber(NR_OF_BACKGROUNDS, 1)}`);
+}
