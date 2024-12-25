@@ -1,7 +1,6 @@
-
-
+"use strict";
 // ## GIVEN ##
-
+/*
 // important: never use the variable directly in other javascript files!!!!
 const _cards = [];
 
@@ -46,9 +45,11 @@ function isBasicLand(card){
 }
 
 //  Retrieves all basic land cards from _cards.
-function getBasicLands(){    
+function getBasicLands(){
     
 }
 
 
+
+ */
 // ## YOUR ADDED FUNCTIONS ##

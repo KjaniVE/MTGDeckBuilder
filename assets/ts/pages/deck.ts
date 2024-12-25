@@ -16,15 +16,15 @@ function renderDeckZones(){
 
 }
 
-function showCardDetail(e){
+function showCardDetail(e: SubmitEvent){
 
 }
 
-function moveCardToDeck(e){
+function moveCardToDeck(e: SubmitEvent){
 
 }
 
-function moveCardToPool(e){
+function moveCardToPool(e: SubmitEvent){
     
 }
 
