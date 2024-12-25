@@ -1,5 +1,6 @@
-@suppress("ALL");
+ // @ts-ignore
 
+@suppress("ALL")
 // ## GIVEN ##
 
 function getRandomNumber(max: number, min = 0) {
@@ -9,8 +10,7 @@ function getRandomNumber(max: number, min = 0) {
 function getRandomListItem(list){
      
 }
-
- */
+*/
 
 // ## YOUR ADDED FUNCTIONS ##
 

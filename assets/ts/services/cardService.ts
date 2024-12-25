@@ -1,7 +1,9 @@
-//disable sonarlint for this file
-@suppress("ALL");
-
+//disable tslint for this file
+// @ts-nocheck
+@supress("ALL")
 // ## GIVEN ##
+    //TODO remove this line when starting in this file
+const _cards = []; //just here to not have any more errors,
 /*
 // important: never use the variable directly in other javascript files!!!!
 const _cards = [];
@@ -26,7 +28,7 @@ function findCardById(id){
 
 
 // Generates a booster pack of cards based on a predefined structure from the config object. It selects unique and random cards based on rarity and adds them to the booster pack.
-// An array of (unqiue and random) card objects representing a booster pack.
+// An array of (unique and random) card objects representing a booster pack.
 function getBooster(){
     
 }

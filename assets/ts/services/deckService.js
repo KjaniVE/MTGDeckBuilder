@@ -1,4 +1,5 @@
 "use strict";
+// @ts-ignore
 // important: never use the variable directly in other javascript files!!!!
 let _cardPool = [];
 // important: never use the variable directly in other javascript files!!!!

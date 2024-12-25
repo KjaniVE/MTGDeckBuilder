@@ -1,4 +1,6 @@
-@suppress("ALL");
+// @ts-ignore
+
+@suppress("ALL")
 
 // important: never use the variable directly in other javascript files!!!!
 let _cardPool = [];

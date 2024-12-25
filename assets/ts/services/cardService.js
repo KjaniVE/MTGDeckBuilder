@@ -1,5 +1,9 @@
 "use strict";
+//disable tslint for this file
+// @ts-nocheck
 // ## GIVEN ##
+//TODO remove this line when starting in this file
+const _cards = []; //just here to not have any more errors,
 /*
 // important: never use the variable directly in other javascript files!!!!
 const _cards = [];
