@@ -12,10 +12,10 @@ const _MAX_BOOSTER_VERSIONS = 3;
 // ## GIVEN ##
 
 function initBoostersPage(){
-    
+    console.log("Boosters page initialized");
 }
 
-
+export {initBoostersPage};
 // ## YOUR ADDED FUNCTIONS ##
 
 

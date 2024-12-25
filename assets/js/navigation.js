@@ -1,26 +1,33 @@
 // ## GIVEN ##
 
 import {getRandomNumber} from "./utils.js";
+import {initBoostersPage} from "./pages/boosters.js";
 
 const NR_OF_BACKGROUNDS = 3;
 
-function initNavigation(){
+const initPages = {
+    boosters: initBoostersPage,
+}
+
+function initNavigation() {
     randomBackground();
     document.querySelectorAll(".nav").forEach((button) => {
         button.addEventListener("click", navigate);
     });
 }
 
-function navigate(e){
+function navigate(e) {
     e.preventDefault();
     const target = e.target.dataset.target;
     navigateToPage(target);
 }
 
-function navigateToPage(targetId){
+function navigateToPage(targetId) {
+
     document.querySelectorAll(".page").forEach(page => {
-        if (page.id === targetId){
+        if (page.id === targetId) {
             page.classList.remove("hidden");
+            initPages[targetId]();
         } else {
             page.classList.add("hidden");
         }
@@ -28,7 +35,8 @@ function navigateToPage(targetId){
     randomBackground();
 }
 
-export { initNavigation, navigateToPage };
+export {initNavigation, navigateToPage};
+
 // ## YOUR ADDED FUNCTIONS ##
 
 
