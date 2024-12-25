@@ -71,7 +71,7 @@ const _allCards = {
             flavor_text: "\"Even in single combat, I am never alone.\"\n—Rafiq of the Many",
             card_face: {
                 name: "Angelic Benediction",
-                type_line: { full: "Enchantment", main: "Enchantment", sub: "" },
+                type_line: {full: "Enchantment", main: "Enchantment", sub: ""},
                 mana_cost: "{3}{W}",
                 oracle_text: "Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)\nWhenever a creature you control attacks alone, you may tap target creature."
             }
@@ -91,7 +91,7 @@ const _allCards = {
             flavor_text: "Clash of sword and cry of beast fall mute when angels sound the call to prayer.",
             card_face: {
                 name: "Angelsong",
-                type_line: { full: "Instant", main: "Instant", sub: "" },
+                type_line: {full: "Instant", main: "Instant", sub: ""},
                 mana_cost: "{1}{W}",
                 oracle_text: "Prevent all combat damage that would be dealt this turn.\nCycling {2} ({2}, Discard this card: Draw a card.)"
             }
@@ -166,7 +166,7 @@ const _allCards = {
             flavor_text: "Naya's trees grow tall and sturdy. Their foliage intertwines to form dewcups, rainwater pools where the elves gather to celebrate life.",
             card_face: {
                 name: "Cradle of Vitality",
-                type_line: { full: "Enchantment", main: "Enchantment", sub: "" },
+                type_line: {full: "Enchantment", main: "Enchantment", sub: ""},
                 mana_cost: "{3}{W}",
                 oracle_text: "Whenever you gain life, you may pay {1}{W}. If you do, put a +1/+1 counter on target creature for each 1 life you gained."
             }
@@ -186,7 +186,7 @@ const _allCards = {
             flavor_text: "\"I find its symmetry pleasing. It rids our world of offensive refuse while disposing of itself.\"\n—Dolomarus, Proctor of the Clean",
             card_face: {
                 name: "Dispeller's Capsule",
-                type_line: { full: "Artifact", main: "Artifact", sub: "" },
+                type_line: {full: "Artifact", main: "Artifact", sub: ""},
                 mana_cost: "{W}",
                 oracle_text: "{2}{W}, {T}, Sacrifice Dispeller's Capsule: Destroy target artifact or enchantment."
             }
@@ -257,7 +257,7 @@ const _allCards = {
             flavor_text: "Rebels and other malcontents forced into the ritual awake lost in Topa's vast savannahs. Those who find their way back return humble and repentant.",
             card_face: {
                 name: "Excommunicate",
-                type_line: { full: "Sorcery", main: "Sorcery", sub: "" },
+                type_line: {full: "Sorcery", main: "Sorcery", sub: ""},
                 mana_cost: "{2}{W}",
                 oracle_text: "Put target creature on top of its owner's library."
             }
@@ -333,7 +333,7 @@ const _allCards = {
             flavor_text: "Bantians believe those who are born into the highest caste and live a life of discipline and virtue can ascend to become angels.",
             card_face: {
                 name: "Invincible Hymn",
-                type_line: { full: "Sorcery", main: "Sorcery", sub: "" },
+                type_line: {full: "Sorcery", main: "Sorcery", sub: ""},
                 mana_cost: "{6}{W}{W}",
                 oracle_text: "Count the number of cards in your library. Your life total becomes that number."
             }
@@ -437,7 +437,7 @@ const _allCards = {
             flavor_text: "The cup was a gift from the sphinx Tameron, who hoped that those who drank from it would live long enough to decrypt the sphinxes' wisdom.",
             card_face: {
                 name: "Marble Chalice",
-                type_line: { full: "Artifact", main: "Artifact", sub: "" },
+                type_line: {full: "Artifact", main: "Artifact", sub: ""},
                 mana_cost: "{2}{W}",
                 oracle_text: "{T}: You gain 1 life."
             }
@@ -485,7 +485,7 @@ const _allCards = {
             flavor_text: "A circle of light and a word of confinement.",
             card_face: {
                 name: "Oblivion Ring",
-                type_line: { full: "Enchantment", main: "Enchantment", sub: "" },
+                type_line: {full: "Enchantment", main: "Enchantment", sub: ""},
                 mana_cost: "{2}{W}",
                 oracle_text: "When Oblivion Ring enters the battlefield, exile another target nonland permanent.\nWhen Oblivion Ring leaves the battlefield, return the exiled card to the battlefield under its owner's control."
             }
@@ -532,7 +532,7 @@ const _allCards = {
             image: "https://cards.scryfall.io/border_crop/front/5/b/5b3b0908-5408-41fd-8e69-2bc785e19304.jpg?1562704325",
             card_face: {
                 name: "Resounding Silence",
-                type_line: { full: "Instant", main: "Instant", sub: "" },
+                type_line: {full: "Instant", main: "Instant", sub: ""},
                 mana_cost: "{3}{W}",
                 oracle_text: "Exile target attacking creature.\nCycling {5}{G}{W}{U} ({5}{G}{W}{U}, Discard this card: Draw a card.)\nWhen you cycle Resounding Silence, exile up to two target attacking creatures."
             }
@@ -608,7 +608,7 @@ const _allCards = {
             flavor_text: "\"Soon I will sleep, eyes closing to a world tarnished with flesh, and then wake to a polished vision.\"\n—Sharuum",
             card_face: {
                 name: "Scourglass",
-                type_line: { full: "Artifact", main: "Artifact", sub: "" },
+                type_line: {full: "Artifact", main: "Artifact", sub: ""},
                 mana_cost: "{3}{W}{W}",
                 oracle_text: "{T}, Sacrifice Scourglass: Destroy all permanents except for artifacts and lands. Activate only during your upkeep."
             }
@@ -683,7 +683,7 @@ const _allCards = {
             flavor_text: "An avatar he sculpts of fellowship and light.",
             card_face: {
                 name: "Soul's Grace",
-                type_line: { full: "Instant", main: "Instant", sub: "" },
+                type_line: {full: "Instant", main: "Instant", sub: ""},
                 mana_cost: "{1}{W}",
                 oracle_text: "You gain life equal to target creature's power."
             }
@@ -787,7 +787,7 @@ const _allCards = {
             flavor_text: "On Bant, a sigil is both a prize of honor and a bond of duty. The one who bears it may be called to fulfill that charge at any moment.",
             card_face: {
                 name: "Call to Heel",
-                type_line: { full: "Instant", main: "Instant", sub: "" },
+                type_line: {full: "Instant", main: "Instant", sub: ""},
                 mana_cost: "{1}{U}",
                 oracle_text: "Return target creature to its owner's hand. Its controller draws a card."
             }
@@ -807,7 +807,7 @@ const _allCards = {
             flavor_text: "\"What you are attempting is not against the law. It is, however, extremely foolish.\"",
             card_face: {
                 name: "Cancel",
-                type_line: { full: "Instant", main: "Instant", sub: "" },
+                type_line: {full: "Instant", main: "Instant", sub: ""},
                 mana_cost: "{1}{U}{U}",
                 oracle_text: "Counter target spell."
             }
@@ -907,7 +907,7 @@ const _allCards = {
             flavor_text: "In ages past, Esper couriers bore messages written on ornate scrolls. The medium has grown more sophisticated, but the principle remains the same.",
             card_face: {
                 name: "Courier's Capsule",
-                type_line: { full: "Artifact", main: "Artifact", sub: "" },
+                type_line: {full: "Artifact", main: "Artifact", sub: ""},
                 mana_cost: "{1}{U}",
                 oracle_text: "{1}{U}, {T}, Sacrifice Courier's Capsule: Draw two cards."
             }
@@ -927,7 +927,7 @@ const _allCards = {
             flavor_text: "Before signing anything on Grixis, always read the fine print.",
             card_face: {
                 name: "Covenant of Minds",
-                type_line: { full: "Sorcery", main: "Sorcery", sub: "" },
+                type_line: {full: "Sorcery", main: "Sorcery", sub: ""},
                 mana_cost: "{4}{U}",
                 oracle_text: "Reveal the top three cards of your library. Target opponent may choose to put those cards into your hand. If they don't, put those cards into your graveyard and draw five cards."
             }
@@ -1003,7 +1003,7 @@ const _allCards = {
             flavor_text: "\"Speculation is foolish when the tools of certainty are available.\"\n—Cinna, vedalken consul",
             card_face: {
                 name: "Etherium Astrolabe",
-                type_line: { full: "Artifact", main: "Artifact", sub: "" },
+                type_line: {full: "Artifact", main: "Artifact", sub: ""},
                 mana_cost: "{2}{U}",
                 oracle_text: "Flash\n{B}, {T}, Sacrifice an artifact: Draw a card."
             }
@@ -1106,7 +1106,7 @@ const _allCards = {
             flavor_text: "\"It's free to do whatever it wants. I've merely told it what that is.\"\n—Xorin, Architect of Will",
             card_face: {
                 name: "Gather Specimens",
-                type_line: { full: "Instant", main: "Instant", sub: "" },
+                type_line: {full: "Instant", main: "Instant", sub: ""},
                 mana_cost: "{3}{U}{U}{U}",
                 oracle_text: "If a creature would enter the battlefield under an opponent's control this turn, it enters the battlefield under your control instead."
             }
@@ -1236,7 +1236,7 @@ const _allCards = {
             flavor_text: "\"The Filigree Texts do not compel you to act in accordance with their precepts. They only specify the consequences should you fail.\"\n—Lodus of the Ethersworn",
             card_face: {
                 name: "Memory Erosion",
-                type_line: { full: "Enchantment", main: "Enchantment", sub: "" },
+                type_line: {full: "Enchantment", main: "Enchantment", sub: ""},
                 mana_cost: "{1}{U}{U}",
                 oracle_text: "Whenever an opponent casts a spell, that player mills two cards."
             }
@@ -1256,7 +1256,7 @@ const _allCards = {
             flavor_text: "Rogue mechanists once rummaged through the wastes of the Tidehollow, constructing unauthorized golems to threaten the hegemony of the sphinxes. The orbs put a stop to that.",
             card_face: {
                 name: "Mindlock Orb",
-                type_line: { full: "Artifact", main: "Artifact", sub: "" },
+                type_line: {full: "Artifact", main: "Artifact", sub: ""},
                 mana_cost: "{3}{U}",
                 oracle_text: "Players can't search libraries."
             }
@@ -1304,7 +1304,7 @@ const _allCards = {
             flavor_text: "\"There is no such thing as scrap metal. All such material can be repaired with the proper bonding agent.\"\n—Quennus, metallurgeon",
             card_face: {
                 name: "Protomatter Powder",
-                type_line: { full: "Artifact", main: "Artifact", sub: "" },
+                type_line: {full: "Artifact", main: "Artifact", sub: ""},
                 mana_cost: "{2}{U}",
                 oracle_text: "{4}{W}, {T}, Sacrifice Protomatter Powder: Return target artifact card from your graveyard to the battlefield."
             }
@@ -1323,7 +1323,7 @@ const _allCards = {
             image: "https://cards.scryfall.io/border_crop/front/f/3/f3eca679-076d-42f0-9ec0-b8116a94e373.jpg?1562710709",
             card_face: {
                 name: "Resounding Wave",
-                type_line: { full: "Instant", main: "Instant", sub: "" },
+                type_line: {full: "Instant", main: "Instant", sub: ""},
                 mana_cost: "{2}{U}",
                 oracle_text: "Return target permanent to its owner's hand.\nCycling {5}{W}{U}{B} ({5}{W}{U}{B}, Discard this card: Draw a card.)\nWhen you cycle Resounding Wave, return two target permanents to their owners' hands."
             }
@@ -1398,7 +1398,7 @@ const _allCards = {
             flavor_text: "\"Magic cast through a hand of flesh is just as weak as the flesh itself.\"\n—Lodus of the Ethersworn",
             card_face: {
                 name: "Spell Snip",
-                type_line: { full: "Instant", main: "Instant", sub: "" },
+                type_line: {full: "Instant", main: "Instant", sub: ""},
                 mana_cost: "{2}{U}",
                 oracle_text: "Counter target spell unless its controller pays {1}.\nCycling {2} ({2}, Discard this card: Draw a card.)"
             }
@@ -1497,7 +1497,7 @@ const _allCards = {
             flavor_text: "At sea, the Jhessian fleet strikes swiftly and decisively. On land, facing the elite cavalry of Valeron, its marines must rely on more cautious strategies.",
             card_face: {
                 name: "Tortoise Formation",
-                type_line: { full: "Instant", main: "Instant", sub: "" },
+                type_line: {full: "Instant", main: "Instant", sub: ""},
                 mana_cost: "{3}{U}",
                 oracle_text: "Creatures you control gain shroud until end of turn. (They can't be the targets of spells or abilities.)"
             }
@@ -1545,7 +1545,7 @@ const _allCards = {
             flavor_text: "When the task spilled over into undeath, he stopped calling it his life's work.",
             card_face: {
                 name: "Ad Nauseam",
-                type_line: { full: "Instant", main: "Instant", sub: "" },
+                type_line: {full: "Instant", main: "Instant", sub: ""},
                 mana_cost: "{3}{B}{B}",
                 oracle_text: "Reveal the top card of your library and put that card into your hand. You lose life equal to its mana value. You may repeat this process any number of times."
             }
@@ -1645,7 +1645,7 @@ const _allCards = {
             flavor_text: "Witches of the Split-Eye Coven speak of a future when Grixis will overflow with life energy. For now, they must harvest vis from the living to fuel their dark magics.",
             card_face: {
                 name: "Bone Splinters",
-                type_line: { full: "Sorcery", main: "Sorcery", sub: "" },
+                type_line: {full: "Sorcery", main: "Sorcery", sub: ""},
                 mana_cost: "{B}",
                 oracle_text: "As an additional cost to cast this spell, sacrifice a creature.\nDestroy target creature."
             }
@@ -1860,7 +1860,7 @@ const _allCards = {
             flavor_text: "There is always a moment of trepidation before opening a message capsule, for fear of the judgment that might be contained within.",
             card_face: {
                 name: "Executioner's Capsule",
-                type_line: { full: "Artifact", main: "Artifact", sub: "" },
+                type_line: {full: "Artifact", main: "Artifact", sub: ""},
                 mana_cost: "{B}",
                 oracle_text: "{1}{B}, {T}, Sacrifice Executioner's Capsule: Destroy target nonblack creature."
             }
@@ -1963,7 +1963,7 @@ const _allCards = {
             image: "https://cards.scryfall.io/border_crop/front/0/b/0b79ec57-7c45-4ef9-9051-449d473b65ea.jpg?1562700966",
             card_face: {
                 name: "Immortal Coil",
-                type_line: { full: "Artifact", main: "Artifact", sub: "" },
+                type_line: {full: "Artifact", main: "Artifact", sub: ""},
                 mana_cost: "{2}{B}{B}",
                 oracle_text: "{T}, Exile two cards from your graveyard: Draw a card.\nIf damage would be dealt to you, prevent that damage. Exile a card from your graveyard for each 1 damage prevented this way.\nWhen there are no cards in your graveyard, you lose the game."
             }
@@ -1983,7 +1983,7 @@ const _allCards = {
             flavor_text: "\"This is why we don't go out in banewasp weather.\"\n—Rannon, Vithian holdout",
             card_face: {
                 name: "Infest",
-                type_line: { full: "Sorcery", main: "Sorcery", sub: "" },
+                type_line: {full: "Sorcery", main: "Sorcery", sub: ""},
                 mana_cost: "{1}{B}{B}",
                 oracle_text: "All creatures get -2/-2 until end of turn."
             }
@@ -2003,7 +2003,7 @@ const _allCards = {
             flavor_text: "The goblet was a gift from the sphinx Gorael, who hoped humans and vedalken would eventually destroy each other to acquire it, leaving all of Esper to her own kind.",
             card_face: {
                 name: "Onyx Goblet",
-                type_line: { full: "Artifact", main: "Artifact", sub: "" },
+                type_line: {full: "Artifact", main: "Artifact", sub: ""},
                 mana_cost: "{2}{B}",
                 oracle_text: "{T}: Target player loses 1 life."
             }
@@ -2050,7 +2050,7 @@ const _allCards = {
             image: "https://cards.scryfall.io/border_crop/front/6/4/64d27eb7-2d3b-4daf-9cf6-c254fdacceb0.jpg?1562704747",
             card_face: {
                 name: "Resounding Scream",
-                type_line: { full: "Sorcery", main: "Sorcery", sub: "" },
+                type_line: {full: "Sorcery", main: "Sorcery", sub: ""},
                 mana_cost: "{2}{B}",
                 oracle_text: "Target player discards a card at random.\nCycling {5}{U}{B}{R} ({5}{U}{B}{R}, Discard this card: Draw a card.)\nWhen you cycle Resounding Scream, target player discards two cards at random."
             }
@@ -2125,7 +2125,7 @@ const _allCards = {
             flavor_text: "\"The future is a snake, devouring your life backwards through time. And when you die, believe me, it doesn't stop feeding.\"\n—Sedris, the Traitor King",
             card_face: {
                 name: "Shadowfeed",
-                type_line: { full: "Instant", main: "Instant", sub: "" },
+                type_line: {full: "Instant", main: "Instant", sub: ""},
                 mana_cost: "{B}",
                 oracle_text: "Exile target card from a graveyard. You gain 3 life."
             }
@@ -2392,7 +2392,7 @@ const _allCards = {
             flavor_text: "\"The dragon is a perfect marriage of power and the will to use it.\"\n—Sarkhan Vol",
             card_face: {
                 name: "Crucible of Fire",
-                type_line: { full: "Enchantment", main: "Enchantment", sub: "" },
+                type_line: {full: "Enchantment", main: "Enchantment", sub: ""},
                 mana_cost: "{3}{R}",
                 oracle_text: "Dragon creatures you control get +3/+3."
             }
@@ -2412,7 +2412,7 @@ const _allCards = {
             flavor_text: "Goblins journey to the sacrificial peaks in pairs so that the rare survivor might be able to relate the details of the other's grisly demise.",
             card_face: {
                 name: "Dragon Fodder",
-                type_line: { full: "Sorcery", main: "Sorcery", sub: "" },
+                type_line: {full: "Sorcery", main: "Sorcery", sub: ""},
                 mana_cost: "{1}{R}",
                 oracle_text: "Create two 1/1 red Goblin creature tokens."
             }
@@ -2516,7 +2516,7 @@ const _allCards = {
             flavor_text: "A goblin raid is a delicate gambit—a blend of stealth, precision, and screaming death.",
             card_face: {
                 name: "Goblin Assault",
-                type_line: { full: "Enchantment", main: "Enchantment", sub: "" },
+                type_line: {full: "Enchantment", main: "Enchantment", sub: ""},
                 mana_cost: "{2}{R}",
                 oracle_text: "At the beginning of your upkeep, create a 1/1 red Goblin creature token with haste.\nGoblin creatures attack each combat if able."
             }
@@ -2699,7 +2699,7 @@ const _allCards = {
             flavor_text: "\"Jund is a wounded world. Beware its searing blood spilling out onto the surface.\"\n—Rakka Mar",
             card_face: {
                 name: "Magma Spray",
-                type_line: { full: "Instant", main: "Instant", sub: "" },
+                type_line: {full: "Instant", main: "Instant", sub: ""},
                 mana_cost: "{R}",
                 oracle_text: "Magma Spray deals 2 damage to target creature. If that creature would die this turn, exile it instead."
             }
@@ -2746,7 +2746,7 @@ const _allCards = {
             image: "https://cards.scryfall.io/border_crop/front/6/8/680b7955-d939-4195-aba8-b46a8c925616.jpg?1562704894",
             card_face: {
                 name: "Resounding Thunder",
-                type_line: { full: "Instant", main: "Instant", sub: "" },
+                type_line: {full: "Instant", main: "Instant", sub: ""},
                 mana_cost: "{2}{R}",
                 oracle_text: "Resounding Thunder deals 3 damage to any target.\nCycling {5}{B}{R}{G} ({5}{B}{R}{G}, Discard this card: Draw a card.)\nWhen you cycle Resounding Thunder, it deals 6 damage to any target."
             }
@@ -2849,7 +2849,7 @@ const _allCards = {
             flavor_text: "Fire burns away both flesh and freedom.",
             card_face: {
                 name: "Skeletonize",
-                type_line: { full: "Instant", main: "Instant", sub: "" },
+                type_line: {full: "Instant", main: "Instant", sub: ""},
                 mana_cost: "{4}{R}",
                 oracle_text: "Skeletonize deals 3 damage to target creature. When a creature dealt damage this way dies this turn, create a 1/1 black Skeleton creature token with \"{B}: Regenerate this creature.\""
             }
@@ -2869,7 +2869,7 @@ const _allCards = {
             flavor_text: "An avatar he sculpts of anger and flame.",
             card_face: {
                 name: "Soul's Fire",
-                type_line: { full: "Instant", main: "Instant", sub: "" },
+                type_line: {full: "Instant", main: "Instant", sub: ""},
                 mana_cost: "{2}{R}",
                 oracle_text: "Target creature you control deals damage equal to its power to any target."
             }
@@ -2972,7 +2972,7 @@ const _allCards = {
             flavor_text: "\"Thrashes of the ancient past still linger in spirit and shadow, desperate to sink their claws into our souls.\"\n—Rakka Mar",
             card_face: {
                 name: "Vicious Shadows",
-                type_line: { full: "Enchantment", main: "Enchantment", sub: "" },
+                type_line: {full: "Enchantment", main: "Enchantment", sub: ""},
                 mana_cost: "{6}{R}",
                 oracle_text: "Whenever a creature dies, you may have Vicious Shadows deal damage to target player equal to the number of cards in that player's hand."
             }
@@ -3019,7 +3019,7 @@ const _allCards = {
             flavor_text: "A dragon's death is almost as feared as its life. Old, dying dragons throw themselves into volcanoes, causing massive upheaval and widespread disaster.",
             card_face: {
                 name: "Volcanic Submersion",
-                type_line: { full: "Sorcery", main: "Sorcery", sub: "" },
+                type_line: {full: "Sorcery", main: "Sorcery", sub: ""},
                 mana_cost: "{4}{R}",
                 oracle_text: "Destroy target artifact or land.\nCycling {2} ({2}, Discard this card: Draw a card.)"
             }
@@ -3039,7 +3039,7 @@ const _allCards = {
             flavor_text: "\"Never subtle nor cryptic is the reckoning of the mighty.\"\n—Mayael the Anima",
             card_face: {
                 name: "Where Ancients Tread",
-                type_line: { full: "Enchantment", main: "Enchantment", sub: "" },
+                type_line: {full: "Enchantment", main: "Enchantment", sub: ""},
                 mana_cost: "{4}{R}",
                 oracle_text: "Whenever a creature with power 5 or greater enters the battlefield under your control, you may have Where Ancients Tread deal 5 damage to any target."
             }
@@ -3310,7 +3310,7 @@ const _allCards = {
             image: "https://cards.scryfall.io/border_crop/front/1/8/1850be87-54de-49b3-a407-6fb2b278b25c.jpg?1562701477",
             card_face: {
                 name: "Gift of the Gargantuan",
-                type_line: { full: "Sorcery", main: "Sorcery", sub: "" },
+                type_line: {full: "Sorcery", main: "Sorcery", sub: ""},
                 mana_cost: "{2}{G}",
                 oracle_text: "Look at the top four cards of your library. You may reveal a creature card and/or a land card from among them and put the revealed cards into your hand. Put the rest on the bottom of your library in any order."
             }
@@ -3438,7 +3438,7 @@ const _allCards = {
             flavor_text: "Why settle for mere enormity?",
             card_face: {
                 name: "Mighty Emergence",
-                type_line: { full: "Enchantment", main: "Enchantment", sub: "" },
+                type_line: {full: "Enchantment", main: "Enchantment", sub: ""},
                 mana_cost: "{2}{G}",
                 oracle_text: "Whenever a creature with power 5 or greater enters the battlefield under your control, you may put two +1/+1 counters on it."
             }
@@ -3541,7 +3541,7 @@ const _allCards = {
             flavor_text: "The idols of old are rich in minerals and magic. They are torn apart when nature aims to eat well.",
             card_face: {
                 name: "Naturalize",
-                type_line: { full: "Instant", main: "Instant", sub: "" },
+                type_line: {full: "Instant", main: "Instant", sub: ""},
                 mana_cost: "{1}{G}",
                 oracle_text: "Destroy target artifact or enchantment."
             }
@@ -3589,7 +3589,7 @@ const _allCards = {
             flavor_text: "Jund has little necromancy. Instead, the flesh of its dead gives rise to algal fiends.",
             card_face: {
                 name: "Ooze Garden",
-                type_line: { full: "Enchantment", main: "Enchantment", sub: "" },
+                type_line: {full: "Enchantment", main: "Enchantment", sub: ""},
                 mana_cost: "{1}{G}",
                 oracle_text: "{1}{G}, Sacrifice a non-Ooze creature: Create an X/X green Ooze creature token, where X is the sacrificed creature's power. Activate only as a sorcery."
             }
@@ -3608,7 +3608,7 @@ const _allCards = {
             image: "https://cards.scryfall.io/border_crop/front/2/1/217bf237-a758-4500-b221-5e88fed9d0fc.jpg?1562701871",
             card_face: {
                 name: "Resounding Roar",
-                type_line: { full: "Instant", main: "Instant", sub: "" },
+                type_line: {full: "Instant", main: "Instant", sub: ""},
                 mana_cost: "{1}{G}",
                 oracle_text: "Target creature gets +3/+3 until end of turn.\nCycling {5}{R}{G}{W} ({5}{R}{G}{W}, Discard this card: Draw a card.)\nWhen you cycle Resounding Roar, target creature gets +6/+6 until end of turn."
             }
@@ -3734,7 +3734,7 @@ const _allCards = {
             flavor_text: "An avatar he sculpts of instinct and force.",
             card_face: {
                 name: "Soul's Might",
-                type_line: { full: "Sorcery", main: "Sorcery", sub: "" },
+                type_line: {full: "Sorcery", main: "Sorcery", sub: ""},
                 mana_cost: "{4}{G}",
                 oracle_text: "Put X +1/+1 counters on target creature, where X is that creature's power."
             }
@@ -3838,7 +3838,7 @@ const _allCards = {
             flavor_text: "Life's circle has become inverted in Grixis. The same energy is endlessly recycled and becomes more stagnant with each pass.",
             card_face: {
                 name: "Agony Warp",
-                type_line: { full: "Instant", main: "Instant", sub: "" },
+                type_line: {full: "Instant", main: "Instant", sub: ""},
                 mana_cost: "{U}{B}",
                 oracle_text: "Target creature gets -3/-0 until end of turn.\nTarget creature gets -0/-3 until end of turn."
             }
@@ -3881,7 +3881,7 @@ const _allCards = {
             flavor_text: "Bant is a world where death and chaos hold no sway.",
             card_face: {
                 name: "Bant Charm",
-                type_line: { full: "Instant", main: "Instant", sub: "" },
+                type_line: {full: "Instant", main: "Instant", sub: ""},
                 mana_cost: "{G}{W}{U}",
                 oracle_text: "Choose one —\n• Destroy target artifact.\n• Put target creature on the bottom of its owner's library.\n• Counter target instant spell."
             }
@@ -3901,7 +3901,7 @@ const _allCards = {
             flavor_text: "While the smell of burning flesh is common in Grixis, the odor of smoldering brain matter is a rare treat.",
             card_face: {
                 name: "Blightning",
-                type_line: { full: "Sorcery", main: "Sorcery", sub: "" },
+                type_line: {full: "Sorcery", main: "Sorcery", sub: ""},
                 mana_cost: "{1}{B}{R}",
                 oracle_text: "Blightning deals 3 damage to target player or planeswalker. That player or that planeswalker's controller discards two cards."
             }
@@ -3949,7 +3949,7 @@ const _allCards = {
             flavor_text: "\"Lightning lives in everything, in living flesh and growing things. It must be set free.\"\n—Rakka Mar",
             card_face: {
                 name: "Branching Bolt",
-                type_line: { full: "Instant", main: "Instant", sub: "" },
+                type_line: {full: "Instant", main: "Instant", sub: ""},
                 mana_cost: "{1}{R}{G}",
                 oracle_text: "Choose one or both —\n• Branching Bolt deals 3 damage to target creature with flying.\n• Branching Bolt deals 3 damage to target creature without flying."
             }
@@ -3969,7 +3969,7 @@ const _allCards = {
             flavor_text: "Revealing the truth only deepened Tezzeret's curiosity for the secrets still buried.",
             card_face: {
                 name: "Brilliant Ultimatum",
-                type_line: { full: "Sorcery", main: "Sorcery", sub: "" },
+                type_line: {full: "Sorcery", main: "Sorcery", sub: ""},
                 mana_cost: "{W}{W}{U}{U}{U}{B}{B}",
                 oracle_text: "Exile the top five cards of your library. An opponent separates those cards into two piles. You may play lands and cast spells from one of those piles. If you cast a spell this way, you cast it without paying its mana cost."
             }
@@ -4073,7 +4073,7 @@ const _allCards = {
             flavor_text: "Be worthy of a single blessing, and many more will follow.",
             card_face: {
                 name: "Clarion Ultimatum",
-                type_line: { full: "Sorcery", main: "Sorcery", sub: "" },
+                type_line: {full: "Sorcery", main: "Sorcery", sub: ""},
                 mana_cost: "{G}{G}{W}{W}{W}{U}{U}",
                 oracle_text: "Choose five permanents you control. For each of those permanents, you may search your library for a card with the same name as that permanent. Put those cards onto the battlefield tapped, then shuffle."
             }
@@ -4093,7 +4093,7 @@ const _allCards = {
             flavor_text: "There is always a greater power.",
             card_face: {
                 name: "Cruel Ultimatum",
-                type_line: { full: "Sorcery", main: "Sorcery", sub: "" },
+                type_line: {full: "Sorcery", main: "Sorcery", sub: ""},
                 mana_cost: "{U}{U}{B}{B}{B}{R}{R}",
                 oracle_text: "Target opponent sacrifices a creature, discards three cards, then loses 5 life. You return a creature card from your graveyard to your hand, draw three cards, then gain 5 life."
             }
@@ -4169,7 +4169,7 @@ const _allCards = {
             flavor_text: "\"Thoughts are commodities. Someone will pay a good price for them. Even ones as simplistic as yours . . .\"\n—Ennor, mentalist",
             card_face: {
                 name: "Esper Charm",
-                type_line: { full: "Instant", main: "Instant", sub: "" },
+                type_line: {full: "Instant", main: "Instant", sub: ""},
                 mana_cost: "{W}{U}{B}",
                 oracle_text: "Choose one —\n• Destroy target enchantment.\n• Draw two cards.\n• Target player discards two cards."
             }
@@ -4272,7 +4272,7 @@ const _allCards = {
             flavor_text: "\"So many choices. Shall I choose loathing, hate, or malice today?\"\n—Eliza of the Keep",
             card_face: {
                 name: "Grixis Charm",
-                type_line: { full: "Instant", main: "Instant", sub: "" },
+                type_line: {full: "Instant", main: "Instant", sub: ""},
                 mana_cost: "{U}{B}{R}",
                 oracle_text: "Choose one —\n• Return target permanent to its owner's hand.\n• Target creature gets -4/-4 until end of turn.\n• Creatures you control get +2/+0 until end of turn."
             }
@@ -4320,7 +4320,7 @@ const _allCards = {
             flavor_text: "Centuries of careful practice have elevated the casting of protective spells to an art form. What little offensive magic remains on Bant stands little chance of breaching them.",
             card_face: {
                 name: "Hindering Light",
-                type_line: { full: "Instant", main: "Instant", sub: "" },
+                type_line: {full: "Instant", main: "Instant", sub: ""},
                 mana_cost: "{W}{U}",
                 oracle_text: "Counter target spell that targets you or a permanent you control.\nDraw a card."
             }
@@ -4368,7 +4368,7 @@ const _allCards = {
             flavor_text: "Jund pulses with raw energy, waiting for shamans to shape it into useful form.",
             card_face: {
                 name: "Jund Charm",
-                type_line: { full: "Instant", main: "Instant", sub: "" },
+                type_line: {full: "Instant", main: "Instant", sub: ""},
                 mana_cost: "{B}{R}{G}",
                 oracle_text: "Choose one —\n• Exile target player's graveyard.\n• Jund Charm deals 2 damage to each creature.\n• Put two +1/+1 counters on target creature."
             }
@@ -4416,7 +4416,7 @@ const _allCards = {
             flavor_text: "Once a year, Akrasa holds a joust that draws knights and their leotaus from every nation on Bant. The prize is an Akrasan sigil, but the true reward is the angel's kiss.",
             card_face: {
                 name: "Kiss of the Amesha",
-                type_line: { full: "Sorcery", main: "Sorcery", sub: "" },
+                type_line: {full: "Sorcery", main: "Sorcery", sub: ""},
                 mana_cost: "{4}{W}{U}",
                 oracle_text: "Target player gains 7 life and draws two cards."
             }
@@ -4492,7 +4492,7 @@ const _allCards = {
             flavor_text: "Deep in nature's core lies a potential unsullied by greed or civilization.",
             card_face: {
                 name: "Naya Charm",
-                type_line: { full: "Instant", main: "Instant", sub: "" },
+                type_line: {full: "Instant", main: "Instant", sub: ""},
                 mana_cost: "{R}{G}{W}",
                 oracle_text: "Choose one —\n• Naya Charm deals 3 damage to target creature.\n• Return target card from a graveyard to its owner's hand.\n• Tap all creatures target player controls."
             }
@@ -4512,7 +4512,7 @@ const _allCards = {
             flavor_text: "\"Those may be the squirms of one life ending or of another beginning. Either way, I'd leave it alone.\"\n—Rakka Mar",
             card_face: {
                 name: "Necrogenesis",
-                type_line: { full: "Enchantment", main: "Enchantment", sub: "" },
+                type_line: {full: "Enchantment", main: "Enchantment", sub: ""},
                 mana_cost: "{B}{G}",
                 oracle_text: "{2}: Exile target creature card from a graveyard. Create a 1/1 green Saproling creature token."
             }
@@ -4560,7 +4560,7 @@ const _allCards = {
             flavor_text: "\"Amateurish. Nearsighted. A waste of my time and everyone else's.\"\n—Indra, nullmage of Vectis",
             card_face: {
                 name: "Punish Ignorance",
-                type_line: { full: "Instant", main: "Instant", sub: "" },
+                type_line: {full: "Instant", main: "Instant", sub: ""},
                 mana_cost: "{W}{U}{U}{B}",
                 oracle_text: "Counter target spell. Its controller loses 3 life and you gain 3 life."
             }
@@ -4748,7 +4748,7 @@ const _allCards = {
             flavor_text: "Some believe the spiky crystal called sangrite is concentrated dragon's breath. Others think it's crystallized life energy. The clans care only about the power it unleashes when crushed.",
             card_face: {
                 name: "Sangrite Surge",
-                type_line: { full: "Sorcery", main: "Sorcery", sub: "" },
+                type_line: {full: "Sorcery", main: "Sorcery", sub: ""},
                 mana_cost: "{4}{R}{G}",
                 oracle_text: "Target creature gets +3/+3 and gains double strike until end of turn."
             }
@@ -4874,7 +4874,7 @@ const _allCards = {
             flavor_text: "\"For unwavering commitment and unflinching strength, the Order of the White Orchid confers its sigil. Rise, knight-captain, and do your duty.\"",
             card_face: {
                 name: "Sigil Blessing",
-                type_line: { full: "Instant", main: "Instant", sub: "" },
+                type_line: {full: "Instant", main: "Instant", sub: ""},
                 mana_cost: "{G}{W}",
                 oracle_text: "Until end of turn, target creature you control gets +3/+3 and other creatures you control get +1/+1."
             }
@@ -5006,7 +5006,7 @@ const _allCards = {
             flavor_text: "\"We can't beat the necromancers in numbers or raw power. We must beat them with ingenuity and timing.\"\n—Rannon, Vithian holdout",
             card_face: {
                 name: "Swerve",
-                type_line: { full: "Instant", main: "Instant", sub: "" },
+                type_line: {full: "Instant", main: "Instant", sub: ""},
                 mana_cost: "{U}{R}",
                 oracle_text: "Change the target of target spell with a single target."
             }
@@ -5109,7 +5109,7 @@ const _allCards = {
             flavor_text: "\"Retribution is best delivered by claws and rage, with both magnified.\"\n—Ajani",
             card_face: {
                 name: "Titanic Ultimatum",
-                type_line: { full: "Sorcery", main: "Sorcery", sub: "" },
+                type_line: {full: "Sorcery", main: "Sorcery", sub: ""},
                 mana_cost: "{R}{R}{G}{G}{G}{W}{W}",
                 oracle_text: "Until end of turn, creatures you control get +5/+5 and gain first strike, trample, and lifelink."
             }
@@ -5157,7 +5157,7 @@ const _allCards = {
             flavor_text: "\"Words are a waste of time. Destruction is a language everyone understands.\"\n—Sarkhan Vol",
             card_face: {
                 name: "Violent Ultimatum",
-                type_line: { full: "Sorcery", main: "Sorcery", sub: "" },
+                type_line: {full: "Sorcery", main: "Sorcery", sub: ""},
                 mana_cost: "{B}{B}{R}{R}{R}{G}{G}",
                 oracle_text: "Destroy three target permanents."
             }
@@ -5261,7 +5261,7 @@ const _allCards = {
             flavor_text: "It shows not what you are but what you were.",
             card_face: {
                 name: "Lich's Mirror",
-                type_line: { full: "Artifact", main: "Artifact", sub: "" },
+                type_line: {full: "Artifact", main: "Artifact", sub: ""},
                 mana_cost: "{5}",
                 oracle_text: "If you would lose the game, instead shuffle your hand, your graveyard, and all permanents you own into your library, then draw seven cards and your life total becomes 20."
             }
@@ -5281,7 +5281,7 @@ const _allCards = {
             flavor_text: "To crack a mirror is to provide an opening for the reflection to escape.",
             card_face: {
                 name: "Minion Reflector",
-                type_line: { full: "Artifact", main: "Artifact", sub: "" },
+                type_line: {full: "Artifact", main: "Artifact", sub: ""},
                 mana_cost: "{5}",
                 oracle_text: "Whenever a nontoken creature enters the battlefield under your control, you may pay {2}. If you do, create a token that's a copy of that creature, except it has haste and \"At the beginning of the end step, sacrifice this permanent.\""
             }
@@ -5301,7 +5301,7 @@ const _allCards = {
             flavor_text: "Whether incorporated into the structure of castles or admired as lone symbols, the obelisks stand for Bant's values of loyalty, honor, and truth.",
             card_face: {
                 name: "Obelisk of Bant",
-                type_line: { full: "Artifact", main: "Artifact", sub: "" },
+                type_line: {full: "Artifact", main: "Artifact", sub: ""},
                 mana_cost: "{3}",
                 oracle_text: "{T}: Add {G}, {W}, or {U}."
             }
@@ -5321,7 +5321,7 @@ const _allCards = {
             flavor_text: "It is a monument as austere, unyielding, and inscrutable as Esper itself.",
             card_face: {
                 name: "Obelisk of Esper",
-                type_line: { full: "Artifact", main: "Artifact", sub: "" },
+                type_line: {full: "Artifact", main: "Artifact", sub: ""},
                 mana_cost: "{3}",
                 oracle_text: "{T}: Add {W}, {U}, or {B}."
             }
@@ -5341,7 +5341,7 @@ const _allCards = {
             flavor_text: "Like most features of Grixis, the obelisks that remain from the time of Alara now exist only for dark exploitation.",
             card_face: {
                 name: "Obelisk of Grixis",
-                type_line: { full: "Artifact", main: "Artifact", sub: "" },
+                type_line: {full: "Artifact", main: "Artifact", sub: ""},
                 mana_cost: "{3}",
                 oracle_text: "{T}: Add {U}, {B}, or {R}."
             }
@@ -5361,7 +5361,7 @@ const _allCards = {
             flavor_text: "Volcanic ash-winds batter it, climbing vines overwhelm it, dragonfire roasts it, and yet it still stands as a testament to a forgotten world.",
             card_face: {
                 name: "Obelisk of Jund",
-                type_line: { full: "Artifact", main: "Artifact", sub: "" },
+                type_line: {full: "Artifact", main: "Artifact", sub: ""},
                 mana_cost: "{3}",
                 oracle_text: "{T}: Add {B}, {R}, or {G}."
             }
@@ -5381,7 +5381,7 @@ const _allCards = {
             flavor_text: "Centuries have passed since the plane shattered, yet the obelisks of each shard faithfully serve their long-forgotten purpose.",
             card_face: {
                 name: "Obelisk of Naya",
-                type_line: { full: "Artifact", main: "Artifact", sub: "" },
+                type_line: {full: "Artifact", main: "Artifact", sub: ""},
                 mana_cost: "{3}",
                 oracle_text: "{T}: Add {R}, {G}, or {W}."
             }
@@ -5424,7 +5424,7 @@ const _allCards = {
             flavor_text: "Elves believe the hydra-god Progenitus sleeps beneath Naya, feeding on forgotten magics.",
             card_face: {
                 name: "Relic of Progenitus",
-                type_line: { full: "Artifact", main: "Artifact", sub: "" },
+                type_line: {full: "Artifact", main: "Artifact", sub: ""},
                 mana_cost: "{1}",
                 oracle_text: "{T}: Target player exiles a card from their graveyard.\n{1}, Exile Relic of Progenitus: Exile all graveyards. Draw a card."
             }
@@ -5467,7 +5467,7 @@ const _allCards = {
             flavor_text: "\"We must rely on our own knowledge, not on the dogma of the seekers or the mutterings of the sphinxes.\"\n—Tullus of Palandius",
             card_face: {
                 name: "Arcane Sanctum",
-                type_line: { full: "Land", main: "Land", sub: "" },
+                type_line: {full: "Land", main: "Land", sub: ""},
                 mana_cost: "",
                 oracle_text: "Arcane Sanctum enters the battlefield tapped.\n{T}: Add {W}, {U}, or {B}."
             }
@@ -5487,7 +5487,7 @@ const _allCards = {
             flavor_text: "Bant's hearts are as pure as its air and as bright as its skies.",
             card_face: {
                 name: "Bant Panorama",
-                type_line: { full: "Land", main: "Land", sub: "" },
+                type_line: {full: "Land", main: "Land", sub: ""},
                 mana_cost: "",
                 oracle_text: "{T}: Add {C}.\n{1}, {T}, Sacrifice Bant Panorama: Search your library for a basic Forest, Plains, or Island card, put it onto the battlefield tapped, then shuffle."
             }
@@ -5507,7 +5507,7 @@ const _allCards = {
             flavor_text: "\"They say the ruins of Sedraxis were once a shining capital in Vithia. Now it is a blight, a place to be avoided by the living.\"\n—Olcot, Rider of Joffik",
             card_face: {
                 name: "Crumbling Necropolis",
-                type_line: { full: "Land", main: "Land", sub: "" },
+                type_line: {full: "Land", main: "Land", sub: ""},
                 mana_cost: "",
                 oracle_text: "Crumbling Necropolis enters the battlefield tapped.\n{T}: Add {U}, {B}, or {R}."
             }
@@ -5527,7 +5527,7 @@ const _allCards = {
             flavor_text: "Esper is an expansive canvas painted by precise, controlling hands.",
             card_face: {
                 name: "Esper Panorama",
-                type_line: { full: "Land", main: "Land", sub: "" },
+                type_line: {full: "Land", main: "Land", sub: ""},
                 mana_cost: "",
                 oracle_text: "{T}: Add {C}.\n{1}, {T}, Sacrifice Esper Panorama: Search your library for a basic Plains, Island, or Swamp card, put it onto the battlefield tapped, then shuffle."
             }
@@ -5547,7 +5547,7 @@ const _allCards = {
             flavor_text: "There is no height above Grixis that is free from the stench of death.",
             card_face: {
                 name: "Grixis Panorama",
-                type_line: { full: "Land", main: "Land", sub: "" },
+                type_line: {full: "Land", main: "Land", sub: ""},
                 mana_cost: "",
                 oracle_text: "{T}: Add {C}.\n{1}, {T}, Sacrifice Grixis Panorama: Search your library for a basic Island, Swamp, or Mountain card, put it onto the battlefield tapped, then shuffle."
             }
@@ -5567,7 +5567,7 @@ const _allCards = {
             flavor_text: "The sky is the dragon's throne, the seat from which it issues its fiery decrees.",
             card_face: {
                 name: "Jund Panorama",
-                type_line: { full: "Land", main: "Land", sub: "" },
+                type_line: {full: "Land", main: "Land", sub: ""},
                 mana_cost: "",
                 oracle_text: "{T}: Add {C}.\n{1}, {T}, Sacrifice Jund Panorama: Search your library for a basic Swamp, Mountain, or Forest card, put it onto the battlefield tapped, then shuffle."
             }
@@ -5587,7 +5587,7 @@ const _allCards = {
             flavor_text: "On Naya, ambition and treachery are scarce, hunted nearly to extinction by the awe owed to terrestrial gods.",
             card_face: {
                 name: "Jungle Shrine",
-                type_line: { full: "Land", main: "Land", sub: "" },
+                type_line: {full: "Land", main: "Land", sub: ""},
                 mana_cost: "",
                 oracle_text: "Jungle Shrine enters the battlefield tapped.\n{T}: Add {R}, {G}, or {W}."
             }
@@ -5607,7 +5607,7 @@ const _allCards = {
             flavor_text: "Between the thunderous footfalls of Naya's behemoths lie moments of perfect quiet.",
             card_face: {
                 name: "Naya Panorama",
-                type_line: { full: "Land", main: "Land", sub: "" },
+                type_line: {full: "Land", main: "Land", sub: ""},
                 mana_cost: "",
                 oracle_text: "{T}: Add {C}.\n{1}, {T}, Sacrifice Naya Panorama: Search your library for a basic Mountain, Forest, or Plains card, put it onto the battlefield tapped, then shuffle."
             }
@@ -5627,7 +5627,7 @@ const _allCards = {
             flavor_text: "Jund is a world as cruel as those who call it home. Their brutal struggles scar the land even as it carves them in its image, a vicious circle spiraling out of control.",
             card_face: {
                 name: "Savage Lands",
-                type_line: { full: "Land", main: "Land", sub: "" },
+                type_line: {full: "Land", main: "Land", sub: ""},
                 mana_cost: "",
                 oracle_text: "Savage Lands enters the battlefield tapped.\n{T}: Add {B}, {R}, or {G}."
             }
@@ -5647,7 +5647,7 @@ const _allCards = {
             flavor_text: "For wisdom's sake, it was built high to gaze on all things. For glory's sake, it was built high as a testament of power. For strength's sake, it was built high to repel all attacks.",
             card_face: {
                 name: "Seaside Citadel",
-                type_line: { full: "Land", main: "Land", sub: "" },
+                type_line: {full: "Land", main: "Land", sub: ""},
                 mana_cost: "",
                 oracle_text: "Seaside Citadel enters the battlefield tapped.\n{T}: Add {G}, {W}, or {U}."
             }
@@ -5770,8040 +5770,7978 @@ const _allCards = {
     ],
     one: [
         {
-           id:"3cd8dd4e-6892-49d7-8fae-97d04f9f6c84",
-           name:"Against All Odds",
-           type_line:"Sorcery",
-           mana_cost:"{3}{W}",
-           cmc:4,
-           colors:[
-              "W"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"1",
-           image:"https://cards.scryfall.io/border_crop/front/3/c/3cd8dd4e-6892-49d7-8fae-97d04f9f6c84.jpg?1675956885",
-           card_face:{
-              name:"Against All Odds",
-              type_line:{
-                 full:"Sorcery",
-                 main:"Sorcery",
-                 sub:""
-              },
-              mana_cost:"{3}{W}",
-              oracle_text:"Choose one or both —\n• Exile target artifact or creature you control, then return it to the battlefield under its owner's control.\n• Return target artifact or creature card with mana value 3 or less from your graveyard to the battlefield."
-           }
-        },
-        {
-           id:"04baad61-1b51-4602-9e33-0de4a9f34793",
-           name:"Annex Sentry",
-           type_line:"Artifact Creature — Phyrexian Cleric",
-           mana_cost:"{2}{W}",
-           cmc:3,
-           colors:[
-              "W"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"2",
-           image:"https://cards.scryfall.io/border_crop/front/0/4/04baad61-1b51-4602-9e33-0de4a9f34793.jpg?1675956886",
-           power:"1",
-           toughness:"4",
-           flavor_text:"There's never a need to change the watch, for the servants of Norn are sleepless.",
-           card_face:{
-              name:"Annex Sentry",
-              type_line:{
-                 full:"Artifact Creature — Phyrexian Cleric",
-                 main:"Artifact Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Cleric"
-                 ]
-              },
-              mana_cost:"{2}{W}",
-              power:"1",
-              oracle_text:"Toxic 1 (Players dealt combat damage by this creature also get a poison counter.)\nWhen Annex Sentry enters the battlefield, exile target artifact or creature an opponent controls with mana value 3 or less until Annex Sentry leaves the battlefield.",
-              toughness:"4"
-           }
-        },
-        {
-           id:"8a973487-5def-4771-bb77-5748cbd2f469",
-           name:"Apostle of Invasion",
-           type_line:"Creature — Phyrexian Angel",
-           mana_cost:"{4}{W}{W}",
-           cmc:6,
-           colors:[
-              "W"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"3",
-           image:"https://cards.scryfall.io/border_crop/front/8/a/8a973487-5def-4771-bb77-5748cbd2f469.jpg?1675956886",
-           power:"4",
-           toughness:"4",
-           flavor_text:"\"Be not afraid of the holy chorus. Join in rapturous harmony.\"",
-           card_face:{
-              name:"Apostle of Invasion",
-              type_line:{
-                 full:"Creature — Phyrexian Angel",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Angel"
-                 ]
-              },
-              mana_cost:"{4}{W}{W}",
-              power:"4",
-              oracle_text:"Flying\nCorrupted — As long as an opponent has three or more poison counters, Apostle of Invasion has double strike.",
-              toughness:"4"
-           }
-        },
-        {
-           id:"81ef3cfa-63e6-4450-af65-da7f05d13cf3",
-           name:"Basilica Shepherd",
-           type_line:"Creature — Phyrexian Angel",
-           mana_cost:"{3}{W}{W}",
-           cmc:5,
-           colors:[
-              "W"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"4",
-           image:"https://cards.scryfall.io/border_crop/front/8/1/81ef3cfa-63e6-4450-af65-da7f05d13cf3.jpg?1675956886",
-           power:"3",
-           toughness:"3",
-           card_face:{
-              name:"Basilica Shepherd",
-              type_line:{
-                 full:"Creature — Phyrexian Angel",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Angel"
-                 ]
-              },
-              mana_cost:"{3}{W}{W}",
-              power:"3",
-              oracle_text:"Flying\nWhen Basilica Shepherd enters the battlefield, create two 1/1 colorless Phyrexian Mite artifact creature tokens with toxic 1 and \"This creature can't block.\" (Players dealt combat damage by them also get a poison counter.)",
-              toughness:"3"
-           }
-        },
-        {
-           id:"0bd8d2b8-4caf-4349-9538-0dfbebf0ce1b",
-           name:"Bladed Ambassador",
-           type_line:"Creature — Phyrexian Soldier",
-           mana_cost:"{1}{W}",
-           cmc:2,
-           colors:[
-              "W"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"5",
-           image:"https://cards.scryfall.io/border_crop/front/0/b/0bd8d2b8-4caf-4349-9538-0dfbebf0ce1b.jpg?1675956886",
-           power:"3",
-           toughness:"1",
-           flavor_text:"\"Let those thanebound dissenters prattle about their dead god. I serve the Mother of Machines, and in her name I carve out their heresy.\"",
-           card_face:{
-              name:"Bladed Ambassador",
-              type_line:{
-                 full:"Creature — Phyrexian Soldier",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Soldier"
-                 ]
-              },
-              mana_cost:"{1}{W}",
-              power:"3",
-              oracle_text:"Bladed Ambassador enters the battlefield with an oil counter on it.\n{1}, Remove an oil counter from Bladed Ambassador: Bladed Ambassador gains indestructible until end of turn.",
-              toughness:"1"
-           }
-        },
-        {
-           id:"42060b9d-de58-485e-817a-1e64839943aa",
-           name:"Charge of the Mites",
-           type_line:"Instant",
-           mana_cost:"{2}{W}",
-           cmc:3,
-           colors:[
-              "W"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"6",
-           image:"https://cards.scryfall.io/border_crop/front/4/2/42060b9d-de58-485e-817a-1e64839943aa.jpg?1675956894",
-           card_face:{
-              name:"Charge of the Mites",
-              type_line:{
-                 full:"Instant",
-                 main:"Instant",
-                 sub:""
-              },
-              mana_cost:"{2}{W}",
-              oracle_text:"Choose one —\n• Charge of the Mites deals damage equal to the number of creatures you control to target creature or planeswalker.\n• Create two 1/1 colorless Phyrexian Mite artifact creature tokens with toxic 1 and \"This creature can't block.\" (Players dealt combat damage by them also get a poison counter.)"
-           }
-        },
-        {
-           id:"2bb29a69-3e42-4268-8026-f01072d7b56c",
-           name:"Compleat Devotion",
-           type_line:"Instant",
-           mana_cost:"{1}{W}",
-           cmc:2,
-           colors:[
-              "W"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"7",
-           image:"https://cards.scryfall.io/border_crop/front/2/b/2bb29a69-3e42-4268-8026-f01072d7b56c.jpg?1675956894",
-           flavor_text:"\"Elspeth, my friend, the Multiverse has answered my prayers to bring you here so that I may gather you into my pride and forever protect you.\"",
-           card_face:{
-              name:"Compleat Devotion",
-              type_line:{
-                 full:"Instant",
-                 main:"Instant",
-                 sub:""
-              },
-              mana_cost:"{1}{W}",
-              oracle_text:"Target creature you control gets +2/+2 until end of turn. If that creature has toxic, draw a card."
-           }
-        },
-        {
-           id:"aace4c44-7250-414b-aac4-df042a1e2e1d",
-           name:"Crawling Chorus",
-           type_line:"Creature — Phyrexian Horror",
-           mana_cost:"{W}",
-           cmc:1,
-           colors:[
-              "W"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"8",
-           image:"https://cards.scryfall.io/border_crop/front/a/a/aace4c44-7250-414b-aac4-df042a1e2e1d.jpg?1675956894",
-           power:"1",
-           toughness:"1",
-           flavor_text:"\"We need not be swift. We are inexorable.\"",
-           card_face:{
-              name:"Crawling Chorus",
-              type_line:{
-                 full:"Creature — Phyrexian Horror",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Horror"
-                 ]
-              },
-              mana_cost:"{W}",
-              power:"1",
-              oracle_text:"Toxic 1 (Players dealt combat damage by this creature also get a poison counter.)\nWhen Crawling Chorus dies, create a 1/1 colorless Phyrexian Mite artifact creature token with toxic 1 and \"This creature can't block.\"",
-              toughness:"1"
-           }
-        },
-        {
-           id:"56444440-a9e6-4583-a289-9f0571a98093",
-           name:"Duelist of Deep Faith",
-           type_line:"Creature — Phyrexian Soldier",
-           mana_cost:"{1}{W}",
-           cmc:2,
-           colors:[
-              "W"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"9",
-           image:"https://cards.scryfall.io/border_crop/front/5/6/56444440-a9e6-4583-a289-9f0571a98093.jpg?1675956894",
-           power:"2",
-           toughness:"2",
-           flavor_text:"\"There is no hate behind our blades. We kill out of love, and the desire to share Norn's blessings with all.\"",
-           card_face:{
-              name:"Duelist of Deep Faith",
-              type_line:{
-                 full:"Creature — Phyrexian Soldier",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Soldier"
-                 ]
-              },
-              mana_cost:"{1}{W}",
-              power:"2",
-              oracle_text:"Toxic 1 (Players dealt combat damage by this creature also get a poison counter.)\nAs long as it's your turn, Duelist of Deep Faith has first strike.",
-              toughness:"2"
-           }
-        },
-        {
-           id:"44dcab01-1d13-4dfc-ae2f-fbaa3dd35087",
-           name:"Elesh Norn, Mother of Machines",
-           type_line:"Legendary Creature — Phyrexian Praetor",
-           mana_cost:"{4}{W}",
-           cmc:5,
-           colors:[
-              "W"
-           ],
-           rarity: "rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"10",
-           image:"https://cards.scryfall.io/border_crop/front/4/4/44dcab01-1d13-4dfc-ae2f-fbaa3dd35087.jpg?1675956896",
-           power:"4",
-           toughness:"7",
-           card_face:{
-              name:"Elesh Norn, Mother of Machines",
-              type_line:{
-                 full:"Legendary Creature — Phyrexian Praetor",
-                 main:"Legendary Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Praetor"
-                 ]
-              },
-              mana_cost:"{4}{W}",
-              power:"4",
-              oracle_text:"Vigilance\nIf a permanent entering the battlefield causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.\nPermanents entering the battlefield don't cause abilities of permanents your opponents control to trigger.",
-              toughness:"7"
-           }
-        },
-        {
-           id:"905f0dd4-0197-45f8-8e7f-396d6dcef600",
-           name:"The Eternal Wanderer",
-           type_line:"Legendary Planeswalker",
-           mana_cost:"{4}{W}{W}",
-           cmc:6,
-           colors:[
-              "W"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"11",
-           image:"https://cards.scryfall.io/border_crop/front/9/0/905f0dd4-0197-45f8-8e7f-396d6dcef600.jpg?1675956901",
-           card_face:{
-              name:"The Eternal Wanderer",
-              type_line:{
-                 full:"Legendary Planeswalker",
-                 main:"Legendary Planeswalker",
-                 sub:""
-              },
-              mana_cost:"{4}{W}{W}",
-              oracle_text:"No more than one creature can attack The Eternal Wanderer each combat.\n+1: Exile up to one target artifact or creature. Return that card to the battlefield under its owner's control at the beginning of that player's next end step.\n0: Create a 2/2 white Samurai creature token with double strike.\n−4: For each player, choose a creature that player controls. Each player sacrifices all creatures they control not chosen this way."
-           }
-        },
-        {
-           id:"134aecf0-dc48-4fb3-8c8b-4e5272077856",
-           name:"Flensing Raptor",
-           type_line:"Creature — Phyrexian Bird",
-           mana_cost:"{2}{W}",
-           cmc:3,
-           colors:[
-              "W"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"12",
-           image:"https://cards.scryfall.io/border_crop/front/1/3/134aecf0-dc48-4fb3-8c8b-4e5272077856.jpg?1675956901",
-           power:"2",
-           toughness:"2",
-           card_face:{
-              name:"Flensing Raptor",
-              type_line:{
-                 full:"Creature — Phyrexian Bird",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Bird"
-                 ]
-              },
-              mana_cost:"{2}{W}",
-              power:"2",
-              oracle_text:"Flying\nToxic 1 (Players dealt combat damage by this creature also get a poison counter.)\nWhen Flensing Raptor enters the battlefield, another target creature you control with toxic gets +1/+1 and gains flying until end of turn.",
-              toughness:"2"
-           }
-        },
-        {
-           id:"f4057210-ef07-4496-94c8-95c3b807c23c",
-           name:"Goldwarden's Helm",
-           type_line:"Artifact — Equipment",
-           mana_cost:"{2}{W}",
-           cmc:3,
-           colors:[
-              "W"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"13",
-           image:"https://cards.scryfall.io/border_crop/front/f/4/f4057210-ef07-4496-94c8-95c3b807c23c.jpg?1675956901",
-           flavor_text:"\"My mother wore this into battle against the first Phyrexians. Now I wear it in her honor.\"",
-           card_face:{
-              name:"Goldwarden's Helm",
-              type_line:{
-                 full:"Artifact — Equipment",
-                 main:"Artifact",
-                 sub:[
-                    "Equipment"
-                 ]
-              },
-              mana_cost:"{2}{W}",
-              oracle_text:"For Mirrodin! (When this Equipment enters the battlefield, create a 2/2 red Rebel creature token, then attach this to it.)\nEquipped creature gets +0/+1.\nEquip {1}{W} ({1}{W}: Attach to target creature you control. Equip only as a sorcery.)"
-           }
-        },
-        {
-           id:"c498dbf9-c68c-400c-9349-c3c3fc8efcae",
-           name:"Hexgold Hoverwings",
-           type_line:"Artifact — Equipment",
-           mana_cost:"{3}{W}",
-           cmc:4,
-           colors:[
-              "W"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"14",
-           image:"https://cards.scryfall.io/border_crop/front/c/4/c498dbf9-c68c-400c-9349-c3c3fc8efcae.jpg?1675956902",
-           card_face:{
-              name:"Hexgold Hoverwings",
-              type_line:{
-                 full:"Artifact — Equipment",
-                 main:"Artifact",
-                 sub:[
-                    "Equipment"
-                 ]
-              },
-              mana_cost:"{3}{W}",
-              oracle_text:"For Mirrodin! (When this Equipment enters the battlefield, create a 2/2 red Rebel creature token, then attach this to it.)\nEquipped creature has flying.\nCreatures you control that are equipped get +1/+0.\nEquip {2}{W}"
-           }
-        },
-        {
-           id:"b3cf4c4f-bda6-454c-991d-429c0dca0e85",
-           name:"Incisor Glider",
-           type_line:"Artifact Creature — Phyrexian Construct",
-           mana_cost:"{1}{W}",
-           cmc:2,
-           colors:[
-              "W"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"15",
-           image:"https://cards.scryfall.io/border_crop/front/b/3/b3cf4c4f-bda6-454c-991d-429c0dca0e85.jpg?1675956905",
-           power:"1",
-           toughness:"3",
-           flavor_text:"\"You think it's creepy now? You should see how it eats.\"\n—Melira",
-           card_face:{
-              name:"Incisor Glider",
-              type_line:{
-                 full:"Artifact Creature — Phyrexian Construct",
-                 main:"Artifact Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Construct"
-                 ]
-              },
-              mana_cost:"{1}{W}",
-              power:"1",
-              oracle_text:"Flying\nCorrupted — Whenever Incisor Glider attacks, if an opponent has three or more poison counters, creatures you control get +1/+1 until end of turn.",
-              toughness:"3"
-           }
-        },
-        {
-           id:"d051bfc7-b402-444d-896e-c3a9562cdb0d",
-           name:"Indoctrination Attendant",
-           type_line:"Creature — Phyrexian Cleric",
-           mana_cost:"{3}{W}",
-           cmc:4,
-           colors:[
-              "W"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"16",
-           image:"https://cards.scryfall.io/border_crop/front/d/0/d051bfc7-b402-444d-896e-c3a9562cdb0d.jpg?1675956909",
-           power:"3",
-           toughness:"4",
-           card_face:{
-              name:"Indoctrination Attendant",
-              type_line:{
-                 full:"Creature — Phyrexian Cleric",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Cleric"
-                 ]
-              },
-              mana_cost:"{3}{W}",
-              power:"3",
-              oracle_text:"Toxic 1 (Players dealt combat damage by this creature also get a poison counter.)\nWhen Indoctrination Attendant enters the battlefield, you may return another permanent you control to its owner's hand. If you do, create a 1/1 colorless Phyrexian Mite artifact creature token with toxic 1 and \"This creature can't block.\"",
-              toughness:"4"
-           }
-        },
-        {
-           id:"9f03d6bf-cbba-4ad7-8cec-065a47f03dbe",
-           name:"Infested Fleshcutter",
-           type_line:"Artifact — Equipment",
-           mana_cost:"{1}{W}",
-           cmc:2,
-           colors:[
-              "W"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"17",
-           image:"https://cards.scryfall.io/border_crop/front/9/f/9f03d6bf-cbba-4ad7-8cec-065a47f03dbe.jpg?1675956910",
-           card_face:{
-              name:"Infested Fleshcutter",
-              type_line:{
-                 full:"Artifact — Equipment",
-                 main:"Artifact",
-                 sub:[
-                    "Equipment"
-                 ]
-              },
-              mana_cost:"{1}{W}",
-              oracle_text:"Equipped creature gets +2/+0.\nWhenever equipped creature attacks, create a 1/1 colorless Phyrexian Mite artifact creature token with toxic 1 and \"This creature can't block.\" (Players dealt combat damage by it also get a poison counter.)\nEquip {2}{W}"
-           }
-        },
-        {
-           id:"b00ea7bb-705b-4669-bb2a-560bed04b14a",
-           name:"Jawbone Duelist",
-           type_line:"Creature — Phyrexian Soldier",
-           mana_cost:"{1}{W}",
-           cmc:2,
-           colors:[
-              "W"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"18",
-           image:"https://cards.scryfall.io/border_crop/front/b/0/b00ea7bb-705b-4669-bb2a-560bed04b14a.jpg?1675956910",
-           power:"1",
-           toughness:"1",
-           flavor_text:"\"I have room for a few more teeth in my collection. Who's next?\"",
-           card_face:{
-              name:"Jawbone Duelist",
-              type_line:{
-                 full:"Creature — Phyrexian Soldier",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Soldier"
-                 ]
-              },
-              mana_cost:"{1}{W}",
-              power:"1",
-              oracle_text:"Double strike\nToxic 1 (Players dealt combat damage by this creature also get a poison counter.)",
-              toughness:"1"
-           }
-        },
-        {
-           id:"945d283d-4592-485f-808a-6e5a721f3cf7",
-           name:"Kemba, Kha Enduring",
-           type_line:"Legendary Creature — Cat Cleric",
-           mana_cost:"{1}{W}",
-           cmc:2,
-           colors:[
-              "W"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"19",
-           image:"https://cards.scryfall.io/border_crop/front/9/4/945d283d-4592-485f-808a-6e5a721f3cf7.jpg?1675956910",
-           power:"2",
-           toughness:"2",
-           card_face:{
-              name:"Kemba, Kha Enduring",
-              type_line:{
-                 full:"Legendary Creature — Cat Cleric",
-                 main:"Legendary Creature",
-                 sub:[
-                    "Cat",
-                    "Cleric"
-                 ]
-              },
-              mana_cost:"{1}{W}",
-              power:"2",
-              oracle_text:"Whenever Kemba, Kha Enduring or another Cat enters the battlefield under your control, attach up to one target Equipment you control to that creature.\nEquipped creatures you control get +1/+1.\n{3}{W}{W}: Create a 2/2 white Cat creature token.",
-              toughness:"2"
-           }
-        },
-        {
-           id:"96ae13df-670e-49a0-99b0-baf908ac9eb4",
-           name:"Leonin Lightbringer",
-           type_line:"Creature — Cat Rebel",
-           mana_cost:"{2}{W}",
-           cmc:3,
-           colors:[
-              "W"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"20",
-           image:"https://cards.scryfall.io/border_crop/front/9/6/96ae13df-670e-49a0-99b0-baf908ac9eb4.jpg?1675956915",
-           power:"3",
-           toughness:"2",
-           flavor_text:"\"It's hard to fight for the future if you can't see the way forward.\"",
-           card_face:{
-              name:"Leonin Lightbringer",
-              type_line:{
-                 full:"Creature — Cat Rebel",
-                 main:"Creature",
-                 sub:[
-                    "Cat",
-                    "Rebel"
-                 ]
-              },
-              mana_cost:"{2}{W}",
-              power:"3",
-              oracle_text:"Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)\nAs long as Leonin Lightbringer is equipped, it gets +1/+1.",
-              toughness:"2"
-           }
-        },
-        {
-           id:"544a707d-4090-4a74-91aa-60fbd8a4ae96",
-           name:"Mandible Justiciar",
-           type_line:"Artifact Creature — Phyrexian Cleric",
-           mana_cost:"{1}{W}",
-           cmc:2,
-           colors:[
-              "W"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"21",
-           image:"https://cards.scryfall.io/border_crop/front/5/4/544a707d-4090-4a74-91aa-60fbd8a4ae96.jpg?1675956918",
-           power:"2",
-           toughness:"1",
-           flavor_text:"While one mouth feeds, the other chatters mindless paeans of Elesh Norn's glory.",
-           card_face:{
-              name:"Mandible Justiciar",
-              type_line:{
-                 full:"Artifact Creature — Phyrexian Cleric",
-                 main:"Artifact Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Cleric"
-                 ]
-              },
-              mana_cost:"{1}{W}",
-              power:"2",
-              oracle_text:"Lifelink\nWhenever another artifact enters the battlefield under your control, Mandible Justiciar gets +1/+1 until end of turn.",
-              toughness:"1"
-           }
-        },
-        {
-           id:"3006ea5a-5391-41eb-b0c8-092741dca2eb",
-           name:"Mirran Bardiche",
-           type_line:"Artifact — Equipment",
-           mana_cost:"{4}{W}",
-           cmc:5,
-           colors:[
-              "W"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"22",
-           image:"https://cards.scryfall.io/border_crop/front/3/0/3006ea5a-5391-41eb-b0c8-092741dca2eb.jpg?1675956918",
-           card_face:{
-              name:"Mirran Bardiche",
-              type_line:{
-                 full:"Artifact — Equipment",
-                 main:"Artifact",
-                 sub:[
-                    "Equipment"
-                 ]
-              },
-              mana_cost:"{4}{W}",
-              oracle_text:"For Mirrodin! (When this Equipment enters the battlefield, create a 2/2 red Rebel creature token, then attach this to it.)\nEquipped creature gets +2/+1 and has vigilance.\nEquip {3}{W} ({3}{W}: Attach to target creature you control. Equip only as a sorcery.)"
-           }
-        },
-        {
-           id:"8296a455-21d5-498e-9029-2bdf0da855a8",
-           name:"Mondrak, Glory Dominus",
-           type_line:"Legendary Creature — Phyrexian Horror",
-           mana_cost:"{2}{W}{W}",
-           cmc:4,
-           colors:[
-              "W"
-           ],
-           rarity: "rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"23",
-           image:"https://cards.scryfall.io/border_crop/front/8/2/8296a455-21d5-498e-9029-2bdf0da855a8.jpg?1675956918",
-           power:"4",
-           toughness:"4",
-           card_face:{
-              name:"Mondrak, Glory Dominus",
-              type_line:{
-                 full:"Legendary Creature — Phyrexian Horror",
-                 main:"Legendary Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Horror"
-                 ]
-              },
-              mana_cost:"{2}{W}{W}",
-              power:"4",
-              oracle_text:"If one or more tokens would be created under your control, twice that many of those tokens are created instead.\n{1}{W/P}{W/P}, Sacrifice two other artifacts and/or creatures: Put an indestructible counter on Mondrak, Glory Dominus. ({W/P} can be paid with either {W} or 2 life.)",
-              toughness:"4"
-           }
-        },
-        {
-           id:"eeebc0ab-89fb-47d5-a20f-8f1fe5e3c149",
-           name:"Norn's Wellspring",
-           type_line:"Artifact",
-           mana_cost:"{1}{W}",
-           cmc:2,
-           colors:[
-              "W"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"24",
-           image:"https://cards.scryfall.io/border_crop/front/e/e/eeebc0ab-89fb-47d5-a20f-8f1fe5e3c149.jpg?1675956918",
-           flavor_text:"\"Drown, so you may breathe again.\"\n—Atraxa",
-           card_face:{
-              name:"Norn's Wellspring",
-              type_line:{
-                 full:"Artifact",
-                 main:"Artifact",
-                 sub:""
-              },
-              mana_cost:"{1}{W}",
-              oracle_text:"Whenever a creature you control dies, scry 1 and put an oil counter on Norn's Wellspring.\n{1}, {T}, Remove two oil counters from Norn's Wellspring: Draw a card."
-           }
-        },
-        {
-           id:"8c938a0f-531c-4293-a89c-c7440d5acc5d",
-           name:"Orthodoxy Enforcer",
-           type_line:"Creature — Phyrexian Cleric",
-           mana_cost:"{3}{W}",
-           cmc:4,
-           colors:[
-              "W"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"25",
-           image:"https://cards.scryfall.io/border_crop/front/8/c/8c938a0f-531c-4293-a89c-c7440d5acc5d.jpg?1675956924",
-           power:"2",
-           toughness:"4",
-           flavor_text:"The mites sniff out any potential interlopers. He handles the rest.",
-           card_face:{
-              name:"Orthodoxy Enforcer",
-              type_line:{
-                 full:"Creature — Phyrexian Cleric",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Cleric"
-                 ]
-              },
-              mana_cost:"{3}{W}",
-              power:"2",
-              oracle_text:"Vigilance\nOrthodoxy Enforcer gets +2/+0 as long as you control two or more artifacts.",
-              toughness:"4"
-           }
-        },
-        {
-           id:"0da03224-c1af-438f-96c2-b0e41e1070b7",
-           name:"Ossification",
-           type_line:"Enchantment — Aura",
-           mana_cost:"{1}{W}",
-           cmc:2,
-           colors:[
-              "W"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"26",
-           image:"https://cards.scryfall.io/border_crop/front/0/d/0da03224-c1af-438f-96c2-b0e41e1070b7.jpg?1680795456",
-           flavor_text:"Only Elesh Norn's most loyal servants are granted the honor of becoming part of her throne.",
-           card_face:{
-              name:"Ossification",
-              type_line:{
-                 full:"Enchantment — Aura",
-                 main:"Enchantment",
-                 sub:[
-                    "Aura"
-                 ]
-              },
-              mana_cost:"{1}{W}",
-              oracle_text:"Enchant basic land you control\nWhen Ossification enters the battlefield, exile target creature or planeswalker an opponent controls until Ossification leaves the battlefield."
-           }
-        },
-        {
-           id:"e18780ce-add4-4346-8028-4bc3b4099d71",
-           name:"Phyrexian Vindicator",
-           type_line:"Creature — Phyrexian Horror",
-           mana_cost:"{W}{W}{W}{W}",
-           cmc:4,
-           colors:[
-              "W"
-           ],
-           rarity: "rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"27",
-           image:"https://cards.scryfall.io/border_crop/front/e/1/e18780ce-add4-4346-8028-4bc3b4099d71.jpg?1675956925",
-           power:"5",
-           toughness:"5",
-           flavor_text:"\"Behold your inevitable defeat.\"\n—Elesh Norn",
-           card_face:{
-              name:"Phyrexian Vindicator",
-              type_line:{
-                 full:"Creature — Phyrexian Horror",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Horror"
-                 ]
-              },
-              mana_cost:"{W}{W}{W}{W}",
-              power:"5",
-              oracle_text:"Flying\nIf damage would be dealt to Phyrexian Vindicator, prevent that damage. When damage is prevented this way, Phyrexian Vindicator deals that much damage to any other target.",
-              toughness:"5"
-           }
-        },
-        {
-           id:"8ee69a1f-aeed-4eb4-8987-fa720fc99715",
-           name:"Planar Disruption",
-           type_line:"Enchantment — Aura",
-           mana_cost:"{1}{W}",
-           cmc:2,
-           colors:[
-              "W"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"28",
-           image:"https://cards.scryfall.io/border_crop/front/8/e/8ee69a1f-aeed-4eb4-8987-fa720fc99715.jpg?1675956925",
-           flavor_text:"New Phyrexia's planar defenses scattered the Planeswalker strike team on arrival. Elesh Norn knew they were coming.",
-           card_face:{
-              name:"Planar Disruption",
-              type_line:{
-                 full:"Enchantment — Aura",
-                 main:"Enchantment",
-                 sub:[
-                    "Aura"
-                 ]
-              },
-              mana_cost:"{1}{W}",
-              oracle_text:"Enchant artifact, creature, or planeswalker\nEnchanted permanent can't attack or block, and its activated abilities can't be activated."
-           }
-        },
-        {
-           id:"472a635a-a581-4c00-89d6-464f30887944",
-           name:"Plated Onslaught",
-           type_line:"Instant",
-           mana_cost:"{3}{W}{W}",
-           cmc:5,
-           colors:[
-              "W"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"29",
-           image:"https://cards.scryfall.io/border_crop/front/4/7/472a635a-a581-4c00-89d6-464f30887944.jpg?1675956926",
-           flavor_text:"\"Witness the glory of true, unwavering unity.\"\n—Ajani",
-           card_face:{
-              name:"Plated Onslaught",
-              type_line:{
-                 full:"Instant",
-                 main:"Instant",
-                 sub:""
-              },
-              mana_cost:"{3}{W}{W}",
-              oracle_text:"Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)\nCreatures you control get +2/+1 until end of turn."
-           }
-        },
-        {
-           id:"0409bacf-b728-473d-bf9b-41fdf364e783",
-           name:"Porcelain Zealot",
-           type_line:"Creature — Phyrexian Soldier",
-           mana_cost:"{3}{W}",
-           cmc:4,
-           colors:[
-              "W"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"30",
-           image:"https://cards.scryfall.io/border_crop/front/0/4/0409bacf-b728-473d-bf9b-41fdf364e783.jpg?1675956932",
-           power:"2",
-           toughness:"3",
-           flavor_text:"\"There is a single, glorious truth, etched in the hearts of the faithful. Join in unity, or be washed away.\"",
-           card_face:{
-              name:"Porcelain Zealot",
-              type_line:{
-                 full:"Creature — Phyrexian Soldier",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Soldier"
-                 ]
-              },
-              mana_cost:"{3}{W}",
-              power:"2",
-              oracle_text:"At the beginning of combat on your turn, target creature you control gets +1/+1 until end of turn. If that creature has toxic, instead it gets +2/+2 until end of turn.",
-              toughness:"3"
-           }
-        },
-        {
-           id:"bbc4b5ca-557e-4465-9725-9e7a15590258",
-           name:"Resistance Reunited",
-           type_line:"Instant",
-           mana_cost:"{1}{W}",
-           cmc:2,
-           colors:[
-              "W"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"31",
-           image:"https://cards.scryfall.io/border_crop/front/b/b/bbc4b5ca-557e-4465-9725-9e7a15590258.jpg?1675956932",
-           flavor_text:"\"Well, aren't you a sight for sore eyes!\" said Koth. \"I was about to say the same, my friend,\" Elspeth replied.",
-           card_face:{
-              name:"Resistance Reunited",
-              type_line:{
-                 full:"Instant",
-                 main:"Instant",
-                 sub:""
-              },
-              mana_cost:"{1}{W}",
-              oracle_text:"Target creature gets +2/+2 until end of turn.\nEquipped creatures you control gain indestructible until end of turn."
-           }
-        },
-        {
-           id:"ebad4fcc-4f78-48dc-b236-c78c22edc1e9",
-           name:"Sinew Dancer",
-           type_line:"Creature — Phyrexian Soldier",
-           mana_cost:"{W}",
-           cmc:1,
-           colors:[
-              "W"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"32",
-           image:"https://cards.scryfall.io/border_crop/front/e/b/ebad4fcc-4f78-48dc-b236-c78c22edc1e9.jpg?1675956933",
-           power:"1",
-           toughness:"1",
-           flavor_text:"He spreads word of the Argent Etchings to a captive audience.",
-           card_face:{
-              name:"Sinew Dancer",
-              type_line:{
-                 full:"Creature — Phyrexian Soldier",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Soldier"
-                 ]
-              },
-              mana_cost:"{W}",
-              power:"1",
-              oracle_text:"{3}{W}, {T}: Tap target creature.\nCorrupted — {W}, {T}: Tap target creature. Activate only if an opponent has three or more poison counters.",
-              toughness:"1"
-           }
-        },
-        {
-           id:"60b565da-a49b-479c-b0c4-8ff3dd20cc0b",
-           name:"Skrelv, Defector Mite",
-           type_line:"Legendary Artifact Creature — Phyrexian Mite",
-           mana_cost:"{W}",
-           cmc:1,
-           colors:[
-              "W"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"33",
-           image:"https://cards.scryfall.io/border_crop/front/6/0/60b565da-a49b-479c-b0c4-8ff3dd20cc0b.jpg?1675956933",
-           power:"1",
-           toughness:"1",
-           card_face:{
-              name:"Skrelv, Defector Mite",
-              type_line:{
-                 full:"Legendary Artifact Creature — Phyrexian Mite",
-                 main:"Legendary Artifact Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Mite"
-                 ]
-              },
-              mana_cost:"{W}",
-              power:"1",
-              oracle_text:"Toxic 1 (Players dealt combat damage by this creature also get a poison counter.)\nSkrelv, Defector Mite can't block.\n{W/P}, {T}: Choose a color. Another target creature you control gains toxic 1 and hexproof from that color until end of turn. It can't be blocked by creatures of that color this turn. ({W/P} can be paid with either {W} or 2 life.)",
-              toughness:"1"
-           }
-        },
-        {
-           id:"ffbd77ec-fc81-41d5-934f-c3dd844cb053",
-           name:"Skrelv's Hive",
-           type_line:"Enchantment",
-           mana_cost:"{1}{W}",
-           cmc:2,
-           colors:[
-              "W"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"34",
-           image:"https://cards.scryfall.io/border_crop/front/f/f/ffbd77ec-fc81-41d5-934f-c3dd844cb053.jpg?1675956934",
-           card_face:{
-              name:"Skrelv's Hive",
-              type_line:{
-                 full:"Enchantment",
-                 main:"Enchantment",
-                 sub:""
-              },
-              mana_cost:"{1}{W}",
-              oracle_text:"At the beginning of your upkeep, you lose 1 life and create a 1/1 colorless Phyrexian Mite artifact creature token with toxic 1 and \"This creature can't block.\"\nCorrupted — As long as an opponent has three or more poison counters, creatures you control with toxic have lifelink."
-           }
-        },
-        {
-           id:"b62c740d-260d-4dfa-b6b3-9a1527538f89",
-           name:"Swooping Lookout",
-           type_line:"Artifact Creature — Phyrexian Construct",
-           mana_cost:"{W}",
-           cmc:1,
-           colors:[
-              "W"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"35",
-           image:"https://cards.scryfall.io/border_crop/front/b/6/b62c740d-260d-4dfa-b6b3-9a1527538f89.jpg?1675956940",
-           power:"1",
-           toughness:"2",
-           flavor_text:"\"It's hard to tell with this glare, but those must be the skyhunter reinforcements! They have arrived at last!\"\n—Prahan, Mirran rebel",
-           card_face:{
-              name:"Swooping Lookout",
-              type_line:{
-                 full:"Artifact Creature — Phyrexian Construct",
-                 main:"Artifact Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Construct"
-                 ]
-              },
-              mana_cost:"{W}",
-              power:"1",
-              oracle_text:"Flying, vigilance",
-              toughness:"2"
-           }
-        },
-        {
-           id:"8f0b3308-9c0b-4461-9094-38deec20e1bc",
-           name:"Vanish into Eternity",
-           type_line:"Instant",
-           mana_cost:"{2}{W}",
-           cmc:3,
-           colors:[
-              "W"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"36",
-           image:"https://cards.scryfall.io/border_crop/front/8/f/8f0b3308-9c0b-4461-9094-38deec20e1bc.jpg?1675956940",
-           flavor_text:"Faced with a blast that would level not only New Phyrexia, but also a dozen innocent worlds, Elspeth consigned it—and herself—to the nothingness in between.",
-           card_face:{
-              name:"Vanish into Eternity",
-              type_line:{
-                 full:"Instant",
-                 main:"Instant",
-                 sub:""
-              },
-              mana_cost:"{2}{W}",
-              oracle_text:"This spell costs {3} more to cast if it targets a creature.\nExile target nonland permanent."
-           }
-        },
-        {
-           id:"1f9d8d87-e32f-4ad9-8d72-d1b88cd14510",
-           name:"Veil of Assimilation",
-           type_line:"Artifact",
-           mana_cost:"{1}{W}",
-           cmc:2,
-           colors:[
-              "W"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"37",
-           image:"https://cards.scryfall.io/border_crop/front/1/f/1f9d8d87-e32f-4ad9-8d72-d1b88cd14510.jpg?1675956941",
-           flavor_text:"\"Hear only harmony. See only glory. Speak only truth.\"\n—Atraxa",
-           card_face:{
-              name:"Veil of Assimilation",
-              type_line:{
-                 full:"Artifact",
-                 main:"Artifact",
-                 sub:""
-              },
-              mana_cost:"{1}{W}",
-              oracle_text:"Whenever Veil of Assimilation or another artifact enters the battlefield under your control, target creature you control gets +1/+1 and gains vigilance until end of turn."
-           }
-        },
-        {
-           id:"fff13d77-8133-4328-b91e-efce229bc331",
-           name:"White Sun's Twilight",
-           type_line:"Sorcery",
-           mana_cost:"{X}{W}{W}",
-           cmc:2,
-           colors:[
-              "W"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"38",
-           image:"https://cards.scryfall.io/border_crop/front/f/f/fff13d77-8133-4328-b91e-efce229bc331.jpg?1675956941",
-           card_face:{
-              name:"White Sun's Twilight",
-              type_line:{
-                 full:"Sorcery",
-                 main:"Sorcery",
-                 sub:""
-              },
-              mana_cost:"{X}{W}{W}",
-              oracle_text:"You gain X life. Create X 1/1 colorless Phyrexian Mite artifact creature tokens with toxic 1 and \"This creature can't block.\" If X is 5 or more, destroy all other creatures. (Players dealt combat damage by a creature with toxic 1 also get a poison counter.)"
-           }
-        },
-        {
-           id:"3a419ba1-7bd3-48e3-8f88-d9f833b25d6d",
-           name:"Zealot's Conviction",
-           type_line:"Enchantment — Aura",
-           mana_cost:"{W}",
-           cmc:1,
-           colors:[
-              "W"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"39",
-           image:"https://cards.scryfall.io/border_crop/front/3/a/3a419ba1-7bd3-48e3-8f88-d9f833b25d6d.jpg?1675956941",
-           card_face:{
-              name:"Zealot's Conviction",
-              type_line:{
-                 full:"Enchantment — Aura",
-                 main:"Enchantment",
-                 sub:[
-                    "Aura"
-                 ]
-              },
-              mana_cost:"{W}",
-              oracle_text:"Flash\nEnchant creature\nEnchanted creature gets +1/+1.\nCorrupted — As long as an opponent has three or more poison counters, enchanted creature gets an additional +1/+0 and has first strike."
-           }
-        },
-        {
-           id:"57551332-e2a4-4e6a-9bd8-e3a9baafcd17",
-           name:"Aspirant's Ascent",
-           type_line:"Instant",
-           mana_cost:"{U}",
-           cmc:1,
-           colors:[
-              "U"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"40",
-           image:"https://cards.scryfall.io/border_crop/front/5/7/57551332-e2a4-4e6a-9bd8-e3a9baafcd17.jpg?1675956948",
-           flavor_text:"For the aspirants of the Progress Engine, being launched into the sphere's upper reaches is a great honor. Some are even granted wings beforehand.",
-           card_face:{
-              name:"Aspirant's Ascent",
-              type_line:{
-                 full:"Instant",
-                 main:"Instant",
-                 sub:""
-              },
-              mana_cost:"{U}",
-              oracle_text:"Until end of turn, target creature gets +1/+3 and gains flying and toxic 1. (Players dealt combat damage by that creature also get a poison counter.)"
-           }
-        },
-        {
-           id:"c66988ca-29d5-45ea-8d68-c8e0e4c3ffb1",
-           name:"Atmosphere Surgeon",
-           type_line:"Creature — Phyrexian Wizard",
-           mana_cost:"{1}{U}",
-           cmc:2,
-           colors:[
-              "U"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"41",
-           image:"https://cards.scryfall.io/border_crop/front/c/6/c66988ca-29d5-45ea-8d68-c8e0e4c3ffb1.jpg?1675956948",
-           power:"2",
-           toughness:"1",
-           flavor_text:"It is Jin-Gitaxias's deepest exasperation that any part of his domain still requires maintenance.",
-           card_face:{
-              name:"Atmosphere Surgeon",
-              type_line:{
-                 full:"Creature — Phyrexian Wizard",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Wizard"
-                 ]
-              },
-              mana_cost:"{1}{U}",
-              power:"2",
-              oracle_text:"Whenever you cast a noncreature spell, put an oil counter on Atmosphere Surgeon.\nRemove an oil counter from Atmosphere Surgeon: Target creature gains flying until end of turn. Activate only as a sorcery.",
-              toughness:"1"
-           }
-        },
-        {
-           id:"277aeb73-4c7c-4132-b9f9-55181d57e75d",
-           name:"Blade of Shared Souls",
-           type_line:"Artifact — Equipment",
-           mana_cost:"{2}{U}",
-           cmc:3,
-           colors:[
-              "U"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"42",
-           image:"https://cards.scryfall.io/border_crop/front/2/7/277aeb73-4c7c-4132-b9f9-55181d57e75d.jpg?1675956948",
-           card_face:{
-              name:"Blade of Shared Souls",
-              type_line:{
-                 full:"Artifact — Equipment",
-                 main:"Artifact",
-                 sub:[
-                    "Equipment"
-                 ]
-              },
-              mana_cost:"{2}{U}",
-              oracle_text:"For Mirrodin! (When this Equipment enters the battlefield, create a 2/2 red Rebel creature token, then attach this to it.)\nWhenever Blade of Shared Souls becomes attached to a creature, for as long as Blade of Shared Souls remains attached to it, you may have that creature become a copy of another target creature you control.\nEquip {2}"
-           }
-        },
-        {
-           id:"3a836e6b-6854-4f6f-bc78-2da1fd4dd224",
-           name:"Blue Sun's Twilight",
-           type_line:"Sorcery",
-           mana_cost:"{X}{U}{U}",
-           cmc:2,
-           colors:[
-              "U"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"43",
-           image:"https://cards.scryfall.io/border_crop/front/3/a/3a836e6b-6854-4f6f-bc78-2da1fd4dd224.jpg?1675956948",
-           flavor_text:"\"Where once there was ignorance, Jin-Gitaxias brought knowledge, and an age of progress dawned.\"\n—Monument inscription",
-           card_face:{
-              name:"Blue Sun's Twilight",
-              type_line:{
-                 full:"Sorcery",
-                 main:"Sorcery",
-                 sub:""
-              },
-              mana_cost:"{X}{U}{U}",
-              oracle_text:"Gain control of target creature with mana value X or less. If X is 5 or more, create a token that's a copy of that creature."
-           }
-        },
-        {
-           id:"ba9d9d26-0c76-4a09-aa25-b32854e70c0b",
-           name:"Bring the Ending",
-           type_line:"Instant",
-           mana_cost:"{1}{U}",
-           cmc:2,
-           colors:[
-              "U"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"44",
-           image:"https://cards.scryfall.io/border_crop/front/b/a/ba9d9d26-0c76-4a09-aa25-b32854e70c0b.jpg?1681468862",
-           flavor_text:"Kaya watched in horror as the illusion vanished from her hands. Jace held the real Sylex—and had activated it before phyresis claimed his mind.",
-           card_face:{
-              name:"Bring the Ending",
-              type_line:{
-                 full:"Instant",
-                 main:"Instant",
-                 sub:""
-              },
-              mana_cost:"{1}{U}",
-              oracle_text:"Counter target spell unless its controller pays {2}.\nCorrupted — Counter that spell instead if its controller has three or more poison counters."
-           }
-        },
-        {
-           id:"a94378a2-cbde-4adf-b889-43e90fc6ba28",
-           name:"Chrome Prowler",
-           type_line:"Artifact Creature — Phyrexian Cat",
-           mana_cost:"{2}{U}",
-           cmc:3,
-           colors:[
-              "U"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"45",
-           image:"https://cards.scryfall.io/border_crop/front/a/9/a94378a2-cbde-4adf-b889-43e90fc6ba28.jpg?1675956955",
-           power:"3",
-           toughness:"2",
-           flavor_text:"It can catch a rat and perform a spinal tap with one graceful swipe of its paw.",
-           card_face:{
-              name:"Chrome Prowler",
-              type_line:{
-                 full:"Artifact Creature — Phyrexian Cat",
-                 main:"Artifact Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Cat"
-                 ]
-              },
-              mana_cost:"{2}{U}",
-              power:"3",
-              oracle_text:"Flash\nWhen Chrome Prowler enters the battlefield, tap target creature an opponent controls.",
-              toughness:"2"
-           }
-        },
-        {
-           id:"f932ddd3-beb4-4dc8-8c15-e1c9c2276986",
-           name:"Distorted Curiosity",
-           type_line:"Sorcery",
-           mana_cost:"{2}{U}",
-           cmc:3,
-           colors:[
-              "U"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"46",
-           image:"https://cards.scryfall.io/border_crop/front/f/9/f932ddd3-beb4-4dc8-8c15-e1c9c2276986.jpg?1675956955",
-           flavor_text:"\"Free will was an illusion so perfect it fooled even me. I know better now.\"",
-           card_face:{
-              name:"Distorted Curiosity",
-              type_line:{
-                 full:"Sorcery",
-                 main:"Sorcery",
-                 sub:""
-              },
-              mana_cost:"{2}{U}",
-              oracle_text:"Corrupted — This spell costs {2} less to cast if an opponent has three or more poison counters.\nDraw two cards."
-           }
-        },
-        {
-           id:"65a2fcc9-2317-48a1-a5eb-234fb3300364",
-           name:"Encroaching Mycosynth",
-           type_line:"Artifact",
-           mana_cost:"{3}{U}",
-           cmc:4,
-           colors:[
-              "U"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"47",
-           image:"https://cards.scryfall.io/border_crop/front/6/5/65a2fcc9-2317-48a1-a5eb-234fb3300364.jpg?1675956955",
-           flavor_text:"\"Careful—however they might look, they're not human. A step too close and they'll drag you in.\"\n—Kara Vrist, resistance spymaster",
-           card_face:{
-              name:"Encroaching Mycosynth",
-              type_line:{
-                 full:"Artifact",
-                 main:"Artifact",
-                 sub:""
-              },
-              mana_cost:"{3}{U}",
-              oracle_text:"Nonland permanents you control are artifacts in addition to their other types. The same is true for permanent spells you control and nonland permanent cards you own that aren't on the battlefield."
-           }
-        },
-        {
-           id:"611497d2-83df-4c69-bbeb-6a807c686bc4",
-           name:"Escaped Experiment",
-           type_line:"Artifact Creature — Phyrexian Beast",
-           mana_cost:"{1}{U}",
-           cmc:2,
-           colors:[
-              "U"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"48",
-           image:"https://cards.scryfall.io/border_crop/front/6/1/611497d2-83df-4c69-bbeb-6a807c686bc4.jpg?1675956956",
-           power:"2",
-           toughness:"1",
-           flavor_text:"One morning, the test subject decided to perform trials on the scientists.",
-           card_face:{
-              name:"Escaped Experiment",
-              type_line:{
-                 full:"Artifact Creature — Phyrexian Beast",
-                 main:"Artifact Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Beast"
-                 ]
-              },
-              mana_cost:"{1}{U}",
-              power:"2",
-              oracle_text:"Whenever Escaped Experiment attacks, target creature an opponent controls gets -X/-0 until end of turn, where X is the number of artifacts you control.",
-              toughness:"1"
-           }
-        },
-        {
-           id:"e508ae5d-ffb5-4480-be90-a4394954b559",
-           name:"Experimental Augury",
-           type_line:"Instant",
-           mana_cost:"{1}{U}",
-           cmc:2,
-           colors:[
-              "U"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"49",
-           image:"https://cards.scryfall.io/border_crop/front/e/5/e508ae5d-ffb5-4480-be90-a4394954b559.jpg?1675956959",
-           card_face:{
-              name:"Experimental Augury",
-              type_line:{
-                 full:"Instant",
-                 main:"Instant",
-                 sub:""
-              },
-              mana_cost:"{1}{U}",
-              oracle_text:"Look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order. Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)"
-           }
-        },
-        {
-           id:"7cc4246b-ff59-44b2-acff-c0bb6e4cd6ac",
-           name:"Eye of Malcator",
-           type_line:"Artifact",
-           mana_cost:"{2}{U}",
-           cmc:3,
-           colors:[
-              "U"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"50",
-           image:"https://cards.scryfall.io/border_crop/front/7/c/7cc4246b-ff59-44b2-acff-c0bb6e4cd6ac.jpg?1675956962",
-           card_face:{
-              name:"Eye of Malcator",
-              type_line:{
-                 full:"Artifact",
-                 main:"Artifact",
-                 sub:""
-              },
-              mana_cost:"{2}{U}",
-              oracle_text:"When Eye of Malcator enters the battlefield, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)\nWhenever another artifact enters the battlefield under your control, Eye of Malcator becomes a 4/4 Phyrexian Eye artifact creature until end of turn."
-           }
-        },
-        {
-           id:"272c9888-ef13-4d47-a4bc-f5239b357a1b",
-           name:"Font of Progress",
-           type_line:"Artifact",
-           mana_cost:"{U}",
-           cmc:1,
-           colors:[
-              "U"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"51",
-           image:"https://cards.scryfall.io/border_crop/front/2/7/272c9888-ef13-4d47-a4bc-f5239b357a1b.jpg?1675956963",
-           flavor_text:"\"Drink deeply of the truth, and become *compleat*.\"\n—Tamiyo",
-           card_face:{
-              name:"Font of Progress",
-              type_line:{
-                 full:"Artifact",
-                 main:"Artifact",
-                 sub:""
-              },
-              mana_cost:"{U}",
-              oracle_text:"Font of Progress enters the battlefield with two oil counters on it.\n{3}, {T}: Target player mills X cards, where X is the number of oil counters on Font of Progress."
-           }
-        },
-        {
-           id:"63517062-77da-4b60-aa24-f91553a81bed",
-           name:"Gitaxian Anatomist",
-           type_line:"Creature — Phyrexian Wizard",
-           mana_cost:"{3}{U}",
-           cmc:4,
-           colors:[
-              "U"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"52",
-           image:"https://cards.scryfall.io/border_crop/front/6/3/63517062-77da-4b60-aa24-f91553a81bed.jpg?1675956963",
-           power:"2",
-           toughness:"5",
-           flavor_text:"An inconsistency in a routine vivisection sparked a revelation about the inner workings of the Orthodoxy's centurions.",
-           card_face:{
-              name:"Gitaxian Anatomist",
-              type_line:{
-                 full:"Creature — Phyrexian Wizard",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Wizard"
-                 ]
-              },
-              mana_cost:"{3}{U}",
-              power:"2",
-              oracle_text:"When Gitaxian Anatomist enters the battlefield, you may tap it. If you do, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
-              toughness:"5"
-           }
-        },
-        {
-           id:"4f5e95f8-c04d-405f-bba4-e83a8f6bf463",
-           name:"Gitaxian Raptor",
-           type_line:"Creature — Phyrexian Bird",
-           mana_cost:"{2}{U}",
-           cmc:3,
-           colors:[
-              "U"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"53",
-           image:"https://cards.scryfall.io/border_crop/front/4/f/4f5e95f8-c04d-405f-bba4-e83a8f6bf463.jpg?1675956964",
-           power:"1",
-           toughness:"4",
-           flavor_text:"Bored with the ruins of Lumengrid, it migrated to the ruins of the Mephidross.",
-           card_face:{
-              name:"Gitaxian Raptor",
-              type_line:{
-                 full:"Creature — Phyrexian Bird",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Bird"
-                 ]
-              },
-              mana_cost:"{2}{U}",
-              power:"1",
-              oracle_text:"Flying\nGitaxian Raptor enters the battlefield with three oil counters on it.\nRemove an oil counter from Gitaxian Raptor: Gitaxian Raptor gets +1/-1 until end of turn.",
-              toughness:"4"
-           }
-        },
-        {
-           id:"c22aaaec-bad5-43e9-8e92-9c4bde95fcfd",
-           name:"Glistener Seer",
-           type_line:"Creature — Phyrexian Advisor",
-           mana_cost:"{U}",
-           cmc:1,
-           colors:[
-              "U"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"54",
-           image:"https://cards.scryfall.io/border_crop/front/c/2/c22aaaec-bad5-43e9-8e92-9c4bde95fcfd.jpg?1675956967",
-           power:"0",
-           toughness:"3",
-           flavor_text:"\"The oil is all-knowing. The trick is to ask the right questions.\"",
-           card_face:{
-              name:"Glistener Seer",
-              type_line:{
-                 full:"Creature — Phyrexian Advisor",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Advisor"
-                 ]
-              },
-              mana_cost:"{U}",
-              power:"0",
-              oracle_text:"Glistener Seer enters the battlefield with three oil counters on it.\n{T}, Remove an oil counter from Glistener Seer: Scry 1. (Look at the top card of your library. You may put that card on the bottom.)",
-              toughness:"3"
-           }
-        },
-        {
-           id:"7f516ee6-8f7b-40b2-82e5-9c4ea3e0a355",
-           name:"Ichor Synthesizer",
-           type_line:"Creature — Phyrexian Wizard",
-           mana_cost:"{1}{U}",
-           cmc:2,
-           colors:[
-              "U"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"55",
-           image:"https://cards.scryfall.io/border_crop/front/7/f/7f516ee6-8f7b-40b2-82e5-9c4ea3e0a355.jpg?1675956969",
-           power:"1",
-           toughness:"3",
-           flavor_text:"\"I've isolated the chirality of the glistening oil, so there will be no wasted precursors.\"",
-           card_face:{
-              name:"Ichor Synthesizer",
-              type_line:{
-                 full:"Creature — Phyrexian Wizard",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Wizard"
-                 ]
-              },
-              mana_cost:"{1}{U}",
-              power:"1",
-              oracle_text:"Whenever you cast a noncreature spell, put an oil counter on Ichor Synthesizer.\nAs long as Ichor Synthesizer has four or more oil counters on it, it gets +2/+0 and can't be blocked.",
-              toughness:"3"
-           }
-        },
-        {
-           id:"2c093ce0-2561-4847-ab58-f6f1650d743e",
-           name:"Ichormoon Gauntlet",
-           type_line:"Artifact",
-           mana_cost:"{2}{U}",
-           cmc:3,
-           colors:[
-              "U"
-           ],
-           rarity: "rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"56",
-           image:"https://cards.scryfall.io/border_crop/front/2/c/2c093ce0-2561-4847-ab58-f6f1650d743e.jpg?1684523650",
-           card_face:{
-              name:"Ichormoon Gauntlet",
-              type_line:{
-                 full:"Artifact",
-                 main:"Artifact",
-                 sub:""
-              },
-              mana_cost:"{2}{U}",
-              oracle_text:"Planeswalkers you control have \"[0]: Proliferate\" and \"[−12]: Take an extra turn after this one.\"\nWhenever you cast a noncreature spell, choose a counter on target permanent. Put an additional counter of that kind on that permanent."
-           }
-        },
-        {
-           id:"64e6a8d1-ae75-45bd-af62-9a622620cb5c",
-           name:"Jace, the Perfected Mind",
-           type_line:"Legendary Planeswalker — Jace",
-           mana_cost:"{2}{U}{U/P}",
-           cmc:4,
-           colors:[
-              "U"
-           ],
-           rarity: "rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"57",
-           image:"https://cards.scryfall.io/border_crop/front/6/4/64e6a8d1-ae75-45bd-af62-9a622620cb5c.jpg?1675956971",
-           card_face:{
-              name:"Jace, the Perfected Mind",
-              type_line:{
-                 full:"Legendary Planeswalker — Jace",
-                 main:"Legendary Planeswalker",
-                 sub:[
-                    "Jace"
-                 ]
-              },
-              mana_cost:"{2}{U}{U/P}",
-              oracle_text:"Compleated ({U/P} can be paid with {U} or 2 life. If life was paid, this planeswalker enters with two fewer loyalty counters.)\n+1: Until your next turn, up to one target creature gets -3/-0.\n−2: Target player mills three cards. Then if a graveyard has twenty or more cards in it, you draw three cards. Otherwise, you draw a card.\n−X: Target player mills three times X cards."
-           }
-        },
-        {
-           id:"95a7e5ff-ba81-4b45-933e-0ac747525ab8",
-           name:"Malcator's Watcher",
-           type_line:"Artifact Creature — Phyrexian Drone",
-           mana_cost:"{1}{U}",
-           cmc:2,
-           colors:[
-              "U"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"58",
-           image:"https://cards.scryfall.io/border_crop/front/9/5/95a7e5ff-ba81-4b45-933e-0ac747525ab8.jpg?1675956972",
-           power:"1",
-           toughness:"1",
-           flavor_text:"Each of the Gitaxian sectives watches the others, looking for any hint of imperfection.",
-           card_face:{
-              name:"Malcator's Watcher",
-              type_line:{
-                 full:"Artifact Creature — Phyrexian Drone",
-                 main:"Artifact Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Drone"
-                 ]
-              },
-              mana_cost:"{1}{U}",
-              power:"1",
-              oracle_text:"Flying, vigilance\nWhen Malcator's Watcher dies, draw a card.",
-              toughness:"1"
-           }
-        },
-        {
-           id:"f0d392b2-1dac-432d-930c-66b238f7512b",
-           name:"Meldweb Curator",
-           type_line:"Creature — Phyrexian Wizard",
-           mana_cost:"{3}{U}",
-           cmc:4,
-           colors:[
-              "U"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"59",
-           image:"https://cards.scryfall.io/border_crop/front/f/0/f0d392b2-1dac-432d-930c-66b238f7512b.jpg?1675956975",
-           power:"3",
-           toughness:"4",
-           flavor_text:"\"Imagine a giant room, like a library . . . except instead of books, it's filled with body parts.\"\n—Kara Vrist, resistance spymaster",
-           card_face:{
-              name:"Meldweb Curator",
-              type_line:{
-                 full:"Creature — Phyrexian Wizard",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Wizard"
-                 ]
-              },
-              mana_cost:"{3}{U}",
-              power:"3",
-              oracle_text:"When Meldweb Curator enters the battlefield, put up to one target instant or sorcery card from your graveyard on top of your library.",
-              toughness:"4"
-           }
-        },
-        {
-           id:"c5efd9b5-05e5-440f-b28c-658e461cf644",
-           name:"Meldweb Strider",
-           type_line:"Artifact — Vehicle",
-           mana_cost:"{4}{U}",
-           cmc:5,
-           colors:[
-              "U"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"60",
-           image:"https://cards.scryfall.io/border_crop/front/c/5/c5efd9b5-05e5-440f-b28c-658e461cf644.jpg?1675956977",
-           power:"5",
-           toughness:"5",
-           card_face:{
-              name:"Meldweb Strider",
-              type_line:{
-                 full:"Artifact — Vehicle",
-                 main:"Artifact",
-                 sub:[
-                    "Vehicle"
-                 ]
-              },
-              mana_cost:"{4}{U}",
-              power:"5",
-              oracle_text:"Vigilance\nMeldweb Strider enters the battlefield with an oil counter on it.\nRemove an oil counter from Meldweb Strider: It becomes an artifact creature until end of turn.\nCrew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)",
-              toughness:"5"
-           }
-        },
-        {
-           id:"cf28c75d-1fb3-44cc-b651-5b2830e22add",
-           name:"Mercurial Spelldancer",
-           type_line:"Creature — Phyrexian Rogue",
-           mana_cost:"{1}{U}",
-           cmc:2,
-           colors:[
-              "U"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"61",
-           image:"https://cards.scryfall.io/border_crop/front/c/f/cf28c75d-1fb3-44cc-b651-5b2830e22add.jpg?1675956977",
-           power:"2",
-           toughness:"1",
-           card_face:{
-              name:"Mercurial Spelldancer",
-              type_line:{
-                 full:"Creature — Phyrexian Rogue",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Rogue"
-                 ]
-              },
-              mana_cost:"{1}{U}",
-              power:"2",
-              oracle_text:"Mercurial Spelldancer can't be blocked.\nWhenever you cast a noncreature spell, put an oil counter on Mercurial Spelldancer.\nWhenever Mercurial Spelldancer deals combat damage to a player, you may remove two oil counters from it. If you do, when you cast your next instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy.",
-              toughness:"1"
-           }
-        },
-        {
-           id:"dac28e27-78aa-48b1-96fa-edca1fbcfb77",
-           name:"Mesmerizing Dose",
-           type_line:"Enchantment — Aura",
-           mana_cost:"{1}{U}{U}",
-           cmc:3,
-           colors:[
-              "U"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"62",
-           image:"https://cards.scryfall.io/border_crop/front/d/a/dac28e27-78aa-48b1-96fa-edca1fbcfb77.jpg?1675956977",
-           card_face:{
-              name:"Mesmerizing Dose",
-              type_line:{
-                 full:"Enchantment — Aura",
-                 main:"Enchantment",
-                 sub:[
-                    "Aura"
-                 ]
-              },
-              mana_cost:"{1}{U}{U}",
-              oracle_text:"Enchant creature\nWhen Mesmerizing Dose enters the battlefield, tap enchanted creature, then proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)\nEnchanted creature doesn't untap during its controller's untap step."
-           }
-        },
-        {
-           id:"7f4ad1cb-4bbb-4485-b322-0b003f06d034",
-           name:"Mindsplice Apparatus",
-           type_line:"Artifact",
-           mana_cost:"{3}{U}",
-           cmc:4,
-           colors:[
-              "U"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"63",
-           image:"https://cards.scryfall.io/border_crop/front/7/f/7f4ad1cb-4bbb-4485-b322-0b003f06d034.jpg?1675956980",
-           card_face:{
-              name:"Mindsplice Apparatus",
-              type_line:{
-                 full:"Artifact",
-                 main:"Artifact",
-                 sub:""
-              },
-              mana_cost:"{3}{U}",
-              oracle_text:"Flash\nAt the beginning of your upkeep, put an oil counter on Mindsplice Apparatus.\nInstant and sorcery spells you cast cost {1} less to cast for each oil counter on Mindsplice Apparatus."
-           }
-        },
-        {
-           id:"360ca37b-5bbd-4923-a493-7674786a36af",
-           name:"Minor Misstep",
-           type_line:"Instant",
-           mana_cost:"{U}",
-           cmc:1,
-           colors:[
-              "U"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"64",
-           image:"https://cards.scryfall.io/border_crop/front/3/6/360ca37b-5bbd-4923-a493-7674786a36af.jpg?1675956982",
-           flavor_text:"No matter how many times he saw it, Sarnvax always relished the look of dawning horror as his foes realized their mistake.",
-           card_face:{
-              name:"Minor Misstep",
-              type_line:{
-                 full:"Instant",
-                 main:"Instant",
-                 sub:""
-              },
-              mana_cost:"{U}",
-              oracle_text:"Counter target spell with mana value 1 or less."
-           }
-        },
-        {
-           id:"ac625f30-ed91-4b21-ada8-aaa5b2ad79b8",
-           name:"Prologue to Phyresis",
-           type_line:"Instant",
-           mana_cost:"{1}{U}",
-           cmc:2,
-           colors:[
-              "U"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"65",
-           image:"https://cards.scryfall.io/border_crop/front/a/c/ac625f30-ed91-4b21-ada8-aaa5b2ad79b8.jpg?1675956984",
-           flavor_text:"\"Please, for science, tell me how it feels. Leave nothing out.\"",
-           card_face:{
-              name:"Prologue to Phyresis",
-              type_line:{
-                 full:"Instant",
-                 main:"Instant",
-                 sub:""
-              },
-              mana_cost:"{1}{U}",
-              oracle_text:"Each opponent gets a poison counter.\nDraw a card."
-           }
-        },
-        {
-           id:"bad0e96a-b4cc-4439-aab9-731a1036145d",
-           name:"Quicksilver Fisher",
-           type_line:"Creature — Phyrexian Drake",
-           mana_cost:"{3}{U}{U}",
-           cmc:5,
-           colors:[
-              "U"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"66",
-           image:"https://cards.scryfall.io/border_crop/front/b/a/bad0e96a-b4cc-4439-aab9-731a1036145d.jpg?1675956984",
-           power:"4",
-           toughness:"3",
-           flavor_text:"It no longer needs to eat, but old instincts are put to use ridding the Surgical Bay of spies.",
-           card_face:{
-              name:"Quicksilver Fisher",
-              type_line:{
-                 full:"Creature — Phyrexian Drake",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Drake"
-                 ]
-              },
-              mana_cost:"{3}{U}{U}",
-              power:"4",
-              oracle_text:"Flying\nWhen Quicksilver Fisher enters the battlefield, draw a card, then discard a card.",
-              toughness:"3"
-           }
-        },
-        {
-           id:"c7ce5296-f28f-4105-9c79-b9c63ea720e7",
-           name:"Reject Imperfection",
-           type_line:"Instant",
-           mana_cost:"{1}{U}{U}",
-           cmc:3,
-           colors:[
-              "U"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"67",
-           image:"https://cards.scryfall.io/border_crop/front/c/7/c7ce5296-f28f-4105-9c79-b9c63ea720e7.jpg?1675956985",
-           flavor_text:"\"Your theory holds merit. You do not.\"\n—Sarnvax, Gitaxian sective",
-           card_face:{
-              name:"Reject Imperfection",
-              type_line:{
-                 full:"Instant",
-                 main:"Instant",
-                 sub:""
-              },
-              mana_cost:"{1}{U}{U}",
-              oracle_text:"Counter target spell. If that spell's mana value was 3 or less, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)"
-           }
-        },
-        {
-           id:"d326bff1-5370-4817-8370-6da87a061058",
-           name:"Serum Snare",
-           type_line:"Instant",
-           mana_cost:"{1}{U}",
-           cmc:2,
-           colors:[
-              "U"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"68",
-           image:"https://cards.scryfall.io/border_crop/front/d/3/d326bff1-5370-4817-8370-6da87a061058.jpg?1675956988",
-           flavor_text:"\"I bring a message from the Autonomous Furn—argh!\"",
-           card_face:{
-              name:"Serum Snare",
-              type_line:{
-                 full:"Instant",
-                 main:"Instant",
-                 sub:""
-              },
-              mana_cost:"{1}{U}",
-              oracle_text:"Return target nonland permanent to its owner's hand. If that permanent had mana value 3 or less, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)"
-           }
-        },
-        {
-           id:"daa20112-2955-439d-8802-3a228ba0832e",
-           name:"Tamiyo's Immobilizer",
-           type_line:"Artifact",
-           mana_cost:"{3}{U}",
-           cmc:4,
-           colors:[
-              "U"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"69",
-           image:"https://cards.scryfall.io/border_crop/front/d/a/daa20112-2955-439d-8802-3a228ba0832e.jpg?1675956989",
-           flavor_text:"Visitors to the Surgical Bay often become permanent residents.",
-           card_face:{
-              name:"Tamiyo's Immobilizer",
-              type_line:{
-                 full:"Artifact",
-                 main:"Artifact",
-                 sub:""
-              },
-              mana_cost:"{3}{U}",
-              oracle_text:"Tamiyo's Immobilizer enters the battlefield with four oil counters on it.\n{T}, Remove an oil counter from Tamiyo's Immobilizer: Tap target artifact or creature."
-           }
-        },
-        {
-           id:"0edb2d01-9a94-410c-8ab7-ca1b404ab5f0",
-           name:"Tamiyo's Logbook",
-           type_line:"Artifact",
-           mana_cost:"{2}{U}",
-           cmc:3,
-           colors:[
-              "U"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"70",
-           image:"https://cards.scryfall.io/border_crop/front/0/e/0edb2d01-9a94-410c-8ab7-ca1b404ab5f0.jpg?1675956991",
-           flavor_text:"\"We are opening a new chapter in the one true story of Phyrexia. Someone must record it for posterity.\"\n—Tamiyo",
-           card_face:{
-              name:"Tamiyo's Logbook",
-              type_line:{
-                 full:"Artifact",
-                 main:"Artifact",
-                 sub:""
-              },
-              mana_cost:"{2}{U}",
-              oracle_text:"{5}{U}, {T}: Draw a card. This ability costs {1} less to activate for each other artifact you control."
-           }
-        },
-        {
-           id:"f1d4b157-2c77-4355-8c65-78dec9d44c85",
-           name:"Tekuthal, Inquiry Dominus",
-           type_line:"Legendary Creature — Phyrexian Horror",
-           mana_cost:"{2}{U}{U}",
-           cmc:4,
-           colors:[
-              "U"
-           ],
-           rarity: "rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"71",
-           image:"https://cards.scryfall.io/border_crop/front/f/1/f1d4b157-2c77-4355-8c65-78dec9d44c85.jpg?1675956992",
-           power:"3",
-           toughness:"5",
-           card_face:{
-              name:"Tekuthal, Inquiry Dominus",
-              type_line:{
-                 full:"Legendary Creature — Phyrexian Horror",
-                 main:"Legendary Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Horror"
-                 ]
-              },
-              mana_cost:"{2}{U}{U}",
-              power:"3",
-              oracle_text:"Flying\nIf you would proliferate, proliferate twice instead.\n{1}{U/P}{U/P}, Remove three counters from among other artifacts, creatures, and planeswalkers you control: Put an indestructible counter on Tekuthal, Inquiry Dominus. ({U/P} can be paid with either {U} or 2 life.)",
-              toughness:"5"
-           }
-        },
-        {
-           id:"67f0a63e-0866-423e-b917-fc7c71063021",
-           name:"Thrummingbird",
-           type_line:"Creature — Phyrexian Bird Horror",
-           mana_cost:"{1}{U}",
-           cmc:2,
-           colors:[
-              "U"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"72",
-           image:"https://cards.scryfall.io/border_crop/front/6/7/67f0a63e-0866-423e-b917-fc7c71063021.jpg?1675956992",
-           power:"1",
-           toughness:"1",
-           card_face:{
-              name:"Thrummingbird",
-              type_line:{
-                 full:"Creature — Phyrexian Bird Horror",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Bird",
-                    "Horror"
-                 ]
-              },
-              mana_cost:"{1}{U}",
-              power:"1",
-              oracle_text:"Flying\nWhenever Thrummingbird deals combat damage to a player, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
-              toughness:"1"
-           }
-        },
-        {
-           id:"f912c4ec-08e9-4524-a2ba-98f6dfabdc18",
-           name:"Transplant Theorist",
-           type_line:"Artifact Creature — Phyrexian Artificer",
-           mana_cost:"{3}{U}",
-           cmc:4,
-           colors:[
-              "U"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"73",
-           image:"https://cards.scryfall.io/border_crop/front/f/9/f912c4ec-08e9-4524-a2ba-98f6dfabdc18.jpg?1675956996",
-           power:"2",
-           toughness:"4",
-           card_face:{
-              name:"Transplant Theorist",
-              type_line:{
-                 full:"Artifact Creature — Phyrexian Artificer",
-                 main:"Artifact Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Artificer"
-                 ]
-              },
-              mana_cost:"{3}{U}",
-              power:"2",
-              oracle_text:"Whenever Transplant Theorist or another artifact enters the battlefield under your control, you may draw a card. If you do, discard a card.\n{2}: Put target card from your graveyard on the bottom of your library.",
-              toughness:"4"
-           }
-        },
-        {
-           id:"f442442d-2e5d-4913-82d8-bab2f31541f8",
-           name:"Trawler Drake",
-           type_line:"Creature — Phyrexian Drake",
-           mana_cost:"{2}{U}",
-           cmc:3,
-           colors:[
-              "U"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"74",
-           image:"https://cards.scryfall.io/border_crop/front/f/4/f442442d-2e5d-4913-82d8-bab2f31541f8.jpg?1680795495",
-           power:"0",
-           toughness:"0",
-           card_face:{
-              name:"Trawler Drake",
-              type_line:{
-                 full:"Creature — Phyrexian Drake",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Drake"
-                 ]
-              },
-              mana_cost:"{2}{U}",
-              power:"0",
-              oracle_text:"Flying\nTrawler Drake enters the battlefield with an oil counter on it.\nTrawler Drake gets +1/+1 for each oil counter on it.\nWhenever you cast a noncreature spell, put an oil counter on Trawler Drake.",
-              toughness:"0"
-           }
-        },
-        {
-           id:"164b07e6-48ba-4789-bd8f-7cada1fec8a9",
-           name:"Unctus, Grand Metatect",
-           type_line:"Legendary Artifact Creature — Phyrexian Vedalken",
-           mana_cost:"{1}{U}{U}",
-           cmc:3,
-           colors:[
-              "U"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"75",
-           image:"https://cards.scryfall.io/border_crop/front/1/6/164b07e6-48ba-4789-bd8f-7cada1fec8a9.jpg?1675956999",
-           power:"2",
-           toughness:"4",
-           card_face:{
-              name:"Unctus, Grand Metatect",
-              type_line:{
-                 full:"Legendary Artifact Creature — Phyrexian Vedalken",
-                 main:"Legendary Artifact Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Vedalken"
-                 ]
-              },
-              mana_cost:"{1}{U}{U}",
-              power:"2",
-              oracle_text:"Other blue creatures you control have \"Whenever this creature becomes tapped, draw a card, then discard a card.\"\nOther artifact creatures you control get +1/+1.\n{U/P}: Until end of turn, target creature you control becomes a blue artifact in addition to its other colors and types. Activate only as a sorcery. ({U/P} can be paid with either {U} or 2 life.)",
-              toughness:"4"
-           }
-        },
-        {
-           id:"30225e40-4bde-4e2e-b0f0-48ed16aebafd",
-           name:"Unctus's Retrofitter",
-           type_line:"Creature — Phyrexian Artificer",
-           mana_cost:"{2}{U}",
-           cmc:3,
-           colors:[
-              "U"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"76",
-           image:"https://cards.scryfall.io/border_crop/front/3/0/30225e40-4bde-4e2e-b0f0-48ed16aebafd.jpg?1675956999",
-           power:"2",
-           toughness:"3",
-           card_face:{
-              name:"Unctus's Retrofitter",
-              type_line:{
-                 full:"Creature — Phyrexian Artificer",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Artificer"
-                 ]
-              },
-              mana_cost:"{2}{U}",
-              power:"2",
-              oracle_text:"Toxic 1 (Players dealt combat damage by this creature also get a poison counter.)\nWhen Unctus's Retrofitter enters the battlefield, up to one target artifact you control becomes an artifact creature with base power and toughness 4/4 for as long as Unctus's Retrofitter remains on the battlefield.",
-              toughness:"3"
-           }
-        },
-        {
-           id:"cd244359-781e-4e1d-946d-243664f40c7c",
-           name:"Vivisurgeon's Insight",
-           type_line:"Sorcery",
-           mana_cost:"{3}{U}{U}",
-           cmc:5,
-           colors:[
-              "U"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"77",
-           image:"https://cards.scryfall.io/border_crop/front/c/d/cd244359-781e-4e1d-946d-243664f40c7c.jpg?1675957000",
-           flavor_text:"\"Experimental Log 290: Leaving the subject's pain receptors active appears to yield an unprecedented combination of incoherence and hyperawareness.\"",
-           card_face:{
-              name:"Vivisurgeon's Insight",
-              type_line:{
-                 full:"Sorcery",
-                 main:"Sorcery",
-                 sub:""
-              },
-              mana_cost:"{3}{U}{U}",
-              oracle_text:"Draw three cards. Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)"
-           }
-        },
-        {
-           id:"a895f63f-3c59-4249-9346-55ef489944fc",
-           name:"Watchful Blisterzoa",
-           type_line:"Creature — Phyrexian Jellyfish",
-           mana_cost:"{4}{U}{U}",
-           cmc:6,
-           colors:[
-              "U"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"78",
-           image:"https://cards.scryfall.io/border_crop/front/a/8/a895f63f-3c59-4249-9346-55ef489944fc.jpg?1675957004",
-           power:"4",
-           toughness:"4",
-           flavor_text:"After a series of ambushes, Uulbrek demanded a sentry with no blind spots.",
-           card_face:{
-              name:"Watchful Blisterzoa",
-              type_line:{
-                 full:"Creature — Phyrexian Jellyfish",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Jellyfish"
-                 ]
-              },
-              mana_cost:"{4}{U}{U}",
-              power:"4",
-              oracle_text:"Flying\nWatchful Blisterzoa enters the battlefield with an oil counter on it.\nWhen Watchful Blisterzoa dies, draw cards equal to the number of oil counters on it.",
-              toughness:"4"
-           }
-        },
-        {
-           id:"43c9005c-0574-4b75-8dbf-0a6641c3ae33",
-           name:"Ambulatory Edifice",
-           type_line:"Artifact Creature — Phyrexian Construct",
-           mana_cost:"{2}{B}",
-           cmc:3,
-           colors:[
-              "B"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"79",
-           image:"https://cards.scryfall.io/border_crop/front/4/3/43c9005c-0574-4b75-8dbf-0a6641c3ae33.jpg?1675957005",
-           power:"3",
-           toughness:"2",
-           flavor_text:"The Mirran forces thought they'd vanquished their foes . . . until a nearby monument got up and started stalking toward them.",
-           card_face:{
-              name:"Ambulatory Edifice",
-              type_line:{
-                 full:"Artifact Creature — Phyrexian Construct",
-                 main:"Artifact Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Construct"
-                 ]
-              },
-              mana_cost:"{2}{B}",
-              power:"3",
-              oracle_text:"When Ambulatory Edifice enters the battlefield, you may pay 2 life. When you do, target creature gets -1/-1 until end of turn.",
-              toughness:"2"
-           }
-        },
-        {
-           id:"be5d0b95-ec12-4e8e-99a0-7aca457f9107",
-           name:"Annihilating Glare",
-           type_line:"Sorcery",
-           mana_cost:"{B}",
-           cmc:1,
-           colors:[
-              "B"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"80",
-           image:"https://cards.scryfall.io/border_crop/front/b/e/be5d0b95-ec12-4e8e-99a0-7aca457f9107.jpg?1675957005",
-           flavor_text:"By gaze, sting, and claw, Vraska will see the will of Phyrexia done.",
-           card_face:{
-              name:"Annihilating Glare",
-              type_line:{
-                 full:"Sorcery",
-                 main:"Sorcery",
-                 sub:""
-              },
-              mana_cost:"{B}",
-              oracle_text:"As an additional cost to cast this spell, pay {4} or sacrifice an artifact or creature.\nDestroy target creature or planeswalker."
-           }
-        },
-        {
-           id:"f7dc55a8-290f-4666-90ce-aa632e87c5e7",
-           name:"Anoint with Affliction",
-           type_line:"Instant",
-           mana_cost:"{1}{B}",
-           cmc:2,
-           colors:[
-              "B"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"81",
-           image:"https://cards.scryfall.io/border_crop/front/f/7/f7dc55a8-290f-4666-90ce-aa632e87c5e7.jpg?1675957006",
-           flavor_text:"Many vatkeepers use necrogen etchings to judge the value of their aspirants. If the wounds rot and fester, the recipient is not worth further effort.",
-           card_face:{
-              name:"Anoint with Affliction",
-              type_line:{
-                 full:"Instant",
-                 main:"Instant",
-                 sub:""
-              },
-              mana_cost:"{1}{B}",
-              oracle_text:"Exile target creature if it has mana value 3 or less.\nCorrupted — Exile that creature instead if its controller has three or more poison counters."
-           }
-        },
-        {
-           id:"86b0edaf-8cfd-4508-9554-6f0fddc2dfc4",
-           name:"Archfiend of the Dross",
-           type_line:"Creature — Phyrexian Demon",
-           mana_cost:"{2}{B}{B}",
-           cmc:4,
-           colors:[
-              "B"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"82",
-           image:"https://cards.scryfall.io/border_crop/front/8/6/86b0edaf-8cfd-4508-9554-6f0fddc2dfc4.jpg?1675957007",
-           power:"6",
-           toughness:"6",
-           card_face:{
-              name:"Archfiend of the Dross",
-              type_line:{
-                 full:"Creature — Phyrexian Demon",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Demon"
-                 ]
-              },
-              mana_cost:"{2}{B}{B}",
-              power:"6",
-              oracle_text:"Flying\nArchfiend of the Dross enters the battlefield with four oil counters on it.\nAt the beginning of your upkeep, remove an oil counter from Archfiend of the Dross. Then if it has no oil counters on it, you lose the game.\nWhenever a creature an opponent controls dies, its controller loses 2 life.",
-              toughness:"6"
-           }
-        },
-        {
-           id:"dfb81cb1-ac56-4803-a962-359854a447df",
-           name:"Bilious Skulldweller",
-           type_line:"Creature — Phyrexian Insect",
-           mana_cost:"{B}",
-           cmc:1,
-           colors:[
-              "B"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"83",
-           image:"https://cards.scryfall.io/border_crop/front/d/f/dfb81cb1-ac56-4803-a962-359854a447df.jpg?1675957012",
-           power:"1",
-           toughness:"1",
-           flavor_text:"\"Watch your footing around here. Anything you might step on probably has teeth.\"\n—Kara Vrist, resistance spymaster",
-           card_face:{
-              name:"Bilious Skulldweller",
-              type_line:{
-                 full:"Creature — Phyrexian Insect",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Insect"
-                 ]
-              },
-              mana_cost:"{B}",
-              power:"1",
-              oracle_text:"Deathtouch\nToxic 1 (Players dealt combat damage by this creature also get a poison counter.)",
-              toughness:"1"
-           }
-        },
-        {
-           id:"e5bb4def-c67c-44c2-b3b2-8c53a077432d",
-           name:"Black Sun's Twilight",
-           type_line:"Instant",
-           mana_cost:"{X}{B}",
-           cmc:1,
-           colors:[
-              "B"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"84",
-           image:"https://cards.scryfall.io/border_crop/front/e/5/e5bb4def-c67c-44c2-b3b2-8c53a077432d.jpg?1675957013",
-           flavor_text:"\"Where once there was complacence, Sheoldred brought ambition, and soon the will of Yawgmoth reigned.\"\n—Monument inscription",
-           card_face:{
-              name:"Black Sun's Twilight",
-              type_line:{
-                 full:"Instant",
-                 main:"Instant",
-                 sub:""
-              },
-              mana_cost:"{X}{B}",
-              oracle_text:"Up to one target creature gets -X/-X until end of turn. If X is 5 or more, return a creature card with mana value X or less from your graveyard to the battlefield tapped."
-           }
-        },
-        {
-           id:"9255cd01-a611-4fec-b9ec-b271687740ba",
-           name:"Blightbelly Rat",
-           type_line:"Creature — Phyrexian Rat",
-           mana_cost:"{1}{B}",
-           cmc:2,
-           colors:[
-              "B"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"85",
-           image:"https://cards.scryfall.io/border_crop/front/9/2/9255cd01-a611-4fec-b9ec-b271687740ba.jpg?1675957013",
-           power:"2",
-           toughness:"2",
-           card_face:{
-              name:"Blightbelly Rat",
-              type_line:{
-                 full:"Creature — Phyrexian Rat",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Rat"
-                 ]
-              },
-              mana_cost:"{1}{B}",
-              power:"2",
-              oracle_text:"Toxic 1 (Players dealt combat damage by this creature also get a poison counter.)\nWhen Blightbelly Rat dies, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
-              toughness:"2"
-           }
-        },
-        {
-           id:"b83f4e41-a5f5-4929-9816-06dc1c228474",
-           name:"Bonepicker Skirge",
-           type_line:"Creature — Phyrexian Imp",
-           mana_cost:"{2}{B}",
-           cmc:3,
-           colors:[
-              "B"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"86",
-           image:"https://cards.scryfall.io/border_crop/front/b/8/b83f4e41-a5f5-4929-9816-06dc1c228474.jpg?1675957013",
-           power:"2",
-           toughness:"2",
-           flavor_text:"\"Get away from there! I must rebuild that one for the next bout. Shoo, shoo!\"\n—Keskit, the Flesh Sculptor",
-           card_face:{
-              name:"Bonepicker Skirge",
-              type_line:{
-                 full:"Creature — Phyrexian Imp",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Imp"
-                 ]
-              },
-              mana_cost:"{2}{B}",
-              power:"2",
-              oracle_text:"Flying\nCorrupted — As long as an opponent has three or more poison counters, Bonepicker Skirge has deathtouch and lifelink.",
-              toughness:"2"
-           }
-        },
-        {
-           id:"e0328d43-ae9b-462a-a1e5-8ed408eea1a7",
-           name:"Chittering Skitterling",
-           type_line:"Creature — Phyrexian Rat",
-           mana_cost:"{2}{B}",
-           cmc:3,
-           colors:[
-              "B"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"87",
-           image:"https://cards.scryfall.io/border_crop/front/e/0/e0328d43-ae9b-462a-a1e5-8ed408eea1a7.jpg?1675957014",
-           power:"1",
-           toughness:"4",
-           flavor_text:"What cannot be remade will be unmade, one scrap at a time.",
-           card_face:{
-              name:"Chittering Skitterling",
-              type_line:{
-                 full:"Creature — Phyrexian Rat",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Rat"
-                 ]
-              },
-              mana_cost:"{2}{B}",
-              power:"1",
-              oracle_text:"Corrupted — Sacrifice an artifact or creature: Draw a card. Activate only if an opponent has three or more poison counters and only once each turn.",
-              toughness:"4"
-           }
-        },
-        {
-           id:"e3f571b5-ce50-4856-a151-fe6610d27bca",
-           name:"Cruel Grimnarch",
-           type_line:"Creature — Phyrexian Cleric",
-           mana_cost:"{5}{B}",
-           cmc:6,
-           colors:[
-              "B"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"88",
-           image:"https://cards.scryfall.io/border_crop/front/e/3/e3f571b5-ce50-4856-a151-fe6610d27bca.jpg?1675957019",
-           power:"5",
-           toughness:"5",
-           flavor_text:"The gospel of lies sounds sweetest when whispered by many mouths.",
-           card_face:{
-              name:"Cruel Grimnarch",
-              type_line:{
-                 full:"Creature — Phyrexian Cleric",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Cleric"
-                 ]
-              },
-              mana_cost:"{5}{B}",
-              power:"5",
-              oracle_text:"Deathtouch\nWhen Cruel Grimnarch enters the battlefield, each opponent discards a card. For each opponent who can't, you gain 4 life.",
-              toughness:"5"
-           }
-        },
-        {
-           id:"b3890961-d636-4ccc-9c42-2088a8531c9b",
-           name:"Cutthroat Centurion",
-           type_line:"Artifact Creature — Phyrexian Warrior",
-           mana_cost:"{2}{B}",
-           cmc:3,
-           colors:[
-              "B"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"89",
-           image:"https://cards.scryfall.io/border_crop/front/b/3/b3890961-d636-4ccc-9c42-2088a8531c9b.jpg?1675957020",
-           power:"2",
-           toughness:"2",
-           flavor_text:"\"We both serve the Demon Thane. Your parts would better serve with me.\"",
-           card_face:{
-              name:"Cutthroat Centurion",
-              type_line:{
-                 full:"Artifact Creature — Phyrexian Warrior",
-                 main:"Artifact Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Warrior"
-                 ]
-              },
-              mana_cost:"{2}{B}",
-              power:"2",
-              oracle_text:"Sacrifice another artifact or creature: Cutthroat Centurion gets +2/+2 until end of turn. Activate only once each turn.",
-              toughness:"2"
-           }
-        },
-        {
-           id:"6bc26bca-c4d8-4e8b-a96a-9529fc2daed7",
-           name:"Drivnod, Carnage Dominus",
-           type_line:"Legendary Creature — Phyrexian Horror",
-           mana_cost:"{3}{B}{B}",
-           cmc:5,
-           colors:[
-              "B"
-           ],
-           rarity: "rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"90",
-           image:"https://cards.scryfall.io/border_crop/front/6/b/6bc26bca-c4d8-4e8b-a96a-9529fc2daed7.jpg?1675957020",
-           power:"8",
-           toughness:"3",
-           card_face:{
-              name:"Drivnod, Carnage Dominus",
-              type_line:{
-                 full:"Legendary Creature — Phyrexian Horror",
-                 main:"Legendary Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Horror"
-                 ]
-              },
-              mana_cost:"{3}{B}{B}",
-              power:"8",
-              oracle_text:"If a creature dying causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.\n{B/P}{B/P}, Exile three creature cards from your graveyard: Put an indestructible counter on Drivnod, Carnage Dominus. ({B/P} can be paid with either {B} or 2 life.)",
-              toughness:"3"
-           }
-        },
-        {
-           id:"bf148ef4-0ed7-4fbe-8ab6-01dd3981c8d3",
-           name:"Drown in Ichor",
-           type_line:"Sorcery",
-           mana_cost:"{1}{B}",
-           cmc:2,
-           colors:[
-              "B"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"91",
-           image:"https://cards.scryfall.io/border_crop/front/b/f/bf148ef4-0ed7-4fbe-8ab6-01dd3981c8d3.jpg?1675957021",
-           flavor_text:"Sinking into the Dross is neither a gentle death nor a quiet one. But once the necrogen takes hold, it is inevitable.",
-           card_face:{
-              name:"Drown in Ichor",
-              type_line:{
-                 full:"Sorcery",
-                 main:"Sorcery",
-                 sub:""
-              },
-              mana_cost:"{1}{B}",
-              oracle_text:"Target creature gets -4/-4 until end of turn. Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)"
-           }
-        },
-        {
-           id:"3557e601-9b71-4ce9-9047-1a8baa72e574",
-           name:"Duress",
-           type_line:"Sorcery",
-           mana_cost:"{B}",
-           cmc:1,
-           colors:[
-              "B"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"92",
-           image:"https://cards.scryfall.io/border_crop/front/3/5/3557e601-9b71-4ce9-9047-1a8baa72e574.jpg?1675957024",
-           flavor_text:"\"Give of yourself, for compleation awaits the cleansed.\"\n—Nokar, priest of Sheoldred",
-           card_face:{
-              name:"Duress",
-              type_line:{
-                 full:"Sorcery",
-                 main:"Sorcery",
-                 sub:""
-              },
-              mana_cost:"{B}",
-              oracle_text:"Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card."
-           }
-        },
-        {
-           id:"9f013a1a-d4b9-4380-9802-c299ee6c4492",
-           name:"Feed the Infection",
-           type_line:"Sorcery",
-           mana_cost:"{3}{B}",
-           cmc:4,
-           colors:[
-              "B"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"93",
-           image:"https://cards.scryfall.io/border_crop/front/9/f/9f013a1a-d4b9-4380-9802-c299ee6c4492.jpg?1675957026",
-           flavor_text:"They wished to become vital parts of the Dross Pits. Azax-Azog granted their request.",
-           card_face:{
-              name:"Feed the Infection",
-              type_line:{
-                 full:"Sorcery",
-                 main:"Sorcery",
-                 sub:""
-              },
-              mana_cost:"{3}{B}",
-              oracle_text:"You draw three cards and you lose 3 life.\nCorrupted — Each opponent who has three or more poison counters loses 3 life."
-           }
-        },
-        {
-           id:"0b2a32c9-f0ae-4ae4-a5c5-72bea05018fb",
-           name:"Fleshless Gladiator",
-           type_line:"Creature — Phyrexian Skeleton",
-           mana_cost:"{1}{B}",
-           cmc:2,
-           colors:[
-              "B"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"94",
-           image:"https://cards.scryfall.io/border_crop/front/0/b/0b2a32c9-f0ae-4ae4-a5c5-72bea05018fb.jpg?1675957027",
-           power:"2",
-           toughness:"2",
-           flavor_text:"What she lacks in skin she makes up in swagger.",
-           card_face:{
-              name:"Fleshless Gladiator",
-              type_line:{
-                 full:"Creature — Phyrexian Skeleton",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Skeleton"
-                 ]
-              },
-              mana_cost:"{1}{B}",
-              power:"2",
-              oracle_text:"Corrupted — {2}{B}: Return Fleshless Gladiator from your graveyard to the battlefield tapped. You lose 1 life. Activate only if an opponent has three or more poison counters.",
-              toughness:"2"
-           }
-        },
-        {
-           id:"c26e18be-81a1-4645-866a-fae5c2fdf7c9",
-           name:"Geth, Thane of Contracts",
-           type_line:"Legendary Creature — Phyrexian Zombie",
-           mana_cost:"{1}{B}{B}",
-           cmc:3,
-           colors:[
-              "B"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"95",
-           image:"https://cards.scryfall.io/border_crop/front/c/2/c26e18be-81a1-4645-866a-fae5c2fdf7c9.jpg?1675957027",
-           power:"3",
-           toughness:"4",
-           flavor_text:"\"It seems someone forgot to read the fine print.\"",
-           card_face:{
-              name:"Geth, Thane of Contracts",
-              type_line:{
-                 full:"Legendary Creature — Phyrexian Zombie",
-                 main:"Legendary Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Zombie"
-                 ]
-              },
-              mana_cost:"{1}{B}{B}",
-              power:"3",
-              oracle_text:"Other creatures you control get -1/-1.\n{1}{B}{B}, {T}: Return target creature card from your graveyard to the battlefield. It gains \"If this creature would leave the battlefield, exile it instead of putting it anywhere else.\" Activate only as a sorcery.",
-              toughness:"4"
-           }
-        },
-        {
-           id:"28f48394-c6aa-4453-954a-68195d9bd6ea",
-           name:"Gulping Scraptrap",
-           type_line:"Creature — Phyrexian Horror",
-           mana_cost:"{4}{B}",
-           cmc:5,
-           colors:[
-              "B"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"96",
-           image:"https://cards.scryfall.io/border_crop/front/2/8/28f48394-c6aa-4453-954a-68195d9bd6ea.jpg?1675957030",
-           power:"4",
-           toughness:"4",
-           flavor_text:"\"Does anyone else hear that horrible crunching sound?\"\n—Jace",
-           card_face:{
-              name:"Gulping Scraptrap",
-              type_line:{
-                 full:"Creature — Phyrexian Horror",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Horror"
-                 ]
-              },
-              mana_cost:"{4}{B}",
-              power:"4",
-              oracle_text:"When Gulping Scraptrap enters the battlefield or dies, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
-              toughness:"4"
-           }
-        },
-        {
-           id:"0a10f284-b043-4307-bdc7-6dad47cc9221",
-           name:"Infectious Inquiry",
-           type_line:"Sorcery",
-           mana_cost:"{2}{B}",
-           cmc:3,
-           colors:[
-              "B"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"97",
-           image:"https://cards.scryfall.io/border_crop/front/0/a/0a10f284-b043-4307-bdc7-6dad47cc9221.jpg?1675957034",
-           flavor_text:"\"I give you pain, you give me information. A simple trade, is it not?\"",
-           card_face:{
-              name:"Infectious Inquiry",
-              type_line:{
-                 full:"Sorcery",
-                 main:"Sorcery",
-                 sub:""
-              },
-              mana_cost:"{2}{B}",
-              oracle_text:"You draw two cards and you lose 2 life. Each opponent gets a poison counter."
-           }
-        },
-        {
-           id:"f16e282d-8941-46c7-a974-c05b6f73c964",
-           name:"Karumonix, the Rat King",
-           type_line:"Legendary Creature — Phyrexian Rat",
-           mana_cost:"{1}{B}{B}",
-           cmc:3,
-           colors:[
-              "B"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"98",
-           image:"https://cards.scryfall.io/border_crop/front/f/1/f16e282d-8941-46c7-a974-c05b6f73c964.jpg?1675957034",
-           power:"3",
-           toughness:"3",
-           card_face:{
-              name:"Karumonix, the Rat King",
-              type_line:{
-                 full:"Legendary Creature — Phyrexian Rat",
-                 main:"Legendary Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Rat"
-                 ]
-              },
-              mana_cost:"{1}{B}{B}",
-              power:"3",
-              oracle_text:"Toxic 1 (Players dealt combat damage by this creature also get a poison counter.)\nOther Rats you control have toxic 1.\nWhen Karumonix enters the battlefield, look at the top five cards of your library. You may reveal any number of Rat cards from among them and put the revealed cards into your hand. Put the rest on the bottom of your library in a random order.",
-              toughness:"3"
-           }
-        },
-        {
-           id:"6ac8cd7c-992f-4953-b5bf-42e5a9ff09ad",
-           name:"Necrogen Communion",
-           type_line:"Enchantment — Aura",
-           mana_cost:"{1}{B}",
-           cmc:2,
-           colors:[
-              "B"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"99",
-           image:"https://cards.scryfall.io/border_crop/front/6/a/6ac8cd7c-992f-4953-b5bf-42e5a9ff09ad.jpg?1675957034",
-           card_face:{
-              name:"Necrogen Communion",
-              type_line:{
-                 full:"Enchantment — Aura",
-                 main:"Enchantment",
-                 sub:[
-                    "Aura"
-                 ]
-              },
-              mana_cost:"{1}{B}",
-              oracle_text:"Enchant creature you control\nEnchanted creature has toxic 2. (Players dealt combat damage by it also get two poison counters.)\nWhen enchanted creature dies, return that card to the battlefield under your control."
-           }
-        },
-        {
-           id:"72af72d2-5995-4cad-82f1-e2d0c465d6f1",
-           name:"Necrosquito",
-           type_line:"Creature — Phyrexian Insect",
-           mana_cost:"{3}{B}",
-           cmc:4,
-           colors:[
-              "B"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"100",
-           image:"https://cards.scryfall.io/border_crop/front/7/2/72af72d2-5995-4cad-82f1-e2d0c465d6f1.jpg?1675957036",
-           power:"0",
-           toughness:"0",
-           card_face:{
-              name:"Necrosquito",
-              type_line:{
-                 full:"Creature — Phyrexian Insect",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Insect"
-                 ]
-              },
-              mana_cost:"{3}{B}",
-              power:"0",
-              oracle_text:"Flying\nNecrosquito enters the battlefield with two oil counters on it.\nNecrosquito gets +1/+1 for each oil counter on it.\nWhenever another creature or artifact you control is put into a graveyard from the battlefield, put an oil counter on Necrosquito.",
-              toughness:"0"
-           }
-        },
-        {
-           id:"a99fe9a8-d9e7-4286-81a1-adfb753e4741",
-           name:"Nimraiser Paladin",
-           type_line:"Creature — Phyrexian Knight",
-           mana_cost:"{4}{B}",
-           cmc:5,
-           colors:[
-              "B"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"101",
-           image:"https://cards.scryfall.io/border_crop/front/a/9/a99fe9a8-d9e7-4286-81a1-adfb753e4741.jpg?1675957037",
-           power:"4",
-           toughness:"4",
-           card_face:{
-              name:"Nimraiser Paladin",
-              type_line:{
-                 full:"Creature — Phyrexian Knight",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Knight"
-                 ]
-              },
-              mana_cost:"{4}{B}",
-              power:"4",
-              oracle_text:"Toxic 2 (Players dealt combat damage by this creature also get two poison counters.)\nWhen Nimraiser Paladin enters the battlefield, return target creature card with mana value 3 or less from your graveyard to your hand.",
-              toughness:"4"
-           }
-        },
-        {
-           id:"b0aac10a-6d47-4a6c-8a10-2b7c06f3ff32",
-           name:"Offer Immortality",
-           type_line:"Instant",
-           mana_cost:"{1}{B}",
-           cmc:2,
-           colors:[
-              "B"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"102",
-           image:"https://cards.scryfall.io/border_crop/front/b/0/b0aac10a-6d47-4a6c-8a10-2b7c06f3ff32.jpg?1675957041",
-           flavor_text:"\"Give all you are to Phyrexia, and you will receive more than you could have ever desired.\"",
-           card_face:{
-              name:"Offer Immortality",
-              type_line:{
-                 full:"Instant",
-                 main:"Instant",
-                 sub:""
-              },
-              mana_cost:"{1}{B}",
-              oracle_text:"Target creature gains deathtouch and indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)"
-           }
-        },
-        {
-           id:"947a1e44-3485-4e24-a34d-6c318584743c",
-           name:"Pestilent Syphoner",
-           type_line:"Creature — Phyrexian Insect",
-           mana_cost:"{1}{B}",
-           cmc:2,
-           colors:[
-              "B"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"103",
-           image:"https://cards.scryfall.io/border_crop/front/9/4/947a1e44-3485-4e24-a34d-6c318584743c.jpg?1675957042",
-           power:"1",
-           toughness:"1",
-           flavor_text:"The praetors of the other Spheres privately wonder how Sheoldred always has a surplus of glistening oil at her disposal.",
-           card_face:{
-              name:"Pestilent Syphoner",
-              type_line:{
-                 full:"Creature — Phyrexian Insect",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Insect"
-                 ]
-              },
-              mana_cost:"{1}{B}",
-              power:"1",
-              oracle_text:"Flying\nToxic 1 (Players dealt combat damage by this creature also get a poison counter.)",
-              toughness:"1"
-           }
-        },
-        {
-           id:"54f69d43-de01-46a8-b102-b47e23e0e947",
-           name:"Phyrexian Arena",
-           type_line:"Enchantment",
-           mana_cost:"{1}{B}{B}",
-           cmc:3,
-           colors:[
-              "B"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"104",
-           image:"https://cards.scryfall.io/border_crop/front/5/4/54f69d43-de01-46a8-b102-b47e23e0e947.jpg?1675957043",
-           flavor_text:"For a bittersweet moment, Jace believed he could still save his love. A moment was all Vraska needed. \"For the glory of Phyrexia,\" she whispered.",
-           card_face:{
-              name:"Phyrexian Arena",
-              type_line:{
-                 full:"Enchantment",
-                 main:"Enchantment",
-                 sub:""
-              },
-              mana_cost:"{1}{B}{B}",
-              oracle_text:"At the beginning of your upkeep, you draw a card and you lose 1 life."
-           }
-        },
-        {
-           id:"67a9c38b-6b3a-4056-a87c-fc48446f854f",
-           name:"Phyrexian Obliterator",
-           type_line:"Creature — Phyrexian Horror",
-           mana_cost:"{B}{B}{B}{B}",
-           cmc:4,
-           colors:[
-              "B"
-           ],
-           rarity: "rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"105",
-           image:"https://cards.scryfall.io/border_crop/front/6/7/67a9c38b-6b3a-4056-a87c-fc48446f854f.jpg?1675957044",
-           power:"5",
-           toughness:"5",
-           flavor_text:"\"Show me what Norn's sycophants are hiding under all that pretty porcelain.\"\n—Sheoldred",
-           card_face:{
-              name:"Phyrexian Obliterator",
-              type_line:{
-                 full:"Creature — Phyrexian Horror",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Horror"
-                 ]
-              },
-              mana_cost:"{B}{B}{B}{B}",
-              power:"5",
-              oracle_text:"Trample\nWhenever a source deals damage to Phyrexian Obliterator, that source's controller sacrifices that many permanents.",
-              toughness:"5"
-           }
-        },
-        {
-           id:"ce7e1e9b-ad7f-4f4c-bdb5-2ccb6f147037",
-           name:"Ravenous Necrotitan",
-           type_line:"Creature — Phyrexian Horror",
-           mana_cost:"{2}{B}{B}",
-           cmc:4,
-           colors:[
-              "B"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"106",
-           image:"https://cards.scryfall.io/border_crop/front/c/e/ce7e1e9b-ad7f-4f4c-bdb5-2ccb6f147037.jpg?1675957045",
-           power:"6",
-           toughness:"6",
-           flavor_text:"Some of Sheoldred's goliaths spread the glory of Phyrexia. Others just eat.",
-           card_face:{
-              name:"Ravenous Necrotitan",
-              type_line:{
-                 full:"Creature — Phyrexian Horror",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Horror"
-                 ]
-              },
-              mana_cost:"{2}{B}{B}",
-              power:"6",
-              oracle_text:"Corrupted — When Ravenous Necrotitan enters the battlefield, sacrifice a creature unless an opponent has three or more poison counters.",
-              toughness:"6"
-           }
-        },
-        {
-           id:"8de80f71-82b5-499c-afc0-6bbae6b896ad",
-           name:"Scheming Aspirant",
-           type_line:"Creature — Phyrexian Advisor",
-           mana_cost:"{1}{B}",
-           cmc:2,
-           colors:[
-              "B"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"107",
-           image:"https://cards.scryfall.io/border_crop/front/8/d/8de80f71-82b5-499c-afc0-6bbae6b896ad.jpg?1681468798",
-           power:"1",
-           toughness:"3",
-           flavor_text:"\"I have raised many of my own contenders for the Coliseum. This one will be fearsome one day, mark my words.\"",
-           card_face:{
-              name:"Scheming Aspirant",
-              type_line:{
-                 full:"Creature — Phyrexian Advisor",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Advisor"
-                 ]
-              },
-              mana_cost:"{1}{B}",
-              power:"1",
-              oracle_text:"Whenever you proliferate, each opponent loses 2 life and you gain 2 life.",
-              toughness:"3"
-           }
-        },
-        {
-           id:"a9225cc3-90f0-448f-a8d9-7c6c2796d077",
-           name:"Sheoldred's Edict",
-           type_line:"Instant",
-           mana_cost:"{1}{B}",
-           cmc:2,
-           colors:[
-              "B"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"108",
-           image:"https://cards.scryfall.io/border_crop/front/a/9/a9225cc3-90f0-448f-a8d9-7c6c2796d077.jpg?1675957049",
-           flavor_text:"\"Congratulations. I am entertained.\"",
-           card_face:{
-              name:"Sheoldred's Edict",
-              type_line:{
-                 full:"Instant",
-                 main:"Instant",
-                 sub:""
-              },
-              mana_cost:"{1}{B}",
-              oracle_text:"Choose one —\n• Each opponent sacrifices a nontoken creature.\n• Each opponent sacrifices a creature token.\n• Each opponent sacrifices a planeswalker."
-           }
-        },
-        {
-           id:"8c6b818f-6912-4ea1-a35a-c8cd7ee9aead",
-           name:"Sheoldred's Headcleaver",
-           type_line:"Creature — Phyrexian Warrior",
-           mana_cost:"{3}{B}",
-           cmc:4,
-           colors:[
-              "B"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"109",
-           image:"https://cards.scryfall.io/border_crop/front/8/c/8c6b818f-6912-4ea1-a35a-c8cd7ee9aead.jpg?1675957050",
-           power:"2",
-           toughness:"4",
-           flavor_text:"The punishment for sedition, like every other crime in the Dross Pits, is execution.",
-           card_face:{
-              name:"Sheoldred's Headcleaver",
-              type_line:{
-                 full:"Creature — Phyrexian Warrior",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Warrior"
-                 ]
-              },
-              mana_cost:"{3}{B}",
-              power:"2",
-              oracle_text:"Menace\nToxic 2 (Players dealt combat damage by this creature also get two poison counters.)",
-              toughness:"4"
-           }
-        },
-        {
-           id:"cdbbcbe1-5317-455e-8d71-a4e2ad0addfc",
-           name:"Stinging Hivemaster",
-           type_line:"Creature — Phyrexian Warlock",
-           mana_cost:"{2}{B}",
-           cmc:3,
-           colors:[
-              "B"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"110",
-           image:"https://cards.scryfall.io/border_crop/front/c/d/cdbbcbe1-5317-455e-8d71-a4e2ad0addfc.jpg?1675957053",
-           power:"3",
-           toughness:"2",
-           flavor_text:"From within its form, a single word echoed forth: \"Devour.\"",
-           card_face:{
-              name:"Stinging Hivemaster",
-              type_line:{
-                 full:"Creature — Phyrexian Warlock",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Warlock"
-                 ]
-              },
-              mana_cost:"{2}{B}",
-              power:"3",
-              oracle_text:"Toxic 1 (Players dealt combat damage by this creature also get a poison counter.)\nWhen Stinging Hivemaster dies, create a 1/1 colorless Phyrexian Mite artifact creature token with toxic 1 and \"This creature can't block.\"",
-              toughness:"2"
-           }
-        },
-        {
-           id:"a5424859-628a-4c19-acd0-0c63c21c8338",
-           name:"Testament Bearer",
-           type_line:"Creature — Phyrexian Warrior",
-           mana_cost:"{3}{B}",
-           cmc:4,
-           colors:[
-              "B"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"111",
-           image:"https://cards.scryfall.io/border_crop/front/a/5/a5424859-628a-4c19-acd0-0c63c21c8338.jpg?1675957054",
-           power:"4",
-           toughness:"1",
-           flavor_text:"She proudly carries the weight of Phyrexia's creed, both figuratively and literally.",
-           card_face:{
-              name:"Testament Bearer",
-              type_line:{
-                 full:"Creature — Phyrexian Warrior",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Warrior"
-                 ]
-              },
-              mana_cost:"{3}{B}",
-              power:"4",
-              oracle_text:"When Testament Bearer dies, look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.",
-              toughness:"1"
-           }
-        },
-        {
-           id:"3a2aeaeb-7853-4588-8a5e-cfd997ba8515",
-           name:"Vat Emergence",
-           type_line:"Sorcery",
-           mana_cost:"{4}{B}",
-           cmc:5,
-           colors:[
-              "B"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"112",
-           image:"https://cards.scryfall.io/border_crop/front/3/a/3a2aeaeb-7853-4588-8a5e-cfd997ba8515.jpg?1675957057",
-           flavor_text:"The first rebirth is a reward. The fifty-first is a punishment.",
-           card_face:{
-              name:"Vat Emergence",
-              type_line:{
-                 full:"Sorcery",
-                 main:"Sorcery",
-                 sub:""
-              },
-              mana_cost:"{4}{B}",
-              oracle_text:"Put target creature card from a graveyard onto the battlefield under your control. Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)"
-           }
-        },
-        {
-           id:"20a961ea-0639-4f5d-8cf4-f909c59a4ae1",
-           name:"Vat of Rebirth",
-           type_line:"Artifact",
-           mana_cost:"{B}",
-           cmc:1,
-           colors:[
-              "B"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"113",
-           image:"https://cards.scryfall.io/border_crop/front/2/0/20a961ea-0639-4f5d-8cf4-f909c59a4ae1.jpg?1675957057",
-           card_face:{
-              name:"Vat of Rebirth",
-              type_line:{
-                 full:"Artifact",
-                 main:"Artifact",
-                 sub:""
-              },
-              mana_cost:"{B}",
-              oracle_text:"Whenever another artifact or creature you control is put into a graveyard from the battlefield, put an oil counter on Vat of Rebirth.\n{2}{B}, {T}, Remove four oil counters from Vat of Rebirth: Return target creature card from your graveyard to the battlefield. Activate only as a sorcery."
-           }
-        },
-        {
-           id:"4c4a3119-c70a-46ff-8ede-6356f2b7bc13",
-           name:"Vraan, Executioner Thane",
-           type_line:"Legendary Creature — Phyrexian Vampire",
-           mana_cost:"{1}{B}",
-           cmc:2,
-           colors:[
-              "B"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"114",
-           image:"https://cards.scryfall.io/border_crop/front/4/c/4c4a3119-c70a-46ff-8ede-6356f2b7bc13.jpg?1675957057",
-           power:"2",
-           toughness:"2",
-           flavor_text:"\"Soon enough each praetor will have hired me to kill the others, and I will stand alone as the true Father of Machines.\"",
-           card_face:{
-              name:"Vraan, Executioner Thane",
-              type_line:{
-                 full:"Legendary Creature — Phyrexian Vampire",
-                 main:"Legendary Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Vampire"
-                 ]
-              },
-              mana_cost:"{1}{B}",
-              power:"2",
-              oracle_text:"Whenever one or more other creatures you control die, each opponent loses 2 life and you gain 2 life. This ability triggers only once each turn.",
-              toughness:"2"
-           }
-        },
-        {
-           id:"f59f2b07-47ad-4efd-ae8c-1c04b9265024",
-           name:"Vraska, Betrayal's Sting",
-           type_line:"Legendary Planeswalker — Vraska",
-           mana_cost:"{4}{B}{B/P}",
-           cmc:6,
-           colors:[
-              "B"
-           ],
-           rarity: "rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"115",
-           image:"https://cards.scryfall.io/border_crop/front/f/5/f59f2b07-47ad-4efd-ae8c-1c04b9265024.jpg?1675957060",
-           card_face:{
-              name:"Vraska, Betrayal's Sting",
-              type_line:{
-                 full:"Legendary Planeswalker — Vraska",
-                 main:"Legendary Planeswalker",
-                 sub:[
-                    "Vraska"
-                 ]
-              },
-              mana_cost:"{4}{B}{B/P}",
-              oracle_text:"Compleated ({B/P} can be paid with {B} or 2 life. If life was paid, this planeswalker enters with two fewer loyalty counters.)\n0: You draw a card and you lose 1 life. Proliferate.\n−2: Target creature becomes a Treasure artifact with \"{T}, Sacrifice this artifact: Add one mana of any color\" and loses all other card types and abilities.\n−9: If target player has fewer than nine poison counters, they get a number of poison counters equal to the difference."
-           }
-        },
-        {
-           id:"0173b7b4-2832-4943-ba45-8ba498d7a056",
-           name:"Vraska's Fall",
-           type_line:"Instant",
-           mana_cost:"{2}{B}",
-           cmc:3,
-           colors:[
-              "B"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"116",
-           image:"https://cards.scryfall.io/border_crop/front/0/1/0173b7b4-2832-4943-ba45-8ba498d7a056.jpg?1675957063",
-           flavor_text:"The dull, creeping pain of phyresis curdled in Vraska's blood. She knew as soon as it took her, she would betray everything—even Jace.",
-           card_face:{
-              name:"Vraska's Fall",
-              type_line:{
-                 full:"Instant",
-                 main:"Instant",
-                 sub:""
-              },
-              mana_cost:"{2}{B}",
-              oracle_text:"Each opponent sacrifices a creature or planeswalker and gets a poison counter."
-           }
-        },
-        {
-           id:"58d287e8-5297-415a-97d5-02002470c52b",
-           name:"Whisper of the Dross",
-           type_line:"Instant",
-           mana_cost:"{B}",
-           cmc:1,
-           colors:[
-              "B"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"117",
-           image:"https://cards.scryfall.io/border_crop/front/5/8/58d287e8-5297-415a-97d5-02002470c52b.jpg?1675957064",
-           flavor_text:"\"Live or die, you serve the Steel Thanes now.\"",
-           card_face:{
-              name:"Whisper of the Dross",
-              type_line:{
-                 full:"Instant",
-                 main:"Instant",
-                 sub:""
-              },
-              mana_cost:"{B}",
-              oracle_text:"Target creature gets -1/-1 until end of turn. Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)"
-           }
-        },
-        {
-           id:"6d75e1f4-bd63-428e-8e6e-131594b3ba44",
-           name:"All Will Be One",
-           type_line:"Enchantment",
-           mana_cost:"{3}{R}{R}",
-           cmc:5,
-           colors:[
-              "R"
-           ],
-           rarity: "rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"118",
-           image:"https://cards.scryfall.io/border_crop/front/6/d/6d75e1f4-bd63-428e-8e6e-131594b3ba44.jpg?1675957064",
-           flavor_text:"The Invasion Tree broke through the Blind Eternities and sent Phyrexian perfection coursing across the Multiverse.",
-           card_face:{
-              name:"All Will Be One",
-              type_line:{
-                 full:"Enchantment",
-                 main:"Enchantment",
-                 sub:""
-              },
-              mana_cost:"{3}{R}{R}",
-              oracle_text:"Whenever you put one or more counters on a permanent or player, All Will Be One deals that much damage to target opponent, creature an opponent controls, or planeswalker an opponent controls."
-           }
-        },
-        {
-           id:"3b92f866-2522-4f2a-a5ca-7d01ad79b927",
-           name:"Awaken the Sleeper",
-           type_line:"Sorcery",
-           mana_cost:"{3}{R}",
-           cmc:4,
-           colors:[
-              "R"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"119",
-           image:"https://cards.scryfall.io/border_crop/front/3/b/3b92f866-2522-4f2a-a5ca-7d01ad79b927.jpg?1675957064",
-           flavor_text:"\"Without faith in each other, we truly would have nothing left. Isn't that right, Malach? ...Malach?\"\n—Darven, Mirran rebel, last words",
-           card_face:{
-              name:"Awaken the Sleeper",
-              type_line:{
-                 full:"Sorcery",
-                 main:"Sorcery",
-                 sub:""
-              },
-              mana_cost:"{3}{R}",
-              oracle_text:"Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. If it's equipped, you may destroy all Equipment attached to that creature."
-           }
-        },
-        {
-           id:"c9b3b785-396e-4240-bfa3-58ab53497686",
-           name:"Axiom Engraver",
-           type_line:"Creature — Phyrexian Wizard",
-           mana_cost:"{1}{R}",
-           cmc:2,
-           colors:[
-              "R"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"120",
-           image:"https://cards.scryfall.io/border_crop/front/c/9/c9b3b785-396e-4240-bfa3-58ab53497686.jpg?1675957067",
-           power:"1",
-           toughness:"3",
-           flavor_text:"\"I will not rest until the truth of Phyrexia is inscribed across the Multiverse.\"",
-           card_face:{
-              name:"Axiom Engraver",
-              type_line:{
-                 full:"Creature — Phyrexian Wizard",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Wizard"
-                 ]
-              },
-              mana_cost:"{1}{R}",
-              power:"1",
-              oracle_text:"Axiom Engraver enters the battlefield with two oil counters on it.\n{T}, Remove an oil counter from Axiom Engraver, Discard a card: Draw a card.",
-              toughness:"3"
-           }
-        },
-        {
-           id:"de1d02d1-91dc-47d6-bdbe-87602428abfb",
-           name:"Barbed Batterfist",
-           type_line:"Artifact — Equipment",
-           mana_cost:"{1}{R}",
-           cmc:2,
-           colors:[
-              "R"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"121",
-           image:"https://cards.scryfall.io/border_crop/front/d/e/de1d02d1-91dc-47d6-bdbe-87602428abfb.jpg?1675957071",
-           flavor_text:"\"Finally, a safe way to punch the rotters in the face.\"",
-           card_face:{
-              name:"Barbed Batterfist",
-              type_line:{
-                 full:"Artifact — Equipment",
-                 main:"Artifact",
-                 sub:[
-                    "Equipment"
-                 ]
-              },
-              mana_cost:"{1}{R}",
-              oracle_text:"For Mirrodin! (When this Equipment enters the battlefield, create a 2/2 red Rebel creature token, then attach this to it.)\nEquipped creature gets +1/-1.\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)"
-           }
-        },
-        {
-           id:"2d6cf933-73fe-4e79-8d0b-29dc0f18b25d",
-           name:"Bladegraft Aspirant",
-           type_line:"Creature — Phyrexian Warrior",
-           mana_cost:"{2}{R}",
-           cmc:3,
-           colors:[
-              "R"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"122",
-           image:"https://cards.scryfall.io/border_crop/front/2/d/2d6cf933-73fe-4e79-8d0b-29dc0f18b25d.jpg?1675957071",
-           power:"2",
-           toughness:"3",
-           flavor_text:"\"To dance to the music of Juex, leap like the flickering flame and hit like the hammer.\"",
-           card_face:{
-              name:"Bladegraft Aspirant",
-              type_line:{
-                 full:"Creature — Phyrexian Warrior",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Warrior"
-                 ]
-              },
-              mana_cost:"{2}{R}",
-              power:"2",
-              oracle_text:"Menace\nEquipment spells you cast cost {1} less to cast.\nActivated abilities of Equipment you control that target Bladegraft Aspirant cost {1} less to activate.",
-              toughness:"3"
-           }
-        },
-        {
-           id:"d6bfc16a-2871-40a4-b279-636b80491a06",
-           name:"Blazing Crescendo",
-           type_line:"Instant",
-           mana_cost:"{1}{R}",
-           cmc:2,
-           colors:[
-              "R"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"123",
-           image:"https://cards.scryfall.io/border_crop/front/d/6/d6bfc16a-2871-40a4-b279-636b80491a06.jpg?1675957071",
-           flavor_text:"\"They call themselves the Quiet Furnace? Ironic.\"\n—Tyvar",
-           card_face:{
-              name:"Blazing Crescendo",
-              type_line:{
-                 full:"Instant",
-                 main:"Instant",
-                 sub:""
-              },
-              mana_cost:"{1}{R}",
-              oracle_text:"Target creature gets +3/+1 until end of turn.\nExile the top card of your library. Until the end of your next turn, you may play that card."
-           }
-        },
-        {
-           id:"3553dcef-7b99-49d5-b071-06b894696952",
-           name:"Cacophony Scamp",
-           type_line:"Creature — Phyrexian Goblin Warrior",
-           mana_cost:"{R}",
-           cmc:1,
-           colors:[
-              "R"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"124",
-           image:"https://cards.scryfall.io/border_crop/front/3/5/3553dcef-7b99-49d5-b071-06b894696952.jpg?1675957072",
-           power:"1",
-           toughness:"1",
-           card_face:{
-              name:"Cacophony Scamp",
-              type_line:{
-                 full:"Creature — Phyrexian Goblin Warrior",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Goblin",
-                    "Warrior"
-                 ]
-              },
-              mana_cost:"{R}",
-              power:"1",
-              oracle_text:"Whenever Cacophony Scamp deals combat damage to a player, you may sacrifice it. If you do, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)\nWhen Cacophony Scamp dies, it deals damage equal to its power to any target.",
-              toughness:"1"
-           }
-        },
-        {
-           id:"23afca1a-62a8-497f-994f-ceb479d020ba",
-           name:"Capricious Hellraiser",
-           type_line:"Creature — Phyrexian Dragon",
-           mana_cost:"{3}{R}{R}{R}",
-           cmc:6,
-           colors:[
-              "R"
-           ],
-           rarity: "rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"125",
-           image:"https://cards.scryfall.io/border_crop/front/2/3/23afca1a-62a8-497f-994f-ceb479d020ba.jpg?1675957074",
-           power:"4",
-           toughness:"4",
-           card_face:{
-              name:"Capricious Hellraiser",
-              type_line:{
-                 full:"Creature — Phyrexian Dragon",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Dragon"
-                 ]
-              },
-              mana_cost:"{3}{R}{R}{R}",
-              power:"4",
-              oracle_text:"This spell costs {3} less to cast if you have nine or more cards in your graveyard.\nFlying\nWhen Capricious Hellraiser enters the battlefield, exile three cards at random from your graveyard. Choose a noncreature, nonland card from among them and copy it. You may cast the copy without paying its mana cost.",
-              toughness:"4"
-           }
-        },
-        {
-           id:"5668699d-8df8-426b-a04a-99cfe55e570b",
-           name:"Chimney Rabble",
-           type_line:"Creature — Phyrexian Goblin Warrior",
-           mana_cost:"{3}{R}",
-           cmc:4,
-           colors:[
-              "R"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"126",
-           image:"https://cards.scryfall.io/border_crop/front/5/6/5668699d-8df8-426b-a04a-99cfe55e570b.jpg?1675957078",
-           power:"3",
-           toughness:"3",
-           flavor_text:"\"They're violent, headstrong, and wildly unpredictable. It should be amusing to see how Norn's vaunted tactics try to cope with them.\"\n—Urabrask",
-           card_face:{
-              name:"Chimney Rabble",
-              type_line:{
-                 full:"Creature — Phyrexian Goblin Warrior",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Goblin",
-                    "Warrior"
-                 ]
-              },
-              mana_cost:"{3}{R}",
-              power:"3",
-              oracle_text:"Haste\nWhen Chimney Rabble enters the battlefield, create a 1/1 red Phyrexian Goblin creature token.",
-              toughness:"3"
-           }
-        },
-        {
-           id:"0c117239-8e40-4e7e-ab1b-82f2ddf55cf4",
-           name:"Churning Reservoir",
-           type_line:"Artifact",
-           mana_cost:"{R}",
-           cmc:1,
-           colors:[
-              "R"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"127",
-           image:"https://cards.scryfall.io/border_crop/front/0/c/0c117239-8e40-4e7e-ab1b-82f2ddf55cf4.jpg?1675957079",
-           card_face:{
-              name:"Churning Reservoir",
-              type_line:{
-                 full:"Artifact",
-                 main:"Artifact",
-                 sub:""
-              },
-              mana_cost:"{R}",
-              oracle_text:"At the beginning of your upkeep, put an oil counter on another target nontoken artifact or creature you control.\n{2}, {T}: Create a 1/1 red Phyrexian Goblin creature token. Activate only if an oil counter was removed from a permanent you controlled this turn or a permanent with an oil counter on it was put into a graveyard this turn."
-           }
-        },
-        {
-           id:"5456b036-231e-4a64-b060-0709f5254664",
-           name:"Dragonwing Glider",
-           type_line:"Artifact — Equipment",
-           mana_cost:"{3}{R}{R}",
-           cmc:5,
-           colors:[
-              "R"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"128",
-           image:"https://cards.scryfall.io/border_crop/front/5/4/5456b036-231e-4a64-b060-0709f5254664.jpg?1675957079",
-           card_face:{
-              name:"Dragonwing Glider",
-              type_line:{
-                 full:"Artifact — Equipment",
-                 main:"Artifact",
-                 sub:[
-                    "Equipment"
-                 ]
-              },
-              mana_cost:"{3}{R}{R}",
-              oracle_text:"For Mirrodin! (When this Equipment enters the battlefield, create a 2/2 red Rebel creature token, then attach this to it.)\nEquipped creature gets +2/+2 and has flying and haste.\nEquip {3}{R}{R}"
-           }
-        },
-        {
-           id:"a6e8d7b9-ff5e-48ae-9e38-d2b6a45b119b",
-           name:"Exuberant Fuseling",
-           type_line:"Creature — Phyrexian Goblin Warrior",
-           mana_cost:"{R}",
-           cmc:1,
-           colors:[
-              "R"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"129",
-           image:"https://cards.scryfall.io/border_crop/front/a/6/a6e8d7b9-ff5e-48ae-9e38-d2b6a45b119b.jpg?1675957080",
-           power:"0",
-           toughness:"1",
-           card_face:{
-              name:"Exuberant Fuseling",
-              type_line:{
-                 full:"Creature — Phyrexian Goblin Warrior",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Goblin",
-                    "Warrior"
-                 ]
-              },
-              mana_cost:"{R}",
-              power:"0",
-              oracle_text:"Trample\nExuberant Fuseling gets +1/+0 for each oil counter on it.\nWhen Exuberant Fuseling enters the battlefield and whenever another creature or artifact you control is put into a graveyard from the battlefield, put an oil counter on Exuberant Fuseling.",
-              toughness:"1"
-           }
-        },
-        {
-           id:"c4c2c914-e9a7-450b-88d9-8885fe0f6643",
-           name:"Forgehammer Centurion",
-           type_line:"Creature — Phyrexian Warrior",
-           mana_cost:"{2}{R}",
-           cmc:3,
-           colors:[
-              "R"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"130",
-           image:"https://cards.scryfall.io/border_crop/front/c/4/c4c2c914-e9a7-450b-88d9-8885fe0f6643.jpg?1675957081",
-           power:"3",
-           toughness:"2",
-           card_face:{
-              name:"Forgehammer Centurion",
-              type_line:{
-                 full:"Creature — Phyrexian Warrior",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Warrior"
-                 ]
-              },
-              mana_cost:"{2}{R}",
-              power:"3",
-              oracle_text:"Whenever another creature or artifact you control is put into a graveyard from the battlefield, put an oil counter on Forgehammer Centurion.\nWhenever Forgehammer Centurion attacks, you may remove two oil counters from it. When you do, target creature can't block this turn.",
-              toughness:"2"
-           }
-        },
-        {
-           id:"2c83600d-ea4d-4219-8dbb-34c4215a2005",
-           name:"Free from Flesh",
-           type_line:"Instant",
-           mana_cost:"{R}",
-           cmc:1,
-           colors:[
-              "R"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"131",
-           image:"https://cards.scryfall.io/border_crop/front/2/c/2c83600d-ea4d-4219-8dbb-34c4215a2005.jpg?1675957085",
-           flavor_text:"He finally understood that phyresis was not an ending, but a new, perfect beginning.",
-           card_face:{
-              name:"Free from Flesh",
-              type_line:{
-                 full:"Instant",
-                 main:"Instant",
-                 sub:""
-              },
-              mana_cost:"{R}",
-              oracle_text:"Target creature gets +2/+2 until end of turn. Put two oil counters on it."
-           }
-        },
-        {
-           id:"65e5fc08-7a04-4bba-81ba-990889cae96a",
-           name:"Furnace Punisher",
-           type_line:"Creature — Phyrexian Warrior",
-           mana_cost:"{2}{R}",
-           cmc:3,
-           colors:[
-              "R"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"132",
-           image:"https://cards.scryfall.io/border_crop/front/6/5/65e5fc08-7a04-4bba-81ba-990889cae96a.jpg?1675957086",
-           power:"3",
-           toughness:"3",
-           flavor_text:"She marks her favorite creations with a searing brand, leaving all others to be consumed by the furnace.",
-           card_face:{
-              name:"Furnace Punisher",
-              type_line:{
-                 full:"Creature — Phyrexian Warrior",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Warrior"
-                 ]
-              },
-              mana_cost:"{2}{R}",
-              power:"3",
-              oracle_text:"Menace\nAt the beginning of each player's upkeep, Furnace Punisher deals 2 damage to that player unless they control two or more basic lands.",
-              toughness:"3"
-           }
-        },
-        {
-           id:"aa625ab0-1e79-4497-a5da-98fe1abfd024",
-           name:"Furnace Strider",
-           type_line:"Creature — Phyrexian Beast",
-           mana_cost:"{4}{R}",
-           cmc:5,
-           colors:[
-              "R"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"133",
-           image:"https://cards.scryfall.io/border_crop/front/a/a/aa625ab0-1e79-4497-a5da-98fe1abfd024.jpg?1675957087",
-           power:"4",
-           toughness:"5",
-           flavor_text:"With the Quiet Furnace closed to all other factions, Urabrask's smiths were free to build anything their creativity demanded.",
-           card_face:{
-              name:"Furnace Strider",
-              type_line:{
-                 full:"Creature — Phyrexian Beast",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Beast"
-                 ]
-              },
-              mana_cost:"{4}{R}",
-              power:"4",
-              oracle_text:"Furnace Strider enters the battlefield with two oil counters on it.\nRemove an oil counter from Furnace Strider: Target creature you control gains haste until end of turn.",
-              toughness:"5"
-           }
-        },
-        {
-           id:"a3e4efa6-5783-4a51-99c6-116d1a8f01cf",
-           name:"Gleeful Demolition",
-           type_line:"Sorcery",
-           mana_cost:"{R}",
-           cmc:1,
-           colors:[
-              "R"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"134",
-           image:"https://cards.scryfall.io/border_crop/front/a/3/a3e4efa6-5783-4a51-99c6-116d1a8f01cf.jpg?1675957089",
-           flavor_text:"Urabrask encourages creativity in all its forms, even the destructive ones. Especially the destructive ones.",
-           card_face:{
-              name:"Gleeful Demolition",
-              type_line:{
-                 full:"Sorcery",
-                 main:"Sorcery",
-                 sub:""
-              },
-              mana_cost:"{R}",
-              oracle_text:"Destroy target artifact. If you controlled that artifact, create three 1/1 red Phyrexian Goblin creature tokens."
-           }
-        },
-        {
-           id:"0380a4c9-a5d3-465f-8584-e546b54f91e0",
-           name:"Hazardous Blast",
-           type_line:"Sorcery",
-           mana_cost:"{3}{R}",
-           cmc:4,
-           colors:[
-              "R"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"135",
-           image:"https://cards.scryfall.io/border_crop/front/0/3/0380a4c9-a5d3-465f-8584-e546b54f91e0.jpg?1675957089",
-           flavor_text:"The Machine Orthodoxy finds strength in numbers. The Quiet Furnace finds that amusing.",
-           card_face:{
-              name:"Hazardous Blast",
-              type_line:{
-                 full:"Sorcery",
-                 main:"Sorcery",
-                 sub:""
-              },
-              mana_cost:"{3}{R}",
-              oracle_text:"Hazardous Blast deals 1 damage to each creature your opponents control. Creatures your opponents control can't block this turn."
-           }
-        },
-        {
-           id:"f22108ec-28f0-44d3-ba6b-3075f5f6bc65",
-           name:"Hexgold Halberd",
-           type_line:"Artifact — Equipment",
-           mana_cost:"{1}{R}",
-           cmc:2,
-           colors:[
-              "R"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"136",
-           image:"https://cards.scryfall.io/border_crop/front/f/2/f22108ec-28f0-44d3-ba6b-3075f5f6bc65.jpg?1675957093",
-           card_face:{
-              name:"Hexgold Halberd",
-              type_line:{
-                 full:"Artifact — Equipment",
-                 main:"Artifact",
-                 sub:[
-                    "Equipment"
-                 ]
-              },
-              mana_cost:"{1}{R}",
-              oracle_text:"For Mirrodin! (When this Equipment enters the battlefield, create a 2/2 red Rebel creature token, then attach this to it.)\nAs long as it's your turn, equipped creature has first strike and trample.\nEquip {2}{R}"
-           }
-        },
-        {
-           id:"0ec44465-68d4-4dca-a313-7f2ab0ce2e63",
-           name:"Hexgold Slash",
-           type_line:"Instant",
-           mana_cost:"{R}",
-           cmc:1,
-           colors:[
-              "R"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"137",
-           image:"https://cards.scryfall.io/border_crop/front/0/e/0ec44465-68d4-4dca-a313-7f2ab0ce2e63.jpg?1675957093",
-           flavor_text:"\"No matter how tough they are, even Phyrexians prefer to keep their guts on the inside.\"\n—Jor Kadeen",
-           card_face:{
-              name:"Hexgold Slash",
-              type_line:{
-                 full:"Instant",
-                 main:"Instant",
-                 sub:""
-              },
-              mana_cost:"{R}",
-              oracle_text:"Hexgold Slash deals 2 damage to target creature. If that creature has toxic, Hexgold Slash deals 4 damage to that creature instead."
-           }
-        },
-        {
-           id:"6528e012-4091-4722-b706-c51772676167",
-           name:"Koth, Fire of Resistance",
-           type_line:"Legendary Planeswalker — Koth",
-           mana_cost:"{2}{R}{R}",
-           cmc:4,
-           colors:[
-              "R"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"138",
-           image:"https://cards.scryfall.io/border_crop/front/6/5/6528e012-4091-4722-b706-c51772676167.jpg?1675957094",
-           card_face:{
-              name:"Koth, Fire of Resistance",
-              type_line:{
-                 full:"Legendary Planeswalker — Koth",
-                 main:"Legendary Planeswalker",
-                 sub:[
-                    "Koth"
-                 ]
-              },
-              mana_cost:"{2}{R}{R}",
-              oracle_text:"+2: Search your library for a basic Mountain card, reveal it, put it into your hand, then shuffle.\n−3: Koth, Fire of Resistance deals damage to target creature equal to the number of Mountains you control.\n−7: You get an emblem with \"Whenever a Mountain enters the battlefield under your control, this emblem deals 4 damage to any target.\""
-           }
-        },
-        {
-           id:"f7155c42-a824-4bbe-9f7a-fa01e7625fd6",
-           name:"Kuldotha Cackler",
-           type_line:"Creature — Phyrexian Hyena",
-           mana_cost:"{2}{R}",
-           cmc:3,
-           colors:[
-              "R"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"139",
-           image:"https://cards.scryfall.io/border_crop/front/f/7/f7155c42-a824-4bbe-9f7a-fa01e7625fd6.jpg?1675957096",
-           power:"2",
-           toughness:"3",
-           flavor_text:"You would laugh too if you just burned through a tyrranax's stomach.",
-           card_face:{
-              name:"Kuldotha Cackler",
-              type_line:{
-                 full:"Creature — Phyrexian Hyena",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Hyena"
-                 ]
-              },
-              mana_cost:"{2}{R}",
-              power:"2",
-              oracle_text:"Trample\nWhenever Kuldotha Cackler attacks, it gets +X/+0 until end of turn, where X is the number of permanents you control with oil counters on them.",
-              toughness:"3"
-           }
-        },
-        {
-           id:"2e6af42f-35ec-432f-9879-2a0fb938a9f6",
-           name:"Magmatic Sprinter",
-           type_line:"Creature — Phyrexian Warrior",
-           mana_cost:"{2}{R}",
-           cmc:3,
-           colors:[
-              "R"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"140",
-           image:"https://cards.scryfall.io/border_crop/front/2/e/2e6af42f-35ec-432f-9879-2a0fb938a9f6.jpg?1675957098",
-           power:"3",
-           toughness:"2",
-           card_face:{
-              name:"Magmatic Sprinter",
-              type_line:{
-                 full:"Creature — Phyrexian Warrior",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Warrior"
-                 ]
-              },
-              mana_cost:"{2}{R}",
-              power:"3",
-              oracle_text:"Haste\nWhen Magmatic Sprinter enters the battlefield, put two oil counters on target artifact or creature you control.\nAt the beginning of your end step, return Magmatic Sprinter to its owner's hand unless you remove two oil counters from it.",
-              toughness:"2"
-           }
-        },
-        {
-           id:"d2e3291b-de5c-4a10-9915-2cd2d84a815c",
-           name:"Molten Rebuke",
-           type_line:"Sorcery",
-           mana_cost:"{4}{R}",
-           cmc:5,
-           colors:[
-              "R"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"141",
-           image:"https://cards.scryfall.io/border_crop/front/d/2/d2e3291b-de5c-4a10-9915-2cd2d84a815c.jpg?1675957100",
-           flavor_text:"\"Perhaps this will show the Orthodoxy what we think of their attempts at indoctrination.\"",
-           card_face:{
-              name:"Molten Rebuke",
-              type_line:{
-                 full:"Sorcery",
-                 main:"Sorcery",
-                 sub:""
-              },
-              mana_cost:"{4}{R}",
-              oracle_text:"Choose one or both —\n• Molten Rebuke deals 5 damage to target creature or planeswalker.\n• Destroy target Equipment."
-           }
-        },
-        {
-           id:"98395039-1353-4fa8-b51d-c4e1cadf9263",
-           name:"Nahiri's Sacrifice",
-           type_line:"Sorcery",
-           mana_cost:"{1}{R}",
-           cmc:2,
-           colors:[
-              "R"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"142",
-           image:"https://cards.scryfall.io/border_crop/front/9/8/98395039-1353-4fa8-b51d-c4e1cadf9263.jpg?1675957101",
-           flavor_text:"Nahiri's last free breath became a defiant roar as she tore apart Sheoldred's Coliseum.",
-           card_face:{
-              name:"Nahiri's Sacrifice",
-              type_line:{
-                 full:"Sorcery",
-                 main:"Sorcery",
-                 sub:""
-              },
-              mana_cost:"{1}{R}",
-              oracle_text:"As an additional cost to cast this spell, sacrifice an artifact or creature with mana value X.\nNahiri's Sacrifice deals X damage divided as you choose among any number of target creatures."
-           }
-        },
-        {
-           id:"7177431e-5cc4-4ecd-8848-f51903289072",
-           name:"Oxidda Finisher",
-           type_line:"Creature — Ogre Rebel",
-           mana_cost:"{5}{R}{R}",
-           cmc:7,
-           colors:[
-              "R"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"143",
-           image:"https://cards.scryfall.io/border_crop/front/7/1/7177431e-5cc4-4ecd-8848-f51903289072.jpg?1675957101",
-           power:"7",
-           toughness:"5",
-           flavor_text:"Popular wisdom says that Phyrexians don't feel fear. But popular wisdom has never tried to hold a bridge against an angry ogre.",
-           card_face:{
-              name:"Oxidda Finisher",
-              type_line:{
-                 full:"Creature — Ogre Rebel",
-                 main:"Creature",
-                 sub:[
-                    "Ogre",
-                    "Rebel"
-                 ]
-              },
-              mana_cost:"{5}{R}{R}",
-              power:"7",
-              oracle_text:"Affinity for Equipment (This spell costs {1} less to cast for each Equipment you control.)\nTrample",
-              toughness:"5"
-           }
-        },
-        {
-           id:"cd37d1b1-70ce-466e-890d-36be82433035",
-           name:"Rebel Salvo",
-           type_line:"Instant",
-           mana_cost:"{2}{R}",
-           cmc:3,
-           colors:[
-              "R"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"144",
-           image:"https://cards.scryfall.io/border_crop/front/c/d/cd37d1b1-70ce-466e-890d-36be82433035.jpg?1675957104",
-           flavor_text:"\"That Great Work of yours is looking pretty fragile, Urabrask!\"",
-           card_face:{
-              name:"Rebel Salvo",
-              type_line:{
-                 full:"Instant",
-                 main:"Instant",
-                 sub:""
-              },
-              mana_cost:"{2}{R}",
-              oracle_text:"Affinity for Equipment (This spell costs {1} less to cast for each Equipment you control.)\nRebel Salvo deals 5 damage to target creature or planeswalker. That permanent loses indestructible until end of turn."
-           }
-        },
-        {
-           id:"7cac1827-69af-469d-b88c-fb9f2f33866a",
-           name:"Red Sun's Twilight",
-           type_line:"Sorcery",
-           mana_cost:"{X}{R}{R}",
-           cmc:2,
-           colors:[
-              "R"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"145",
-           image:"https://cards.scryfall.io/border_crop/front/7/c/7cac1827-69af-469d-b88c-fb9f2f33866a.jpg?1675957106",
-           flavor_text:"\"Where once there was apathy, Urabrask brought passion, and the Great Work truly began.\"\n—Monument inscription",
-           card_face:{
-              name:"Red Sun's Twilight",
-              type_line:{
-                 full:"Sorcery",
-                 main:"Sorcery",
-                 sub:""
-              },
-              mana_cost:"{X}{R}{R}",
-              oracle_text:"Destroy up to X target artifacts. If X is 5 or more, for each artifact destroyed this way, create a token that's a copy of it. Those tokens gain haste. Exile them at the beginning of the next end step."
-           }
-        },
-        {
-           id:"6249aabe-8f21-4257-9e04-ceffd44d42a5",
-           name:"Resistance Skywarden",
-           type_line:"Creature — Ogre Rebel",
-           mana_cost:"{3}{R}{R}",
-           cmc:5,
-           colors:[
-              "R"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"146",
-           image:"https://cards.scryfall.io/border_crop/front/6/2/6249aabe-8f21-4257-9e04-ceffd44d42a5.jpg?1677085614",
-           power:"5",
-           toughness:"5",
-           flavor_text:"When the Vulshok taught him the word for \"home,\" he knew it was what he had been fighting for.",
-           card_face:{
-              name:"Resistance Skywarden",
-              type_line:{
-                 full:"Creature — Ogre Rebel",
-                 main:"Creature",
-                 sub:[
-                    "Ogre",
-                    "Rebel"
-                 ]
-              },
-              mana_cost:"{3}{R}{R}",
-              power:"5",
-              oracle_text:"Menace, reach",
-              toughness:"5"
-           }
-        },
-        {
-           id:"7f04c2e5-9100-439a-9aa4-28d388518e4a",
-           name:"Sawblade Scamp",
-           type_line:"Creature — Phyrexian Beast",
-           mana_cost:"{R}",
-           cmc:1,
-           colors:[
-              "R"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"147",
-           image:"https://cards.scryfall.io/border_crop/front/7/f/7f04c2e5-9100-439a-9aa4-28d388518e4a.jpg?1675957107",
-           power:"1",
-           toughness:"1",
-           flavor_text:"Sometimes the Great Work requires destruction to allow for more efficient reconstruction.",
-           card_face:{
-              name:"Sawblade Scamp",
-              type_line:{
-                 full:"Creature — Phyrexian Beast",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Beast"
-                 ]
-              },
-              mana_cost:"{R}",
-              power:"1",
-              oracle_text:"Haste\nWhenever you cast a noncreature spell, put an oil counter on Sawblade Scamp.\n{T}, Remove an oil counter from Sawblade Scamp: It deals 1 damage to each opponent.",
-              toughness:"1"
-           }
-        },
-        {
-           id:"a6147bdc-4e02-48be-9ab9-c212f70d9194",
-           name:"Shrapnel Slinger",
-           type_line:"Artifact Creature — Phyrexian Beast",
-           mana_cost:"{1}{R}",
-           cmc:2,
-           colors:[
-              "R"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"148",
-           image:"https://cards.scryfall.io/border_crop/front/a/6/a6147bdc-4e02-48be-9ab9-c212f70d9194.jpg?1675957108",
-           power:"2",
-           toughness:"2",
-           flavor_text:"\"They may have unlimited mites, but that just means we have unlimited ammunition.\"\n—Urabrask",
-           card_face:{
-              name:"Shrapnel Slinger",
-              type_line:{
-                 full:"Artifact Creature — Phyrexian Beast",
-                 main:"Artifact Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Beast"
-                 ]
-              },
-              mana_cost:"{1}{R}",
-              power:"2",
-              oracle_text:"When Shrapnel Slinger enters the battlefield, you may sacrifice a creature. When you do, destroy target artifact an opponent controls.",
-              toughness:"2"
-           }
-        },
-        {
-           id:"2b7dadf0-7323-403e-b353-33c121bdb0db",
-           name:"Slobad, Iron Goblin",
-           type_line:"Legendary Creature — Phyrexian Goblin Artificer",
-           mana_cost:"{2}{R}",
-           cmc:3,
-           colors:[
-              "R"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"149",
-           image:"https://cards.scryfall.io/border_crop/front/2/b/2b7dadf0-7323-403e-b353-33c121bdb0db.jpg?1675957112",
-           power:"3",
-           toughness:"3",
-           flavor_text:"Once he fought to save Mirrodin. Now he fights to remake it.",
-           card_face:{
-              name:"Slobad, Iron Goblin",
-              type_line:{
-                 full:"Legendary Creature — Phyrexian Goblin Artificer",
-                 main:"Legendary Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Goblin",
-                    "Artificer"
-                 ]
-              },
-              mana_cost:"{2}{R}",
-              power:"3",
-              oracle_text:"{T}, Sacrifice an artifact: Add an amount of {R} equal to the sacrificed artifact's mana value. Spend this mana only to cast artifact spells or activate abilities of artifacts.",
-              toughness:"3"
-           }
-        },
-        {
-           id:"c3a0c7f3-7fb9-43de-a9af-96532c31e5ed",
-           name:"Solphim, Mayhem Dominus",
-           type_line:"Legendary Creature — Phyrexian Horror",
-           mana_cost:"{2}{R}{R}",
-           cmc:4,
-           colors:[
-              "R"
-           ],
-           rarity: "rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"150",
-           image:"https://cards.scryfall.io/border_crop/front/c/3/c3a0c7f3-7fb9-43de-a9af-96532c31e5ed.jpg?1675957113",
-           power:"5",
-           toughness:"4",
-           card_face:{
-              name:"Solphim, Mayhem Dominus",
-              type_line:{
-                 full:"Legendary Creature — Phyrexian Horror",
-                 main:"Legendary Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Horror"
-                 ]
-              },
-              mana_cost:"{2}{R}{R}",
-              power:"5",
-              oracle_text:"If a source you control would deal noncombat damage to an opponent or a permanent an opponent controls, it deals double that damage to that player or permanent instead.\n{1}{R/P}{R/P}, Discard two cards: Put an indestructible counter on Solphim, Mayhem Dominus. ({R/P} can be paid with either {R} or 2 life.)",
-              toughness:"4"
-           }
-        },
-        {
-           id:"1efd4ae5-0076-46a0-a113-58cfff53144f",
-           name:"Thrill of Possibility",
-           type_line:"Instant",
-           mana_cost:"{1}{R}",
-           cmc:2,
-           colors:[
-              "R"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"151",
-           image:"https://cards.scryfall.io/border_crop/front/1/e/1efd4ae5-0076-46a0-a113-58cfff53144f.jpg?1675957114",
-           flavor_text:"As the infection spread, Nahiri's thoughts grew tangled. She needed to protect what she loved from Phyrexia... or maybe only Phyrexia could protect what she loved.",
-           card_face:{
-              name:"Thrill of Possibility",
-              type_line:{
-                 full:"Instant",
-                 main:"Instant",
-                 sub:""
-              },
-              mana_cost:"{1}{R}",
-              oracle_text:"As an additional cost to cast this spell, discard a card.\nDraw two cards."
-           }
-        },
-        {
-           id:"b3ef034f-37e5-4baa-a7a9-5fd0de792535",
-           name:"Urabrask's Anointer",
-           type_line:"Artifact Creature — Phyrexian Wizard",
-           mana_cost:"{3}{R}",
-           cmc:4,
-           colors:[
-              "R"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"152",
-           image:"https://cards.scryfall.io/border_crop/front/b/3/b3ef034f-37e5-4baa-a7a9-5fd0de792535.jpg?1675957115",
-           power:"4",
-           toughness:"2",
-           flavor_text:"\"You were so eager to spy on my work, I assume you'll appreciate a hands-on demonstration.\"",
-           card_face:{
-              name:"Urabrask's Anointer",
-              type_line:{
-                 full:"Artifact Creature — Phyrexian Wizard",
-                 main:"Artifact Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Wizard"
-                 ]
-              },
-              mana_cost:"{3}{R}",
-              power:"4",
-              oracle_text:"When Urabrask's Anointer enters the battlefield, it deals X damage to any target, where X is the number of permanents you control with oil counters on them.",
-              toughness:"2"
-           }
-        },
-        {
-           id:"68f9f9d8-9ea0-4608-a79c-a09a87918186",
-           name:"Urabrask's Forge",
-           type_line:"Artifact",
-           mana_cost:"{2}{R}",
-           cmc:3,
-           colors:[
-              "R"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"153",
-           image:"https://cards.scryfall.io/border_crop/front/6/8/68f9f9d8-9ea0-4608-a79c-a09a87918186.jpg?1675957116",
-           card_face:{
-              name:"Urabrask's Forge",
-              type_line:{
-                 full:"Artifact",
-                 main:"Artifact",
-                 sub:""
-              },
-              mana_cost:"{2}{R}",
-              oracle_text:"At the beginning of combat on your turn, put an oil counter on Urabrask's Forge, then create an X/1 red Phyrexian Horror creature token with trample and haste, where X is the number of oil counters on Urabrask's Forge. Sacrifice that token at the beginning of the next end step."
-           }
-        },
-        {
-           id:"f67e7a16-ff30-4fb9-9fcb-6561eec50caf",
-           name:"Vindictive Flamestoker",
-           type_line:"Creature — Phyrexian Wizard",
-           mana_cost:"{R}",
-           cmc:1,
-           colors:[
-              "R"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"154",
-           image:"https://cards.scryfall.io/border_crop/front/f/6/f67e7a16-ff30-4fb9-9fcb-6561eec50caf.jpg?1675957119",
-           power:"1",
-           toughness:"2",
-           flavor_text:"Her faith burns hot enough to sear away the flesh of the heretic.",
-           card_face:{
-              name:"Vindictive Flamestoker",
-              type_line:{
-                 full:"Creature — Phyrexian Wizard",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Wizard"
-                 ]
-              },
-              mana_cost:"{R}",
-              power:"1",
-              oracle_text:"Whenever you cast a noncreature spell, put an oil counter on Vindictive Flamestoker.\n{6}{R}, Sacrifice Vindictive Flamestoker: Discard your hand, then draw four cards. This ability costs {1} less to activate for each oil counter on Vindictive Flamestoker.",
-              toughness:"2"
-           }
-        },
-        {
-           id:"73d74045-cc9b-4b01-bc5f-0f2eb4b01580",
-           name:"Volt Charge",
-           type_line:"Instant",
-           mana_cost:"{2}{R}",
-           cmc:3,
-           colors:[
-              "R"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"155",
-           image:"https://cards.scryfall.io/border_crop/front/7/3/73d74045-cc9b-4b01-bc5f-0f2eb4b01580.jpg?1675957122",
-           flavor_text:"\"There's a war brewing between Norn and Urabrask. Exploit the chaos, and we can take them both down for good.\"\n—Koth",
-           card_face:{
-              name:"Volt Charge",
-              type_line:{
-                 full:"Instant",
-                 main:"Instant",
-                 sub:""
-              },
-              mana_cost:"{2}{R}",
-              oracle_text:"Volt Charge deals 3 damage to any target. Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)"
-           }
-        },
-        {
-           id:"f05078dd-b928-4b3f-9636-f299ebac180b",
-           name:"Vulshok Splitter",
-           type_line:"Artifact — Equipment",
-           mana_cost:"{3}{R}",
-           cmc:4,
-           colors:[
-              "R"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"156",
-           image:"https://cards.scryfall.io/border_crop/front/f/0/f05078dd-b928-4b3f-9636-f299ebac180b.jpg?1675957122",
-           flavor_text:"\"Not my style, but it'll get the job done.\"\n—Nahiri",
-           card_face:{
-              name:"Vulshok Splitter",
-              type_line:{
-                 full:"Artifact — Equipment",
-                 main:"Artifact",
-                 sub:[
-                    "Equipment"
-                 ]
-              },
-              mana_cost:"{3}{R}",
-              oracle_text:"For Mirrodin! (When this Equipment enters the battlefield, create a 2/2 red Rebel creature token, then attach this to it.)\nEquipped creature gets +2/+0.\nEquip {2}{R} ({2}{R}: Attach to target creature you control. Equip only as a sorcery.)"
-           }
-        },
-        {
-           id:"3db6d202-9c6f-4485-9224-173b23de7054",
-           name:"Adaptive Sporesinger",
-           type_line:"Creature — Phyrexian Druid",
-           mana_cost:"{2}{G}",
-           cmc:3,
-           colors:[
-              "G"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"157",
-           image:"https://cards.scryfall.io/border_crop/front/3/d/3db6d202-9c6f-4485-9224-173b23de7054.jpg?1675957123",
-           power:"2",
-           toughness:"2",
-           card_face:{
-              name:"Adaptive Sporesinger",
-              type_line:{
-                 full:"Creature — Phyrexian Druid",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Druid"
-                 ]
-              },
-              mana_cost:"{2}{G}",
-              power:"2",
-              oracle_text:"Vigilance\nWhen Adaptive Sporesinger enters the battlefield, choose one —\n• Target creature gets +2/+2 and gains vigilance until end of turn.\n• Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
-              toughness:"2"
-           }
-        },
-        {
-           id:"61e220d0-38c9-4584-940b-8a9e983ecfe7",
-           name:"Armored Scrapgorger",
-           type_line:"Creature — Phyrexian Beast",
-           mana_cost:"{1}{G}",
-           cmc:2,
-           colors:[
-              "G"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"158",
-           image:"https://cards.scryfall.io/border_crop/front/6/1/61e220d0-38c9-4584-940b-8a9e983ecfe7.jpg?1675957126",
-           power:"0",
-           toughness:"3",
-           flavor_text:"\"Eat. Sort. Eat. Sort. Eat.\"",
-           card_face:{
-              name:"Armored Scrapgorger",
-              type_line:{
-                 full:"Creature — Phyrexian Beast",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Beast"
-                 ]
-              },
-              mana_cost:"{1}{G}",
-              power:"0",
-              oracle_text:"Armored Scrapgorger gets +3/+0 as long as it has three or more oil counters on it.\n{T}: Add one mana of any color.\nWhenever Armored Scrapgorger becomes tapped, exile target card from a graveyard and put an oil counter on Armored Scrapgorger.",
-              toughness:"3"
-           }
-        },
-        {
-           id:"411bda96-6c65-475d-9850-0a9b3eefa553",
-           name:"Bloated Contaminator",
-           type_line:"Creature — Phyrexian Beast",
-           mana_cost:"{2}{G}",
-           cmc:3,
-           colors:[
-              "G"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"159",
-           image:"https://cards.scryfall.io/border_crop/front/4/1/411bda96-6c65-475d-9850-0a9b3eefa553.jpg?1678455105",
-           power:"4",
-           toughness:"4",
-           card_face:{
-              name:"Bloated Contaminator",
-              type_line:{
-                 full:"Creature — Phyrexian Beast",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Beast"
-                 ]
-              },
-              mana_cost:"{2}{G}",
-              power:"4",
-              oracle_text:"Trample\nToxic 1 (Players dealt combat damage by this creature also get a poison counter.)\nWhenever Bloated Contaminator deals combat damage to a player, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
-              toughness:"4"
-           }
-        },
-        {
-           id:"e5290a4c-1f98-4e97-a407-f951e386b8b0",
-           name:"Branchblight Stalker",
-           type_line:"Creature — Phyrexian Elf Scout",
-           mana_cost:"{1}{G}",
-           cmc:2,
-           colors:[
-              "G"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"160",
-           image:"https://cards.scryfall.io/border_crop/front/e/5/e5290a4c-1f98-4e97-a407-f951e386b8b0.jpg?1675957129",
-           power:"3",
-           toughness:"1",
-           flavor_text:"Some Vicious Swarm aspirants hang motionless in the canopy for weeks, allowing poisonous flowers to root in their flesh and weave tendrils through their hair.",
-           card_face:{
-              name:"Branchblight Stalker",
-              type_line:{
-                 full:"Creature — Phyrexian Elf Scout",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Elf",
-                    "Scout"
-                 ]
-              },
-              mana_cost:"{1}{G}",
-              power:"3",
-              oracle_text:"Toxic 2 (Players dealt combat damage by this creature also get two poison counters.)",
-              toughness:"1"
-           }
-        },
-        {
-           id:"89b39293-6f57-4294-85fc-c718bdbb4d40",
-           name:"Cankerbloom",
-           type_line:"Creature — Phyrexian Fungus",
-           mana_cost:"{1}{G}",
-           cmc:2,
-           colors:[
-              "G"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"161",
-           image:"https://cards.scryfall.io/border_crop/front/8/9/89b39293-6f57-4294-85fc-c718bdbb4d40.jpg?1675957129",
-           power:"3",
-           toughness:"2",
-           card_face:{
-              name:"Cankerbloom",
-              type_line:{
-                 full:"Creature — Phyrexian Fungus",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Fungus"
-                 ]
-              },
-              mana_cost:"{1}{G}",
-              power:"3",
-              oracle_text:"{1}, Sacrifice Cankerbloom: Choose one —\n• Destroy target artifact.\n• Destroy target enchantment.\n• Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
-              toughness:"2"
-           }
-        },
-        {
-           id:"7b43ba43-f7ae-4e00-b797-2360c3ccd839",
-           name:"Carnivorous Canopy",
-           type_line:"Sorcery",
-           mana_cost:"{2}{G}",
-           cmc:3,
-           colors:[
-              "G"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"162",
-           image:"https://cards.scryfall.io/border_crop/front/7/b/7b43ba43-f7ae-4e00-b797-2360c3ccd839.jpg?1675957130",
-           card_face:{
-              name:"Carnivorous Canopy",
-              type_line:{
-                 full:"Sorcery",
-                 main:"Sorcery",
-                 sub:""
-              },
-              mana_cost:"{2}{G}",
-              oracle_text:"Destroy target artifact, enchantment, or creature with flying. If that permanent's mana value was 3 or less, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)"
-           }
-        },
-        {
-           id:"635146da-d415-4107-a7f9-2c46189e5c52",
-           name:"Conduit of Worlds",
-           type_line:"Artifact",
-           mana_cost:"{2}{G}{G}",
-           cmc:4,
-           colors:[
-              "G"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"163",
-           image:"https://cards.scryfall.io/border_crop/front/6/3/635146da-d415-4107-a7f9-2c46189e5c52.jpg?1675957133",
-           card_face:{
-              name:"Conduit of Worlds",
-              type_line:{
-                 full:"Artifact",
-                 main:"Artifact",
-                 sub:""
-              },
-              mana_cost:"{2}{G}{G}",
-              oracle_text:"You may play lands from your graveyard.\n{T}: Choose target nonland permanent card in your graveyard. If you haven't cast a spell this turn, you may cast that card. If you do, you can't cast additional spells this turn. Activate only as a sorcery."
-           }
-        },
-        {
-           id:"18af2c85-e58f-4043-99d3-e90121348aca",
-           name:"Contagious Vorrac",
-           type_line:"Creature — Phyrexian Boar Beast",
-           mana_cost:"{2}{G}",
-           cmc:3,
-           colors:[
-              "G"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"164",
-           image:"https://cards.scryfall.io/border_crop/front/1/8/18af2c85-e58f-4043-99d3-e90121348aca.jpg?1675957134",
-           power:"3",
-           toughness:"3",
-           card_face:{
-              name:"Contagious Vorrac",
-              type_line:{
-                 full:"Creature — Phyrexian Boar Beast",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Boar",
-                    "Beast"
-                 ]
-              },
-              mana_cost:"{2}{G}",
-              power:"3",
-              oracle_text:"When Contagious Vorrac enters the battlefield, look at the top four cards of your library. You may reveal a land card from among them and put it into your hand. Put the rest on the bottom of your library in a random order. If you didn't put a card into your hand this way, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
-              toughness:"3"
-           }
-        },
-        {
-           id:"f8855fbf-4f1e-4c44-9653-bbbfc3f2fafd",
-           name:"Copper Longlegs",
-           type_line:"Creature — Phyrexian Spider",
-           mana_cost:"{1}{G}",
-           cmc:2,
-           colors:[
-              "G"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"165",
-           image:"https://cards.scryfall.io/border_crop/front/f/8/f8855fbf-4f1e-4c44-9653-bbbfc3f2fafd.jpg?1675957136",
-           power:"1",
-           toughness:"3",
-           flavor_text:"Its webs are not true silk, but woven from thousands of delicate mycosynth strands.",
-           card_face:{
-              name:"Copper Longlegs",
-              type_line:{
-                 full:"Creature — Phyrexian Spider",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Spider"
-                 ]
-              },
-              mana_cost:"{1}{G}",
-              power:"1",
-              oracle_text:"Reach\n{1}{G}, Sacrifice Copper Longlegs: Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
-              toughness:"3"
-           }
-        },
-        {
-           id:"dd4bcb42-f5cf-410d-8f20-1006b0f92abe",
-           name:"Evolved Spinoderm",
-           type_line:"Creature — Phyrexian Beast",
-           mana_cost:"{2}{G}{G}",
-           cmc:4,
-           colors:[
-              "G"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"166",
-           image:"https://cards.scryfall.io/border_crop/front/d/d/dd4bcb42-f5cf-410d-8f20-1006b0f92abe.jpg?1675957137",
-           power:"5",
-           toughness:"5",
-           card_face:{
-              name:"Evolved Spinoderm",
-              type_line:{
-                 full:"Creature — Phyrexian Beast",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Beast"
-                 ]
-              },
-              mana_cost:"{2}{G}{G}",
-              power:"5",
-              oracle_text:"Evolved Spinoderm enters the battlefield with four oil counters on it.\nEvolved Spinoderm has trample as long as it has two or fewer oil counters on it. Otherwise, it has hexproof.\nAt the beginning of your upkeep, remove an oil counter from Evolved Spinoderm. Then if it has no oil counters on it, sacrifice it.",
-              toughness:"5"
-           }
-        },
-        {
-           id:"13366c60-1200-4ad2-bbf4-77596121fcd2",
-           name:"Evolving Adaptive",
-           type_line:"Creature — Phyrexian Warrior",
-           mana_cost:"{G}",
-           cmc:1,
-           colors:[
-              "G"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"167",
-           image:"https://cards.scryfall.io/border_crop/front/1/3/13366c60-1200-4ad2-bbf4-77596121fcd2.jpg?1675957138",
-           power:"0",
-           toughness:"0",
-           card_face:{
-              name:"Evolving Adaptive",
-              type_line:{
-                 full:"Creature — Phyrexian Warrior",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Warrior"
-                 ]
-              },
-              mana_cost:"{G}",
-              power:"0",
-              oracle_text:"Evolving Adaptive enters the battlefield with an oil counter on it.\nEvolving Adaptive gets +1/+1 for each oil counter on it.\nWhenever another creature enters the battlefield under your control, if that creature has greater power or toughness than Evolving Adaptive, put an oil counter on Evolving Adaptive.",
-              toughness:"0"
-           }
-        },
-        {
-           id:"572e174e-99f7-4b5e-8506-1833adddbf07",
-           name:"Expand the Sphere",
-           type_line:"Sorcery",
-           mana_cost:"{3}{G}",
-           cmc:4,
-           colors:[
-              "G"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"168",
-           image:"https://cards.scryfall.io/border_crop/front/5/7/572e174e-99f7-4b5e-8506-1833adddbf07.jpg?1675957140",
-           card_face:{
-              name:"Expand the Sphere",
-              type_line:{
-                 full:"Sorcery",
-                 main:"Sorcery",
-                 sub:""
-              },
-              mana_cost:"{3}{G}",
-              oracle_text:"Look at the top six cards of your library. Put up to two land cards from among them onto the battlefield tapped and the rest on the bottom of your library in a random order. If you put fewer than two lands onto the battlefield this way, proliferate a number of times equal to the difference. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)"
-           }
-        },
-        {
-           id:"184c985d-cb70-41a7-9f66-3506708b7e26",
-           name:"Green Sun's Twilight",
-           type_line:"Sorcery",
-           mana_cost:"{X}{G}",
-           cmc:1,
-           colors:[
-              "G"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"169",
-           image:"https://cards.scryfall.io/border_crop/front/1/8/184c985d-cb70-41a7-9f66-3506708b7e26.jpg?1675957142",
-           card_face:{
-              name:"Green Sun's Twilight",
-              type_line:{
-                 full:"Sorcery",
-                 main:"Sorcery",
-                 sub:""
-              },
-              mana_cost:"{X}{G}",
-              oracle_text:"Reveal the top X plus one cards of your library. Choose a creature card and/or a land card from among them. Put those cards into your hand and the rest on the bottom of your library in a random order. If X is 5 or more, instead put the chosen cards onto the battlefield or into your hand and the rest on the bottom of your library in a random order."
-           }
-        },
-        {
-           id:"0955b64f-6721-4fa6-b161-cae404cb5b9f",
-           name:"Ichorspit Basilisk",
-           type_line:"Creature — Phyrexian Basilisk",
-           mana_cost:"{2}{G}",
-           cmc:3,
-           colors:[
-              "G"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"170",
-           image:"https://cards.scryfall.io/border_crop/front/0/9/0955b64f-6721-4fa6-b161-cae404cb5b9f.jpg?1675957143",
-           power:"1",
-           toughness:"3",
-           flavor_text:"Warm forges and tasty goblins lured it from the Hunter Maze to the Quiet Furnace.",
-           card_face:{
-              name:"Ichorspit Basilisk",
-              type_line:{
-                 full:"Creature — Phyrexian Basilisk",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Basilisk"
-                 ]
-              },
-              mana_cost:"{2}{G}",
-              power:"1",
-              oracle_text:"Deathtouch\nToxic 1 (Players dealt combat damage by this creature also get a poison counter.)",
-              toughness:"3"
-           }
-        },
-        {
-           id:"a6b36e23-a414-400c-a3a5-e23883e866d3",
-           name:"Incubation Sac",
-           type_line:"Artifact",
-           mana_cost:"{G}",
-           cmc:1,
-           colors:[
-              "G"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"171",
-           image:"https://cards.scryfall.io/border_crop/front/a/6/a6b36e23-a414-400c-a3a5-e23883e866d3.jpg?1675957145",
-           flavor_text:"\"This one needs a bit longer to ripen.\"\n—Glissa Sunslayer",
-           card_face:{
-              name:"Incubation Sac",
-              type_line:{
-                 full:"Artifact",
-                 main:"Artifact",
-                 sub:""
-              },
-              mana_cost:"{G}",
-              oracle_text:"Incubation Sac enters the battlefield with three oil counters on it.\n{4}, {T}, Remove an oil counter from Incubation Sac: Create a 3/3 colorless Phyrexian Golem artifact creature token. Activate only as a sorcery."
-           }
-        },
-        {
-           id:"83dfb2a5-cd5c-46c6-9bb8-7c5d00f3e003",
-           name:"Infectious Bite",
-           type_line:"Instant",
-           mana_cost:"{1}{G}",
-           cmc:2,
-           colors:[
-              "G"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"172",
-           image:"https://cards.scryfall.io/border_crop/front/8/3/83dfb2a5-cd5c-46c6-9bb8-7c5d00f3e003.jpg?1675957147",
-           flavor_text:"\"Let me tell you why you must never close your eyes when on watch. Not even for a second.\"\n—Jor Kadeen",
-           card_face:{
-              name:"Infectious Bite",
-              type_line:{
-                 full:"Instant",
-                 main:"Instant",
-                 sub:""
-              },
-              mana_cost:"{1}{G}",
-              oracle_text:"Target creature you control deals damage equal to its power to target creature you don't control. Each opponent gets a poison counter."
-           }
-        },
-        {
-           id:"f7427def-c4b2-475a-8dc9-7e89409d9abb",
-           name:"Lattice-Blade Mantis",
-           type_line:"Creature — Phyrexian Insect",
-           mana_cost:"{3}{G}",
-           cmc:4,
-           colors:[
-              "G"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"173",
-           image:"https://cards.scryfall.io/border_crop/front/f/7/f7427def-c4b2-475a-8dc9-7e89409d9abb.jpg?1675957148",
-           power:"4",
-           toughness:"3",
-           flavor_text:"\"Urabrask doesn't think big enough.\"\n—Glissa Sunslayer",
-           card_face:{
-              name:"Lattice-Blade Mantis",
-              type_line:{
-                 full:"Creature — Phyrexian Insect",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Insect"
-                 ]
-              },
-              mana_cost:"{3}{G}",
-              power:"4",
-              oracle_text:"Lattice-Blade Mantis enters the battlefield with two oil counters on it.\nWhenever Lattice-Blade Mantis attacks, you may remove an oil counter from it. If you do, untap it and it gets +1/+1 until end of turn.",
-              toughness:"3"
-           }
-        },
-        {
-           id:"bc79106b-9aa2-4add-b9ca-e3c7aafd9821",
-           name:"Maze's Mantle",
-           type_line:"Enchantment — Aura",
-           mana_cost:"{2}{G}",
-           cmc:3,
-           colors:[
-              "G"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"174",
-           image:"https://cards.scryfall.io/border_crop/front/b/c/bc79106b-9aa2-4add-b9ca-e3c7aafd9821.jpg?1675957150",
-           card_face:{
-              name:"Maze's Mantle",
-              type_line:{
-                 full:"Enchantment — Aura",
-                 main:"Enchantment",
-                 sub:[
-                    "Aura"
-                 ]
-              },
-              mana_cost:"{2}{G}",
-              oracle_text:"Flash\nEnchant creature\nWhen Maze's Mantle enters the battlefield, if enchanted creature has toxic, that creature gains hexproof until end of turn.\nEnchanted creature gets +2/+2."
-           }
-        },
-        {
-           id:"1dd64b1d-bcef-476c-bf0b-3ac7df7cbed3",
-           name:"Nissa, Ascended Animist",
-           type_line:"Legendary Planeswalker — Nissa",
-           mana_cost:"{3}{G}{G}{G/P}{G/P}",
-           cmc:7,
-           colors:[
-              "G"
-           ],
-           rarity: "rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"175",
-           image:"https://cards.scryfall.io/border_crop/front/1/d/1dd64b1d-bcef-476c-bf0b-3ac7df7cbed3.jpg?1675957150",
-           card_face:{
-              name:"Nissa, Ascended Animist",
-              type_line:{
-                 full:"Legendary Planeswalker — Nissa",
-                 main:"Legendary Planeswalker",
-                 sub:[
-                    "Nissa"
-                 ]
-              },
-              mana_cost:"{3}{G}{G}{G/P}{G/P}",
-              oracle_text:"Compleated ({G/P} can be paid with {G} or 2 life. For each {G/P} paid with life, this planeswalker enters with two fewer loyalty counters.)\n+1: Create an X/X green Phyrexian Horror creature token, where X is Nissa, Ascended Animist's loyalty.\n−1: Destroy target artifact or enchantment.\n−7: Until end of turn, creatures you control get +1/+1 for each Forest you control and gain trample."
-           }
-        },
-        {
-           id:"9649de6c-a9f7-4f0a-8bf7-cacaea60ed54",
-           name:"Noxious Assault",
-           type_line:"Sorcery",
-           mana_cost:"{3}{G}{G}",
-           cmc:5,
-           colors:[
-              "G"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"176",
-           image:"https://cards.scryfall.io/border_crop/front/9/6/9649de6c-a9f7-4f0a-8bf7-cacaea60ed54.jpg?1675957153",
-           flavor_text:"Even as they brought the beast down, they could feel its poison working into their blood, altering their bodies, and filling their minds with the thrill of the eternal hunt.",
-           card_face:{
-              name:"Noxious Assault",
-              type_line:{
-                 full:"Sorcery",
-                 main:"Sorcery",
-                 sub:""
-              },
-              mana_cost:"{3}{G}{G}",
-              oracle_text:"Creatures you control get +2/+2 until end of turn. Whenever a creature blocks this turn, its controller gets a poison counter."
-           }
-        },
-        {
-           id:"78493579-1fad-4664-96d7-195bf59ceef2",
-           name:"Oil-Gorger Troll",
-           type_line:"Creature — Phyrexian Troll Warrior",
-           mana_cost:"{3}{G}{G}",
-           cmc:5,
-           colors:[
-              "G"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"177",
-           image:"https://cards.scryfall.io/border_crop/front/7/8/78493579-1fad-4664-96d7-195bf59ceef2.jpg?1675957155",
-           power:"3",
-           toughness:"4",
-           flavor_text:"Metal or flesh, it didn't matter—seasoned with ichor, it all tasted so good.",
-           card_face:{
-              name:"Oil-Gorger Troll",
-              type_line:{
-                 full:"Creature — Phyrexian Troll Warrior",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Troll",
-                    "Warrior"
-                 ]
-              },
-              mana_cost:"{3}{G}{G}",
-              power:"3",
-              oracle_text:"When Oil-Gorger Troll enters the battlefield, you gain 3 life. Then if you control a permanent with an oil counter on it, draw a card.",
-              toughness:"4"
-           }
-        },
-        {
-           id:"758dbe61-6dc7-4b08-bdd6-7262257955fc",
-           name:"Paladin of Predation",
-           type_line:"Creature — Phyrexian Knight",
-           mana_cost:"{5}{G}{G}",
-           cmc:7,
-           colors:[
-              "G"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"178",
-           image:"https://cards.scryfall.io/border_crop/front/7/5/758dbe61-6dc7-4b08-bdd6-7262257955fc.jpg?1675997685",
-           power:"6",
-           toughness:"7",
-           flavor_text:"The strategies and politics of the Vicious Swarm are as subtle as Vorinclex himself.",
-           card_face:{
-              name:"Paladin of Predation",
-              type_line:{
-                 full:"Creature — Phyrexian Knight",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Knight"
-                 ]
-              },
-              mana_cost:"{5}{G}{G}",
-              power:"6",
-              oracle_text:"Toxic 6 (Players dealt combat damage by this creature also get six poison counters.)\nPaladin of Predation can't be blocked by creatures with power 2 or less.",
-              toughness:"7"
-           }
-        },
-        {
-           id:"5e7eef9e-68ae-4743-ad89-64f6fafbe365",
-           name:"Plague Nurse",
-           type_line:"Creature — Phyrexian Cleric",
-           mana_cost:"{3}{G}",
-           cmc:4,
-           colors:[
-              "G"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"179",
-           image:"https://cards.scryfall.io/border_crop/front/5/e/5e7eef9e-68ae-4743-ad89-64f6fafbe365.jpg?1675957156",
-           power:"3",
-           toughness:"4",
-           card_face:{
-              name:"Plague Nurse",
-              type_line:{
-                 full:"Creature — Phyrexian Cleric",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Cleric"
-                 ]
-              },
-              mana_cost:"{3}{G}",
-              power:"3",
-              oracle_text:"Toxic 2\n{2}{G}: Each other creature you control with toxic gains toxic 1 until end of turn. Activate only once each turn. (A player dealt combat damage by a creature with toxic also gets poison counters equal to that creature's total toxic value.)",
-              toughness:"4"
-           }
-        },
-        {
-           id:"419fab07-f921-4eff-91e2-1974ae121077",
-           name:"Predation Steward",
-           type_line:"Creature — Phyrexian Elf Warrior",
-           mana_cost:"{1}{G}",
-           cmc:2,
-           colors:[
-              "G"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"180",
-           image:"https://cards.scryfall.io/border_crop/front/4/1/419fab07-f921-4eff-91e2-1974ae121077.jpg?1675957158",
-           power:"2",
-           toughness:"2",
-           flavor_text:"\"Best we move on. That gurgling means it's feeding time.\"\n—Melira",
-           card_face:{
-              name:"Predation Steward",
-              type_line:{
-                 full:"Creature — Phyrexian Elf Warrior",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Elf",
-                    "Warrior"
-                 ]
-              },
-              mana_cost:"{1}{G}",
-              power:"2",
-              oracle_text:"Predation Steward enters the battlefield with two oil counters on it.\n{2}{G}, {T}, Remove an oil counter from Predation Steward: Target creature gets +2/+2 until end of turn. Activate only as a sorcery.",
-              toughness:"2"
-           }
-        },
-        {
-           id:"6b71fd8f-e688-4210-bc5b-a3f19b5b3497",
-           name:"Rustvine Cultivator",
-           type_line:"Creature — Phyrexian Elf Druid",
-           mana_cost:"{G}",
-           cmc:1,
-           colors:[
-              "G"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"181",
-           image:"https://cards.scryfall.io/border_crop/front/6/b/6b71fd8f-e688-4210-bc5b-a3f19b5b3497.jpg?1675957160",
-           power:"1",
-           toughness:"2",
-           flavor_text:"\"All elves aspire to be part of nature. Only Phyrexia can truly grant that wish.\"\n—Glissa Sunslayer",
-           card_face:{
-              name:"Rustvine Cultivator",
-              type_line:{
-                 full:"Creature — Phyrexian Elf Druid",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Elf",
-                    "Druid"
-                 ]
-              },
-              mana_cost:"{G}",
-              power:"1",
-              oracle_text:"{T}: Put an oil counter on Rustvine Cultivator.\n{T}, Remove an oil counter from Rustvine Cultivator: Untap target land.",
-              toughness:"2"
-           }
-        },
-        {
-           id:"123f0c76-1fde-439e-a76d-eccf96f8d941",
-           name:"Ruthless Predation",
-           type_line:"Sorcery",
-           mana_cost:"{1}{G}",
-           cmc:2,
-           colors:[
-              "G"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"182",
-           image:"https://cards.scryfall.io/border_crop/front/1/2/123f0c76-1fde-439e-a76d-eccf96f8d941.jpg?1675957163",
-           flavor_text:"In the Hunter Maze, today's apex predator is tomorrow's prey.",
-           card_face:{
-              name:"Ruthless Predation",
-              type_line:{
-                 full:"Sorcery",
-                 main:"Sorcery",
-                 sub:""
-              },
-              mana_cost:"{1}{G}",
-              oracle_text:"Target creature you control gets +1/+2 until end of turn. It fights target creature you don't control. (Each deals damage equal to its power to the other.)"
-           }
-        },
-        {
-           id:"d7898399-3c52-402c-9cd7-baad2cb7f00e",
-           name:"Skyscythe Engulfer",
-           type_line:"Creature — Phyrexian Beast",
-           mana_cost:"{5}{G}",
-           cmc:6,
-           colors:[
-              "G"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"183",
-           image:"https://cards.scryfall.io/border_crop/front/d/7/d7898399-3c52-402c-9cd7-baad2cb7f00e.jpg?1675957163",
-           power:"6",
-           toughness:"5",
-           flavor_text:"\"I bet even Skithiryx would take the long way around this one.\"\n—Kara Vrist, resistance spymaster",
-           card_face:{
-              name:"Skyscythe Engulfer",
-              type_line:{
-                 full:"Creature — Phyrexian Beast",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Beast"
-                 ]
-              },
-              mana_cost:"{5}{G}",
-              power:"6",
-              oracle_text:"Reach, trample\nSkyscythe Engulfer can't be blocked by creatures with flying.",
-              toughness:"5"
-           }
-        },
-        {
-           id:"71c1a1d0-5616-42f8-a59c-42c1ccd48d26",
-           name:"Sylvok Battle-Chair",
-           type_line:"Artifact — Equipment",
-           mana_cost:"{4}{G}{G}",
-           cmc:6,
-           colors:[
-              "G"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"184",
-           image:"https://cards.scryfall.io/border_crop/front/7/1/71c1a1d0-5616-42f8-a59c-42c1ccd48d26.jpg?1675957164",
-           card_face:{
-              name:"Sylvok Battle-Chair",
-              type_line:{
-                 full:"Artifact — Equipment",
-                 main:"Artifact",
-                 sub:[
-                    "Equipment"
-                 ]
-              },
-              mana_cost:"{4}{G}{G}",
-              oracle_text:"For Mirrodin! (When this Equipment enters the battlefield, create a 2/2 red Rebel creature token, then attach this to it.)\nEquipped creature gets +4/+4 and has trample.\nEquip {5}{G}{G}"
-           }
-        },
-        {
-           id:"75a4a340-453b-471a-82ba-48ebf20b271a",
-           name:"Thirsting Roots",
-           type_line:"Sorcery",
-           mana_cost:"{G}",
-           cmc:1,
-           colors:[
-              "G"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"185",
-           image:"https://cards.scryfall.io/border_crop/front/7/5/75a4a340-453b-471a-82ba-48ebf20b271a.jpg?1675957166",
-           card_face:{
-              name:"Thirsting Roots",
-              type_line:{
-                 full:"Sorcery",
-                 main:"Sorcery",
-                 sub:""
-              },
-              mana_cost:"{G}",
-              oracle_text:"Choose one —\n• Search your library for a basic land card, reveal it, put it into your hand, then shuffle.\n• Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)"
-           }
-        },
-        {
-           id:"6d9f51dd-0393-4b3c-bea5-8f74634ab0e5",
-           name:"Thrun, Breaker of Silence",
-           type_line:"Legendary Creature — Troll Shaman",
-           mana_cost:"{3}{G}{G}",
-           cmc:5,
-           colors:[
-              "G"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"186",
-           image:"https://cards.scryfall.io/border_crop/front/6/d/6d9f51dd-0393-4b3c-bea5-8f74634ab0e5.jpg?1675957167",
-           power:"5",
-           toughness:"5",
-           card_face:{
-              name:"Thrun, Breaker of Silence",
-              type_line:{
-                 full:"Legendary Creature — Troll Shaman",
-                 main:"Legendary Creature",
-                 sub:[
-                    "Troll",
-                    "Shaman"
-                 ]
-              },
-              mana_cost:"{3}{G}{G}",
-              power:"5",
-              oracle_text:"This spell can't be countered.\nTrample\nThrun, Breaker of Silence can't be the target of nongreen spells your opponents control or abilities from nongreen sources your opponents control.\nAs long as it's your turn, Thrun has indestructible.",
-              toughness:"5"
-           }
-        },
-        {
-           id:"3583ea03-525f-4c70-9d7e-ccc6002ee9e1",
-           name:"Titanic Growth",
-           type_line:"Instant",
-           mana_cost:"{1}{G}",
-           cmc:2,
-           colors:[
-              "G"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"187",
-           image:"https://cards.scryfall.io/border_crop/front/3/5/3583ea03-525f-4c70-9d7e-ccc6002ee9e1.jpg?1675957169",
-           flavor_text:"\"It is as the Mirrans say: True strength comes from within.\"\n—Ich-Tekik, Salvage Splicer",
-           card_face:{
-              name:"Titanic Growth",
-              type_line:{
-                 full:"Instant",
-                 main:"Instant",
-                 sub:""
-              },
-              mana_cost:"{1}{G}",
-              oracle_text:"Target creature gets +4/+4 until end of turn."
-           }
-        },
-        {
-           id:"157cf43c-f7f2-4362-bfc8-11682e94b747",
-           name:"Tyrranax Atrocity",
-           type_line:"Creature — Phyrexian Dinosaur",
-           mana_cost:"{3}{G}{G}",
-           cmc:5,
-           colors:[
-              "G"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"188",
-           image:"https://cards.scryfall.io/border_crop/front/1/5/157cf43c-f7f2-4362-bfc8-11682e94b747.jpg?1675957171",
-           power:"4",
-           toughness:"4",
-           flavor_text:"While some predators specialize in speed, size, or deadly venom, the adaptive tyrranax see no need to limit themselves.",
-           card_face:{
-              name:"Tyrranax Atrocity",
-              type_line:{
-                 full:"Creature — Phyrexian Dinosaur",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Dinosaur"
-                 ]
-              },
-              mana_cost:"{3}{G}{G}",
-              power:"4",
-              oracle_text:"Haste\nToxic 3 (Players dealt combat damage by this creature also get three poison counters.)",
-              toughness:"4"
-           }
-        },
-        {
-           id:"0fb52b44-da5f-4f7a-a6c2-7924b855e051",
-           name:"Tyrranax Rex",
-           type_line:"Creature — Phyrexian Dinosaur",
-           mana_cost:"{4}{G}{G}{G}",
-           cmc:7,
-           colors:[
-              "G"
-           ],
-           rarity: "rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"189",
-           image:"https://cards.scryfall.io/border_crop/front/0/f/0fb52b44-da5f-4f7a-a6c2-7924b855e051.jpg?1675957171",
-           power:"8",
-           toughness:"8",
-           card_face:{
-              name:"Tyrranax Rex",
-              type_line:{
-                 full:"Creature — Phyrexian Dinosaur",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Dinosaur"
-                 ]
-              },
-              mana_cost:"{4}{G}{G}{G}",
-              power:"8",
-              oracle_text:"This spell can't be countered.\nTrample, ward {4}, haste\nToxic 4 (Players dealt combat damage by this creature also get four poison counters.)",
-              toughness:"8"
-           }
-        },
-        {
-           id:"c7b362a5-382a-4016-b4f2-aa7b683354c4",
-           name:"Tyvar's Stand",
-           type_line:"Instant",
-           mana_cost:"{X}{G}",
-           cmc:1,
-           colors:[
-              "G"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"190",
-           image:"https://cards.scryfall.io/border_crop/front/c/7/c7b362a5-382a-4016-b4f2-aa7b683354c4.jpg?1675957174",
-           flavor_text:"\"When they write songs about this battle, I will make sure your name is forgotten, devil.\"",
-           card_face:{
-              name:"Tyvar's Stand",
-              type_line:{
-                 full:"Instant",
-                 main:"Instant",
-                 sub:""
-              },
-              mana_cost:"{X}{G}",
-              oracle_text:"Target creature you control gets +X/+X and gains hexproof and indestructible until end of turn. (A creature with hexproof and indestructible can't be the target of spells or abilities your opponents control. Damage and effects that say \"destroy\" don't destroy it.)"
-           }
-        },
-        {
-           id:"4d4e6a91-59cc-4f7f-af25-16acabdafb1a",
-           name:"Unnatural Restoration",
-           type_line:"Sorcery",
-           mana_cost:"{1}{G}",
-           cmc:2,
-           colors:[
-              "G"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"191",
-           image:"https://cards.scryfall.io/border_crop/front/4/d/4d4e6a91-59cc-4f7f-af25-16acabdafb1a.jpg?1675957174",
-           flavor_text:"\"If you don't reassemble me immediately, the Mother of Machines will notice my absence, and this entire layer will face her wrath!\"",
-           card_face:{
-              name:"Unnatural Restoration",
-              type_line:{
-                 full:"Sorcery",
-                 main:"Sorcery",
-                 sub:""
-              },
-              mana_cost:"{1}{G}",
-              oracle_text:"Return target permanent card from your graveyard to your hand. Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)"
-           }
-        },
-        {
-           id:"d1b032e3-14e3-48ba-ab8a-d2b4f8d31a7d",
-           name:"Venerated Rotpriest",
-           type_line:"Creature — Phyrexian Druid",
-           mana_cost:"{G}",
-           cmc:1,
-           colors:[
-              "G"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"192",
-           image:"https://cards.scryfall.io/border_crop/front/d/1/d1b032e3-14e3-48ba-ab8a-d2b4f8d31a7d.jpg?1675957177",
-           power:"1",
-           toughness:"2",
-           flavor_text:"\"This was once a peaceful spring, but I wouldn't advise taking a sip.\"\n—Melira",
-           card_face:{
-              name:"Venerated Rotpriest",
-              type_line:{
-                 full:"Creature — Phyrexian Druid",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Druid"
-                 ]
-              },
-              mana_cost:"{G}",
-              power:"1",
-              oracle_text:"Toxic 1 (Players dealt combat damage by this creature also get a poison counter.)\nWhenever a creature you control becomes the target of a spell, target opponent gets a poison counter.",
-              toughness:"2"
-           }
-        },
-        {
-           id:"dd9df44a-a0ab-435f-914c-aa11cd88f4ec",
-           name:"Venomous Brutalizer",
-           type_line:"Creature — Phyrexian Knight",
-           mana_cost:"{2}{G}{G}",
-           cmc:4,
-           colors:[
-              "G"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"193",
-           image:"https://cards.scryfall.io/border_crop/front/d/d/dd9df44a-a0ab-435f-914c-aa11cd88f4ec.jpg?1675957178",
-           power:"4",
-           toughness:"4",
-           card_face:{
-              name:"Venomous Brutalizer",
-              type_line:{
-                 full:"Creature — Phyrexian Knight",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Knight"
-                 ]
-              },
-              mana_cost:"{2}{G}{G}",
-              power:"4",
-              oracle_text:"Toxic 3 (Players dealt combat damage by this creature also get three poison counters.)\nWhen Venomous Brutalizer enters the battlefield, you may pay {1}{G}. If you do, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
-              toughness:"4"
-           }
-        },
-        {
-           id:"85ad30a1-3ecc-42ca-afe8-85df5bad9196",
-           name:"Viral Spawning",
-           type_line:"Sorcery",
-           mana_cost:"{2}{G}",
-           cmc:3,
-           colors:[
-              "G"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"194",
-           image:"https://cards.scryfall.io/border_crop/front/8/5/85ad30a1-3ecc-42ca-afe8-85df5bad9196.jpg?1680795489",
-           card_face:{
-              name:"Viral Spawning",
-              type_line:{
-                 full:"Sorcery",
-                 main:"Sorcery",
-                 sub:""
-              },
-              mana_cost:"{2}{G}",
-              oracle_text:"Create a 3/3 green Phyrexian Beast creature token with toxic 1. (Players dealt combat damage by it also get a poison counter.)\nCorrupted — As long as an opponent has three or more poison counters and Viral Spawning is in your graveyard, it has flashback {2}{G}. (You may cast this card from your graveyard for its flashback cost. Then exile it.)"
-           }
-        },
-        {
-           id:"fb419d9d-e06f-48c8-a4f8-a57f9be39e50",
-           name:"Zopandrel, Hunger Dominus",
-           type_line:"Legendary Creature — Phyrexian Horror",
-           mana_cost:"{5}{G}{G}",
-           cmc:7,
-           colors:[
-              "G"
-           ],
-           rarity: "rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"195",
-           image:"https://cards.scryfall.io/border_crop/front/f/b/fb419d9d-e06f-48c8-a4f8-a57f9be39e50.jpg?1675957181",
-           power:"4",
-           toughness:"6",
-           card_face:{
-              name:"Zopandrel, Hunger Dominus",
-              type_line:{
-                 full:"Legendary Creature — Phyrexian Horror",
-                 main:"Legendary Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Horror"
-                 ]
-              },
-              mana_cost:"{5}{G}{G}",
-              power:"4",
-              oracle_text:"Reach\nAt the beginning of each combat, double the power and toughness of each creature you control until end of turn.\n{G/P}{G/P}, Sacrifice two other creatures: Put an indestructible counter on Zopandrel, Hunger Dominus. ({G/P} can be paid with either {G} or 2 life.)",
-              toughness:"6"
-           }
-        },
-        {
-           id:"4a1f905f-1d55-4d02-9d24-e58070793d3f",
-           name:"Atraxa, Grand Unifier",
-           type_line:"Legendary Creature — Phyrexian Angel",
-           mana_cost:"{3}{G}{W}{U}{B}",
-           cmc:7,
-           colors:[
-              "B",
-              "G",
-              "U",
-              "W"
-           ],
-           rarity: "rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"196",
-           image:"https://cards.scryfall.io/border_crop/front/4/a/4a1f905f-1d55-4d02-9d24-e58070793d3f.jpg?1676519555",
-           power:"7",
-           toughness:"7",
-           card_face:{
-              name:"Atraxa, Grand Unifier",
-              type_line:{
-                 full:"Legendary Creature — Phyrexian Angel",
-                 main:"Legendary Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Angel"
-                 ]
-              },
-              mana_cost:"{3}{G}{W}{U}{B}",
-              power:"7",
-              oracle_text:"Flying, vigilance, deathtouch, lifelink\nWhen Atraxa, Grand Unifier enters the battlefield, reveal the top ten cards of your library. For each card type, you may put a card of that type from among the revealed cards into your hand. Put the rest on the bottom of your library in a random order. (Artifact, battle, creature, enchantment, instant, land, planeswalker, and sorcery are card types.)",
-              toughness:"7"
-           }
-        },
-        {
-           id:"563e9ba5-e0ec-4fb3-8301-689aa145cc19",
-           name:"Bladehold War-Whip",
-           type_line:"Artifact — Equipment",
-           mana_cost:"{1}{R}{W}",
-           cmc:3,
-           colors:[
-              "R",
-              "W"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"197",
-           image:"https://cards.scryfall.io/border_crop/front/5/6/563e9ba5-e0ec-4fb3-8301-689aa145cc19.jpg?1675957183",
-           card_face:{
-              name:"Bladehold War-Whip",
-              type_line:{
-                 full:"Artifact — Equipment",
-                 main:"Artifact",
-                 sub:[
-                    "Equipment"
-                 ]
-              },
-              mana_cost:"{1}{R}{W}",
-              oracle_text:"For Mirrodin! (When this Equipment enters the battlefield, create a 2/2 red Rebel creature token, then attach this to it.)\nEquip abilities you activate of other Equipment cost {1} less to activate.\nEquipped creature has double strike.\nEquip {3}{R}{W}"
-           }
-        },
-        {
-           id:"30c22eb9-5056-4c0b-a5d8-41e09161eb40",
-           name:"Cephalopod Sentry",
-           type_line:"Artifact Creature — Phyrexian Squid",
-           mana_cost:"{2}{W}{U}",
-           cmc:4,
-           colors:[
-              "U",
-              "W"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"198",
-           image:"https://cards.scryfall.io/border_crop/front/3/0/30c22eb9-5056-4c0b-a5d8-41e09161eb40.jpg?1675957185",
-           power:"*",
-           toughness:"5",
-           flavor_text:"Silent observers swim through the air of Norn's Seedcore, watching the nascent Invasion Tree for any signs of interference.",
-           card_face:{
-              name:"Cephalopod Sentry",
-              type_line:{
-                 full:"Artifact Creature — Phyrexian Squid",
-                 main:"Artifact Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Squid"
-                 ]
-              },
-              mana_cost:"{2}{W}{U}",
-              power:"*",
-              oracle_text:"Flying\nCephalopod Sentry's power is equal to the number of artifacts you control.",
-              toughness:"5"
-           }
-        },
-        {
-           id:"45db6b46-c4b4-4684-8a49-53a64ffc82f2",
-           name:"Charforger",
-           type_line:"Creature — Phyrexian Beast",
-           mana_cost:"{1}{B}{R}",
-           cmc:3,
-           colors:[
-              "B",
-              "R"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"199",
-           image:"https://cards.scryfall.io/border_crop/front/4/5/45db6b46-c4b4-4684-8a49-53a64ffc82f2.jpg?1675957186",
-           power:"2",
-           toughness:"3",
-           card_face:{
-              name:"Charforger",
-              type_line:{
-                 full:"Creature — Phyrexian Beast",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Beast"
-                 ]
-              },
-              mana_cost:"{1}{B}{R}",
-              power:"2",
-              oracle_text:"When Charforger enters the battlefield, create a 1/1 red Phyrexian Goblin creature token.\nWhenever another creature or artifact you control is put into a graveyard from the battlefield, put an oil counter on Charforger.\nRemove three oil counters from Charforger: Exile the top card of your library. You may play that card this turn.",
-              toughness:"3"
-           }
-        },
-        {
-           id:"eee24300-fff8-4405-9629-9f62b4a839ef",
-           name:"Cinderslash Ravager",
-           type_line:"Creature — Phyrexian Warrior",
-           mana_cost:"{4}{R}{G}",
-           cmc:6,
-           colors:[
-              "G",
-              "R"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"200",
-           image:"https://cards.scryfall.io/border_crop/front/e/e/eee24300-fff8-4405-9629-9f62b4a839ef.jpg?1675957188",
-           power:"5",
-           toughness:"5",
-           card_face:{
-              name:"Cinderslash Ravager",
-              type_line:{
-                 full:"Creature — Phyrexian Warrior",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Warrior"
-                 ]
-              },
-              mana_cost:"{4}{R}{G}",
-              power:"5",
-              oracle_text:"This spell costs {1} less to cast for each permanent you control with oil counters on it.\nVigilance\nWhen Cinderslash Ravager enters the battlefield, it deals 1 damage to each creature your opponents control.",
-              toughness:"5"
-           }
-        },
-        {
-           id:"d38961ce-0257-412f-acec-c5c9886061f8",
-           name:"Ezuri, Stalker of Spheres",
-           type_line:"Legendary Creature — Phyrexian Elf Warrior",
-           mana_cost:"{2}{G}{U}",
-           cmc:4,
-           colors:[
-              "G",
-              "U"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"201",
-           image:"https://cards.scryfall.io/border_crop/front/d/3/d38961ce-0257-412f-acec-c5c9886061f8.jpg?1675957189",
-           power:"3",
-           toughness:"3",
-           flavor_text:"\"Ah, my old friends. Have you decided at last to stop clinging to the past and join me in the grand pursuit of perfection?\"",
-           card_face:{
-              name:"Ezuri, Stalker of Spheres",
-              type_line:{
-                 full:"Legendary Creature — Phyrexian Elf Warrior",
-                 main:"Legendary Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Elf",
-                    "Warrior"
-                 ]
-              },
-              mana_cost:"{2}{G}{U}",
-              power:"3",
-              oracle_text:"When Ezuri, Stalker of Spheres enters the battlefield, you may pay {3}. If you do, proliferate twice.\nWhenever you proliferate, draw a card.",
-              toughness:"3"
-           }
-        },
-        {
-           id:"b2bf633e-0470-4b87-99ed-5ad1683b0954",
-           name:"Glissa Sunslayer",
-           type_line:"Legendary Creature — Phyrexian Zombie Elf",
-           mana_cost:"{1}{B}{G}",
-           cmc:3,
-           colors:[
-              "B",
-              "G"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"202",
-           image:"https://cards.scryfall.io/border_crop/front/b/2/b2bf633e-0470-4b87-99ed-5ad1683b0954.jpg?1675957191",
-           power:"3",
-           toughness:"3",
-           card_face:{
-              name:"Glissa Sunslayer",
-              type_line:{
-                 full:"Legendary Creature — Phyrexian Zombie Elf",
-                 main:"Legendary Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Zombie",
-                    "Elf"
-                 ]
-              },
-              mana_cost:"{1}{B}{G}",
-              power:"3",
-              oracle_text:"First strike, deathtouch\nWhenever Glissa Sunslayer deals combat damage to a player, choose one —\n• You draw a card and you lose 1 life.\n• Destroy target enchantment.\n• Remove up to three counters from target permanent.",
-              toughness:"3"
-           }
-        },
-        {
-           id:"e7e4d8f7-874d-4b2a-ad23-afab479784ea",
-           name:"Jor Kadeen, First Goldwarden",
-           type_line:"Legendary Creature — Human Rebel",
-           mana_cost:"{R}{W}",
-           cmc:2,
-           colors:[
-              "R",
-              "W"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"203",
-           image:"https://cards.scryfall.io/border_crop/front/e/7/e7e4d8f7-874d-4b2a-ad23-afab479784ea.jpg?1675957193",
-           power:"2",
-           toughness:"2",
-           card_face:{
-              name:"Jor Kadeen, First Goldwarden",
-              type_line:{
-                 full:"Legendary Creature — Human Rebel",
-                 main:"Legendary Creature",
-                 sub:[
-                    "Human",
-                    "Rebel"
-                 ]
-              },
-              mana_cost:"{R}{W}",
-              power:"2",
-              oracle_text:"Trample\nWhenever Jor Kadeen, First Goldwarden attacks, it gets +X/+X until end of turn, where X is the number of equipped creatures you control. Then if Jor Kadeen's power is 4 or greater, draw a card.",
-              toughness:"2"
-           }
-        },
-        {
-           id:"0d97f59a-07b8-47ef-aa88-d94f8c3feae4",
-           name:"Kaito, Dancing Shadow",
-           type_line:"Legendary Planeswalker — Kaito",
-           mana_cost:"{2}{U}{B}",
-           cmc:4,
-           colors:[
-              "B",
-              "U"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"204",
-           image:"https://cards.scryfall.io/border_crop/front/0/d/0d97f59a-07b8-47ef-aa88-d94f8c3feae4.jpg?1675957193",
-           card_face:{
-              name:"Kaito, Dancing Shadow",
-              type_line:{
-                 full:"Legendary Planeswalker — Kaito",
-                 main:"Legendary Planeswalker",
-                 sub:[
-                    "Kaito"
-                 ]
-              },
-              mana_cost:"{2}{U}{B}",
-              oracle_text:"Whenever one or more creatures you control deal combat damage to a player, you may return one of them to its owner's hand. If you do, you may activate loyalty abilities of Kaito twice this turn rather than only once.\n+1: Up to one target creature can't attack or block until your next turn.\n0: Draw a card.\n−2: Create a 2/2 colorless Drone artifact creature token with deathtouch and \"When this creature leaves the battlefield, each opponent loses 2 life and you gain 2 life.\""
-           }
-        },
-        {
-           id:"6865b8c7-b260-48e8-a905-64cbf06b7e57",
-           name:"Kaya, Intangible Slayer",
-           type_line:"Legendary Planeswalker — Kaya",
-           mana_cost:"{3}{W}{W}{B}{B}",
-           cmc:7,
-           colors:[
-              "B",
-              "W"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"205",
-           image:"https://cards.scryfall.io/border_crop/front/6/8/6865b8c7-b260-48e8-a905-64cbf06b7e57.jpg?1675957195",
-           card_face:{
-              name:"Kaya, Intangible Slayer",
-              type_line:{
-                 full:"Legendary Planeswalker — Kaya",
-                 main:"Legendary Planeswalker",
-                 sub:[
-                    "Kaya"
-                 ]
-              },
-              mana_cost:"{3}{W}{W}{B}{B}",
-              oracle_text:"Hexproof\n+2: Each opponent loses 3 life and you gain 3 life.\n0: You draw two cards. Then each opponent may scry 1.\n−3: Exile target creature or enchantment. If it wasn't an Aura, create a token that's a copy of it, except it's a 1/1 white Spirit creature with flying in addition to its other types."
-           }
-        },
-        {
-           id:"4152a5a8-e5a1-46b0-8f75-b9ac341da474",
-           name:"Kethek, Crucible Goliath",
-           type_line:"Legendary Creature — Phyrexian Beast",
-           mana_cost:"{2}{B}{R}",
-           cmc:4,
-           colors:[
-              "B",
-              "R"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"206",
-           image:"https://cards.scryfall.io/border_crop/front/4/1/4152a5a8-e5a1-46b0-8f75-b9ac341da474.jpg?1675957198",
-           power:"4",
-           toughness:"4",
-           card_face:{
-              name:"Kethek, Crucible Goliath",
-              type_line:{
-                 full:"Legendary Creature — Phyrexian Beast",
-                 main:"Legendary Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Beast"
-                 ]
-              },
-              mana_cost:"{2}{B}{R}",
-              power:"4",
-              oracle_text:"At the beginning of your end step, you may sacrifice another creature. If you do, reveal cards from the top of your library until you reveal a nonlegendary creature card with lesser mana value, put it onto the battlefield, then put the rest on the bottom of your library in a random order.",
-              toughness:"4"
-           }
-        },
-        {
-           id:"6df77017-c4a7-4b79-a16b-26463bd6a96a",
-           name:"Lukka, Bound to Ruin",
-           type_line:"Legendary Planeswalker — Lukka",
-           mana_cost:"{2}{R}{R/G/P}{G}",
-           cmc:5,
-           colors:[
-              "G",
-              "R"
-           ],
-           rarity: "rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"207",
-           image:"https://cards.scryfall.io/border_crop/front/6/d/6df77017-c4a7-4b79-a16b-26463bd6a96a.jpg?1675957198",
-           card_face:{
-              name:"Lukka, Bound to Ruin",
-              type_line:{
-                 full:"Legendary Planeswalker — Lukka",
-                 main:"Legendary Planeswalker",
-                 sub:[
-                    "Lukka"
-                 ]
-              },
-              mana_cost:"{2}{R}{R/G/P}{G}",
-              oracle_text:"Compleated ({R/G/P} can be paid with {R}, {G}, or 2 life. If life was paid, this planeswalker enters with two fewer loyalty counters.)\n+1: Add {R}{G}. Spend this mana only to cast creature spells or activate abilities of creatures.\n−1: Create a 3/3 green Phyrexian Beast creature token with toxic 1.\n−4: Lukka deals X damage divided as you choose among any number of target creatures and/or planeswalkers, where X is the greatest power among creatures you controlled as you activated this ability."
-           }
-        },
-        {
-           id:"36bda977-e5d1-4813-a5f5-265023965142",
-           name:"Malcator, Purity Overseer",
-           type_line:"Legendary Creature — Phyrexian Elephant Wizard",
-           mana_cost:"{1}{W}{U}",
-           cmc:3,
-           colors:[
-              "U",
-              "W"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"208",
-           image:"https://cards.scryfall.io/border_crop/front/3/6/36bda977-e5d1-4813-a5f5-265023965142.jpg?1675957200",
-           power:"1",
-           toughness:"1",
-           card_face:{
-              name:"Malcator, Purity Overseer",
-              type_line:{
-                 full:"Legendary Creature — Phyrexian Elephant Wizard",
-                 main:"Legendary Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Elephant",
-                    "Wizard"
-                 ]
-              },
-              mana_cost:"{1}{W}{U}",
-              power:"1",
-              oracle_text:"When Malcator, Purity Overseer enters the battlefield, create a 3/3 colorless Phyrexian Golem artifact creature token.\nAt the beginning of your end step, if three or more artifacts entered the battlefield under your control this turn, create a 3/3 colorless Phyrexian Golem artifact creature token.",
-              toughness:"1"
-           }
-        },
-        {
-           id:"e1329ad9-5989-4920-b17b-943b9b4a0cd9",
-           name:"Melira, the Living Cure",
-           type_line:"Legendary Creature — Human Scout",
-           mana_cost:"{G}{W}",
-           cmc:2,
-           colors:[
-              "G",
-              "W"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"209",
-           image:"https://cards.scryfall.io/border_crop/front/e/1/e1329ad9-5989-4920-b17b-943b9b4a0cd9.jpg?1675957200",
-           power:"3",
-           toughness:"3",
-           card_face:{
-              name:"Melira, the Living Cure",
-              type_line:{
-                 full:"Legendary Creature — Human Scout",
-                 main:"Legendary Creature",
-                 sub:[
-                    "Human",
-                    "Scout"
-                 ]
-              },
-              mana_cost:"{G}{W}",
-              power:"3",
-              oracle_text:"If you would get one or more poison counters, instead you get one poison counter and you can't get additional poison counters this turn.\nExile Melira, the Living Cure: Choose another target creature or artifact. When it's put into a graveyard this turn, return that card to the battlefield under its owner's control.",
-              toughness:"3"
-           }
-        },
-        {
-           id:"c1171899-07d8-4e60-a79b-f162f59dc3ce",
-           name:"Migloz, Maze Crusher",
-           type_line:"Legendary Creature — Phyrexian Beast",
-           mana_cost:"{1}{R}{G}",
-           cmc:3,
-           colors:[
-              "G",
-              "R"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"210",
-           image:"https://cards.scryfall.io/border_crop/front/c/1/c1171899-07d8-4e60-a79b-f162f59dc3ce.jpg?1675957202",
-           power:"4",
-           toughness:"4",
-           card_face:{
-              name:"Migloz, Maze Crusher",
-              type_line:{
-                 full:"Legendary Creature — Phyrexian Beast",
-                 main:"Legendary Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Beast"
-                 ]
-              },
-              mana_cost:"{1}{R}{G}",
-              power:"4",
-              oracle_text:"Migloz, Maze Crusher enters the battlefield with five oil counters on it.\n{1}, Remove an oil counter from Migloz: It gains vigilance and menace until end of turn.\n{2}, Remove two oil counters from Migloz: It gets +2/+2 until end of turn.\n{3}, Remove three oil counters from Migloz: Destroy target artifact or enchantment.",
-              toughness:"4"
-           }
-        },
-        {
-           id:"578e35b9-7252-4767-a1f3-aecd71256515",
-           name:"Nahiri, the Unforgiving",
-           type_line:"Legendary Planeswalker — Nahiri",
-           mana_cost:"{1}{R}{R/W/P}{W}",
-           cmc:4,
-           colors:[
-              "R",
-              "W"
-           ],
-           rarity: "rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"211",
-           image:"https://cards.scryfall.io/border_crop/front/5/7/578e35b9-7252-4767-a1f3-aecd71256515.jpg?1675957205",
-           card_face:{
-              name:"Nahiri, the Unforgiving",
-              type_line:{
-                 full:"Legendary Planeswalker — Nahiri",
-                 main:"Legendary Planeswalker",
-                 sub:[
-                    "Nahiri"
-                 ]
-              },
-              mana_cost:"{1}{R}{R/W/P}{W}",
-              oracle_text:"Compleated ({R/W/P} can be paid with {R}, {W}, or 2 life. If life was paid, this planeswalker enters with two fewer loyalty counters.)\n+1: Until your next turn, up to one target creature attacks a player each combat if able.\n+1: Discard a card, then draw a card.\n0: Exile target creature or Equipment card with mana value less than Nahiri's loyalty from your graveyard. Create a token that's a copy of it. That token gains haste. Exile it at the beginning of the next end step."
-           }
-        },
-        {
-           id:"87519b36-1d95-4020-a61d-6afb75555e3e",
-           name:"Necrogen Rotpriest",
-           type_line:"Creature — Phyrexian Zombie Cleric",
-           mana_cost:"{2}{B}{G}",
-           cmc:4,
-           colors:[
-              "B",
-              "G"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"212",
-           image:"https://cards.scryfall.io/border_crop/front/8/7/87519b36-1d95-4020-a61d-6afb75555e3e.jpg?1675957207",
-           power:"1",
-           toughness:"5",
-           card_face:{
-              name:"Necrogen Rotpriest",
-              type_line:{
-                 full:"Creature — Phyrexian Zombie Cleric",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Zombie",
-                    "Cleric"
-                 ]
-              },
-              mana_cost:"{2}{B}{G}",
-              power:"1",
-              oracle_text:"Toxic 2 (Players dealt combat damage by this creature also get two poison counters.)\nWhenever a creature you control with toxic deals combat damage to a player, that player gets an additional poison counter.\n{1}{B}{G}: Target creature you control with toxic gains deathtouch until end of turn.",
-              toughness:"5"
-           }
-        },
-        {
-           id:"b298cf34-7aa5-4f97-a86c-7f28d2113b87",
-           name:"Ovika, Enigma Goliath",
-           type_line:"Legendary Creature — Phyrexian Nightmare",
-           mana_cost:"{5}{U}{R}",
-           cmc:7,
-           colors:[
-              "R",
-              "U"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"213",
-           image:"https://cards.scryfall.io/border_crop/front/b/2/b298cf34-7aa5-4f97-a86c-7f28d2113b87.jpg?1675957207",
-           power:"6",
-           toughness:"6",
-           card_face:{
-              name:"Ovika, Enigma Goliath",
-              type_line:{
-                 full:"Legendary Creature — Phyrexian Nightmare",
-                 main:"Legendary Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Nightmare"
-                 ]
-              },
-              mana_cost:"{5}{U}{R}",
-              power:"6",
-              oracle_text:"Flying\nWard—{3}, Pay 3 life.\nWhenever you cast a noncreature spell, create X 1/1 red Phyrexian Goblin creature tokens, where X is the mana value of that spell. They gain haste until end of turn.",
-              toughness:"6"
-           }
-        },
-        {
-           id:"f7531ed3-235f-4368-98a8-e4e1947c53fb",
-           name:"Ria Ivor, Bane of Bladehold",
-           type_line:"Legendary Creature — Phyrexian Knight",
-           mana_cost:"{2}{W}{B}",
-           cmc:4,
-           colors:[
-              "B",
-              "W"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"214",
-           image:"https://cards.scryfall.io/border_crop/front/f/7/f7531ed3-235f-4368-98a8-e4e1947c53fb.jpg?1675957209",
-           power:"3",
-           toughness:"4",
-           card_face:{
-              name:"Ria Ivor, Bane of Bladehold",
-              type_line:{
-                 full:"Legendary Creature — Phyrexian Knight",
-                 main:"Legendary Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Knight"
-                 ]
-              },
-              mana_cost:"{2}{W}{B}",
-              power:"3",
-              oracle_text:"Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)\nAt the beginning of combat on your turn, the next time target creature would deal combat damage to one or more players this combat, prevent that damage. If damage is prevented this way, create that many 1/1 colorless Phyrexian Mite artifact creature tokens with toxic 1 and \"This creature can't block.\"",
-              toughness:"4"
-           }
-        },
-        {
-           id:"31147651-9a5e-4329-923b-e464f67135e9",
-           name:"Serum-Core Chimera",
-           type_line:"Creature — Phyrexian Chimera",
-           mana_cost:"{2}{U}{R}",
-           cmc:4,
-           colors:[
-              "R",
-              "U"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"215",
-           image:"https://cards.scryfall.io/border_crop/front/3/1/31147651-9a5e-4329-923b-e464f67135e9.jpg?1675957210",
-           power:"2",
-           toughness:"4",
-           card_face:{
-              name:"Serum-Core Chimera",
-              type_line:{
-                 full:"Creature — Phyrexian Chimera",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Chimera"
-                 ]
-              },
-              mana_cost:"{2}{U}{R}",
-              power:"2",
-              oracle_text:"Flying\nWhenever you cast a noncreature spell, put an oil counter on Serum-Core Chimera.\nRemove three oil counters from Serum-Core Chimera: Draw a card. Then you may discard a nonland card. When you discard a card this way, Serum-Core Chimera deals 3 damage to target creature or planeswalker. Activate only as a sorcery.",
-              toughness:"4"
-           }
-        },
-        {
-           id:"4a37aa46-bcf3-48a5-9f74-05e4878ad96f",
-           name:"Slaughter Singer",
-           type_line:"Creature — Phyrexian Cleric",
-           mana_cost:"{G}{W}",
-           cmc:2,
-           colors:[
-              "G",
-              "W"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"216",
-           image:"https://cards.scryfall.io/border_crop/front/4/a/4a37aa46-bcf3-48a5-9f74-05e4878ad96f.jpg?1675957213",
-           power:"2",
-           toughness:"2",
-           flavor_text:"After giving in to the thrill of the hunt, he could never again return to the quiet of the Basilica.",
-           card_face:{
-              name:"Slaughter Singer",
-              type_line:{
-                 full:"Creature — Phyrexian Cleric",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Cleric"
-                 ]
-              },
-              mana_cost:"{G}{W}",
-              power:"2",
-              oracle_text:"Toxic 2 (Players dealt combat damage by this creature also get two poison counters.)\nWhenever another creature you control with toxic attacks, it gets +1/+1 until end of turn.",
-              toughness:"2"
-           }
-        },
-        {
-           id:"b9cba67a-b714-49b0-9797-24aca283f162",
-           name:"Tainted Observer",
-           type_line:"Creature — Phyrexian Bird",
-           mana_cost:"{1}{G}{U}",
-           cmc:3,
-           colors:[
-              "G",
-              "U"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"217",
-           image:"https://cards.scryfall.io/border_crop/front/b/9/b9cba67a-b714-49b0-9797-24aca283f162.jpg?1675957214",
-           power:"2",
-           toughness:"3",
-           card_face:{
-              name:"Tainted Observer",
-              type_line:{
-                 full:"Creature — Phyrexian Bird",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Bird"
-                 ]
-              },
-              mana_cost:"{1}{G}{U}",
-              power:"2",
-              oracle_text:"Flying\nToxic 1 (Players dealt combat damage by this creature also get a poison counter.)\nWhenever another creature enters the battlefield under your control, you may pay {2}. If you do, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
-              toughness:"3"
-           }
-        },
-        {
-           id:"66605fe1-9a20-4c95-b53e-1249cedb978b",
-           name:"Tyvar, Jubilant Brawler",
-           type_line:"Legendary Planeswalker — Tyvar",
-           mana_cost:"{1}{B}{G}",
-           cmc:3,
-           colors:[
-              "B",
-              "G"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"218",
-           image:"https://cards.scryfall.io/border_crop/front/6/6/66605fe1-9a20-4c95-b53e-1249cedb978b.jpg?1675957216",
-           card_face:{
-              name:"Tyvar, Jubilant Brawler",
-              type_line:{
-                 full:"Legendary Planeswalker — Tyvar",
-                 main:"Legendary Planeswalker",
-                 sub:[
-                    "Tyvar"
-                 ]
-              },
-              mana_cost:"{1}{B}{G}",
-              oracle_text:"You may activate abilities of creatures you control as though those creatures had haste.\n+1: Untap up to one target creature.\n−2: Mill three cards, then you may return a creature card with mana value 2 or less from your graveyard to the battlefield."
-           }
-        },
-        {
-           id:"1b5b94b8-0420-40f2-b989-39cb43cff916",
-           name:"Venser, Corpse Puppet",
-           type_line:"Legendary Creature — Phyrexian Zombie Wizard",
-           mana_cost:"{U}{B}",
-           cmc:2,
-           colors:[
-              "B",
-              "U"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"219",
-           image:"https://cards.scryfall.io/border_crop/front/1/b/1b5b94b8-0420-40f2-b989-39cb43cff916.jpg?1675957216",
-           power:"1",
-           toughness:"3",
-           card_face:{
-              name:"Venser, Corpse Puppet",
-              type_line:{
-                 full:"Legendary Creature — Phyrexian Zombie Wizard",
-                 main:"Legendary Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Zombie",
-                    "Wizard"
-                 ]
-              },
-              mana_cost:"{U}{B}",
-              power:"1",
-              oracle_text:"Lifelink, toxic 1\nWhenever you proliferate, choose one —\n• If you don't control a creature named The Hollow Sentinel, create The Hollow Sentinel, a legendary 3/3 colorless Phyrexian Golem artifact creature token.\n• Target artifact creature you control gains flying and lifelink until end of turn.",
-              toughness:"3"
-           }
-        },
-        {
-           id:"626c46a3-72b8-4e04-adf2-c9c7aaf94f04",
-           name:"Vivisection Evangelist",
-           type_line:"Creature — Phyrexian Cleric",
-           mana_cost:"{3}{W}{B}",
-           cmc:5,
-           colors:[
-              "B",
-              "W"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"220",
-           image:"https://cards.scryfall.io/border_crop/front/6/2/626c46a3-72b8-4e04-adf2-c9c7aaf94f04.jpg?1675957217",
-           power:"4",
-           toughness:"4",
-           flavor_text:"\"May you rejoice in the magnificence of Norn. May your flesh serve perfection.\"",
-           card_face:{
-              name:"Vivisection Evangelist",
-              type_line:{
-                 full:"Creature — Phyrexian Cleric",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Cleric"
-                 ]
-              },
-              mana_cost:"{3}{W}{B}",
-              power:"4",
-              oracle_text:"Vigilance\nCorrupted — When Vivisection Evangelist enters the battlefield, if an opponent has three or more poison counters, destroy target creature or planeswalker an opponent controls.",
-              toughness:"4"
-           }
-        },
-        {
-           id:"8a48705f-bd8a-43f1-b1fe-14a5c9a83ccd",
-           name:"Voidwing Hybrid",
-           type_line:"Creature — Phyrexian Bat",
-           mana_cost:"{U}{B}",
-           cmc:2,
-           colors:[
-              "B",
-              "U"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"221",
-           image:"https://cards.scryfall.io/border_crop/front/8/a/8a48705f-bd8a-43f1-b1fe-14a5c9a83ccd.jpg?1675957222",
-           power:"2",
-           toughness:"1",
-           card_face:{
-              name:"Voidwing Hybrid",
-              type_line:{
-                 full:"Creature — Phyrexian Bat",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Bat"
-                 ]
-              },
-              mana_cost:"{U}{B}",
-              power:"2",
-              oracle_text:"Flying\nToxic 1 (Players dealt combat damage by this creature also get a poison counter.)\nWhen you proliferate, return Voidwing Hybrid from your graveyard to your hand.",
-              toughness:"1"
-           }
-        },
-        {
-           id:"9746e3ab-c0a6-46c1-a418-275b419962e4",
-           name:"Argentum Masticore",
-           type_line:"Artifact Creature — Phyrexian Masticore",
-           mana_cost:"{5}",
-           cmc:5,
-           colors:[
-              
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"222",
-           image:"https://cards.scryfall.io/border_crop/front/9/7/9746e3ab-c0a6-46c1-a418-275b419962e4.jpg?1675957222",
-           power:"5",
-           toughness:"5",
-           card_face:{
-              name:"Argentum Masticore",
-              type_line:{
-                 full:"Artifact Creature — Phyrexian Masticore",
-                 main:"Artifact Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Masticore"
-                 ]
-              },
-              mana_cost:"{5}",
-              power:"5",
-              oracle_text:"First strike, protection from multicolored\nAt the beginning of your upkeep, sacrifice Argentum Masticore unless you discard a card. When you discard a card this way, destroy target nonland permanent an opponent controls with mana value less than or equal to the mana value of the discarded card.",
-              toughness:"5"
-           }
-        },
-        {
-           id:"cdedebad-f71e-4434-871e-5bbbd3c07a12",
-           name:"Atraxa's Skitterfang",
-           type_line:"Artifact Creature — Phyrexian Insect",
-           mana_cost:"{3}",
-           cmc:3,
-           colors:[
-              
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"223",
-           image:"https://cards.scryfall.io/border_crop/front/c/d/cdedebad-f71e-4434-871e-5bbbd3c07a12.jpg?1675957223",
-           power:"2",
-           toughness:"2",
-           card_face:{
-              name:"Atraxa's Skitterfang",
-              type_line:{
-                 full:"Artifact Creature — Phyrexian Insect",
-                 main:"Artifact Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Insect"
-                 ]
-              },
-              mana_cost:"{3}",
-              power:"2",
-              oracle_text:"Atraxa's Skitterfang enters the battlefield with three oil counters on it.\nAt the beginning of combat on your turn, you may remove an oil counter from Atraxa's Skitterfang. When you do, target creature you control gains your choice of flying, vigilance, deathtouch, or lifelink until end of turn.",
-              toughness:"2"
-           }
-        },
-        {
-           id:"8e2f0ae2-db68-4338-93f9-9d9268cec41e",
-           name:"Basilica Skullbomb",
-           type_line:"Artifact",
-           mana_cost:"{1}",
-           cmc:1,
-           colors:[
-              "A"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"224",
-           image:"https://cards.scryfall.io/border_crop/front/8/e/8e2f0ae2-db68-4338-93f9-9d9268cec41e.jpg?1675957224",
-           flavor_text:"It shines with the conviction of a zealous acolyte.",
-           card_face:{
-              name:"Basilica Skullbomb",
-              type_line:{
-                 full:"Artifact",
-                 main:"Artifact",
-                 sub:""
-              },
-              mana_cost:"{1}",
-              oracle_text:"{1}, Sacrifice Basilica Skullbomb: Draw a card.\n{2}{W}, Sacrifice Basilica Skullbomb: Target creature you control gets +2/+2 and gains flying until end of turn. Draw a card. Activate only as a sorcery."
-           }
-        },
-        {
-           id:"66270dd2-9139-4329-9621-852962836688",
-           name:"Dross Skullbomb",
-           type_line:"Artifact",
-           mana_cost:"{1}",
-           cmc:1,
-           colors:[
-              "A"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"225",
-           image:"https://cards.scryfall.io/border_crop/front/6/6/66270dd2-9139-4329-9621-852962836688.jpg?1675957225",
-           flavor_text:"It seethes with the ambition of a ruthless gladiator.",
-           card_face:{
-              name:"Dross Skullbomb",
-              type_line:{
-                 full:"Artifact",
-                 main:"Artifact",
-                 sub:""
-              },
-              mana_cost:"{1}",
-              oracle_text:"{1}, Sacrifice Dross Skullbomb: Draw a card.\n{2}{B}, Sacrifice Dross Skullbomb: Return target creature card from your graveyard to your hand. Draw a card. Activate only as a sorcery."
-           }
-        },
-        {
-           id:"29d2c689-af37-433a-a012-e8d384702811",
-           name:"Dune Mover",
-           type_line:"Artifact Creature — Phyrexian Golem",
-           mana_cost:"{2}",
-           cmc:2,
-           colors:[
-              
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"226",
-           image:"https://cards.scryfall.io/border_crop/front/2/9/29d2c689-af37-433a-a012-e8d384702811.jpg?1675957228",
-           power:"2",
-           toughness:"1",
-           flavor_text:"The shifting, unpredictable sands were deemed a disobedient affront to the Flesh Singularity.",
-           card_face:{
-              name:"Dune Mover",
-              type_line:{
-                 full:"Artifact Creature — Phyrexian Golem",
-                 main:"Artifact Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Golem"
-                 ]
-              },
-              mana_cost:"{2}",
-              power:"2",
-              oracle_text:"Toxic 1 (Players dealt combat damage by this creature also get a poison counter.)\nWhen Dune Mover enters the battlefield, you may search your library for a basic land card, reveal it, then shuffle and put that card on top.",
-              toughness:"1"
-           }
-        },
-        {
-           id:"6e0958a1-1bac-48be-888d-f7573f409a9b",
-           name:"The Filigree Sylex",
-           type_line:"Legendary Artifact",
-           mana_cost:"{2}",
-           cmc:2,
-           colors:[
-              
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"227",
-           image:"https://cards.scryfall.io/border_crop/front/6/e/6e0958a1-1bac-48be-888d-f7573f409a9b.jpg?1675957230",
-           card_face:{
-              name:"The Filigree Sylex",
-              type_line:{
-                 full:"Legendary Artifact",
-                 main:"Legendary Artifact",
-                 sub:""
-              },
-              mana_cost:"{2}",
-              oracle_text:"{T}: Put an oil counter on The Filigree Sylex.\n{T}, Sacrifice The Filigree Sylex: Destroy each nonland permanent with mana value equal to the number of oil counters on The Filigree Sylex.\n{T}, Remove ten oil counters from among permanents you control and sacrifice The Filigree Sylex: It deals 10 damage to any target."
-           }
-        },
-        {
-           id:"cb530f9d-cf35-48a7-8711-f74b3d9a35a7",
-           name:"Furnace Skullbomb",
-           type_line:"Artifact",
-           mana_cost:"{1}",
-           cmc:1,
-           colors:[
-              "A"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"228",
-           image:"https://cards.scryfall.io/border_crop/front/c/b/cb530f9d-cf35-48a7-8711-f74b3d9a35a7.jpg?1675957232",
-           flavor_text:"It burns with the passion of an unbound creator.",
-           card_face:{
-              name:"Furnace Skullbomb",
-              type_line:{
-                 full:"Artifact",
-                 main:"Artifact",
-                 sub:""
-              },
-              mana_cost:"{1}",
-              oracle_text:"{1}, Sacrifice Furnace Skullbomb: Draw a card.\n{1}{R}, Sacrifice Furnace Skullbomb: Put two oil counters on target artifact or creature you control. Draw a card. Activate only as a sorcery."
-           }
-        },
-        {
-           id:"e0e73b63-17cc-4dca-abd6-728b74bc37a8",
-           name:"Graaz, Unstoppable Juggernaut",
-           type_line:"Legendary Artifact Creature — Juggernaut",
-           mana_cost:"{8}",
-           cmc:8,
-           colors:[
-              
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"229",
-           image:"https://cards.scryfall.io/border_crop/front/e/0/e0e73b63-17cc-4dca-abd6-728b74bc37a8.jpg?1675957233",
-           power:"7",
-           toughness:"5",
-           card_face:{
-              name:"Graaz, Unstoppable Juggernaut",
-              type_line:{
-                 full:"Legendary Artifact Creature — Juggernaut",
-                 main:"Legendary Artifact Creature",
-                 sub:[
-                    "Juggernaut"
-                 ]
-              },
-              mana_cost:"{8}",
-              power:"7",
-              oracle_text:"Juggernauts you control attack each combat if able.\nJuggernauts you control can't be blocked by Walls.\nOther creatures you control have base power and toughness 5/3 and are Juggernauts in addition to their other creature types.",
-              toughness:"5"
-           }
-        },
-        {
-           id:"e555abb1-ffd4-4143-9be8-ec8a758f5c2a",
-           name:"Ichorplate Golem",
-           type_line:"Artifact Creature — Phyrexian Golem",
-           mana_cost:"{3}",
-           cmc:3,
-           colors:[
-              
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"230",
-           image:"https://cards.scryfall.io/border_crop/front/e/5/e555abb1-ffd4-4143-9be8-ec8a758f5c2a.jpg?1675957234",
-           power:"2",
-           toughness:"3",
-           card_face:{
-              name:"Ichorplate Golem",
-              type_line:{
-                 full:"Artifact Creature — Phyrexian Golem",
-                 main:"Artifact Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Golem"
-                 ]
-              },
-              mana_cost:"{3}",
-              power:"2",
-              oracle_text:"Whenever a creature enters the battlefield under your control, if it has one or more oil counters on it, put an oil counter on it.\nCreatures you control with oil counters on them get +1/+1.",
-              toughness:"3"
-           }
-        },
-        {
-           id:"1073aee2-aea6-473d-97c6-248778d79d80",
-           name:"Maze Skullbomb",
-           type_line:"Artifact",
-           mana_cost:"{1}",
-           cmc:1,
-           colors:[
-              "A"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"231",
-           image:"https://cards.scryfall.io/border_crop/front/1/0/1073aee2-aea6-473d-97c6-248778d79d80.jpg?1675957236",
-           flavor_text:"It pulses with the might of an apex predator.",
-           card_face:{
-              name:"Maze Skullbomb",
-              type_line:{
-                 full:"Artifact",
-                 main:"Artifact",
-                 sub:""
-              },
-              mana_cost:"{1}",
-              oracle_text:"{1}, Sacrifice Maze Skullbomb: Draw a card.\n{2}{G}, Sacrifice Maze Skullbomb: Target creature you control gets +3/+3 and gains trample until end of turn. Draw a card. Activate only as a sorcery."
-           }
-        },
-        {
-           id:"d76fe2f2-ce2c-49e4-9f00-89c82f2fae8d",
-           name:"Mirran Safehouse",
-           type_line:"Artifact",
-           mana_cost:"{3}",
-           cmc:3,
-           colors:[
-              "A"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"232",
-           image:"https://cards.scryfall.io/border_crop/front/d/7/d76fe2f2-ce2c-49e4-9f00-89c82f2fae8d.jpg?1675957237",
-           flavor_text:"\"Melira helped me design it. Those who are infected by the oil cannot cross the threshold. We should be safe inside.\"\n—Koth",
-           card_face:{
-              name:"Mirran Safehouse",
-              type_line:{
-                 full:"Artifact",
-                 main:"Artifact",
-                 sub:""
-              },
-              mana_cost:"{3}",
-              oracle_text:"As long as Mirran Safehouse is on the battlefield, it has all activated abilities of all land cards in all graveyards."
-           }
-        },
-        {
-           id:"ab892e7b-6797-4ede-ab5d-d9d0fa488c80",
-           name:"Monument to Perfection",
-           type_line:"Artifact",
-           mana_cost:"{2}",
-           cmc:2,
-           colors:[
-              "A"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"233",
-           image:"https://cards.scryfall.io/border_crop/front/a/b/ab892e7b-6797-4ede-ab5d-d9d0fa488c80.jpg?1675957240",
-           card_face:{
-              name:"Monument to Perfection",
-              type_line:{
-                 full:"Artifact",
-                 main:"Artifact",
-                 sub:""
-              },
-              mana_cost:"{2}",
-              oracle_text:"{3}, {T}: Search your library for a basic, Sphere, or Locus land card, reveal it, put it into your hand, then shuffle.\n{3}: Monument to Perfection becomes a 9/9 Phyrexian Construct artifact creature, loses all abilities, and gains indestructible and toxic 9. Activate only if there are nine or more lands with different names among the basic, Sphere, and Locus lands you control."
-           }
-        },
-        {
-           id:"9df0adcf-7ad0-4d70-8dcd-28f69471495b",
-           name:"Myr Convert",
-           type_line:"Artifact Creature — Phyrexian Myr",
-           mana_cost:"{2}",
-           cmc:2,
-           colors:[
-              
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"234",
-           image:"https://cards.scryfall.io/border_crop/front/9/d/9df0adcf-7ad0-4d70-8dcd-28f69471495b.jpg?1675957241",
-           power:"2",
-           toughness:"1",
-           flavor_text:"Humble, obedient, and tireless, myr require little modification to excel as servants of Phyrexia.",
-           card_face:{
-              name:"Myr Convert",
-              type_line:{
-                 full:"Artifact Creature — Phyrexian Myr",
-                 main:"Artifact Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Myr"
-                 ]
-              },
-              mana_cost:"{2}",
-              power:"2",
-              oracle_text:"Toxic 1 (Players dealt combat damage by this creature also get a poison counter.)\n{T}, Pay 2 life: Add one mana of any color.",
-              toughness:"1"
-           }
-        },
-        {
-           id:"56bfdd21-4d46-4ec2-ba25-f16b6993f1a8",
-           name:"Myr Custodian",
-           type_line:"Artifact Creature — Myr",
-           mana_cost:"{3}",
-           cmc:3,
-           colors:[
-              
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"235",
-           image:"https://cards.scryfall.io/border_crop/front/5/6/56bfdd21-4d46-4ec2-ba25-f16b6993f1a8.jpg?1675957243",
-           power:"2",
-           toughness:"3",
-           flavor_text:"\"Myr will go where the work is. We always have. We always will.\"\n—Urtet, Remnant of Memnarch",
-           card_face:{
-              name:"Myr Custodian",
-              type_line:{
-                 full:"Artifact Creature — Myr",
-                 main:"Artifact Creature",
-                 sub:[
-                    "Myr"
-                 ]
-              },
-              mana_cost:"{3}",
-              power:"2",
-              oracle_text:"When Myr Custodian enters the battlefield, scry 2. Then each opponent may scry 1. (To scry X, that player looks at the top X cards of their library, then put any number of them on the bottom and the rest on top in any order.)",
-              toughness:"3"
-           }
-        },
-        {
-           id:"6046e50a-f4c9-4029-a589-62a19371b734",
-           name:"Myr Kinsmith",
-           type_line:"Artifact Creature — Myr",
-           mana_cost:"{4}",
-           cmc:4,
-           colors:[
-              
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"236",
-           image:"https://cards.scryfall.io/border_crop/front/6/0/6046e50a-f4c9-4029-a589-62a19371b734.jpg?1675957244",
-           power:"3",
-           toughness:"1",
-           flavor_text:"\"Our resistance is like the myr: small and easily overlooked, but loyal and resilient beyond measure.\"\n—Melira",
-           card_face:{
-              name:"Myr Kinsmith",
-              type_line:{
-                 full:"Artifact Creature — Myr",
-                 main:"Artifact Creature",
-                 sub:[
-                    "Myr"
-                 ]
-              },
-              mana_cost:"{4}",
-              power:"3",
-              oracle_text:"When Myr Kinsmith enters the battlefield, you may search your library for a Myr card, reveal it, put it into your hand, then shuffle.",
-              toughness:"1"
-           }
-        },
-        {
-           id:"b5adb509-6ad3-4838-925d-1cafa926b83a",
-           name:"Phyrexian Atlas",
-           type_line:"Artifact",
-           mana_cost:"{3}",
-           cmc:3,
-           colors:[
-              "A"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"237",
-           image:"https://cards.scryfall.io/border_crop/front/b/5/b5adb509-6ad3-4838-925d-1cafa926b83a.jpg?1675957245",
-           flavor_text:"Since conquering Mirrodin, Phyrexian engineers have worked tirelessly to transform the plane's original two layers into a more fitting array of nine.",
-           card_face:{
-              name:"Phyrexian Atlas",
-              type_line:{
-                 full:"Artifact",
-                 main:"Artifact",
-                 sub:""
-              },
-              mana_cost:"{3}",
-              oracle_text:"{T}: Add one mana of any color.\nCorrupted — Whenever Phyrexian Atlas becomes tapped, each opponent who has three or more poison counters loses 1 life."
-           }
-        },
-        {
-           id:"3056ac38-7630-4301-88bb-a012a5b186ed",
-           name:"Prophetic Prism",
-           type_line:"Artifact",
-           mana_cost:"{2}",
-           cmc:2,
-           colors:[
-              "A"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"238",
-           image:"https://cards.scryfall.io/border_crop/front/3/0/3056ac38-7630-4301-88bb-a012a5b186ed.jpg?1675957247",
-           flavor_text:"\"The five suns may have dimmed, but their light still guides us.\"\n—Thrun",
-           card_face:{
-              name:"Prophetic Prism",
-              type_line:{
-                 full:"Artifact",
-                 main:"Artifact",
-                 sub:""
-              },
-              mana_cost:"{2}",
-              oracle_text:"When Prophetic Prism enters the battlefield, draw a card.\n{1}, {T}: Add one mana of any color."
-           }
-        },
-        {
-           id:"75a1beec-bafe-4243-b91e-040a88fb0e95",
-           name:"Prosthetic Injector",
-           type_line:"Artifact — Equipment",
-           mana_cost:"{1}",
-           cmc:1,
-           colors:[
-              "A"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"239",
-           image:"https://cards.scryfall.io/border_crop/front/7/5/75a1beec-bafe-4243-b91e-040a88fb0e95.jpg?1675957249",
-           flavor_text:"Why carry a subject to a surgical lab when you can bring the surgical lab to them?",
-           card_face:{
-              name:"Prosthetic Injector",
-              type_line:{
-                 full:"Artifact — Equipment",
-                 main:"Artifact",
-                 sub:[
-                    "Equipment"
-                 ]
-              },
-              mana_cost:"{1}",
-              oracle_text:"Equipped creature gets +0/+2 and has toxic 1. (Players dealt combat damage by equipped creature also get a poison counter.)\nEquip {1}"
-           }
-        },
-        {
-           id:"1ec8f984-5ed4-4b34-8b2a-a113cbba001d",
-           name:"Ribskiff",
-           type_line:"Artifact — Vehicle",
-           mana_cost:"{4}",
-           cmc:4,
-           colors:[
-              "A"
-           ],
-           rarity:"uncommon",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"240",
-           image:"https://cards.scryfall.io/border_crop/front/1/e/1ec8f984-5ed4-4b34-8b2a-a113cbba001d.jpg?1675957252",
-           power:"4",
-           toughness:"4",
-           card_face:{
-              name:"Ribskiff",
-              type_line:{
-                 full:"Artifact — Vehicle",
-                 main:"Artifact",
-                 sub:[
-                    "Vehicle"
-                 ]
-              },
-              mana_cost:"{4}",
-              power:"4",
-              oracle_text:"Toxic 2 (Players dealt combat damage by this creature also get two poison counters.)\nWhen Ribskiff enters the battlefield, draw a card.\nCrew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)",
-              toughness:"4"
-           }
-        },
-        {
-           id:"bf9991fd-ea6a-4ed7-b5f1-46a95f8d0634",
-           name:"Soulless Jailer",
-           type_line:"Artifact Creature — Phyrexian Golem",
-           mana_cost:"{2}",
-           cmc:2,
-           colors:[
-              
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"241",
-           image:"https://cards.scryfall.io/border_crop/front/b/f/bf9991fd-ea6a-4ed7-b5f1-46a95f8d0634.jpg?1675957252",
-           power:"0",
-           toughness:"4",
-           flavor_text:"\"Lock the door and eat the key.\"\n—Vraan, Executioner Thane",
-           card_face:{
-              name:"Soulless Jailer",
-              type_line:{
-                 full:"Artifact Creature — Phyrexian Golem",
-                 main:"Artifact Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Golem"
-                 ]
-              },
-              mana_cost:"{2}",
-              power:"0",
-              oracle_text:"Permanent cards in graveyards can't enter the battlefield.\nPlayers can't cast noncreature spells from graveyards or exile.",
-              toughness:"4"
-           }
-        },
-        {
-           id:"d2934af5-aa4f-4c88-adbd-dcd847ef43a2",
-           name:"Staff of Compleation",
-           type_line:"Artifact",
-           mana_cost:"{3}",
-           cmc:3,
-           colors:[
-              "A"
-           ],
-           rarity: "rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"242",
-           image:"https://cards.scryfall.io/border_crop/front/d/2/d2934af5-aa4f-4c88-adbd-dcd847ef43a2.jpg?1675957252",
-           card_face:{
-              name:"Staff of Compleation",
-              type_line:{
-                 full:"Artifact",
-                 main:"Artifact",
-                 sub:""
-              },
-              mana_cost:"{3}",
-              oracle_text:"{T}, Pay 1 life: Destroy target permanent you own.\n{T}, Pay 2 life: Add one mana of any color.\n{T}, Pay 3 life: Proliferate.\n{T}, Pay 4 life: Draw a card.\n{5}: Untap Staff of Compleation."
-           }
-        },
-        {
-           id:"98c2b2af-739f-413c-8c36-da6f78df0acb",
-           name:"Surgical Skullbomb",
-           type_line:"Artifact",
-           mana_cost:"{1}",
-           cmc:1,
-           colors:[
-              "A"
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"243",
-           image:"https://cards.scryfall.io/border_crop/front/9/8/98c2b2af-739f-413c-8c36-da6f78df0acb.jpg?1675957256",
-           flavor_text:"It crackles with the intellect of a twisted genius.",
-           card_face:{
-              name:"Surgical Skullbomb",
-              type_line:{
-                 full:"Artifact",
-                 main:"Artifact",
-                 sub:""
-              },
-              mana_cost:"{1}",
-              oracle_text:"{1}, Sacrifice Surgical Skullbomb: Draw a card.\n{2}{U}, Sacrifice Surgical Skullbomb: Return target creature to its owner's hand. Draw a card. Activate only as a sorcery."
-           }
-        },
-        {
-           id:"2daa3621-8a2c-4b4b-87ac-f981192a0567",
-           name:"Sword of Forge and Frontier",
-           type_line:"Artifact — Equipment",
-           mana_cost:"{3}",
-           cmc:3,
-           colors:[
-              "A"
-           ],
-           rarity: "rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"244",
-           image:"https://cards.scryfall.io/border_crop/front/2/d/2daa3621-8a2c-4b4b-87ac-f981192a0567.jpg?1675957256",
-           card_face:{
-              name:"Sword of Forge and Frontier",
-              type_line:{
-                 full:"Artifact — Equipment",
-                 main:"Artifact",
-                 sub:[
-                    "Equipment"
-                 ]
-              },
-              mana_cost:"{3}",
-              oracle_text:"Equipped creature gets +2/+2 and has protection from red and from green.\nWhenever equipped creature deals combat damage to a player, exile the top two cards of your library. You may play those cards this turn. You may play an additional land this turn.\nEquip {2}"
-           }
-        },
-        {
-           id:"9747e4b0-fcf9-4f1d-b990-2a3e461adfee",
-           name:"Tablet of Compleation",
-           type_line:"Artifact",
-           mana_cost:"{2}",
-           cmc:2,
-           colors:[
-              "A"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"245",
-           image:"https://cards.scryfall.io/border_crop/front/9/7/9747e4b0-fcf9-4f1d-b990-2a3e461adfee.jpg?1675957259",
-           card_face:{
-              name:"Tablet of Compleation",
-              type_line:{
-                 full:"Artifact",
-                 main:"Artifact",
-                 sub:""
-              },
-              mana_cost:"{2}",
-              oracle_text:"{T}: Put an oil counter on Tablet of Compleation.\n{T}: Add {C}. Activate only if Tablet of Compleation has two or more oil counters on it.\n{1}, {T}: Draw a card. Activate only if Tablet of Compleation has five or more oil counters on it."
-           }
-        },
-        {
-           id:"1431fe83-7dc7-4c40-8d66-6525560e4323",
-           name:"Zenith Chronicler",
-           type_line:"Artifact Creature — Phyrexian Construct",
-           mana_cost:"{2}",
-           cmc:2,
-           colors:[
-              
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"246",
-           image:"https://cards.scryfall.io/border_crop/front/1/4/1431fe83-7dc7-4c40-8d66-6525560e4323.jpg?1675957261",
-           power:"3",
-           toughness:"1",
-           flavor_text:"It watches through the never-ending day, motionless save for the unsettling, twitching dance it performs as each sun reaches its apex.",
-           card_face:{
-              name:"Zenith Chronicler",
-              type_line:{
-                 full:"Artifact Creature — Phyrexian Construct",
-                 main:"Artifact Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Construct"
-                 ]
-              },
-              mana_cost:"{2}",
-              power:"3",
-              oracle_text:"Whenever a player casts their first multicolored spell each turn, each other player draws a card.",
-              toughness:"1"
-           }
-        },
-        {
-           id:"c16f96f5-a2a6-4ac4-bdae-326cee92bf2e",
-           name:"The Autonomous Furnace",
-           type_line:"Land — Sphere",
-           mana_cost:"",
-           cmc:0,
-           colors:[
-              
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"247",
-           image:"https://cards.scryfall.io/border_crop/front/c/1/c16f96f5-a2a6-4ac4-bdae-326cee92bf2e.jpg?1675957261",
-           flavor_text:"In Urabrask's domain, mighty forges echo day and night with the clangor of the Great Work.",
-           card_face:{
-              name:"The Autonomous Furnace",
-              type_line:{
-                 full:"Land — Sphere",
-                 main:"Land",
-                 sub:[
-                    "Sphere"
-                 ]
-              },
-              mana_cost:"",
-              oracle_text:"The Autonomous Furnace enters the battlefield tapped.\n{T}: Add {R}.\n{1}{R}, {T}, Sacrifice The Autonomous Furnace: Draw a card."
-           }
-        },
-        {
-           id:"1441fba4-fe06-4b5f-a103-aa6cf59a3859",
-           name:"Blackcleave Cliffs",
-           type_line:"Land",
-           mana_cost:"",
-           cmc:0,
-           colors:[
-              
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"248",
-           image:"https://cards.scryfall.io/border_crop/front/1/4/1441fba4-fe06-4b5f-a103-aa6cf59a3859.jpg?1675957263",
-           flavor_text:"Where ambition meets industry, passion is poisoned by greed.",
-           card_face:{
-              name:"Blackcleave Cliffs",
-              type_line:{
-                 full:"Land",
-                 main:"Land",
-                 sub:""
-              },
-              mana_cost:"",
-              oracle_text:"Blackcleave Cliffs enters the battlefield tapped unless you control two or fewer other lands.\n{T}: Add {B} or {R}."
-           }
-        },
-        {
-           id:"78b0f36b-7d8c-4e77-adc2-a4dad93a81d5",
-           name:"Copperline Gorge",
-           type_line:"Land",
-           mana_cost:"",
-           cmc:0,
-           colors:[
-              
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"249",
-           image:"https://cards.scryfall.io/border_crop/front/7/8/78b0f36b-7d8c-4e77-adc2-a4dad93a81d5.jpg?1675957264",
-           flavor_text:"Where fire meets ferocity, a greater evolution begins.",
-           card_face:{
-              name:"Copperline Gorge",
-              type_line:{
-                 full:"Land",
-                 main:"Land",
-                 sub:""
-              },
-              mana_cost:"",
-              oracle_text:"Copperline Gorge enters the battlefield tapped unless you control two or fewer other lands.\n{T}: Add {R} or {G}."
-           }
-        },
-        {
-           id:"bcbda15b-e49a-4445-a0e1-f221aa82c1e8",
-           name:"Darkslick Shores",
-           type_line:"Land",
-           mana_cost:"",
-           cmc:0,
-           colors:[
-              
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"250",
-           image:"https://cards.scryfall.io/border_crop/front/b/c/bcbda15b-e49a-4445-a0e1-f221aa82c1e8.jpg?1675957267",
-           flavor_text:"Where curiosity meets cruelty, hideous innovations arise.",
-           card_face:{
-              name:"Darkslick Shores",
-              type_line:{
-                 full:"Land",
-                 main:"Land",
-                 sub:""
-              },
-              mana_cost:"",
-              oracle_text:"Darkslick Shores enters the battlefield tapped unless you control two or fewer other lands.\n{T}: Add {U} or {B}."
-           }
-        },
-        {
-           id:"19d469f1-2219-4466-9f8a-769ee43e28db",
-           name:"The Dross Pits",
-           type_line:"Land — Sphere",
-           mana_cost:"",
-           cmc:0,
-           colors:[
-              
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"251",
-           image:"https://cards.scryfall.io/border_crop/front/1/9/19d469f1-2219-4466-9f8a-769ee43e28db.jpg?1675957269",
-           flavor_text:"In Sheoldred's domain, the Steel Thanes wage a never-ending war in her long shadow.",
-           card_face:{
-              name:"The Dross Pits",
-              type_line:{
-                 full:"Land — Sphere",
-                 main:"Land",
-                 sub:[
-                    "Sphere"
-                 ]
-              },
-              mana_cost:"",
-              oracle_text:"The Dross Pits enters the battlefield tapped.\n{T}: Add {B}.\n{1}{B}, {T}, Sacrifice The Dross Pits: Draw a card."
-           }
-        },
-        {
-           id:"01d6ba55-7bc0-41c6-84be-8cd528e46a05",
-           name:"The Fair Basilica",
-           type_line:"Land — Sphere",
-           mana_cost:"",
-           cmc:0,
-           colors:[
-              
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"252",
-           image:"https://cards.scryfall.io/border_crop/front/0/1/01d6ba55-7bc0-41c6-84be-8cd528e46a05.jpg?1675957270",
-           flavor_text:"In Elesh Norn's domain, the gospel of unity is the highest law.",
-           card_face:{
-              name:"The Fair Basilica",
-              type_line:{
-                 full:"Land — Sphere",
-                 main:"Land",
-                 sub:[
-                    "Sphere"
-                 ]
-              },
-              mana_cost:"",
-              oracle_text:"The Fair Basilica enters the battlefield tapped.\n{T}: Add {W}.\n{1}{W}, {T}, Sacrifice The Fair Basilica: Draw a card."
-           }
-        },
-        {
-           id:"6389c242-2139-4f12-af30-2b080a1c5e83",
-           name:"The Hunter Maze",
-           type_line:"Land — Sphere",
-           mana_cost:"",
-           cmc:0,
-           colors:[
-              
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"253",
-           image:"https://cards.scryfall.io/border_crop/front/6/3/6389c242-2139-4f12-af30-2b080a1c5e83.jpg?1675957270",
-           flavor_text:"In Vorinclex's domain, only the mightiest survive, and all are prey in his endless hunt.",
-           card_face:{
-              name:"The Hunter Maze",
-              type_line:{
-                 full:"Land — Sphere",
-                 main:"Land",
-                 sub:[
-                    "Sphere"
-                 ]
-              },
-              mana_cost:"",
-              oracle_text:"The Hunter Maze enters the battlefield tapped.\n{T}: Add {G}.\n{1}{G}, {T}, Sacrifice The Hunter Maze: Draw a card."
-           }
-        },
-        {
-           id:"54a702cd-ca49-4570-b47e-8b090452a3c3",
-           name:"Mirrex",
-           type_line:"Land — Sphere",
-           mana_cost:"",
-           cmc:0,
-           colors:[
-              
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"254",
-           image:"https://cards.scryfall.io/border_crop/front/5/4/54a702cd-ca49-4570-b47e-8b090452a3c3.jpg?1675957271",
-           card_face:{
-              name:"Mirrex",
-              type_line:{
-                 full:"Land — Sphere",
-                 main:"Land",
-                 sub:[
-                    "Sphere"
-                 ]
-              },
-              mana_cost:"",
-              oracle_text:"{T}: Add {C}.\n{T}: Add one mana of any color. Activate only if Mirrex entered the battlefield this turn.\n{3}, {T}: Create a 1/1 colorless Phyrexian Mite artifact creature token with toxic 1 and \"This creature can't block.\" (Players dealt combat damage by it also get a poison counter.)"
-           }
-        },
-        {
-           id:"d6785057-0d06-4f91-b45f-c05f7c4e2b19",
-           name:"The Monumental Facade",
-           type_line:"Land — Sphere",
-           mana_cost:"",
-           cmc:0,
-           colors:[
-              
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"255",
-           image:"https://cards.scryfall.io/border_crop/front/d/6/d6785057-0d06-4f91-b45f-c05f7c4e2b19.jpg?1675957274",
-           card_face:{
-              name:"The Monumental Facade",
-              type_line:{
-                 full:"Land — Sphere",
-                 main:"Land",
-                 sub:[
-                    "Sphere"
-                 ]
-              },
-              mana_cost:"",
-              oracle_text:"The Monumental Facade enters the battlefield with two oil counters on it.\n{T}: Add {C}.\n{T}, Remove an oil counter from The Monumental Facade: Put an oil counter on target artifact or creature you control. Activate only as a sorcery."
-           }
-        },
-        {
-           id:"5a931463-25f6-4e31-95b4-bb4a9388009b",
-           name:"The Mycosynth Gardens",
-           type_line:"Land — Sphere",
-           mana_cost:"",
-           cmc:0,
-           colors:[
-              
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"256",
-           image:"https://cards.scryfall.io/border_crop/front/5/a/5a931463-25f6-4e31-95b4-bb4a9388009b.jpg?1675957276",
-           flavor_text:"As the Invasion Tree grew, its branches pierced through the world's silent core.",
-           card_face:{
-              name:"The Mycosynth Gardens",
-              type_line:{
-                 full:"Land — Sphere",
-                 main:"Land",
-                 sub:[
-                    "Sphere"
-                 ]
-              },
-              mana_cost:"",
-              oracle_text:"{T}: Add {C}.\n{1}, {T}: Add one mana of any color.\n{X}, {T}: The Mycosynth Gardens becomes a copy of target nontoken artifact you control with mana value X."
-           }
-        },
-        {
-           id:"65b26f68-3a25-4c4e-bc76-a199ab479a50",
-           name:"Razorverge Thicket",
-           type_line:"Land",
-           mana_cost:"",
-           cmc:0,
-           colors:[
-              
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"257",
-           image:"https://cards.scryfall.io/border_crop/front/6/5/65b26f68-3a25-4c4e-bc76-a199ab479a50.jpg?1675957278",
-           flavor_text:"Where evolution meets austerity, primal might bucks against the yoke of hierarchy.",
-           card_face:{
-              name:"Razorverge Thicket",
-              type_line:{
-                 full:"Land",
-                 main:"Land",
-                 sub:""
-              },
-              mana_cost:"",
-              oracle_text:"Razorverge Thicket enters the battlefield tapped unless you control two or fewer other lands.\n{T}: Add {G} or {W}."
-           }
-        },
-        {
-           id:"9ed7441f-f624-49c8-8611-d9bba0e441ac",
-           name:"Seachrome Coast",
-           type_line:"Land",
-           mana_cost:"",
-           cmc:0,
-           colors:[
-              
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"258",
-           image:"https://cards.scryfall.io/border_crop/front/9/e/9ed7441f-f624-49c8-8611-d9bba0e441ac.jpg?1675957278",
-           flavor_text:"Where indoctrination meets inquiry, currents roil restlessly beneath the surface.",
-           card_face:{
-              name:"Seachrome Coast",
-              type_line:{
-                 full:"Land",
-                 main:"Land",
-                 sub:""
-              },
-              mana_cost:"",
-              oracle_text:"Seachrome Coast enters the battlefield tapped unless you control two or fewer other lands.\n{T}: Add {W} or {U}."
-           }
-        },
-        {
-           id:"29c91aad-bf33-448e-b122-65940fb2e33b",
-           name:"The Seedcore",
-           type_line:"Land — Sphere",
-           mana_cost:"",
-           cmc:0,
-           colors:[
-              
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"259",
-           image:"https://cards.scryfall.io/border_crop/front/2/9/29c91aad-bf33-448e-b122-65940fb2e33b.jpg?1675957280",
-           card_face:{
-              name:"The Seedcore",
-              type_line:{
-                 full:"Land — Sphere",
-                 main:"Land",
-                 sub:[
-                    "Sphere"
-                 ]
-              },
-              mana_cost:"",
-              oracle_text:"{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast Phyrexian creature spells.\nCorrupted — {T}: Target 1/1 creature gets +2/+1 until end of turn. Activate only if an opponent has three or more poison counters."
-           }
-        },
-        {
-           id:"1b49ec35-2c4f-4144-85fe-226f7cb67266",
-           name:"The Surgical Bay",
-           type_line:"Land — Sphere",
-           mana_cost:"",
-           cmc:0,
-           colors:[
-              
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"260",
-           image:"https://cards.scryfall.io/border_crop/front/1/b/1b49ec35-2c4f-4144-85fe-226f7cb67266.jpg?1675957281",
-           flavor_text:"In Jin-Gitaxias's domain, strange and terrible experiments iterate toward perfection, unbound by ethics.",
-           card_face:{
-              name:"The Surgical Bay",
-              type_line:{
-                 full:"Land — Sphere",
-                 main:"Land",
-                 sub:[
-                    "Sphere"
-                 ]
-              },
-              mana_cost:"",
-              oracle_text:"The Surgical Bay enters the battlefield tapped.\n{T}: Add {U}.\n{1}{U}, {T}, Sacrifice The Surgical Bay: Draw a card."
-           }
-        },
-        {
-           id:"5adceb34-78c7-40dd-af31-6fb282d577ca",
-           name:"Terramorphic Expanse",
-           type_line:"Land",
-           mana_cost:"",
-           cmc:0,
-           colors:[
-              
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"261",
-           image:"https://cards.scryfall.io/border_crop/front/5/a/5adceb34-78c7-40dd-af31-6fb282d577ca.jpg?1675957283",
-           flavor_text:"\"The Phyrexian's monuments of today will be nothing but dust tomorrow. With enough tomorrows, so will their rule.\"\n—Koth",
-           card_face:{
-              name:"Terramorphic Expanse",
-              type_line:{
-                 full:"Land",
-                 main:"Land",
-                 sub:""
-              },
-              mana_cost:"",
-              oracle_text:"{T}, Sacrifice Terramorphic Expanse: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle."
-           }
-        },
-        {
-           id:"db14da86-6721-4e22-9b61-4a5680d4e5a3",
-           name:"Plains",
-           type_line:"Basic Land — Plains",
-           mana_cost:"",
-           cmc:0,
-           colors:[
-              
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"272",
-           image:"https://cards.scryfall.io/border_crop/front/d/b/db14da86-6721-4e22-9b61-4a5680d4e5a3.jpg?1675957293",
-           card_face:{
-              name:"Plains",
-              type_line:{
-                 full:"Basic Land — Plains",
-                 main:"Basic Land",
-                 sub:[
-                    "Plains"
-                 ]
-              },
-              mana_cost:"",
-              oracle_text:"({T}: Add {W}.)"
-           }
-        },
-        {
-           id:"fa641d46-d002-4903-af72-e96971f558bc",
-           name:"Island",
-           type_line:"Basic Land — Island",
-           mana_cost:"",
-           cmc:0,
-           colors:[
-              
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"273",
-           image:"https://cards.scryfall.io/border_crop/front/f/a/fa641d46-d002-4903-af72-e96971f558bc.jpg?1677527331",
-           card_face:{
-              name:"Island",
-              type_line:{
-                 full:"Basic Land — Island",
-                 main:"Basic Land",
-                 sub:[
-                    "Island"
-                 ]
-              },
-              mana_cost:"",
-              oracle_text:"({T}: Add {U}.)"
-           }
-        },
-        {
-           id:"d485c620-f1fb-4715-b7c5-d2d56588308d",
-           name:"Swamp",
-           type_line:"Basic Land — Swamp",
-           mana_cost:"",
-           cmc:0,
-           colors:[
-              
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"274",
-           image:"https://cards.scryfall.io/border_crop/front/d/4/d485c620-f1fb-4715-b7c5-d2d56588308d.jpg?1675957293",
-           card_face:{
-              name:"Swamp",
-              type_line:{
-                 full:"Basic Land — Swamp",
-                 main:"Basic Land",
-                 sub:[
-                    "Swamp"
-                 ]
-              },
-              mana_cost:"",
-              oracle_text:"({T}: Add {B}.)"
-           }
-        },
-        {
-           id:"cd95f833-27ce-447c-b505-02137daaba4c",
-           name:"Mountain",
-           type_line:"Basic Land — Mountain",
-           mana_cost:"",
-           cmc:0,
-           colors:[
-              
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"275",
-           image:"https://cards.scryfall.io/border_crop/front/c/d/cd95f833-27ce-447c-b505-02137daaba4c.jpg?1675957296",
-           card_face:{
-              name:"Mountain",
-              type_line:{
-                 full:"Basic Land — Mountain",
-                 main:"Basic Land",
-                 sub:[
-                    "Mountain"
-                 ]
-              },
-              mana_cost:"",
-              oracle_text:"({T}: Add {R}.)"
-           }
-        },
-        {
-           id:"9f9e911e-7e12-4d99-806c-5cfba19ea8f3",
-           name:"Forest",
-           type_line:"Basic Land — Forest",
-           mana_cost:"",
-           cmc:0,
-           colors:[
-              
-           ],
-           rarity:"common",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"276",
-           image:"https://cards.scryfall.io/border_crop/front/9/f/9f9e911e-7e12-4d99-806c-5cfba19ea8f3.jpg?1675957297",
-           card_face:{
-              name:"Forest",
-              type_line:{
-                 full:"Basic Land — Forest",
-                 main:"Basic Land",
-                 sub:[
-                    "Forest"
-                 ]
-              },
-              mana_cost:"",
-              oracle_text:"({T}: Add {G}.)"
-           }
-        },
-        {
-           id:"a55a5edb-edf3-4f6c-90b8-1780b1e73997",
-           name:"Mite Overseer",
-           type_line:"Creature — Phyrexian Soldier",
-           mana_cost:"{3}{W}",
-           cmc:4,
-           colors:[
-              "W"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"404",
-           image:"https://cards.scryfall.io/border_crop/front/a/5/a55a5edb-edf3-4f6c-90b8-1780b1e73997.jpg?1675957440",
-           power:"4",
-           toughness:"2",
-           card_face:{
-              name:"Mite Overseer",
-              type_line:{
-                 full:"Creature — Phyrexian Soldier",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Soldier"
-                 ]
-              },
-              mana_cost:"{3}{W}",
-              power:"4",
-              oracle_text:"First strike\nAs long as it's your turn, creature tokens you control get +1/+0 and have first strike.\n{3}{W/P}: Create a 1/1 colorless Phyrexian Mite artifact creature token with toxic 1 and \"This creature can't block.\" (Players dealt combat damage by it also get a poison counter. {W/P} can be paid with either {W} or 2 life.)",
-              toughness:"2"
-           }
-        },
-        {
-           id:"70d562aa-8b49-40a3-a5c1-3af8afa98edc",
-           name:"Serum Sovereign",
-           type_line:"Creature — Phyrexian Sphinx",
-           mana_cost:"{4}{U}",
-           cmc:5,
-           colors:[
-              "U"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"405",
-           image:"https://cards.scryfall.io/border_crop/front/7/0/70d562aa-8b49-40a3-a5c1-3af8afa98edc.jpg?1675957442",
-           power:"4",
-           toughness:"4",
-           flavor_text:"A thousand riddles, each with a single answer: \"The glory of Phyrexia.\"",
-           card_face:{
-              name:"Serum Sovereign",
-              type_line:{
-                 full:"Creature — Phyrexian Sphinx",
-                 main:"Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Sphinx"
-                 ]
-              },
-              mana_cost:"{4}{U}",
-              power:"4",
-              oracle_text:"Flying\nWhenever you cast a noncreature spell, put an oil counter on Serum Sovereign.\n{U}, Remove an oil counter from Serum Sovereign: Draw a card, then scry 2.",
-              toughness:"4"
-           }
-        },
-        {
-           id:"28934cf3-c1e0-49c9-93ce-fd60b1881884",
-           name:"Kinzu of the Bleak Coven",
-           type_line:"Legendary Creature — Phyrexian Vampire",
-           mana_cost:"{4}{B}",
-           cmc:5,
-           colors:[
-              "B"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"406",
-           image:"https://cards.scryfall.io/border_crop/front/2/8/28934cf3-c1e0-49c9-93ce-fd60b1881884.jpg?1675957442",
-           power:"5",
-           toughness:"4",
-           card_face:{
-              name:"Kinzu of the Bleak Coven",
-              type_line:{
-                 full:"Legendary Creature — Phyrexian Vampire",
-                 main:"Legendary Creature",
-                 sub:[
-                    "Phyrexian",
-                    "Vampire"
-                 ]
-              },
-              mana_cost:"{4}{B}",
-              power:"5",
-              oracle_text:"Flying\nWhenever another nontoken creature you control dies, you may pay 2 life and exile it. If you do, create a token that's a copy of that creature, except it's 1/1 and has toxic 1. (Players dealt combat damage by it also get a poison counter.)",
-              toughness:"4"
-           }
-        },
-        {
-           id:"d7c25806-1da6-4789-a17e-d2440184ec40",
-           name:"Rhuk, Hexgold Nabber",
-           type_line:"Legendary Creature — Goblin Rebel",
-           mana_cost:"{2}{R}",
-           cmc:3,
-           colors:[
-              "R"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"407",
-           image:"https://cards.scryfall.io/border_crop/front/d/7/d7c25806-1da6-4789-a17e-d2440184ec40.jpg?1675957444",
-           power:"2",
-           toughness:"2",
-           flavor_text:"Never get between a goblin and the closest shiny object.",
-           card_face:{
-              name:"Rhuk, Hexgold Nabber",
-              type_line:{
-                 full:"Legendary Creature — Goblin Rebel",
-                 main:"Legendary Creature",
-                 sub:[
-                    "Goblin",
-                    "Rebel"
-                 ]
-              },
-              mana_cost:"{2}{R}",
-              power:"2",
-              oracle_text:"Trample, haste\nWhenever an equipped creature you control other than Rhuk, Hexgold Nabber attacks or dies, you may attach all Equipment attached to that creature to Rhuk.",
-              toughness:"2"
-           }
-        },
-        {
-           id:"0e1141ca-78c0-46e5-99f8-28069d69f23a",
-           name:"Goliath Hatchery",
-           type_line:"Enchantment",
-           mana_cost:"{4}{G}{G}",
-           cmc:6,
-           colors:[
-              "G"
-           ],
-           rarity:"rare",
-           set:"one",
-           set_name:"Phyrexia: All Will Be One",
-           collector_number:"408",
-           image:"https://cards.scryfall.io/border_crop/front/0/e/0e1141ca-78c0-46e5-99f8-28069d69f23a.jpg?1675957447",
-           card_face:{
-              name:"Goliath Hatchery",
-              type_line:{
-                 full:"Enchantment",
-                 main:"Enchantment",
-                 sub:""
-              },
-              mana_cost:"{4}{G}{G}",
-              oracle_text:"When Goliath Hatchery enters the battlefield, create two 3/3 green Phyrexian Beast creature tokens with toxic 1. (Players dealt combat damage by them also get a poison counter.)\nCorrupted — At the beginning of your upkeep, if an opponent has three or more poison counters, choose a creature you control, then draw cards equal to its total toxic value."
-           }
+            id: "3cd8dd4e-6892-49d7-8fae-97d04f9f6c84",
+            name: "Against All Odds",
+            type_line: "Sorcery",
+            mana_cost: "{3}{W}",
+            cmc: 4,
+            colors: [
+                "W"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "1",
+            image: "https://cards.scryfall.io/border_crop/front/3/c/3cd8dd4e-6892-49d7-8fae-97d04f9f6c84.jpg?1675956885",
+            card_face: {
+                name: "Against All Odds",
+                type_line: {
+                    full: "Sorcery",
+                    main: "Sorcery",
+                    sub: ""
+                },
+                mana_cost: "{3}{W}",
+                oracle_text: "Choose one or both —\n• Exile target artifact or creature you control, then return it to the battlefield under its owner's control.\n• Return target artifact or creature card with mana value 3 or less from your graveyard to the battlefield."
+            }
+        },
+        {
+            id: "04baad61-1b51-4602-9e33-0de4a9f34793",
+            name: "Annex Sentry",
+            type_line: "Artifact Creature — Phyrexian Cleric",
+            mana_cost: "{2}{W}",
+            cmc: 3,
+            colors: [
+                "W"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "2",
+            image: "https://cards.scryfall.io/border_crop/front/0/4/04baad61-1b51-4602-9e33-0de4a9f34793.jpg?1675956886",
+            power: "1",
+            toughness: "4",
+            flavor_text: "There's never a need to change the watch, for the servants of Norn are sleepless.",
+            card_face: {
+                name: "Annex Sentry",
+                type_line: {
+                    full: "Artifact Creature — Phyrexian Cleric",
+                    main: "Artifact Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Cleric"
+                    ]
+                },
+                mana_cost: "{2}{W}",
+                power: "1",
+                oracle_text: "Toxic 1 (Players dealt combat damage by this creature also get a poison counter.)\nWhen Annex Sentry enters the battlefield, exile target artifact or creature an opponent controls with mana value 3 or less until Annex Sentry leaves the battlefield.",
+                toughness: "4"
+            }
+        },
+        {
+            id: "8a973487-5def-4771-bb77-5748cbd2f469",
+            name: "Apostle of Invasion",
+            type_line: "Creature — Phyrexian Angel",
+            mana_cost: "{4}{W}{W}",
+            cmc: 6,
+            colors: [
+                "W"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "3",
+            image: "https://cards.scryfall.io/border_crop/front/8/a/8a973487-5def-4771-bb77-5748cbd2f469.jpg?1675956886",
+            power: "4",
+            toughness: "4",
+            flavor_text: "\"Be not afraid of the holy chorus. Join in rapturous harmony.\"",
+            card_face: {
+                name: "Apostle of Invasion",
+                type_line: {
+                    full: "Creature — Phyrexian Angel",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Angel"
+                    ]
+                },
+                mana_cost: "{4}{W}{W}",
+                power: "4",
+                oracle_text: "Flying\nCorrupted — As long as an opponent has three or more poison counters, Apostle of Invasion has double strike.",
+                toughness: "4"
+            }
+        },
+        {
+            id: "81ef3cfa-63e6-4450-af65-da7f05d13cf3",
+            name: "Basilica Shepherd",
+            type_line: "Creature — Phyrexian Angel",
+            mana_cost: "{3}{W}{W}",
+            cmc: 5,
+            colors: [
+                "W"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "4",
+            image: "https://cards.scryfall.io/border_crop/front/8/1/81ef3cfa-63e6-4450-af65-da7f05d13cf3.jpg?1675956886",
+            power: "3",
+            toughness: "3",
+            card_face: {
+                name: "Basilica Shepherd",
+                type_line: {
+                    full: "Creature — Phyrexian Angel",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Angel"
+                    ]
+                },
+                mana_cost: "{3}{W}{W}",
+                power: "3",
+                oracle_text: "Flying\nWhen Basilica Shepherd enters the battlefield, create two 1/1 colorless Phyrexian Mite artifact creature tokens with toxic 1 and \"This creature can't block.\" (Players dealt combat damage by them also get a poison counter.)",
+                toughness: "3"
+            }
+        },
+        {
+            id: "0bd8d2b8-4caf-4349-9538-0dfbebf0ce1b",
+            name: "Bladed Ambassador",
+            type_line: "Creature — Phyrexian Soldier",
+            mana_cost: "{1}{W}",
+            cmc: 2,
+            colors: [
+                "W"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "5",
+            image: "https://cards.scryfall.io/border_crop/front/0/b/0bd8d2b8-4caf-4349-9538-0dfbebf0ce1b.jpg?1675956886",
+            power: "3",
+            toughness: "1",
+            flavor_text: "\"Let those thanebound dissenters prattle about their dead god. I serve the Mother of Machines, and in her name I carve out their heresy.\"",
+            card_face: {
+                name: "Bladed Ambassador",
+                type_line: {
+                    full: "Creature — Phyrexian Soldier",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Soldier"
+                    ]
+                },
+                mana_cost: "{1}{W}",
+                power: "3",
+                oracle_text: "Bladed Ambassador enters the battlefield with an oil counter on it.\n{1}, Remove an oil counter from Bladed Ambassador: Bladed Ambassador gains indestructible until end of turn.",
+                toughness: "1"
+            }
+        },
+        {
+            id: "42060b9d-de58-485e-817a-1e64839943aa",
+            name: "Charge of the Mites",
+            type_line: "Instant",
+            mana_cost: "{2}{W}",
+            cmc: 3,
+            colors: [
+                "W"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "6",
+            image: "https://cards.scryfall.io/border_crop/front/4/2/42060b9d-de58-485e-817a-1e64839943aa.jpg?1675956894",
+            card_face: {
+                name: "Charge of the Mites",
+                type_line: {
+                    full: "Instant",
+                    main: "Instant",
+                    sub: ""
+                },
+                mana_cost: "{2}{W}",
+                oracle_text: "Choose one —\n• Charge of the Mites deals damage equal to the number of creatures you control to target creature or planeswalker.\n• Create two 1/1 colorless Phyrexian Mite artifact creature tokens with toxic 1 and \"This creature can't block.\" (Players dealt combat damage by them also get a poison counter.)"
+            }
+        },
+        {
+            id: "2bb29a69-3e42-4268-8026-f01072d7b56c",
+            name: "Compleat Devotion",
+            type_line: "Instant",
+            mana_cost: "{1}{W}",
+            cmc: 2,
+            colors: [
+                "W"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "7",
+            image: "https://cards.scryfall.io/border_crop/front/2/b/2bb29a69-3e42-4268-8026-f01072d7b56c.jpg?1675956894",
+            flavor_text: "\"Elspeth, my friend, the Multiverse has answered my prayers to bring you here so that I may gather you into my pride and forever protect you.\"",
+            card_face: {
+                name: "Compleat Devotion",
+                type_line: {
+                    full: "Instant",
+                    main: "Instant",
+                    sub: ""
+                },
+                mana_cost: "{1}{W}",
+                oracle_text: "Target creature you control gets +2/+2 until end of turn. If that creature has toxic, draw a card."
+            }
+        },
+        {
+            id: "aace4c44-7250-414b-aac4-df042a1e2e1d",
+            name: "Crawling Chorus",
+            type_line: "Creature — Phyrexian Horror",
+            mana_cost: "{W}",
+            cmc: 1,
+            colors: [
+                "W"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "8",
+            image: "https://cards.scryfall.io/border_crop/front/a/a/aace4c44-7250-414b-aac4-df042a1e2e1d.jpg?1675956894",
+            power: "1",
+            toughness: "1",
+            flavor_text: "\"We need not be swift. We are inexorable.\"",
+            card_face: {
+                name: "Crawling Chorus",
+                type_line: {
+                    full: "Creature — Phyrexian Horror",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Horror"
+                    ]
+                },
+                mana_cost: "{W}",
+                power: "1",
+                oracle_text: "Toxic 1 (Players dealt combat damage by this creature also get a poison counter.)\nWhen Crawling Chorus dies, create a 1/1 colorless Phyrexian Mite artifact creature token with toxic 1 and \"This creature can't block.\"",
+                toughness: "1"
+            }
+        },
+        {
+            id: "56444440-a9e6-4583-a289-9f0571a98093",
+            name: "Duelist of Deep Faith",
+            type_line: "Creature — Phyrexian Soldier",
+            mana_cost: "{1}{W}",
+            cmc: 2,
+            colors: [
+                "W"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "9",
+            image: "https://cards.scryfall.io/border_crop/front/5/6/56444440-a9e6-4583-a289-9f0571a98093.jpg?1675956894",
+            power: "2",
+            toughness: "2",
+            flavor_text: "\"There is no hate behind our blades. We kill out of love, and the desire to share Norn's blessings with all.\"",
+            card_face: {
+                name: "Duelist of Deep Faith",
+                type_line: {
+                    full: "Creature — Phyrexian Soldier",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Soldier"
+                    ]
+                },
+                mana_cost: "{1}{W}",
+                power: "2",
+                oracle_text: "Toxic 1 (Players dealt combat damage by this creature also get a poison counter.)\nAs long as it's your turn, Duelist of Deep Faith has first strike.",
+                toughness: "2"
+            }
+        },
+        {
+            id: "44dcab01-1d13-4dfc-ae2f-fbaa3dd35087",
+            name: "Elesh Norn, Mother of Machines",
+            type_line: "Legendary Creature — Phyrexian Praetor",
+            mana_cost: "{4}{W}",
+            cmc: 5,
+            colors: [
+                "W"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "10",
+            image: "https://cards.scryfall.io/border_crop/front/4/4/44dcab01-1d13-4dfc-ae2f-fbaa3dd35087.jpg?1675956896",
+            power: "4",
+            toughness: "7",
+            card_face: {
+                name: "Elesh Norn, Mother of Machines",
+                type_line: {
+                    full: "Legendary Creature — Phyrexian Praetor",
+                    main: "Legendary Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Praetor"
+                    ]
+                },
+                mana_cost: "{4}{W}",
+                power: "4",
+                oracle_text: "Vigilance\nIf a permanent entering the battlefield causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.\nPermanents entering the battlefield don't cause abilities of permanents your opponents control to trigger.",
+                toughness: "7"
+            }
+        },
+        {
+            id: "905f0dd4-0197-45f8-8e7f-396d6dcef600",
+            name: "The Eternal Wanderer",
+            type_line: "Legendary Planeswalker",
+            mana_cost: "{4}{W}{W}",
+            cmc: 6,
+            colors: [
+                "W"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "11",
+            image: "https://cards.scryfall.io/border_crop/front/9/0/905f0dd4-0197-45f8-8e7f-396d6dcef600.jpg?1675956901",
+            card_face: {
+                name: "The Eternal Wanderer",
+                type_line: {
+                    full: "Legendary Planeswalker",
+                    main: "Legendary Planeswalker",
+                    sub: ""
+                },
+                mana_cost: "{4}{W}{W}",
+                oracle_text: "No more than one creature can attack The Eternal Wanderer each combat.\n+1: Exile up to one target artifact or creature. Return that card to the battlefield under its owner's control at the beginning of that player's next end step.\n0: Create a 2/2 white Samurai creature token with double strike.\n−4: For each player, choose a creature that player controls. Each player sacrifices all creatures they control not chosen this way."
+            }
+        },
+        {
+            id: "134aecf0-dc48-4fb3-8c8b-4e5272077856",
+            name: "Flensing Raptor",
+            type_line: "Creature — Phyrexian Bird",
+            mana_cost: "{2}{W}",
+            cmc: 3,
+            colors: [
+                "W"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "12",
+            image: "https://cards.scryfall.io/border_crop/front/1/3/134aecf0-dc48-4fb3-8c8b-4e5272077856.jpg?1675956901",
+            power: "2",
+            toughness: "2",
+            card_face: {
+                name: "Flensing Raptor",
+                type_line: {
+                    full: "Creature — Phyrexian Bird",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Bird"
+                    ]
+                },
+                mana_cost: "{2}{W}",
+                power: "2",
+                oracle_text: "Flying\nToxic 1 (Players dealt combat damage by this creature also get a poison counter.)\nWhen Flensing Raptor enters the battlefield, another target creature you control with toxic gets +1/+1 and gains flying until end of turn.",
+                toughness: "2"
+            }
+        },
+        {
+            id: "f4057210-ef07-4496-94c8-95c3b807c23c",
+            name: "Goldwarden's Helm",
+            type_line: "Artifact — Equipment",
+            mana_cost: "{2}{W}",
+            cmc: 3,
+            colors: [
+                "W"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "13",
+            image: "https://cards.scryfall.io/border_crop/front/f/4/f4057210-ef07-4496-94c8-95c3b807c23c.jpg?1675956901",
+            flavor_text: "\"My mother wore this into battle against the first Phyrexians. Now I wear it in her honor.\"",
+            card_face: {
+                name: "Goldwarden's Helm",
+                type_line: {
+                    full: "Artifact — Equipment",
+                    main: "Artifact",
+                    sub: [
+                        "Equipment"
+                    ]
+                },
+                mana_cost: "{2}{W}",
+                oracle_text: "For Mirrodin! (When this Equipment enters the battlefield, create a 2/2 red Rebel creature token, then attach this to it.)\nEquipped creature gets +0/+1.\nEquip {1}{W} ({1}{W}: Attach to target creature you control. Equip only as a sorcery.)"
+            }
+        },
+        {
+            id: "c498dbf9-c68c-400c-9349-c3c3fc8efcae",
+            name: "Hexgold Hoverwings",
+            type_line: "Artifact — Equipment",
+            mana_cost: "{3}{W}",
+            cmc: 4,
+            colors: [
+                "W"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "14",
+            image: "https://cards.scryfall.io/border_crop/front/c/4/c498dbf9-c68c-400c-9349-c3c3fc8efcae.jpg?1675956902",
+            card_face: {
+                name: "Hexgold Hoverwings",
+                type_line: {
+                    full: "Artifact — Equipment",
+                    main: "Artifact",
+                    sub: [
+                        "Equipment"
+                    ]
+                },
+                mana_cost: "{3}{W}",
+                oracle_text: "For Mirrodin! (When this Equipment enters the battlefield, create a 2/2 red Rebel creature token, then attach this to it.)\nEquipped creature has flying.\nCreatures you control that are equipped get +1/+0.\nEquip {2}{W}"
+            }
+        },
+        {
+            id: "b3cf4c4f-bda6-454c-991d-429c0dca0e85",
+            name: "Incisor Glider",
+            type_line: "Artifact Creature — Phyrexian Construct",
+            mana_cost: "{1}{W}",
+            cmc: 2,
+            colors: [
+                "W"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "15",
+            image: "https://cards.scryfall.io/border_crop/front/b/3/b3cf4c4f-bda6-454c-991d-429c0dca0e85.jpg?1675956905",
+            power: "1",
+            toughness: "3",
+            flavor_text: "\"You think it's creepy now? You should see how it eats.\"\n—Melira",
+            card_face: {
+                name: "Incisor Glider",
+                type_line: {
+                    full: "Artifact Creature — Phyrexian Construct",
+                    main: "Artifact Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Construct"
+                    ]
+                },
+                mana_cost: "{1}{W}",
+                power: "1",
+                oracle_text: "Flying\nCorrupted — Whenever Incisor Glider attacks, if an opponent has three or more poison counters, creatures you control get +1/+1 until end of turn.",
+                toughness: "3"
+            }
+        },
+        {
+            id: "d051bfc7-b402-444d-896e-c3a9562cdb0d",
+            name: "Indoctrination Attendant",
+            type_line: "Creature — Phyrexian Cleric",
+            mana_cost: "{3}{W}",
+            cmc: 4,
+            colors: [
+                "W"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "16",
+            image: "https://cards.scryfall.io/border_crop/front/d/0/d051bfc7-b402-444d-896e-c3a9562cdb0d.jpg?1675956909",
+            power: "3",
+            toughness: "4",
+            card_face: {
+                name: "Indoctrination Attendant",
+                type_line: {
+                    full: "Creature — Phyrexian Cleric",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Cleric"
+                    ]
+                },
+                mana_cost: "{3}{W}",
+                power: "3",
+                oracle_text: "Toxic 1 (Players dealt combat damage by this creature also get a poison counter.)\nWhen Indoctrination Attendant enters the battlefield, you may return another permanent you control to its owner's hand. If you do, create a 1/1 colorless Phyrexian Mite artifact creature token with toxic 1 and \"This creature can't block.\"",
+                toughness: "4"
+            }
+        },
+        {
+            id: "9f03d6bf-cbba-4ad7-8cec-065a47f03dbe",
+            name: "Infested Fleshcutter",
+            type_line: "Artifact — Equipment",
+            mana_cost: "{1}{W}",
+            cmc: 2,
+            colors: [
+                "W"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "17",
+            image: "https://cards.scryfall.io/border_crop/front/9/f/9f03d6bf-cbba-4ad7-8cec-065a47f03dbe.jpg?1675956910",
+            card_face: {
+                name: "Infested Fleshcutter",
+                type_line: {
+                    full: "Artifact — Equipment",
+                    main: "Artifact",
+                    sub: [
+                        "Equipment"
+                    ]
+                },
+                mana_cost: "{1}{W}",
+                oracle_text: "Equipped creature gets +2/+0.\nWhenever equipped creature attacks, create a 1/1 colorless Phyrexian Mite artifact creature token with toxic 1 and \"This creature can't block.\" (Players dealt combat damage by it also get a poison counter.)\nEquip {2}{W}"
+            }
+        },
+        {
+            id: "b00ea7bb-705b-4669-bb2a-560bed04b14a",
+            name: "Jawbone Duelist",
+            type_line: "Creature — Phyrexian Soldier",
+            mana_cost: "{1}{W}",
+            cmc: 2,
+            colors: [
+                "W"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "18",
+            image: "https://cards.scryfall.io/border_crop/front/b/0/b00ea7bb-705b-4669-bb2a-560bed04b14a.jpg?1675956910",
+            power: "1",
+            toughness: "1",
+            flavor_text: "\"I have room for a few more teeth in my collection. Who's next?\"",
+            card_face: {
+                name: "Jawbone Duelist",
+                type_line: {
+                    full: "Creature — Phyrexian Soldier",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Soldier"
+                    ]
+                },
+                mana_cost: "{1}{W}",
+                power: "1",
+                oracle_text: "Double strike\nToxic 1 (Players dealt combat damage by this creature also get a poison counter.)",
+                toughness: "1"
+            }
+        },
+        {
+            id: "945d283d-4592-485f-808a-6e5a721f3cf7",
+            name: "Kemba, Kha Enduring",
+            type_line: "Legendary Creature — Cat Cleric",
+            mana_cost: "{1}{W}",
+            cmc: 2,
+            colors: [
+                "W"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "19",
+            image: "https://cards.scryfall.io/border_crop/front/9/4/945d283d-4592-485f-808a-6e5a721f3cf7.jpg?1675956910",
+            power: "2",
+            toughness: "2",
+            card_face: {
+                name: "Kemba, Kha Enduring",
+                type_line: {
+                    full: "Legendary Creature — Cat Cleric",
+                    main: "Legendary Creature",
+                    sub: [
+                        "Cat",
+                        "Cleric"
+                    ]
+                },
+                mana_cost: "{1}{W}",
+                power: "2",
+                oracle_text: "Whenever Kemba, Kha Enduring or another Cat enters the battlefield under your control, attach up to one target Equipment you control to that creature.\nEquipped creatures you control get +1/+1.\n{3}{W}{W}: Create a 2/2 white Cat creature token.",
+                toughness: "2"
+            }
+        },
+        {
+            id: "96ae13df-670e-49a0-99b0-baf908ac9eb4",
+            name: "Leonin Lightbringer",
+            type_line: "Creature — Cat Rebel",
+            mana_cost: "{2}{W}",
+            cmc: 3,
+            colors: [
+                "W"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "20",
+            image: "https://cards.scryfall.io/border_crop/front/9/6/96ae13df-670e-49a0-99b0-baf908ac9eb4.jpg?1675956915",
+            power: "3",
+            toughness: "2",
+            flavor_text: "\"It's hard to fight for the future if you can't see the way forward.\"",
+            card_face: {
+                name: "Leonin Lightbringer",
+                type_line: {
+                    full: "Creature — Cat Rebel",
+                    main: "Creature",
+                    sub: [
+                        "Cat",
+                        "Rebel"
+                    ]
+                },
+                mana_cost: "{2}{W}",
+                power: "3",
+                oracle_text: "Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)\nAs long as Leonin Lightbringer is equipped, it gets +1/+1.",
+                toughness: "2"
+            }
+        },
+        {
+            id: "544a707d-4090-4a74-91aa-60fbd8a4ae96",
+            name: "Mandible Justiciar",
+            type_line: "Artifact Creature — Phyrexian Cleric",
+            mana_cost: "{1}{W}",
+            cmc: 2,
+            colors: [
+                "W"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "21",
+            image: "https://cards.scryfall.io/border_crop/front/5/4/544a707d-4090-4a74-91aa-60fbd8a4ae96.jpg?1675956918",
+            power: "2",
+            toughness: "1",
+            flavor_text: "While one mouth feeds, the other chatters mindless paeans of Elesh Norn's glory.",
+            card_face: {
+                name: "Mandible Justiciar",
+                type_line: {
+                    full: "Artifact Creature — Phyrexian Cleric",
+                    main: "Artifact Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Cleric"
+                    ]
+                },
+                mana_cost: "{1}{W}",
+                power: "2",
+                oracle_text: "Lifelink\nWhenever another artifact enters the battlefield under your control, Mandible Justiciar gets +1/+1 until end of turn.",
+                toughness: "1"
+            }
+        },
+        {
+            id: "3006ea5a-5391-41eb-b0c8-092741dca2eb",
+            name: "Mirran Bardiche",
+            type_line: "Artifact — Equipment",
+            mana_cost: "{4}{W}",
+            cmc: 5,
+            colors: [
+                "W"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "22",
+            image: "https://cards.scryfall.io/border_crop/front/3/0/3006ea5a-5391-41eb-b0c8-092741dca2eb.jpg?1675956918",
+            card_face: {
+                name: "Mirran Bardiche",
+                type_line: {
+                    full: "Artifact — Equipment",
+                    main: "Artifact",
+                    sub: [
+                        "Equipment"
+                    ]
+                },
+                mana_cost: "{4}{W}",
+                oracle_text: "For Mirrodin! (When this Equipment enters the battlefield, create a 2/2 red Rebel creature token, then attach this to it.)\nEquipped creature gets +2/+1 and has vigilance.\nEquip {3}{W} ({3}{W}: Attach to target creature you control. Equip only as a sorcery.)"
+            }
+        },
+        {
+            id: "8296a455-21d5-498e-9029-2bdf0da855a8",
+            name: "Mondrak, Glory Dominus",
+            type_line: "Legendary Creature — Phyrexian Horror",
+            mana_cost: "{2}{W}{W}",
+            cmc: 4,
+            colors: [
+                "W"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "23",
+            image: "https://cards.scryfall.io/border_crop/front/8/2/8296a455-21d5-498e-9029-2bdf0da855a8.jpg?1675956918",
+            power: "4",
+            toughness: "4",
+            card_face: {
+                name: "Mondrak, Glory Dominus",
+                type_line: {
+                    full: "Legendary Creature — Phyrexian Horror",
+                    main: "Legendary Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Horror"
+                    ]
+                },
+                mana_cost: "{2}{W}{W}",
+                power: "4",
+                oracle_text: "If one or more tokens would be created under your control, twice that many of those tokens are created instead.\n{1}{W/P}{W/P}, Sacrifice two other artifacts and/or creatures: Put an indestructible counter on Mondrak, Glory Dominus. ({W/P} can be paid with either {W} or 2 life.)",
+                toughness: "4"
+            }
+        },
+        {
+            id: "eeebc0ab-89fb-47d5-a20f-8f1fe5e3c149",
+            name: "Norn's Wellspring",
+            type_line: "Artifact",
+            mana_cost: "{1}{W}",
+            cmc: 2,
+            colors: [
+                "W"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "24",
+            image: "https://cards.scryfall.io/border_crop/front/e/e/eeebc0ab-89fb-47d5-a20f-8f1fe5e3c149.jpg?1675956918",
+            flavor_text: "\"Drown, so you may breathe again.\"\n—Atraxa",
+            card_face: {
+                name: "Norn's Wellspring",
+                type_line: {
+                    full: "Artifact",
+                    main: "Artifact",
+                    sub: ""
+                },
+                mana_cost: "{1}{W}",
+                oracle_text: "Whenever a creature you control dies, scry 1 and put an oil counter on Norn's Wellspring.\n{1}, {T}, Remove two oil counters from Norn's Wellspring: Draw a card."
+            }
+        },
+        {
+            id: "8c938a0f-531c-4293-a89c-c7440d5acc5d",
+            name: "Orthodoxy Enforcer",
+            type_line: "Creature — Phyrexian Cleric",
+            mana_cost: "{3}{W}",
+            cmc: 4,
+            colors: [
+                "W"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "25",
+            image: "https://cards.scryfall.io/border_crop/front/8/c/8c938a0f-531c-4293-a89c-c7440d5acc5d.jpg?1675956924",
+            power: "2",
+            toughness: "4",
+            flavor_text: "The mites sniff out any potential interlopers. He handles the rest.",
+            card_face: {
+                name: "Orthodoxy Enforcer",
+                type_line: {
+                    full: "Creature — Phyrexian Cleric",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Cleric"
+                    ]
+                },
+                mana_cost: "{3}{W}",
+                power: "2",
+                oracle_text: "Vigilance\nOrthodoxy Enforcer gets +2/+0 as long as you control two or more artifacts.",
+                toughness: "4"
+            }
+        },
+        {
+            id: "0da03224-c1af-438f-96c2-b0e41e1070b7",
+            name: "Ossification",
+            type_line: "Enchantment — Aura",
+            mana_cost: "{1}{W}",
+            cmc: 2,
+            colors: [
+                "W"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "26",
+            image: "https://cards.scryfall.io/border_crop/front/0/d/0da03224-c1af-438f-96c2-b0e41e1070b7.jpg?1680795456",
+            flavor_text: "Only Elesh Norn's most loyal servants are granted the honor of becoming part of her throne.",
+            card_face: {
+                name: "Ossification",
+                type_line: {
+                    full: "Enchantment — Aura",
+                    main: "Enchantment",
+                    sub: [
+                        "Aura"
+                    ]
+                },
+                mana_cost: "{1}{W}",
+                oracle_text: "Enchant basic land you control\nWhen Ossification enters the battlefield, exile target creature or planeswalker an opponent controls until Ossification leaves the battlefield."
+            }
+        },
+        {
+            id: "e18780ce-add4-4346-8028-4bc3b4099d71",
+            name: "Phyrexian Vindicator",
+            type_line: "Creature — Phyrexian Horror",
+            mana_cost: "{W}{W}{W}{W}",
+            cmc: 4,
+            colors: [
+                "W"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "27",
+            image: "https://cards.scryfall.io/border_crop/front/e/1/e18780ce-add4-4346-8028-4bc3b4099d71.jpg?1675956925",
+            power: "5",
+            toughness: "5",
+            flavor_text: "\"Behold your inevitable defeat.\"\n—Elesh Norn",
+            card_face: {
+                name: "Phyrexian Vindicator",
+                type_line: {
+                    full: "Creature — Phyrexian Horror",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Horror"
+                    ]
+                },
+                mana_cost: "{W}{W}{W}{W}",
+                power: "5",
+                oracle_text: "Flying\nIf damage would be dealt to Phyrexian Vindicator, prevent that damage. When damage is prevented this way, Phyrexian Vindicator deals that much damage to any other target.",
+                toughness: "5"
+            }
+        },
+        {
+            id: "8ee69a1f-aeed-4eb4-8987-fa720fc99715",
+            name: "Planar Disruption",
+            type_line: "Enchantment — Aura",
+            mana_cost: "{1}{W}",
+            cmc: 2,
+            colors: [
+                "W"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "28",
+            image: "https://cards.scryfall.io/border_crop/front/8/e/8ee69a1f-aeed-4eb4-8987-fa720fc99715.jpg?1675956925",
+            flavor_text: "New Phyrexia's planar defenses scattered the Planeswalker strike team on arrival. Elesh Norn knew they were coming.",
+            card_face: {
+                name: "Planar Disruption",
+                type_line: {
+                    full: "Enchantment — Aura",
+                    main: "Enchantment",
+                    sub: [
+                        "Aura"
+                    ]
+                },
+                mana_cost: "{1}{W}",
+                oracle_text: "Enchant artifact, creature, or planeswalker\nEnchanted permanent can't attack or block, and its activated abilities can't be activated."
+            }
+        },
+        {
+            id: "472a635a-a581-4c00-89d6-464f30887944",
+            name: "Plated Onslaught",
+            type_line: "Instant",
+            mana_cost: "{3}{W}{W}",
+            cmc: 5,
+            colors: [
+                "W"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "29",
+            image: "https://cards.scryfall.io/border_crop/front/4/7/472a635a-a581-4c00-89d6-464f30887944.jpg?1675956926",
+            flavor_text: "\"Witness the glory of true, unwavering unity.\"\n—Ajani",
+            card_face: {
+                name: "Plated Onslaught",
+                type_line: {
+                    full: "Instant",
+                    main: "Instant",
+                    sub: ""
+                },
+                mana_cost: "{3}{W}{W}",
+                oracle_text: "Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)\nCreatures you control get +2/+1 until end of turn."
+            }
+        },
+        {
+            id: "0409bacf-b728-473d-bf9b-41fdf364e783",
+            name: "Porcelain Zealot",
+            type_line: "Creature — Phyrexian Soldier",
+            mana_cost: "{3}{W}",
+            cmc: 4,
+            colors: [
+                "W"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "30",
+            image: "https://cards.scryfall.io/border_crop/front/0/4/0409bacf-b728-473d-bf9b-41fdf364e783.jpg?1675956932",
+            power: "2",
+            toughness: "3",
+            flavor_text: "\"There is a single, glorious truth, etched in the hearts of the faithful. Join in unity, or be washed away.\"",
+            card_face: {
+                name: "Porcelain Zealot",
+                type_line: {
+                    full: "Creature — Phyrexian Soldier",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Soldier"
+                    ]
+                },
+                mana_cost: "{3}{W}",
+                power: "2",
+                oracle_text: "At the beginning of combat on your turn, target creature you control gets +1/+1 until end of turn. If that creature has toxic, instead it gets +2/+2 until end of turn.",
+                toughness: "3"
+            }
+        },
+        {
+            id: "bbc4b5ca-557e-4465-9725-9e7a15590258",
+            name: "Resistance Reunited",
+            type_line: "Instant",
+            mana_cost: "{1}{W}",
+            cmc: 2,
+            colors: [
+                "W"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "31",
+            image: "https://cards.scryfall.io/border_crop/front/b/b/bbc4b5ca-557e-4465-9725-9e7a15590258.jpg?1675956932",
+            flavor_text: "\"Well, aren't you a sight for sore eyes!\" said Koth. \"I was about to say the same, my friend,\" Elspeth replied.",
+            card_face: {
+                name: "Resistance Reunited",
+                type_line: {
+                    full: "Instant",
+                    main: "Instant",
+                    sub: ""
+                },
+                mana_cost: "{1}{W}",
+                oracle_text: "Target creature gets +2/+2 until end of turn.\nEquipped creatures you control gain indestructible until end of turn."
+            }
+        },
+        {
+            id: "ebad4fcc-4f78-48dc-b236-c78c22edc1e9",
+            name: "Sinew Dancer",
+            type_line: "Creature — Phyrexian Soldier",
+            mana_cost: "{W}",
+            cmc: 1,
+            colors: [
+                "W"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "32",
+            image: "https://cards.scryfall.io/border_crop/front/e/b/ebad4fcc-4f78-48dc-b236-c78c22edc1e9.jpg?1675956933",
+            power: "1",
+            toughness: "1",
+            flavor_text: "He spreads word of the Argent Etchings to a captive audience.",
+            card_face: {
+                name: "Sinew Dancer",
+                type_line: {
+                    full: "Creature — Phyrexian Soldier",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Soldier"
+                    ]
+                },
+                mana_cost: "{W}",
+                power: "1",
+                oracle_text: "{3}{W}, {T}: Tap target creature.\nCorrupted — {W}, {T}: Tap target creature. Activate only if an opponent has three or more poison counters.",
+                toughness: "1"
+            }
+        },
+        {
+            id: "60b565da-a49b-479c-b0c4-8ff3dd20cc0b",
+            name: "Skrelv, Defector Mite",
+            type_line: "Legendary Artifact Creature — Phyrexian Mite",
+            mana_cost: "{W}",
+            cmc: 1,
+            colors: [
+                "W"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "33",
+            image: "https://cards.scryfall.io/border_crop/front/6/0/60b565da-a49b-479c-b0c4-8ff3dd20cc0b.jpg?1675956933",
+            power: "1",
+            toughness: "1",
+            card_face: {
+                name: "Skrelv, Defector Mite",
+                type_line: {
+                    full: "Legendary Artifact Creature — Phyrexian Mite",
+                    main: "Legendary Artifact Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Mite"
+                    ]
+                },
+                mana_cost: "{W}",
+                power: "1",
+                oracle_text: "Toxic 1 (Players dealt combat damage by this creature also get a poison counter.)\nSkrelv, Defector Mite can't block.\n{W/P}, {T}: Choose a color. Another target creature you control gains toxic 1 and hexproof from that color until end of turn. It can't be blocked by creatures of that color this turn. ({W/P} can be paid with either {W} or 2 life.)",
+                toughness: "1"
+            }
+        },
+        {
+            id: "ffbd77ec-fc81-41d5-934f-c3dd844cb053",
+            name: "Skrelv's Hive",
+            type_line: "Enchantment",
+            mana_cost: "{1}{W}",
+            cmc: 2,
+            colors: [
+                "W"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "34",
+            image: "https://cards.scryfall.io/border_crop/front/f/f/ffbd77ec-fc81-41d5-934f-c3dd844cb053.jpg?1675956934",
+            card_face: {
+                name: "Skrelv's Hive",
+                type_line: {
+                    full: "Enchantment",
+                    main: "Enchantment",
+                    sub: ""
+                },
+                mana_cost: "{1}{W}",
+                oracle_text: "At the beginning of your upkeep, you lose 1 life and create a 1/1 colorless Phyrexian Mite artifact creature token with toxic 1 and \"This creature can't block.\"\nCorrupted — As long as an opponent has three or more poison counters, creatures you control with toxic have lifelink."
+            }
+        },
+        {
+            id: "b62c740d-260d-4dfa-b6b3-9a1527538f89",
+            name: "Swooping Lookout",
+            type_line: "Artifact Creature — Phyrexian Construct",
+            mana_cost: "{W}",
+            cmc: 1,
+            colors: [
+                "W"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "35",
+            image: "https://cards.scryfall.io/border_crop/front/b/6/b62c740d-260d-4dfa-b6b3-9a1527538f89.jpg?1675956940",
+            power: "1",
+            toughness: "2",
+            flavor_text: "\"It's hard to tell with this glare, but those must be the skyhunter reinforcements! They have arrived at last!\"\n—Prahan, Mirran rebel",
+            card_face: {
+                name: "Swooping Lookout",
+                type_line: {
+                    full: "Artifact Creature — Phyrexian Construct",
+                    main: "Artifact Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Construct"
+                    ]
+                },
+                mana_cost: "{W}",
+                power: "1",
+                oracle_text: "Flying, vigilance",
+                toughness: "2"
+            }
+        },
+        {
+            id: "8f0b3308-9c0b-4461-9094-38deec20e1bc",
+            name: "Vanish into Eternity",
+            type_line: "Instant",
+            mana_cost: "{2}{W}",
+            cmc: 3,
+            colors: [
+                "W"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "36",
+            image: "https://cards.scryfall.io/border_crop/front/8/f/8f0b3308-9c0b-4461-9094-38deec20e1bc.jpg?1675956940",
+            flavor_text: "Faced with a blast that would level not only New Phyrexia, but also a dozen innocent worlds, Elspeth consigned it—and herself—to the nothingness in between.",
+            card_face: {
+                name: "Vanish into Eternity",
+                type_line: {
+                    full: "Instant",
+                    main: "Instant",
+                    sub: ""
+                },
+                mana_cost: "{2}{W}",
+                oracle_text: "This spell costs {3} more to cast if it targets a creature.\nExile target nonland permanent."
+            }
+        },
+        {
+            id: "1f9d8d87-e32f-4ad9-8d72-d1b88cd14510",
+            name: "Veil of Assimilation",
+            type_line: "Artifact",
+            mana_cost: "{1}{W}",
+            cmc: 2,
+            colors: [
+                "W"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "37",
+            image: "https://cards.scryfall.io/border_crop/front/1/f/1f9d8d87-e32f-4ad9-8d72-d1b88cd14510.jpg?1675956941",
+            flavor_text: "\"Hear only harmony. See only glory. Speak only truth.\"\n—Atraxa",
+            card_face: {
+                name: "Veil of Assimilation",
+                type_line: {
+                    full: "Artifact",
+                    main: "Artifact",
+                    sub: ""
+                },
+                mana_cost: "{1}{W}",
+                oracle_text: "Whenever Veil of Assimilation or another artifact enters the battlefield under your control, target creature you control gets +1/+1 and gains vigilance until end of turn."
+            }
+        },
+        {
+            id: "fff13d77-8133-4328-b91e-efce229bc331",
+            name: "White Sun's Twilight",
+            type_line: "Sorcery",
+            mana_cost: "{X}{W}{W}",
+            cmc: 2,
+            colors: [
+                "W"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "38",
+            image: "https://cards.scryfall.io/border_crop/front/f/f/fff13d77-8133-4328-b91e-efce229bc331.jpg?1675956941",
+            card_face: {
+                name: "White Sun's Twilight",
+                type_line: {
+                    full: "Sorcery",
+                    main: "Sorcery",
+                    sub: ""
+                },
+                mana_cost: "{X}{W}{W}",
+                oracle_text: "You gain X life. Create X 1/1 colorless Phyrexian Mite artifact creature tokens with toxic 1 and \"This creature can't block.\" If X is 5 or more, destroy all other creatures. (Players dealt combat damage by a creature with toxic 1 also get a poison counter.)"
+            }
+        },
+        {
+            id: "3a419ba1-7bd3-48e3-8f88-d9f833b25d6d",
+            name: "Zealot's Conviction",
+            type_line: "Enchantment — Aura",
+            mana_cost: "{W}",
+            cmc: 1,
+            colors: [
+                "W"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "39",
+            image: "https://cards.scryfall.io/border_crop/front/3/a/3a419ba1-7bd3-48e3-8f88-d9f833b25d6d.jpg?1675956941",
+            card_face: {
+                name: "Zealot's Conviction",
+                type_line: {
+                    full: "Enchantment — Aura",
+                    main: "Enchantment",
+                    sub: [
+                        "Aura"
+                    ]
+                },
+                mana_cost: "{W}",
+                oracle_text: "Flash\nEnchant creature\nEnchanted creature gets +1/+1.\nCorrupted — As long as an opponent has three or more poison counters, enchanted creature gets an additional +1/+0 and has first strike."
+            }
+        },
+        {
+            id: "57551332-e2a4-4e6a-9bd8-e3a9baafcd17",
+            name: "Aspirant's Ascent",
+            type_line: "Instant",
+            mana_cost: "{U}",
+            cmc: 1,
+            colors: [
+                "U"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "40",
+            image: "https://cards.scryfall.io/border_crop/front/5/7/57551332-e2a4-4e6a-9bd8-e3a9baafcd17.jpg?1675956948",
+            flavor_text: "For the aspirants of the Progress Engine, being launched into the sphere's upper reaches is a great honor. Some are even granted wings beforehand.",
+            card_face: {
+                name: "Aspirant's Ascent",
+                type_line: {
+                    full: "Instant",
+                    main: "Instant",
+                    sub: ""
+                },
+                mana_cost: "{U}",
+                oracle_text: "Until end of turn, target creature gets +1/+3 and gains flying and toxic 1. (Players dealt combat damage by that creature also get a poison counter.)"
+            }
+        },
+        {
+            id: "c66988ca-29d5-45ea-8d68-c8e0e4c3ffb1",
+            name: "Atmosphere Surgeon",
+            type_line: "Creature — Phyrexian Wizard",
+            mana_cost: "{1}{U}",
+            cmc: 2,
+            colors: [
+                "U"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "41",
+            image: "https://cards.scryfall.io/border_crop/front/c/6/c66988ca-29d5-45ea-8d68-c8e0e4c3ffb1.jpg?1675956948",
+            power: "2",
+            toughness: "1",
+            flavor_text: "It is Jin-Gitaxias's deepest exasperation that any part of his domain still requires maintenance.",
+            card_face: {
+                name: "Atmosphere Surgeon",
+                type_line: {
+                    full: "Creature — Phyrexian Wizard",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Wizard"
+                    ]
+                },
+                mana_cost: "{1}{U}",
+                power: "2",
+                oracle_text: "Whenever you cast a noncreature spell, put an oil counter on Atmosphere Surgeon.\nRemove an oil counter from Atmosphere Surgeon: Target creature gains flying until end of turn. Activate only as a sorcery.",
+                toughness: "1"
+            }
+        },
+        {
+            id: "277aeb73-4c7c-4132-b9f9-55181d57e75d",
+            name: "Blade of Shared Souls",
+            type_line: "Artifact — Equipment",
+            mana_cost: "{2}{U}",
+            cmc: 3,
+            colors: [
+                "U"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "42",
+            image: "https://cards.scryfall.io/border_crop/front/2/7/277aeb73-4c7c-4132-b9f9-55181d57e75d.jpg?1675956948",
+            card_face: {
+                name: "Blade of Shared Souls",
+                type_line: {
+                    full: "Artifact — Equipment",
+                    main: "Artifact",
+                    sub: [
+                        "Equipment"
+                    ]
+                },
+                mana_cost: "{2}{U}",
+                oracle_text: "For Mirrodin! (When this Equipment enters the battlefield, create a 2/2 red Rebel creature token, then attach this to it.)\nWhenever Blade of Shared Souls becomes attached to a creature, for as long as Blade of Shared Souls remains attached to it, you may have that creature become a copy of another target creature you control.\nEquip {2}"
+            }
+        },
+        {
+            id: "3a836e6b-6854-4f6f-bc78-2da1fd4dd224",
+            name: "Blue Sun's Twilight",
+            type_line: "Sorcery",
+            mana_cost: "{X}{U}{U}",
+            cmc: 2,
+            colors: [
+                "U"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "43",
+            image: "https://cards.scryfall.io/border_crop/front/3/a/3a836e6b-6854-4f6f-bc78-2da1fd4dd224.jpg?1675956948",
+            flavor_text: "\"Where once there was ignorance, Jin-Gitaxias brought knowledge, and an age of progress dawned.\"\n—Monument inscription",
+            card_face: {
+                name: "Blue Sun's Twilight",
+                type_line: {
+                    full: "Sorcery",
+                    main: "Sorcery",
+                    sub: ""
+                },
+                mana_cost: "{X}{U}{U}",
+                oracle_text: "Gain control of target creature with mana value X or less. If X is 5 or more, create a token that's a copy of that creature."
+            }
+        },
+        {
+            id: "ba9d9d26-0c76-4a09-aa25-b32854e70c0b",
+            name: "Bring the Ending",
+            type_line: "Instant",
+            mana_cost: "{1}{U}",
+            cmc: 2,
+            colors: [
+                "U"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "44",
+            image: "https://cards.scryfall.io/border_crop/front/b/a/ba9d9d26-0c76-4a09-aa25-b32854e70c0b.jpg?1681468862",
+            flavor_text: "Kaya watched in horror as the illusion vanished from her hands. Jace held the real Sylex—and had activated it before phyresis claimed his mind.",
+            card_face: {
+                name: "Bring the Ending",
+                type_line: {
+                    full: "Instant",
+                    main: "Instant",
+                    sub: ""
+                },
+                mana_cost: "{1}{U}",
+                oracle_text: "Counter target spell unless its controller pays {2}.\nCorrupted — Counter that spell instead if its controller has three or more poison counters."
+            }
+        },
+        {
+            id: "a94378a2-cbde-4adf-b889-43e90fc6ba28",
+            name: "Chrome Prowler",
+            type_line: "Artifact Creature — Phyrexian Cat",
+            mana_cost: "{2}{U}",
+            cmc: 3,
+            colors: [
+                "U"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "45",
+            image: "https://cards.scryfall.io/border_crop/front/a/9/a94378a2-cbde-4adf-b889-43e90fc6ba28.jpg?1675956955",
+            power: "3",
+            toughness: "2",
+            flavor_text: "It can catch a rat and perform a spinal tap with one graceful swipe of its paw.",
+            card_face: {
+                name: "Chrome Prowler",
+                type_line: {
+                    full: "Artifact Creature — Phyrexian Cat",
+                    main: "Artifact Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Cat"
+                    ]
+                },
+                mana_cost: "{2}{U}",
+                power: "3",
+                oracle_text: "Flash\nWhen Chrome Prowler enters the battlefield, tap target creature an opponent controls.",
+                toughness: "2"
+            }
+        },
+        {
+            id: "f932ddd3-beb4-4dc8-8c15-e1c9c2276986",
+            name: "Distorted Curiosity",
+            type_line: "Sorcery",
+            mana_cost: "{2}{U}",
+            cmc: 3,
+            colors: [
+                "U"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "46",
+            image: "https://cards.scryfall.io/border_crop/front/f/9/f932ddd3-beb4-4dc8-8c15-e1c9c2276986.jpg?1675956955",
+            flavor_text: "\"Free will was an illusion so perfect it fooled even me. I know better now.\"",
+            card_face: {
+                name: "Distorted Curiosity",
+                type_line: {
+                    full: "Sorcery",
+                    main: "Sorcery",
+                    sub: ""
+                },
+                mana_cost: "{2}{U}",
+                oracle_text: "Corrupted — This spell costs {2} less to cast if an opponent has three or more poison counters.\nDraw two cards."
+            }
+        },
+        {
+            id: "65a2fcc9-2317-48a1-a5eb-234fb3300364",
+            name: "Encroaching Mycosynth",
+            type_line: "Artifact",
+            mana_cost: "{3}{U}",
+            cmc: 4,
+            colors: [
+                "U"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "47",
+            image: "https://cards.scryfall.io/border_crop/front/6/5/65a2fcc9-2317-48a1-a5eb-234fb3300364.jpg?1675956955",
+            flavor_text: "\"Careful—however they might look, they're not human. A step too close and they'll drag you in.\"\n—Kara Vrist, resistance spymaster",
+            card_face: {
+                name: "Encroaching Mycosynth",
+                type_line: {
+                    full: "Artifact",
+                    main: "Artifact",
+                    sub: ""
+                },
+                mana_cost: "{3}{U}",
+                oracle_text: "Nonland permanents you control are artifacts in addition to their other types. The same is true for permanent spells you control and nonland permanent cards you own that aren't on the battlefield."
+            }
+        },
+        {
+            id: "611497d2-83df-4c69-bbeb-6a807c686bc4",
+            name: "Escaped Experiment",
+            type_line: "Artifact Creature — Phyrexian Beast",
+            mana_cost: "{1}{U}",
+            cmc: 2,
+            colors: [
+                "U"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "48",
+            image: "https://cards.scryfall.io/border_crop/front/6/1/611497d2-83df-4c69-bbeb-6a807c686bc4.jpg?1675956956",
+            power: "2",
+            toughness: "1",
+            flavor_text: "One morning, the test subject decided to perform trials on the scientists.",
+            card_face: {
+                name: "Escaped Experiment",
+                type_line: {
+                    full: "Artifact Creature — Phyrexian Beast",
+                    main: "Artifact Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Beast"
+                    ]
+                },
+                mana_cost: "{1}{U}",
+                power: "2",
+                oracle_text: "Whenever Escaped Experiment attacks, target creature an opponent controls gets -X/-0 until end of turn, where X is the number of artifacts you control.",
+                toughness: "1"
+            }
+        },
+        {
+            id: "e508ae5d-ffb5-4480-be90-a4394954b559",
+            name: "Experimental Augury",
+            type_line: "Instant",
+            mana_cost: "{1}{U}",
+            cmc: 2,
+            colors: [
+                "U"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "49",
+            image: "https://cards.scryfall.io/border_crop/front/e/5/e508ae5d-ffb5-4480-be90-a4394954b559.jpg?1675956959",
+            card_face: {
+                name: "Experimental Augury",
+                type_line: {
+                    full: "Instant",
+                    main: "Instant",
+                    sub: ""
+                },
+                mana_cost: "{1}{U}",
+                oracle_text: "Look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order. Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)"
+            }
+        },
+        {
+            id: "7cc4246b-ff59-44b2-acff-c0bb6e4cd6ac",
+            name: "Eye of Malcator",
+            type_line: "Artifact",
+            mana_cost: "{2}{U}",
+            cmc: 3,
+            colors: [
+                "U"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "50",
+            image: "https://cards.scryfall.io/border_crop/front/7/c/7cc4246b-ff59-44b2-acff-c0bb6e4cd6ac.jpg?1675956962",
+            card_face: {
+                name: "Eye of Malcator",
+                type_line: {
+                    full: "Artifact",
+                    main: "Artifact",
+                    sub: ""
+                },
+                mana_cost: "{2}{U}",
+                oracle_text: "When Eye of Malcator enters the battlefield, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)\nWhenever another artifact enters the battlefield under your control, Eye of Malcator becomes a 4/4 Phyrexian Eye artifact creature until end of turn."
+            }
+        },
+        {
+            id: "272c9888-ef13-4d47-a4bc-f5239b357a1b",
+            name: "Font of Progress",
+            type_line: "Artifact",
+            mana_cost: "{U}",
+            cmc: 1,
+            colors: [
+                "U"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "51",
+            image: "https://cards.scryfall.io/border_crop/front/2/7/272c9888-ef13-4d47-a4bc-f5239b357a1b.jpg?1675956963",
+            flavor_text: "\"Drink deeply of the truth, and become *compleat*.\"\n—Tamiyo",
+            card_face: {
+                name: "Font of Progress",
+                type_line: {
+                    full: "Artifact",
+                    main: "Artifact",
+                    sub: ""
+                },
+                mana_cost: "{U}",
+                oracle_text: "Font of Progress enters the battlefield with two oil counters on it.\n{3}, {T}: Target player mills X cards, where X is the number of oil counters on Font of Progress."
+            }
+        },
+        {
+            id: "63517062-77da-4b60-aa24-f91553a81bed",
+            name: "Gitaxian Anatomist",
+            type_line: "Creature — Phyrexian Wizard",
+            mana_cost: "{3}{U}",
+            cmc: 4,
+            colors: [
+                "U"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "52",
+            image: "https://cards.scryfall.io/border_crop/front/6/3/63517062-77da-4b60-aa24-f91553a81bed.jpg?1675956963",
+            power: "2",
+            toughness: "5",
+            flavor_text: "An inconsistency in a routine vivisection sparked a revelation about the inner workings of the Orthodoxy's centurions.",
+            card_face: {
+                name: "Gitaxian Anatomist",
+                type_line: {
+                    full: "Creature — Phyrexian Wizard",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Wizard"
+                    ]
+                },
+                mana_cost: "{3}{U}",
+                power: "2",
+                oracle_text: "When Gitaxian Anatomist enters the battlefield, you may tap it. If you do, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
+                toughness: "5"
+            }
+        },
+        {
+            id: "4f5e95f8-c04d-405f-bba4-e83a8f6bf463",
+            name: "Gitaxian Raptor",
+            type_line: "Creature — Phyrexian Bird",
+            mana_cost: "{2}{U}",
+            cmc: 3,
+            colors: [
+                "U"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "53",
+            image: "https://cards.scryfall.io/border_crop/front/4/f/4f5e95f8-c04d-405f-bba4-e83a8f6bf463.jpg?1675956964",
+            power: "1",
+            toughness: "4",
+            flavor_text: "Bored with the ruins of Lumengrid, it migrated to the ruins of the Mephidross.",
+            card_face: {
+                name: "Gitaxian Raptor",
+                type_line: {
+                    full: "Creature — Phyrexian Bird",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Bird"
+                    ]
+                },
+                mana_cost: "{2}{U}",
+                power: "1",
+                oracle_text: "Flying\nGitaxian Raptor enters the battlefield with three oil counters on it.\nRemove an oil counter from Gitaxian Raptor: Gitaxian Raptor gets +1/-1 until end of turn.",
+                toughness: "4"
+            }
+        },
+        {
+            id: "c22aaaec-bad5-43e9-8e92-9c4bde95fcfd",
+            name: "Glistener Seer",
+            type_line: "Creature — Phyrexian Advisor",
+            mana_cost: "{U}",
+            cmc: 1,
+            colors: [
+                "U"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "54",
+            image: "https://cards.scryfall.io/border_crop/front/c/2/c22aaaec-bad5-43e9-8e92-9c4bde95fcfd.jpg?1675956967",
+            power: "0",
+            toughness: "3",
+            flavor_text: "\"The oil is all-knowing. The trick is to ask the right questions.\"",
+            card_face: {
+                name: "Glistener Seer",
+                type_line: {
+                    full: "Creature — Phyrexian Advisor",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Advisor"
+                    ]
+                },
+                mana_cost: "{U}",
+                power: "0",
+                oracle_text: "Glistener Seer enters the battlefield with three oil counters on it.\n{T}, Remove an oil counter from Glistener Seer: Scry 1. (Look at the top card of your library. You may put that card on the bottom.)",
+                toughness: "3"
+            }
+        },
+        {
+            id: "7f516ee6-8f7b-40b2-82e5-9c4ea3e0a355",
+            name: "Ichor Synthesizer",
+            type_line: "Creature — Phyrexian Wizard",
+            mana_cost: "{1}{U}",
+            cmc: 2,
+            colors: [
+                "U"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "55",
+            image: "https://cards.scryfall.io/border_crop/front/7/f/7f516ee6-8f7b-40b2-82e5-9c4ea3e0a355.jpg?1675956969",
+            power: "1",
+            toughness: "3",
+            flavor_text: "\"I've isolated the chirality of the glistening oil, so there will be no wasted precursors.\"",
+            card_face: {
+                name: "Ichor Synthesizer",
+                type_line: {
+                    full: "Creature — Phyrexian Wizard",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Wizard"
+                    ]
+                },
+                mana_cost: "{1}{U}",
+                power: "1",
+                oracle_text: "Whenever you cast a noncreature spell, put an oil counter on Ichor Synthesizer.\nAs long as Ichor Synthesizer has four or more oil counters on it, it gets +2/+0 and can't be blocked.",
+                toughness: "3"
+            }
+        },
+        {
+            id: "2c093ce0-2561-4847-ab58-f6f1650d743e",
+            name: "Ichormoon Gauntlet",
+            type_line: "Artifact",
+            mana_cost: "{2}{U}",
+            cmc: 3,
+            colors: [
+                "U"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "56",
+            image: "https://cards.scryfall.io/border_crop/front/2/c/2c093ce0-2561-4847-ab58-f6f1650d743e.jpg?1684523650",
+            card_face: {
+                name: "Ichormoon Gauntlet",
+                type_line: {
+                    full: "Artifact",
+                    main: "Artifact",
+                    sub: ""
+                },
+                mana_cost: "{2}{U}",
+                oracle_text: "Planeswalkers you control have \"[0]: Proliferate\" and \"[−12]: Take an extra turn after this one.\"\nWhenever you cast a noncreature spell, choose a counter on target permanent. Put an additional counter of that kind on that permanent."
+            }
+        },
+        {
+            id: "64e6a8d1-ae75-45bd-af62-9a622620cb5c",
+            name: "Jace, the Perfected Mind",
+            type_line: "Legendary Planeswalker — Jace",
+            mana_cost: "{2}{U}{U/P}",
+            cmc: 4,
+            colors: [
+                "U"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "57",
+            image: "https://cards.scryfall.io/border_crop/front/6/4/64e6a8d1-ae75-45bd-af62-9a622620cb5c.jpg?1675956971",
+            card_face: {
+                name: "Jace, the Perfected Mind",
+                type_line: {
+                    full: "Legendary Planeswalker — Jace",
+                    main: "Legendary Planeswalker",
+                    sub: [
+                        "Jace"
+                    ]
+                },
+                mana_cost: "{2}{U}{U/P}",
+                oracle_text: "Compleated ({U/P} can be paid with {U} or 2 life. If life was paid, this planeswalker enters with two fewer loyalty counters.)\n+1: Until your next turn, up to one target creature gets -3/-0.\n−2: Target player mills three cards. Then if a graveyard has twenty or more cards in it, you draw three cards. Otherwise, you draw a card.\n−X: Target player mills three times X cards."
+            }
+        },
+        {
+            id: "95a7e5ff-ba81-4b45-933e-0ac747525ab8",
+            name: "Malcator's Watcher",
+            type_line: "Artifact Creature — Phyrexian Drone",
+            mana_cost: "{1}{U}",
+            cmc: 2,
+            colors: [
+                "U"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "58",
+            image: "https://cards.scryfall.io/border_crop/front/9/5/95a7e5ff-ba81-4b45-933e-0ac747525ab8.jpg?1675956972",
+            power: "1",
+            toughness: "1",
+            flavor_text: "Each of the Gitaxian sectives watches the others, looking for any hint of imperfection.",
+            card_face: {
+                name: "Malcator's Watcher",
+                type_line: {
+                    full: "Artifact Creature — Phyrexian Drone",
+                    main: "Artifact Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Drone"
+                    ]
+                },
+                mana_cost: "{1}{U}",
+                power: "1",
+                oracle_text: "Flying, vigilance\nWhen Malcator's Watcher dies, draw a card.",
+                toughness: "1"
+            }
+        },
+        {
+            id: "f0d392b2-1dac-432d-930c-66b238f7512b",
+            name: "Meldweb Curator",
+            type_line: "Creature — Phyrexian Wizard",
+            mana_cost: "{3}{U}",
+            cmc: 4,
+            colors: [
+                "U"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "59",
+            image: "https://cards.scryfall.io/border_crop/front/f/0/f0d392b2-1dac-432d-930c-66b238f7512b.jpg?1675956975",
+            power: "3",
+            toughness: "4",
+            flavor_text: "\"Imagine a giant room, like a library . . . except instead of books, it's filled with body parts.\"\n—Kara Vrist, resistance spymaster",
+            card_face: {
+                name: "Meldweb Curator",
+                type_line: {
+                    full: "Creature — Phyrexian Wizard",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Wizard"
+                    ]
+                },
+                mana_cost: "{3}{U}",
+                power: "3",
+                oracle_text: "When Meldweb Curator enters the battlefield, put up to one target instant or sorcery card from your graveyard on top of your library.",
+                toughness: "4"
+            }
+        },
+        {
+            id: "c5efd9b5-05e5-440f-b28c-658e461cf644",
+            name: "Meldweb Strider",
+            type_line: "Artifact — Vehicle",
+            mana_cost: "{4}{U}",
+            cmc: 5,
+            colors: [
+                "U"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "60",
+            image: "https://cards.scryfall.io/border_crop/front/c/5/c5efd9b5-05e5-440f-b28c-658e461cf644.jpg?1675956977",
+            power: "5",
+            toughness: "5",
+            card_face: {
+                name: "Meldweb Strider",
+                type_line: {
+                    full: "Artifact — Vehicle",
+                    main: "Artifact",
+                    sub: [
+                        "Vehicle"
+                    ]
+                },
+                mana_cost: "{4}{U}",
+                power: "5",
+                oracle_text: "Vigilance\nMeldweb Strider enters the battlefield with an oil counter on it.\nRemove an oil counter from Meldweb Strider: It becomes an artifact creature until end of turn.\nCrew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)",
+                toughness: "5"
+            }
+        },
+        {
+            id: "cf28c75d-1fb3-44cc-b651-5b2830e22add",
+            name: "Mercurial Spelldancer",
+            type_line: "Creature — Phyrexian Rogue",
+            mana_cost: "{1}{U}",
+            cmc: 2,
+            colors: [
+                "U"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "61",
+            image: "https://cards.scryfall.io/border_crop/front/c/f/cf28c75d-1fb3-44cc-b651-5b2830e22add.jpg?1675956977",
+            power: "2",
+            toughness: "1",
+            card_face: {
+                name: "Mercurial Spelldancer",
+                type_line: {
+                    full: "Creature — Phyrexian Rogue",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Rogue"
+                    ]
+                },
+                mana_cost: "{1}{U}",
+                power: "2",
+                oracle_text: "Mercurial Spelldancer can't be blocked.\nWhenever you cast a noncreature spell, put an oil counter on Mercurial Spelldancer.\nWhenever Mercurial Spelldancer deals combat damage to a player, you may remove two oil counters from it. If you do, when you cast your next instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy.",
+                toughness: "1"
+            }
+        },
+        {
+            id: "dac28e27-78aa-48b1-96fa-edca1fbcfb77",
+            name: "Mesmerizing Dose",
+            type_line: "Enchantment — Aura",
+            mana_cost: "{1}{U}{U}",
+            cmc: 3,
+            colors: [
+                "U"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "62",
+            image: "https://cards.scryfall.io/border_crop/front/d/a/dac28e27-78aa-48b1-96fa-edca1fbcfb77.jpg?1675956977",
+            card_face: {
+                name: "Mesmerizing Dose",
+                type_line: {
+                    full: "Enchantment — Aura",
+                    main: "Enchantment",
+                    sub: [
+                        "Aura"
+                    ]
+                },
+                mana_cost: "{1}{U}{U}",
+                oracle_text: "Enchant creature\nWhen Mesmerizing Dose enters the battlefield, tap enchanted creature, then proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)\nEnchanted creature doesn't untap during its controller's untap step."
+            }
+        },
+        {
+            id: "7f4ad1cb-4bbb-4485-b322-0b003f06d034",
+            name: "Mindsplice Apparatus",
+            type_line: "Artifact",
+            mana_cost: "{3}{U}",
+            cmc: 4,
+            colors: [
+                "U"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "63",
+            image: "https://cards.scryfall.io/border_crop/front/7/f/7f4ad1cb-4bbb-4485-b322-0b003f06d034.jpg?1675956980",
+            card_face: {
+                name: "Mindsplice Apparatus",
+                type_line: {
+                    full: "Artifact",
+                    main: "Artifact",
+                    sub: ""
+                },
+                mana_cost: "{3}{U}",
+                oracle_text: "Flash\nAt the beginning of your upkeep, put an oil counter on Mindsplice Apparatus.\nInstant and sorcery spells you cast cost {1} less to cast for each oil counter on Mindsplice Apparatus."
+            }
+        },
+        {
+            id: "360ca37b-5bbd-4923-a493-7674786a36af",
+            name: "Minor Misstep",
+            type_line: "Instant",
+            mana_cost: "{U}",
+            cmc: 1,
+            colors: [
+                "U"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "64",
+            image: "https://cards.scryfall.io/border_crop/front/3/6/360ca37b-5bbd-4923-a493-7674786a36af.jpg?1675956982",
+            flavor_text: "No matter how many times he saw it, Sarnvax always relished the look of dawning horror as his foes realized their mistake.",
+            card_face: {
+                name: "Minor Misstep",
+                type_line: {
+                    full: "Instant",
+                    main: "Instant",
+                    sub: ""
+                },
+                mana_cost: "{U}",
+                oracle_text: "Counter target spell with mana value 1 or less."
+            }
+        },
+        {
+            id: "ac625f30-ed91-4b21-ada8-aaa5b2ad79b8",
+            name: "Prologue to Phyresis",
+            type_line: "Instant",
+            mana_cost: "{1}{U}",
+            cmc: 2,
+            colors: [
+                "U"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "65",
+            image: "https://cards.scryfall.io/border_crop/front/a/c/ac625f30-ed91-4b21-ada8-aaa5b2ad79b8.jpg?1675956984",
+            flavor_text: "\"Please, for science, tell me how it feels. Leave nothing out.\"",
+            card_face: {
+                name: "Prologue to Phyresis",
+                type_line: {
+                    full: "Instant",
+                    main: "Instant",
+                    sub: ""
+                },
+                mana_cost: "{1}{U}",
+                oracle_text: "Each opponent gets a poison counter.\nDraw a card."
+            }
+        },
+        {
+            id: "bad0e96a-b4cc-4439-aab9-731a1036145d",
+            name: "Quicksilver Fisher",
+            type_line: "Creature — Phyrexian Drake",
+            mana_cost: "{3}{U}{U}",
+            cmc: 5,
+            colors: [
+                "U"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "66",
+            image: "https://cards.scryfall.io/border_crop/front/b/a/bad0e96a-b4cc-4439-aab9-731a1036145d.jpg?1675956984",
+            power: "4",
+            toughness: "3",
+            flavor_text: "It no longer needs to eat, but old instincts are put to use ridding the Surgical Bay of spies.",
+            card_face: {
+                name: "Quicksilver Fisher",
+                type_line: {
+                    full: "Creature — Phyrexian Drake",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Drake"
+                    ]
+                },
+                mana_cost: "{3}{U}{U}",
+                power: "4",
+                oracle_text: "Flying\nWhen Quicksilver Fisher enters the battlefield, draw a card, then discard a card.",
+                toughness: "3"
+            }
+        },
+        {
+            id: "c7ce5296-f28f-4105-9c79-b9c63ea720e7",
+            name: "Reject Imperfection",
+            type_line: "Instant",
+            mana_cost: "{1}{U}{U}",
+            cmc: 3,
+            colors: [
+                "U"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "67",
+            image: "https://cards.scryfall.io/border_crop/front/c/7/c7ce5296-f28f-4105-9c79-b9c63ea720e7.jpg?1675956985",
+            flavor_text: "\"Your theory holds merit. You do not.\"\n—Sarnvax, Gitaxian sective",
+            card_face: {
+                name: "Reject Imperfection",
+                type_line: {
+                    full: "Instant",
+                    main: "Instant",
+                    sub: ""
+                },
+                mana_cost: "{1}{U}{U}",
+                oracle_text: "Counter target spell. If that spell's mana value was 3 or less, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)"
+            }
+        },
+        {
+            id: "d326bff1-5370-4817-8370-6da87a061058",
+            name: "Serum Snare",
+            type_line: "Instant",
+            mana_cost: "{1}{U}",
+            cmc: 2,
+            colors: [
+                "U"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "68",
+            image: "https://cards.scryfall.io/border_crop/front/d/3/d326bff1-5370-4817-8370-6da87a061058.jpg?1675956988",
+            flavor_text: "\"I bring a message from the Autonomous Furn—argh!\"",
+            card_face: {
+                name: "Serum Snare",
+                type_line: {
+                    full: "Instant",
+                    main: "Instant",
+                    sub: ""
+                },
+                mana_cost: "{1}{U}",
+                oracle_text: "Return target nonland permanent to its owner's hand. If that permanent had mana value 3 or less, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)"
+            }
+        },
+        {
+            id: "daa20112-2955-439d-8802-3a228ba0832e",
+            name: "Tamiyo's Immobilizer",
+            type_line: "Artifact",
+            mana_cost: "{3}{U}",
+            cmc: 4,
+            colors: [
+                "U"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "69",
+            image: "https://cards.scryfall.io/border_crop/front/d/a/daa20112-2955-439d-8802-3a228ba0832e.jpg?1675956989",
+            flavor_text: "Visitors to the Surgical Bay often become permanent residents.",
+            card_face: {
+                name: "Tamiyo's Immobilizer",
+                type_line: {
+                    full: "Artifact",
+                    main: "Artifact",
+                    sub: ""
+                },
+                mana_cost: "{3}{U}",
+                oracle_text: "Tamiyo's Immobilizer enters the battlefield with four oil counters on it.\n{T}, Remove an oil counter from Tamiyo's Immobilizer: Tap target artifact or creature."
+            }
+        },
+        {
+            id: "0edb2d01-9a94-410c-8ab7-ca1b404ab5f0",
+            name: "Tamiyo's Logbook",
+            type_line: "Artifact",
+            mana_cost: "{2}{U}",
+            cmc: 3,
+            colors: [
+                "U"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "70",
+            image: "https://cards.scryfall.io/border_crop/front/0/e/0edb2d01-9a94-410c-8ab7-ca1b404ab5f0.jpg?1675956991",
+            flavor_text: "\"We are opening a new chapter in the one true story of Phyrexia. Someone must record it for posterity.\"\n—Tamiyo",
+            card_face: {
+                name: "Tamiyo's Logbook",
+                type_line: {
+                    full: "Artifact",
+                    main: "Artifact",
+                    sub: ""
+                },
+                mana_cost: "{2}{U}",
+                oracle_text: "{5}{U}, {T}: Draw a card. This ability costs {1} less to activate for each other artifact you control."
+            }
+        },
+        {
+            id: "f1d4b157-2c77-4355-8c65-78dec9d44c85",
+            name: "Tekuthal, Inquiry Dominus",
+            type_line: "Legendary Creature — Phyrexian Horror",
+            mana_cost: "{2}{U}{U}",
+            cmc: 4,
+            colors: [
+                "U"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "71",
+            image: "https://cards.scryfall.io/border_crop/front/f/1/f1d4b157-2c77-4355-8c65-78dec9d44c85.jpg?1675956992",
+            power: "3",
+            toughness: "5",
+            card_face: {
+                name: "Tekuthal, Inquiry Dominus",
+                type_line: {
+                    full: "Legendary Creature — Phyrexian Horror",
+                    main: "Legendary Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Horror"
+                    ]
+                },
+                mana_cost: "{2}{U}{U}",
+                power: "3",
+                oracle_text: "Flying\nIf you would proliferate, proliferate twice instead.\n{1}{U/P}{U/P}, Remove three counters from among other artifacts, creatures, and planeswalkers you control: Put an indestructible counter on Tekuthal, Inquiry Dominus. ({U/P} can be paid with either {U} or 2 life.)",
+                toughness: "5"
+            }
+        },
+        {
+            id: "67f0a63e-0866-423e-b917-fc7c71063021",
+            name: "Thrummingbird",
+            type_line: "Creature — Phyrexian Bird Horror",
+            mana_cost: "{1}{U}",
+            cmc: 2,
+            colors: [
+                "U"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "72",
+            image: "https://cards.scryfall.io/border_crop/front/6/7/67f0a63e-0866-423e-b917-fc7c71063021.jpg?1675956992",
+            power: "1",
+            toughness: "1",
+            card_face: {
+                name: "Thrummingbird",
+                type_line: {
+                    full: "Creature — Phyrexian Bird Horror",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Bird",
+                        "Horror"
+                    ]
+                },
+                mana_cost: "{1}{U}",
+                power: "1",
+                oracle_text: "Flying\nWhenever Thrummingbird deals combat damage to a player, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
+                toughness: "1"
+            }
+        },
+        {
+            id: "f912c4ec-08e9-4524-a2ba-98f6dfabdc18",
+            name: "Transplant Theorist",
+            type_line: "Artifact Creature — Phyrexian Artificer",
+            mana_cost: "{3}{U}",
+            cmc: 4,
+            colors: [
+                "U"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "73",
+            image: "https://cards.scryfall.io/border_crop/front/f/9/f912c4ec-08e9-4524-a2ba-98f6dfabdc18.jpg?1675956996",
+            power: "2",
+            toughness: "4",
+            card_face: {
+                name: "Transplant Theorist",
+                type_line: {
+                    full: "Artifact Creature — Phyrexian Artificer",
+                    main: "Artifact Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Artificer"
+                    ]
+                },
+                mana_cost: "{3}{U}",
+                power: "2",
+                oracle_text: "Whenever Transplant Theorist or another artifact enters the battlefield under your control, you may draw a card. If you do, discard a card.\n{2}: Put target card from your graveyard on the bottom of your library.",
+                toughness: "4"
+            }
+        },
+        {
+            id: "f442442d-2e5d-4913-82d8-bab2f31541f8",
+            name: "Trawler Drake",
+            type_line: "Creature — Phyrexian Drake",
+            mana_cost: "{2}{U}",
+            cmc: 3,
+            colors: [
+                "U"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "74",
+            image: "https://cards.scryfall.io/border_crop/front/f/4/f442442d-2e5d-4913-82d8-bab2f31541f8.jpg?1680795495",
+            power: "0",
+            toughness: "0",
+            card_face: {
+                name: "Trawler Drake",
+                type_line: {
+                    full: "Creature — Phyrexian Drake",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Drake"
+                    ]
+                },
+                mana_cost: "{2}{U}",
+                power: "0",
+                oracle_text: "Flying\nTrawler Drake enters the battlefield with an oil counter on it.\nTrawler Drake gets +1/+1 for each oil counter on it.\nWhenever you cast a noncreature spell, put an oil counter on Trawler Drake.",
+                toughness: "0"
+            }
+        },
+        {
+            id: "164b07e6-48ba-4789-bd8f-7cada1fec8a9",
+            name: "Unctus, Grand Metatect",
+            type_line: "Legendary Artifact Creature — Phyrexian Vedalken",
+            mana_cost: "{1}{U}{U}",
+            cmc: 3,
+            colors: [
+                "U"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "75",
+            image: "https://cards.scryfall.io/border_crop/front/1/6/164b07e6-48ba-4789-bd8f-7cada1fec8a9.jpg?1675956999",
+            power: "2",
+            toughness: "4",
+            card_face: {
+                name: "Unctus, Grand Metatect",
+                type_line: {
+                    full: "Legendary Artifact Creature — Phyrexian Vedalken",
+                    main: "Legendary Artifact Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Vedalken"
+                    ]
+                },
+                mana_cost: "{1}{U}{U}",
+                power: "2",
+                oracle_text: "Other blue creatures you control have \"Whenever this creature becomes tapped, draw a card, then discard a card.\"\nOther artifact creatures you control get +1/+1.\n{U/P}: Until end of turn, target creature you control becomes a blue artifact in addition to its other colors and types. Activate only as a sorcery. ({U/P} can be paid with either {U} or 2 life.)",
+                toughness: "4"
+            }
+        },
+        {
+            id: "30225e40-4bde-4e2e-b0f0-48ed16aebafd",
+            name: "Unctus's Retrofitter",
+            type_line: "Creature — Phyrexian Artificer",
+            mana_cost: "{2}{U}",
+            cmc: 3,
+            colors: [
+                "U"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "76",
+            image: "https://cards.scryfall.io/border_crop/front/3/0/30225e40-4bde-4e2e-b0f0-48ed16aebafd.jpg?1675956999",
+            power: "2",
+            toughness: "3",
+            card_face: {
+                name: "Unctus's Retrofitter",
+                type_line: {
+                    full: "Creature — Phyrexian Artificer",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Artificer"
+                    ]
+                },
+                mana_cost: "{2}{U}",
+                power: "2",
+                oracle_text: "Toxic 1 (Players dealt combat damage by this creature also get a poison counter.)\nWhen Unctus's Retrofitter enters the battlefield, up to one target artifact you control becomes an artifact creature with base power and toughness 4/4 for as long as Unctus's Retrofitter remains on the battlefield.",
+                toughness: "3"
+            }
+        },
+        {
+            id: "cd244359-781e-4e1d-946d-243664f40c7c",
+            name: "Vivisurgeon's Insight",
+            type_line: "Sorcery",
+            mana_cost: "{3}{U}{U}",
+            cmc: 5,
+            colors: [
+                "U"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "77",
+            image: "https://cards.scryfall.io/border_crop/front/c/d/cd244359-781e-4e1d-946d-243664f40c7c.jpg?1675957000",
+            flavor_text: "\"Experimental Log 290: Leaving the subject's pain receptors active appears to yield an unprecedented combination of incoherence and hyperawareness.\"",
+            card_face: {
+                name: "Vivisurgeon's Insight",
+                type_line: {
+                    full: "Sorcery",
+                    main: "Sorcery",
+                    sub: ""
+                },
+                mana_cost: "{3}{U}{U}",
+                oracle_text: "Draw three cards. Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)"
+            }
+        },
+        {
+            id: "a895f63f-3c59-4249-9346-55ef489944fc",
+            name: "Watchful Blisterzoa",
+            type_line: "Creature — Phyrexian Jellyfish",
+            mana_cost: "{4}{U}{U}",
+            cmc: 6,
+            colors: [
+                "U"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "78",
+            image: "https://cards.scryfall.io/border_crop/front/a/8/a895f63f-3c59-4249-9346-55ef489944fc.jpg?1675957004",
+            power: "4",
+            toughness: "4",
+            flavor_text: "After a series of ambushes, Uulbrek demanded a sentry with no blind spots.",
+            card_face: {
+                name: "Watchful Blisterzoa",
+                type_line: {
+                    full: "Creature — Phyrexian Jellyfish",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Jellyfish"
+                    ]
+                },
+                mana_cost: "{4}{U}{U}",
+                power: "4",
+                oracle_text: "Flying\nWatchful Blisterzoa enters the battlefield with an oil counter on it.\nWhen Watchful Blisterzoa dies, draw cards equal to the number of oil counters on it.",
+                toughness: "4"
+            }
+        },
+        {
+            id: "43c9005c-0574-4b75-8dbf-0a6641c3ae33",
+            name: "Ambulatory Edifice",
+            type_line: "Artifact Creature — Phyrexian Construct",
+            mana_cost: "{2}{B}",
+            cmc: 3,
+            colors: [
+                "B"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "79",
+            image: "https://cards.scryfall.io/border_crop/front/4/3/43c9005c-0574-4b75-8dbf-0a6641c3ae33.jpg?1675957005",
+            power: "3",
+            toughness: "2",
+            flavor_text: "The Mirran forces thought they'd vanquished their foes . . . until a nearby monument got up and started stalking toward them.",
+            card_face: {
+                name: "Ambulatory Edifice",
+                type_line: {
+                    full: "Artifact Creature — Phyrexian Construct",
+                    main: "Artifact Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Construct"
+                    ]
+                },
+                mana_cost: "{2}{B}",
+                power: "3",
+                oracle_text: "When Ambulatory Edifice enters the battlefield, you may pay 2 life. When you do, target creature gets -1/-1 until end of turn.",
+                toughness: "2"
+            }
+        },
+        {
+            id: "be5d0b95-ec12-4e8e-99a0-7aca457f9107",
+            name: "Annihilating Glare",
+            type_line: "Sorcery",
+            mana_cost: "{B}",
+            cmc: 1,
+            colors: [
+                "B"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "80",
+            image: "https://cards.scryfall.io/border_crop/front/b/e/be5d0b95-ec12-4e8e-99a0-7aca457f9107.jpg?1675957005",
+            flavor_text: "By gaze, sting, and claw, Vraska will see the will of Phyrexia done.",
+            card_face: {
+                name: "Annihilating Glare",
+                type_line: {
+                    full: "Sorcery",
+                    main: "Sorcery",
+                    sub: ""
+                },
+                mana_cost: "{B}",
+                oracle_text: "As an additional cost to cast this spell, pay {4} or sacrifice an artifact or creature.\nDestroy target creature or planeswalker."
+            }
+        },
+        {
+            id: "f7dc55a8-290f-4666-90ce-aa632e87c5e7",
+            name: "Anoint with Affliction",
+            type_line: "Instant",
+            mana_cost: "{1}{B}",
+            cmc: 2,
+            colors: [
+                "B"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "81",
+            image: "https://cards.scryfall.io/border_crop/front/f/7/f7dc55a8-290f-4666-90ce-aa632e87c5e7.jpg?1675957006",
+            flavor_text: "Many vatkeepers use necrogen etchings to judge the value of their aspirants. If the wounds rot and fester, the recipient is not worth further effort.",
+            card_face: {
+                name: "Anoint with Affliction",
+                type_line: {
+                    full: "Instant",
+                    main: "Instant",
+                    sub: ""
+                },
+                mana_cost: "{1}{B}",
+                oracle_text: "Exile target creature if it has mana value 3 or less.\nCorrupted — Exile that creature instead if its controller has three or more poison counters."
+            }
+        },
+        {
+            id: "86b0edaf-8cfd-4508-9554-6f0fddc2dfc4",
+            name: "Archfiend of the Dross",
+            type_line: "Creature — Phyrexian Demon",
+            mana_cost: "{2}{B}{B}",
+            cmc: 4,
+            colors: [
+                "B"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "82",
+            image: "https://cards.scryfall.io/border_crop/front/8/6/86b0edaf-8cfd-4508-9554-6f0fddc2dfc4.jpg?1675957007",
+            power: "6",
+            toughness: "6",
+            card_face: {
+                name: "Archfiend of the Dross",
+                type_line: {
+                    full: "Creature — Phyrexian Demon",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Demon"
+                    ]
+                },
+                mana_cost: "{2}{B}{B}",
+                power: "6",
+                oracle_text: "Flying\nArchfiend of the Dross enters the battlefield with four oil counters on it.\nAt the beginning of your upkeep, remove an oil counter from Archfiend of the Dross. Then if it has no oil counters on it, you lose the game.\nWhenever a creature an opponent controls dies, its controller loses 2 life.",
+                toughness: "6"
+            }
+        },
+        {
+            id: "dfb81cb1-ac56-4803-a962-359854a447df",
+            name: "Bilious Skulldweller",
+            type_line: "Creature — Phyrexian Insect",
+            mana_cost: "{B}",
+            cmc: 1,
+            colors: [
+                "B"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "83",
+            image: "https://cards.scryfall.io/border_crop/front/d/f/dfb81cb1-ac56-4803-a962-359854a447df.jpg?1675957012",
+            power: "1",
+            toughness: "1",
+            flavor_text: "\"Watch your footing around here. Anything you might step on probably has teeth.\"\n—Kara Vrist, resistance spymaster",
+            card_face: {
+                name: "Bilious Skulldweller",
+                type_line: {
+                    full: "Creature — Phyrexian Insect",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Insect"
+                    ]
+                },
+                mana_cost: "{B}",
+                power: "1",
+                oracle_text: "Deathtouch\nToxic 1 (Players dealt combat damage by this creature also get a poison counter.)",
+                toughness: "1"
+            }
+        },
+        {
+            id: "e5bb4def-c67c-44c2-b3b2-8c53a077432d",
+            name: "Black Sun's Twilight",
+            type_line: "Instant",
+            mana_cost: "{X}{B}",
+            cmc: 1,
+            colors: [
+                "B"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "84",
+            image: "https://cards.scryfall.io/border_crop/front/e/5/e5bb4def-c67c-44c2-b3b2-8c53a077432d.jpg?1675957013",
+            flavor_text: "\"Where once there was complacence, Sheoldred brought ambition, and soon the will of Yawgmoth reigned.\"\n—Monument inscription",
+            card_face: {
+                name: "Black Sun's Twilight",
+                type_line: {
+                    full: "Instant",
+                    main: "Instant",
+                    sub: ""
+                },
+                mana_cost: "{X}{B}",
+                oracle_text: "Up to one target creature gets -X/-X until end of turn. If X is 5 or more, return a creature card with mana value X or less from your graveyard to the battlefield tapped."
+            }
+        },
+        {
+            id: "9255cd01-a611-4fec-b9ec-b271687740ba",
+            name: "Blightbelly Rat",
+            type_line: "Creature — Phyrexian Rat",
+            mana_cost: "{1}{B}",
+            cmc: 2,
+            colors: [
+                "B"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "85",
+            image: "https://cards.scryfall.io/border_crop/front/9/2/9255cd01-a611-4fec-b9ec-b271687740ba.jpg?1675957013",
+            power: "2",
+            toughness: "2",
+            card_face: {
+                name: "Blightbelly Rat",
+                type_line: {
+                    full: "Creature — Phyrexian Rat",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Rat"
+                    ]
+                },
+                mana_cost: "{1}{B}",
+                power: "2",
+                oracle_text: "Toxic 1 (Players dealt combat damage by this creature also get a poison counter.)\nWhen Blightbelly Rat dies, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
+                toughness: "2"
+            }
+        },
+        {
+            id: "b83f4e41-a5f5-4929-9816-06dc1c228474",
+            name: "Bonepicker Skirge",
+            type_line: "Creature — Phyrexian Imp",
+            mana_cost: "{2}{B}",
+            cmc: 3,
+            colors: [
+                "B"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "86",
+            image: "https://cards.scryfall.io/border_crop/front/b/8/b83f4e41-a5f5-4929-9816-06dc1c228474.jpg?1675957013",
+            power: "2",
+            toughness: "2",
+            flavor_text: "\"Get away from there! I must rebuild that one for the next bout. Shoo, shoo!\"\n—Keskit, the Flesh Sculptor",
+            card_face: {
+                name: "Bonepicker Skirge",
+                type_line: {
+                    full: "Creature — Phyrexian Imp",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Imp"
+                    ]
+                },
+                mana_cost: "{2}{B}",
+                power: "2",
+                oracle_text: "Flying\nCorrupted — As long as an opponent has three or more poison counters, Bonepicker Skirge has deathtouch and lifelink.",
+                toughness: "2"
+            }
+        },
+        {
+            id: "e0328d43-ae9b-462a-a1e5-8ed408eea1a7",
+            name: "Chittering Skitterling",
+            type_line: "Creature — Phyrexian Rat",
+            mana_cost: "{2}{B}",
+            cmc: 3,
+            colors: [
+                "B"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "87",
+            image: "https://cards.scryfall.io/border_crop/front/e/0/e0328d43-ae9b-462a-a1e5-8ed408eea1a7.jpg?1675957014",
+            power: "1",
+            toughness: "4",
+            flavor_text: "What cannot be remade will be unmade, one scrap at a time.",
+            card_face: {
+                name: "Chittering Skitterling",
+                type_line: {
+                    full: "Creature — Phyrexian Rat",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Rat"
+                    ]
+                },
+                mana_cost: "{2}{B}",
+                power: "1",
+                oracle_text: "Corrupted — Sacrifice an artifact or creature: Draw a card. Activate only if an opponent has three or more poison counters and only once each turn.",
+                toughness: "4"
+            }
+        },
+        {
+            id: "e3f571b5-ce50-4856-a151-fe6610d27bca",
+            name: "Cruel Grimnarch",
+            type_line: "Creature — Phyrexian Cleric",
+            mana_cost: "{5}{B}",
+            cmc: 6,
+            colors: [
+                "B"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "88",
+            image: "https://cards.scryfall.io/border_crop/front/e/3/e3f571b5-ce50-4856-a151-fe6610d27bca.jpg?1675957019",
+            power: "5",
+            toughness: "5",
+            flavor_text: "The gospel of lies sounds sweetest when whispered by many mouths.",
+            card_face: {
+                name: "Cruel Grimnarch",
+                type_line: {
+                    full: "Creature — Phyrexian Cleric",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Cleric"
+                    ]
+                },
+                mana_cost: "{5}{B}",
+                power: "5",
+                oracle_text: "Deathtouch\nWhen Cruel Grimnarch enters the battlefield, each opponent discards a card. For each opponent who can't, you gain 4 life.",
+                toughness: "5"
+            }
+        },
+        {
+            id: "b3890961-d636-4ccc-9c42-2088a8531c9b",
+            name: "Cutthroat Centurion",
+            type_line: "Artifact Creature — Phyrexian Warrior",
+            mana_cost: "{2}{B}",
+            cmc: 3,
+            colors: [
+                "B"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "89",
+            image: "https://cards.scryfall.io/border_crop/front/b/3/b3890961-d636-4ccc-9c42-2088a8531c9b.jpg?1675957020",
+            power: "2",
+            toughness: "2",
+            flavor_text: "\"We both serve the Demon Thane. Your parts would better serve with me.\"",
+            card_face: {
+                name: "Cutthroat Centurion",
+                type_line: {
+                    full: "Artifact Creature — Phyrexian Warrior",
+                    main: "Artifact Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Warrior"
+                    ]
+                },
+                mana_cost: "{2}{B}",
+                power: "2",
+                oracle_text: "Sacrifice another artifact or creature: Cutthroat Centurion gets +2/+2 until end of turn. Activate only once each turn.",
+                toughness: "2"
+            }
+        },
+        {
+            id: "6bc26bca-c4d8-4e8b-a96a-9529fc2daed7",
+            name: "Drivnod, Carnage Dominus",
+            type_line: "Legendary Creature — Phyrexian Horror",
+            mana_cost: "{3}{B}{B}",
+            cmc: 5,
+            colors: [
+                "B"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "90",
+            image: "https://cards.scryfall.io/border_crop/front/6/b/6bc26bca-c4d8-4e8b-a96a-9529fc2daed7.jpg?1675957020",
+            power: "8",
+            toughness: "3",
+            card_face: {
+                name: "Drivnod, Carnage Dominus",
+                type_line: {
+                    full: "Legendary Creature — Phyrexian Horror",
+                    main: "Legendary Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Horror"
+                    ]
+                },
+                mana_cost: "{3}{B}{B}",
+                power: "8",
+                oracle_text: "If a creature dying causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.\n{B/P}{B/P}, Exile three creature cards from your graveyard: Put an indestructible counter on Drivnod, Carnage Dominus. ({B/P} can be paid with either {B} or 2 life.)",
+                toughness: "3"
+            }
+        },
+        {
+            id: "bf148ef4-0ed7-4fbe-8ab6-01dd3981c8d3",
+            name: "Drown in Ichor",
+            type_line: "Sorcery",
+            mana_cost: "{1}{B}",
+            cmc: 2,
+            colors: [
+                "B"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "91",
+            image: "https://cards.scryfall.io/border_crop/front/b/f/bf148ef4-0ed7-4fbe-8ab6-01dd3981c8d3.jpg?1675957021",
+            flavor_text: "Sinking into the Dross is neither a gentle death nor a quiet one. But once the necrogen takes hold, it is inevitable.",
+            card_face: {
+                name: "Drown in Ichor",
+                type_line: {
+                    full: "Sorcery",
+                    main: "Sorcery",
+                    sub: ""
+                },
+                mana_cost: "{1}{B}",
+                oracle_text: "Target creature gets -4/-4 until end of turn. Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)"
+            }
+        },
+        {
+            id: "3557e601-9b71-4ce9-9047-1a8baa72e574",
+            name: "Duress",
+            type_line: "Sorcery",
+            mana_cost: "{B}",
+            cmc: 1,
+            colors: [
+                "B"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "92",
+            image: "https://cards.scryfall.io/border_crop/front/3/5/3557e601-9b71-4ce9-9047-1a8baa72e574.jpg?1675957024",
+            flavor_text: "\"Give of yourself, for compleation awaits the cleansed.\"\n—Nokar, priest of Sheoldred",
+            card_face: {
+                name: "Duress",
+                type_line: {
+                    full: "Sorcery",
+                    main: "Sorcery",
+                    sub: ""
+                },
+                mana_cost: "{B}",
+                oracle_text: "Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card."
+            }
+        },
+        {
+            id: "9f013a1a-d4b9-4380-9802-c299ee6c4492",
+            name: "Feed the Infection",
+            type_line: "Sorcery",
+            mana_cost: "{3}{B}",
+            cmc: 4,
+            colors: [
+                "B"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "93",
+            image: "https://cards.scryfall.io/border_crop/front/9/f/9f013a1a-d4b9-4380-9802-c299ee6c4492.jpg?1675957026",
+            flavor_text: "They wished to become vital parts of the Dross Pits. Azax-Azog granted their request.",
+            card_face: {
+                name: "Feed the Infection",
+                type_line: {
+                    full: "Sorcery",
+                    main: "Sorcery",
+                    sub: ""
+                },
+                mana_cost: "{3}{B}",
+                oracle_text: "You draw three cards and you lose 3 life.\nCorrupted — Each opponent who has three or more poison counters loses 3 life."
+            }
+        },
+        {
+            id: "0b2a32c9-f0ae-4ae4-a5c5-72bea05018fb",
+            name: "Fleshless Gladiator",
+            type_line: "Creature — Phyrexian Skeleton",
+            mana_cost: "{1}{B}",
+            cmc: 2,
+            colors: [
+                "B"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "94",
+            image: "https://cards.scryfall.io/border_crop/front/0/b/0b2a32c9-f0ae-4ae4-a5c5-72bea05018fb.jpg?1675957027",
+            power: "2",
+            toughness: "2",
+            flavor_text: "What she lacks in skin she makes up in swagger.",
+            card_face: {
+                name: "Fleshless Gladiator",
+                type_line: {
+                    full: "Creature — Phyrexian Skeleton",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Skeleton"
+                    ]
+                },
+                mana_cost: "{1}{B}",
+                power: "2",
+                oracle_text: "Corrupted — {2}{B}: Return Fleshless Gladiator from your graveyard to the battlefield tapped. You lose 1 life. Activate only if an opponent has three or more poison counters.",
+                toughness: "2"
+            }
+        },
+        {
+            id: "c26e18be-81a1-4645-866a-fae5c2fdf7c9",
+            name: "Geth, Thane of Contracts",
+            type_line: "Legendary Creature — Phyrexian Zombie",
+            mana_cost: "{1}{B}{B}",
+            cmc: 3,
+            colors: [
+                "B"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "95",
+            image: "https://cards.scryfall.io/border_crop/front/c/2/c26e18be-81a1-4645-866a-fae5c2fdf7c9.jpg?1675957027",
+            power: "3",
+            toughness: "4",
+            flavor_text: "\"It seems someone forgot to read the fine print.\"",
+            card_face: {
+                name: "Geth, Thane of Contracts",
+                type_line: {
+                    full: "Legendary Creature — Phyrexian Zombie",
+                    main: "Legendary Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Zombie"
+                    ]
+                },
+                mana_cost: "{1}{B}{B}",
+                power: "3",
+                oracle_text: "Other creatures you control get -1/-1.\n{1}{B}{B}, {T}: Return target creature card from your graveyard to the battlefield. It gains \"If this creature would leave the battlefield, exile it instead of putting it anywhere else.\" Activate only as a sorcery.",
+                toughness: "4"
+            }
+        },
+        {
+            id: "28f48394-c6aa-4453-954a-68195d9bd6ea",
+            name: "Gulping Scraptrap",
+            type_line: "Creature — Phyrexian Horror",
+            mana_cost: "{4}{B}",
+            cmc: 5,
+            colors: [
+                "B"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "96",
+            image: "https://cards.scryfall.io/border_crop/front/2/8/28f48394-c6aa-4453-954a-68195d9bd6ea.jpg?1675957030",
+            power: "4",
+            toughness: "4",
+            flavor_text: "\"Does anyone else hear that horrible crunching sound?\"\n—Jace",
+            card_face: {
+                name: "Gulping Scraptrap",
+                type_line: {
+                    full: "Creature — Phyrexian Horror",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Horror"
+                    ]
+                },
+                mana_cost: "{4}{B}",
+                power: "4",
+                oracle_text: "When Gulping Scraptrap enters the battlefield or dies, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
+                toughness: "4"
+            }
+        },
+        {
+            id: "0a10f284-b043-4307-bdc7-6dad47cc9221",
+            name: "Infectious Inquiry",
+            type_line: "Sorcery",
+            mana_cost: "{2}{B}",
+            cmc: 3,
+            colors: [
+                "B"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "97",
+            image: "https://cards.scryfall.io/border_crop/front/0/a/0a10f284-b043-4307-bdc7-6dad47cc9221.jpg?1675957034",
+            flavor_text: "\"I give you pain, you give me information. A simple trade, is it not?\"",
+            card_face: {
+                name: "Infectious Inquiry",
+                type_line: {
+                    full: "Sorcery",
+                    main: "Sorcery",
+                    sub: ""
+                },
+                mana_cost: "{2}{B}",
+                oracle_text: "You draw two cards and you lose 2 life. Each opponent gets a poison counter."
+            }
+        },
+        {
+            id: "f16e282d-8941-46c7-a974-c05b6f73c964",
+            name: "Karumonix, the Rat King",
+            type_line: "Legendary Creature — Phyrexian Rat",
+            mana_cost: "{1}{B}{B}",
+            cmc: 3,
+            colors: [
+                "B"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "98",
+            image: "https://cards.scryfall.io/border_crop/front/f/1/f16e282d-8941-46c7-a974-c05b6f73c964.jpg?1675957034",
+            power: "3",
+            toughness: "3",
+            card_face: {
+                name: "Karumonix, the Rat King",
+                type_line: {
+                    full: "Legendary Creature — Phyrexian Rat",
+                    main: "Legendary Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Rat"
+                    ]
+                },
+                mana_cost: "{1}{B}{B}",
+                power: "3",
+                oracle_text: "Toxic 1 (Players dealt combat damage by this creature also get a poison counter.)\nOther Rats you control have toxic 1.\nWhen Karumonix enters the battlefield, look at the top five cards of your library. You may reveal any number of Rat cards from among them and put the revealed cards into your hand. Put the rest on the bottom of your library in a random order.",
+                toughness: "3"
+            }
+        },
+        {
+            id: "6ac8cd7c-992f-4953-b5bf-42e5a9ff09ad",
+            name: "Necrogen Communion",
+            type_line: "Enchantment — Aura",
+            mana_cost: "{1}{B}",
+            cmc: 2,
+            colors: [
+                "B"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "99",
+            image: "https://cards.scryfall.io/border_crop/front/6/a/6ac8cd7c-992f-4953-b5bf-42e5a9ff09ad.jpg?1675957034",
+            card_face: {
+                name: "Necrogen Communion",
+                type_line: {
+                    full: "Enchantment — Aura",
+                    main: "Enchantment",
+                    sub: [
+                        "Aura"
+                    ]
+                },
+                mana_cost: "{1}{B}",
+                oracle_text: "Enchant creature you control\nEnchanted creature has toxic 2. (Players dealt combat damage by it also get two poison counters.)\nWhen enchanted creature dies, return that card to the battlefield under your control."
+            }
+        },
+        {
+            id: "72af72d2-5995-4cad-82f1-e2d0c465d6f1",
+            name: "Necrosquito",
+            type_line: "Creature — Phyrexian Insect",
+            mana_cost: "{3}{B}",
+            cmc: 4,
+            colors: [
+                "B"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "100",
+            image: "https://cards.scryfall.io/border_crop/front/7/2/72af72d2-5995-4cad-82f1-e2d0c465d6f1.jpg?1675957036",
+            power: "0",
+            toughness: "0",
+            card_face: {
+                name: "Necrosquito",
+                type_line: {
+                    full: "Creature — Phyrexian Insect",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Insect"
+                    ]
+                },
+                mana_cost: "{3}{B}",
+                power: "0",
+                oracle_text: "Flying\nNecrosquito enters the battlefield with two oil counters on it.\nNecrosquito gets +1/+1 for each oil counter on it.\nWhenever another creature or artifact you control is put into a graveyard from the battlefield, put an oil counter on Necrosquito.",
+                toughness: "0"
+            }
+        },
+        {
+            id: "a99fe9a8-d9e7-4286-81a1-adfb753e4741",
+            name: "Nimraiser Paladin",
+            type_line: "Creature — Phyrexian Knight",
+            mana_cost: "{4}{B}",
+            cmc: 5,
+            colors: [
+                "B"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "101",
+            image: "https://cards.scryfall.io/border_crop/front/a/9/a99fe9a8-d9e7-4286-81a1-adfb753e4741.jpg?1675957037",
+            power: "4",
+            toughness: "4",
+            card_face: {
+                name: "Nimraiser Paladin",
+                type_line: {
+                    full: "Creature — Phyrexian Knight",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Knight"
+                    ]
+                },
+                mana_cost: "{4}{B}",
+                power: "4",
+                oracle_text: "Toxic 2 (Players dealt combat damage by this creature also get two poison counters.)\nWhen Nimraiser Paladin enters the battlefield, return target creature card with mana value 3 or less from your graveyard to your hand.",
+                toughness: "4"
+            }
+        },
+        {
+            id: "b0aac10a-6d47-4a6c-8a10-2b7c06f3ff32",
+            name: "Offer Immortality",
+            type_line: "Instant",
+            mana_cost: "{1}{B}",
+            cmc: 2,
+            colors: [
+                "B"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "102",
+            image: "https://cards.scryfall.io/border_crop/front/b/0/b0aac10a-6d47-4a6c-8a10-2b7c06f3ff32.jpg?1675957041",
+            flavor_text: "\"Give all you are to Phyrexia, and you will receive more than you could have ever desired.\"",
+            card_face: {
+                name: "Offer Immortality",
+                type_line: {
+                    full: "Instant",
+                    main: "Instant",
+                    sub: ""
+                },
+                mana_cost: "{1}{B}",
+                oracle_text: "Target creature gains deathtouch and indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)"
+            }
+        },
+        {
+            id: "947a1e44-3485-4e24-a34d-6c318584743c",
+            name: "Pestilent Syphoner",
+            type_line: "Creature — Phyrexian Insect",
+            mana_cost: "{1}{B}",
+            cmc: 2,
+            colors: [
+                "B"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "103",
+            image: "https://cards.scryfall.io/border_crop/front/9/4/947a1e44-3485-4e24-a34d-6c318584743c.jpg?1675957042",
+            power: "1",
+            toughness: "1",
+            flavor_text: "The praetors of the other Spheres privately wonder how Sheoldred always has a surplus of glistening oil at her disposal.",
+            card_face: {
+                name: "Pestilent Syphoner",
+                type_line: {
+                    full: "Creature — Phyrexian Insect",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Insect"
+                    ]
+                },
+                mana_cost: "{1}{B}",
+                power: "1",
+                oracle_text: "Flying\nToxic 1 (Players dealt combat damage by this creature also get a poison counter.)",
+                toughness: "1"
+            }
+        },
+        {
+            id: "54f69d43-de01-46a8-b102-b47e23e0e947",
+            name: "Phyrexian Arena",
+            type_line: "Enchantment",
+            mana_cost: "{1}{B}{B}",
+            cmc: 3,
+            colors: [
+                "B"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "104",
+            image: "https://cards.scryfall.io/border_crop/front/5/4/54f69d43-de01-46a8-b102-b47e23e0e947.jpg?1675957043",
+            flavor_text: "For a bittersweet moment, Jace believed he could still save his love. A moment was all Vraska needed. \"For the glory of Phyrexia,\" she whispered.",
+            card_face: {
+                name: "Phyrexian Arena",
+                type_line: {
+                    full: "Enchantment",
+                    main: "Enchantment",
+                    sub: ""
+                },
+                mana_cost: "{1}{B}{B}",
+                oracle_text: "At the beginning of your upkeep, you draw a card and you lose 1 life."
+            }
+        },
+        {
+            id: "67a9c38b-6b3a-4056-a87c-fc48446f854f",
+            name: "Phyrexian Obliterator",
+            type_line: "Creature — Phyrexian Horror",
+            mana_cost: "{B}{B}{B}{B}",
+            cmc: 4,
+            colors: [
+                "B"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "105",
+            image: "https://cards.scryfall.io/border_crop/front/6/7/67a9c38b-6b3a-4056-a87c-fc48446f854f.jpg?1675957044",
+            power: "5",
+            toughness: "5",
+            flavor_text: "\"Show me what Norn's sycophants are hiding under all that pretty porcelain.\"\n—Sheoldred",
+            card_face: {
+                name: "Phyrexian Obliterator",
+                type_line: {
+                    full: "Creature — Phyrexian Horror",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Horror"
+                    ]
+                },
+                mana_cost: "{B}{B}{B}{B}",
+                power: "5",
+                oracle_text: "Trample\nWhenever a source deals damage to Phyrexian Obliterator, that source's controller sacrifices that many permanents.",
+                toughness: "5"
+            }
+        },
+        {
+            id: "ce7e1e9b-ad7f-4f4c-bdb5-2ccb6f147037",
+            name: "Ravenous Necrotitan",
+            type_line: "Creature — Phyrexian Horror",
+            mana_cost: "{2}{B}{B}",
+            cmc: 4,
+            colors: [
+                "B"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "106",
+            image: "https://cards.scryfall.io/border_crop/front/c/e/ce7e1e9b-ad7f-4f4c-bdb5-2ccb6f147037.jpg?1675957045",
+            power: "6",
+            toughness: "6",
+            flavor_text: "Some of Sheoldred's goliaths spread the glory of Phyrexia. Others just eat.",
+            card_face: {
+                name: "Ravenous Necrotitan",
+                type_line: {
+                    full: "Creature — Phyrexian Horror",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Horror"
+                    ]
+                },
+                mana_cost: "{2}{B}{B}",
+                power: "6",
+                oracle_text: "Corrupted — When Ravenous Necrotitan enters the battlefield, sacrifice a creature unless an opponent has three or more poison counters.",
+                toughness: "6"
+            }
+        },
+        {
+            id: "8de80f71-82b5-499c-afc0-6bbae6b896ad",
+            name: "Scheming Aspirant",
+            type_line: "Creature — Phyrexian Advisor",
+            mana_cost: "{1}{B}",
+            cmc: 2,
+            colors: [
+                "B"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "107",
+            image: "https://cards.scryfall.io/border_crop/front/8/d/8de80f71-82b5-499c-afc0-6bbae6b896ad.jpg?1681468798",
+            power: "1",
+            toughness: "3",
+            flavor_text: "\"I have raised many of my own contenders for the Coliseum. This one will be fearsome one day, mark my words.\"",
+            card_face: {
+                name: "Scheming Aspirant",
+                type_line: {
+                    full: "Creature — Phyrexian Advisor",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Advisor"
+                    ]
+                },
+                mana_cost: "{1}{B}",
+                power: "1",
+                oracle_text: "Whenever you proliferate, each opponent loses 2 life and you gain 2 life.",
+                toughness: "3"
+            }
+        },
+        {
+            id: "a9225cc3-90f0-448f-a8d9-7c6c2796d077",
+            name: "Sheoldred's Edict",
+            type_line: "Instant",
+            mana_cost: "{1}{B}",
+            cmc: 2,
+            colors: [
+                "B"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "108",
+            image: "https://cards.scryfall.io/border_crop/front/a/9/a9225cc3-90f0-448f-a8d9-7c6c2796d077.jpg?1675957049",
+            flavor_text: "\"Congratulations. I am entertained.\"",
+            card_face: {
+                name: "Sheoldred's Edict",
+                type_line: {
+                    full: "Instant",
+                    main: "Instant",
+                    sub: ""
+                },
+                mana_cost: "{1}{B}",
+                oracle_text: "Choose one —\n• Each opponent sacrifices a nontoken creature.\n• Each opponent sacrifices a creature token.\n• Each opponent sacrifices a planeswalker."
+            }
+        },
+        {
+            id: "8c6b818f-6912-4ea1-a35a-c8cd7ee9aead",
+            name: "Sheoldred's Headcleaver",
+            type_line: "Creature — Phyrexian Warrior",
+            mana_cost: "{3}{B}",
+            cmc: 4,
+            colors: [
+                "B"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "109",
+            image: "https://cards.scryfall.io/border_crop/front/8/c/8c6b818f-6912-4ea1-a35a-c8cd7ee9aead.jpg?1675957050",
+            power: "2",
+            toughness: "4",
+            flavor_text: "The punishment for sedition, like every other crime in the Dross Pits, is execution.",
+            card_face: {
+                name: "Sheoldred's Headcleaver",
+                type_line: {
+                    full: "Creature — Phyrexian Warrior",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Warrior"
+                    ]
+                },
+                mana_cost: "{3}{B}",
+                power: "2",
+                oracle_text: "Menace\nToxic 2 (Players dealt combat damage by this creature also get two poison counters.)",
+                toughness: "4"
+            }
+        },
+        {
+            id: "cdbbcbe1-5317-455e-8d71-a4e2ad0addfc",
+            name: "Stinging Hivemaster",
+            type_line: "Creature — Phyrexian Warlock",
+            mana_cost: "{2}{B}",
+            cmc: 3,
+            colors: [
+                "B"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "110",
+            image: "https://cards.scryfall.io/border_crop/front/c/d/cdbbcbe1-5317-455e-8d71-a4e2ad0addfc.jpg?1675957053",
+            power: "3",
+            toughness: "2",
+            flavor_text: "From within its form, a single word echoed forth: \"Devour.\"",
+            card_face: {
+                name: "Stinging Hivemaster",
+                type_line: {
+                    full: "Creature — Phyrexian Warlock",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Warlock"
+                    ]
+                },
+                mana_cost: "{2}{B}",
+                power: "3",
+                oracle_text: "Toxic 1 (Players dealt combat damage by this creature also get a poison counter.)\nWhen Stinging Hivemaster dies, create a 1/1 colorless Phyrexian Mite artifact creature token with toxic 1 and \"This creature can't block.\"",
+                toughness: "2"
+            }
+        },
+        {
+            id: "a5424859-628a-4c19-acd0-0c63c21c8338",
+            name: "Testament Bearer",
+            type_line: "Creature — Phyrexian Warrior",
+            mana_cost: "{3}{B}",
+            cmc: 4,
+            colors: [
+                "B"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "111",
+            image: "https://cards.scryfall.io/border_crop/front/a/5/a5424859-628a-4c19-acd0-0c63c21c8338.jpg?1675957054",
+            power: "4",
+            toughness: "1",
+            flavor_text: "She proudly carries the weight of Phyrexia's creed, both figuratively and literally.",
+            card_face: {
+                name: "Testament Bearer",
+                type_line: {
+                    full: "Creature — Phyrexian Warrior",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Warrior"
+                    ]
+                },
+                mana_cost: "{3}{B}",
+                power: "4",
+                oracle_text: "When Testament Bearer dies, look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.",
+                toughness: "1"
+            }
+        },
+        {
+            id: "3a2aeaeb-7853-4588-8a5e-cfd997ba8515",
+            name: "Vat Emergence",
+            type_line: "Sorcery",
+            mana_cost: "{4}{B}",
+            cmc: 5,
+            colors: [
+                "B"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "112",
+            image: "https://cards.scryfall.io/border_crop/front/3/a/3a2aeaeb-7853-4588-8a5e-cfd997ba8515.jpg?1675957057",
+            flavor_text: "The first rebirth is a reward. The fifty-first is a punishment.",
+            card_face: {
+                name: "Vat Emergence",
+                type_line: {
+                    full: "Sorcery",
+                    main: "Sorcery",
+                    sub: ""
+                },
+                mana_cost: "{4}{B}",
+                oracle_text: "Put target creature card from a graveyard onto the battlefield under your control. Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)"
+            }
+        },
+        {
+            id: "20a961ea-0639-4f5d-8cf4-f909c59a4ae1",
+            name: "Vat of Rebirth",
+            type_line: "Artifact",
+            mana_cost: "{B}",
+            cmc: 1,
+            colors: [
+                "B"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "113",
+            image: "https://cards.scryfall.io/border_crop/front/2/0/20a961ea-0639-4f5d-8cf4-f909c59a4ae1.jpg?1675957057",
+            card_face: {
+                name: "Vat of Rebirth",
+                type_line: {
+                    full: "Artifact",
+                    main: "Artifact",
+                    sub: ""
+                },
+                mana_cost: "{B}",
+                oracle_text: "Whenever another artifact or creature you control is put into a graveyard from the battlefield, put an oil counter on Vat of Rebirth.\n{2}{B}, {T}, Remove four oil counters from Vat of Rebirth: Return target creature card from your graveyard to the battlefield. Activate only as a sorcery."
+            }
+        },
+        {
+            id: "4c4a3119-c70a-46ff-8ede-6356f2b7bc13",
+            name: "Vraan, Executioner Thane",
+            type_line: "Legendary Creature — Phyrexian Vampire",
+            mana_cost: "{1}{B}",
+            cmc: 2,
+            colors: [
+                "B"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "114",
+            image: "https://cards.scryfall.io/border_crop/front/4/c/4c4a3119-c70a-46ff-8ede-6356f2b7bc13.jpg?1675957057",
+            power: "2",
+            toughness: "2",
+            flavor_text: "\"Soon enough each praetor will have hired me to kill the others, and I will stand alone as the true Father of Machines.\"",
+            card_face: {
+                name: "Vraan, Executioner Thane",
+                type_line: {
+                    full: "Legendary Creature — Phyrexian Vampire",
+                    main: "Legendary Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Vampire"
+                    ]
+                },
+                mana_cost: "{1}{B}",
+                power: "2",
+                oracle_text: "Whenever one or more other creatures you control die, each opponent loses 2 life and you gain 2 life. This ability triggers only once each turn.",
+                toughness: "2"
+            }
+        },
+        {
+            id: "f59f2b07-47ad-4efd-ae8c-1c04b9265024",
+            name: "Vraska, Betrayal's Sting",
+            type_line: "Legendary Planeswalker — Vraska",
+            mana_cost: "{4}{B}{B/P}",
+            cmc: 6,
+            colors: [
+                "B"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "115",
+            image: "https://cards.scryfall.io/border_crop/front/f/5/f59f2b07-47ad-4efd-ae8c-1c04b9265024.jpg?1675957060",
+            card_face: {
+                name: "Vraska, Betrayal's Sting",
+                type_line: {
+                    full: "Legendary Planeswalker — Vraska",
+                    main: "Legendary Planeswalker",
+                    sub: [
+                        "Vraska"
+                    ]
+                },
+                mana_cost: "{4}{B}{B/P}",
+                oracle_text: "Compleated ({B/P} can be paid with {B} or 2 life. If life was paid, this planeswalker enters with two fewer loyalty counters.)\n0: You draw a card and you lose 1 life. Proliferate.\n−2: Target creature becomes a Treasure artifact with \"{T}, Sacrifice this artifact: Add one mana of any color\" and loses all other card types and abilities.\n−9: If target player has fewer than nine poison counters, they get a number of poison counters equal to the difference."
+            }
+        },
+        {
+            id: "0173b7b4-2832-4943-ba45-8ba498d7a056",
+            name: "Vraska's Fall",
+            type_line: "Instant",
+            mana_cost: "{2}{B}",
+            cmc: 3,
+            colors: [
+                "B"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "116",
+            image: "https://cards.scryfall.io/border_crop/front/0/1/0173b7b4-2832-4943-ba45-8ba498d7a056.jpg?1675957063",
+            flavor_text: "The dull, creeping pain of phyresis curdled in Vraska's blood. She knew as soon as it took her, she would betray everything—even Jace.",
+            card_face: {
+                name: "Vraska's Fall",
+                type_line: {
+                    full: "Instant",
+                    main: "Instant",
+                    sub: ""
+                },
+                mana_cost: "{2}{B}",
+                oracle_text: "Each opponent sacrifices a creature or planeswalker and gets a poison counter."
+            }
+        },
+        {
+            id: "58d287e8-5297-415a-97d5-02002470c52b",
+            name: "Whisper of the Dross",
+            type_line: "Instant",
+            mana_cost: "{B}",
+            cmc: 1,
+            colors: [
+                "B"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "117",
+            image: "https://cards.scryfall.io/border_crop/front/5/8/58d287e8-5297-415a-97d5-02002470c52b.jpg?1675957064",
+            flavor_text: "\"Live or die, you serve the Steel Thanes now.\"",
+            card_face: {
+                name: "Whisper of the Dross",
+                type_line: {
+                    full: "Instant",
+                    main: "Instant",
+                    sub: ""
+                },
+                mana_cost: "{B}",
+                oracle_text: "Target creature gets -1/-1 until end of turn. Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)"
+            }
+        },
+        {
+            id: "6d75e1f4-bd63-428e-8e6e-131594b3ba44",
+            name: "All Will Be One",
+            type_line: "Enchantment",
+            mana_cost: "{3}{R}{R}",
+            cmc: 5,
+            colors: [
+                "R"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "118",
+            image: "https://cards.scryfall.io/border_crop/front/6/d/6d75e1f4-bd63-428e-8e6e-131594b3ba44.jpg?1675957064",
+            flavor_text: "The Invasion Tree broke through the Blind Eternities and sent Phyrexian perfection coursing across the Multiverse.",
+            card_face: {
+                name: "All Will Be One",
+                type_line: {
+                    full: "Enchantment",
+                    main: "Enchantment",
+                    sub: ""
+                },
+                mana_cost: "{3}{R}{R}",
+                oracle_text: "Whenever you put one or more counters on a permanent or player, All Will Be One deals that much damage to target opponent, creature an opponent controls, or planeswalker an opponent controls."
+            }
+        },
+        {
+            id: "3b92f866-2522-4f2a-a5ca-7d01ad79b927",
+            name: "Awaken the Sleeper",
+            type_line: "Sorcery",
+            mana_cost: "{3}{R}",
+            cmc: 4,
+            colors: [
+                "R"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "119",
+            image: "https://cards.scryfall.io/border_crop/front/3/b/3b92f866-2522-4f2a-a5ca-7d01ad79b927.jpg?1675957064",
+            flavor_text: "\"Without faith in each other, we truly would have nothing left. Isn't that right, Malach? ...Malach?\"\n—Darven, Mirran rebel, last words",
+            card_face: {
+                name: "Awaken the Sleeper",
+                type_line: {
+                    full: "Sorcery",
+                    main: "Sorcery",
+                    sub: ""
+                },
+                mana_cost: "{3}{R}",
+                oracle_text: "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. If it's equipped, you may destroy all Equipment attached to that creature."
+            }
+        },
+        {
+            id: "c9b3b785-396e-4240-bfa3-58ab53497686",
+            name: "Axiom Engraver",
+            type_line: "Creature — Phyrexian Wizard",
+            mana_cost: "{1}{R}",
+            cmc: 2,
+            colors: [
+                "R"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "120",
+            image: "https://cards.scryfall.io/border_crop/front/c/9/c9b3b785-396e-4240-bfa3-58ab53497686.jpg?1675957067",
+            power: "1",
+            toughness: "3",
+            flavor_text: "\"I will not rest until the truth of Phyrexia is inscribed across the Multiverse.\"",
+            card_face: {
+                name: "Axiom Engraver",
+                type_line: {
+                    full: "Creature — Phyrexian Wizard",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Wizard"
+                    ]
+                },
+                mana_cost: "{1}{R}",
+                power: "1",
+                oracle_text: "Axiom Engraver enters the battlefield with two oil counters on it.\n{T}, Remove an oil counter from Axiom Engraver, Discard a card: Draw a card.",
+                toughness: "3"
+            }
+        },
+        {
+            id: "de1d02d1-91dc-47d6-bdbe-87602428abfb",
+            name: "Barbed Batterfist",
+            type_line: "Artifact — Equipment",
+            mana_cost: "{1}{R}",
+            cmc: 2,
+            colors: [
+                "R"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "121",
+            image: "https://cards.scryfall.io/border_crop/front/d/e/de1d02d1-91dc-47d6-bdbe-87602428abfb.jpg?1675957071",
+            flavor_text: "\"Finally, a safe way to punch the rotters in the face.\"",
+            card_face: {
+                name: "Barbed Batterfist",
+                type_line: {
+                    full: "Artifact — Equipment",
+                    main: "Artifact",
+                    sub: [
+                        "Equipment"
+                    ]
+                },
+                mana_cost: "{1}{R}",
+                oracle_text: "For Mirrodin! (When this Equipment enters the battlefield, create a 2/2 red Rebel creature token, then attach this to it.)\nEquipped creature gets +1/-1.\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)"
+            }
+        },
+        {
+            id: "2d6cf933-73fe-4e79-8d0b-29dc0f18b25d",
+            name: "Bladegraft Aspirant",
+            type_line: "Creature — Phyrexian Warrior",
+            mana_cost: "{2}{R}",
+            cmc: 3,
+            colors: [
+                "R"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "122",
+            image: "https://cards.scryfall.io/border_crop/front/2/d/2d6cf933-73fe-4e79-8d0b-29dc0f18b25d.jpg?1675957071",
+            power: "2",
+            toughness: "3",
+            flavor_text: "\"To dance to the music of Juex, leap like the flickering flame and hit like the hammer.\"",
+            card_face: {
+                name: "Bladegraft Aspirant",
+                type_line: {
+                    full: "Creature — Phyrexian Warrior",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Warrior"
+                    ]
+                },
+                mana_cost: "{2}{R}",
+                power: "2",
+                oracle_text: "Menace\nEquipment spells you cast cost {1} less to cast.\nActivated abilities of Equipment you control that target Bladegraft Aspirant cost {1} less to activate.",
+                toughness: "3"
+            }
+        },
+        {
+            id: "d6bfc16a-2871-40a4-b279-636b80491a06",
+            name: "Blazing Crescendo",
+            type_line: "Instant",
+            mana_cost: "{1}{R}",
+            cmc: 2,
+            colors: [
+                "R"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "123",
+            image: "https://cards.scryfall.io/border_crop/front/d/6/d6bfc16a-2871-40a4-b279-636b80491a06.jpg?1675957071",
+            flavor_text: "\"They call themselves the Quiet Furnace? Ironic.\"\n—Tyvar",
+            card_face: {
+                name: "Blazing Crescendo",
+                type_line: {
+                    full: "Instant",
+                    main: "Instant",
+                    sub: ""
+                },
+                mana_cost: "{1}{R}",
+                oracle_text: "Target creature gets +3/+1 until end of turn.\nExile the top card of your library. Until the end of your next turn, you may play that card."
+            }
+        },
+        {
+            id: "3553dcef-7b99-49d5-b071-06b894696952",
+            name: "Cacophony Scamp",
+            type_line: "Creature — Phyrexian Goblin Warrior",
+            mana_cost: "{R}",
+            cmc: 1,
+            colors: [
+                "R"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "124",
+            image: "https://cards.scryfall.io/border_crop/front/3/5/3553dcef-7b99-49d5-b071-06b894696952.jpg?1675957072",
+            power: "1",
+            toughness: "1",
+            card_face: {
+                name: "Cacophony Scamp",
+                type_line: {
+                    full: "Creature — Phyrexian Goblin Warrior",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Goblin",
+                        "Warrior"
+                    ]
+                },
+                mana_cost: "{R}",
+                power: "1",
+                oracle_text: "Whenever Cacophony Scamp deals combat damage to a player, you may sacrifice it. If you do, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)\nWhen Cacophony Scamp dies, it deals damage equal to its power to any target.",
+                toughness: "1"
+            }
+        },
+        {
+            id: "23afca1a-62a8-497f-994f-ceb479d020ba",
+            name: "Capricious Hellraiser",
+            type_line: "Creature — Phyrexian Dragon",
+            mana_cost: "{3}{R}{R}{R}",
+            cmc: 6,
+            colors: [
+                "R"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "125",
+            image: "https://cards.scryfall.io/border_crop/front/2/3/23afca1a-62a8-497f-994f-ceb479d020ba.jpg?1675957074",
+            power: "4",
+            toughness: "4",
+            card_face: {
+                name: "Capricious Hellraiser",
+                type_line: {
+                    full: "Creature — Phyrexian Dragon",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Dragon"
+                    ]
+                },
+                mana_cost: "{3}{R}{R}{R}",
+                power: "4",
+                oracle_text: "This spell costs {3} less to cast if you have nine or more cards in your graveyard.\nFlying\nWhen Capricious Hellraiser enters the battlefield, exile three cards at random from your graveyard. Choose a noncreature, nonland card from among them and copy it. You may cast the copy without paying its mana cost.",
+                toughness: "4"
+            }
+        },
+        {
+            id: "5668699d-8df8-426b-a04a-99cfe55e570b",
+            name: "Chimney Rabble",
+            type_line: "Creature — Phyrexian Goblin Warrior",
+            mana_cost: "{3}{R}",
+            cmc: 4,
+            colors: [
+                "R"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "126",
+            image: "https://cards.scryfall.io/border_crop/front/5/6/5668699d-8df8-426b-a04a-99cfe55e570b.jpg?1675957078",
+            power: "3",
+            toughness: "3",
+            flavor_text: "\"They're violent, headstrong, and wildly unpredictable. It should be amusing to see how Norn's vaunted tactics try to cope with them.\"\n—Urabrask",
+            card_face: {
+                name: "Chimney Rabble",
+                type_line: {
+                    full: "Creature — Phyrexian Goblin Warrior",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Goblin",
+                        "Warrior"
+                    ]
+                },
+                mana_cost: "{3}{R}",
+                power: "3",
+                oracle_text: "Haste\nWhen Chimney Rabble enters the battlefield, create a 1/1 red Phyrexian Goblin creature token.",
+                toughness: "3"
+            }
+        },
+        {
+            id: "0c117239-8e40-4e7e-ab1b-82f2ddf55cf4",
+            name: "Churning Reservoir",
+            type_line: "Artifact",
+            mana_cost: "{R}",
+            cmc: 1,
+            colors: [
+                "R"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "127",
+            image: "https://cards.scryfall.io/border_crop/front/0/c/0c117239-8e40-4e7e-ab1b-82f2ddf55cf4.jpg?1675957079",
+            card_face: {
+                name: "Churning Reservoir",
+                type_line: {
+                    full: "Artifact",
+                    main: "Artifact",
+                    sub: ""
+                },
+                mana_cost: "{R}",
+                oracle_text: "At the beginning of your upkeep, put an oil counter on another target nontoken artifact or creature you control.\n{2}, {T}: Create a 1/1 red Phyrexian Goblin creature token. Activate only if an oil counter was removed from a permanent you controlled this turn or a permanent with an oil counter on it was put into a graveyard this turn."
+            }
+        },
+        {
+            id: "5456b036-231e-4a64-b060-0709f5254664",
+            name: "Dragonwing Glider",
+            type_line: "Artifact — Equipment",
+            mana_cost: "{3}{R}{R}",
+            cmc: 5,
+            colors: [
+                "R"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "128",
+            image: "https://cards.scryfall.io/border_crop/front/5/4/5456b036-231e-4a64-b060-0709f5254664.jpg?1675957079",
+            card_face: {
+                name: "Dragonwing Glider",
+                type_line: {
+                    full: "Artifact — Equipment",
+                    main: "Artifact",
+                    sub: [
+                        "Equipment"
+                    ]
+                },
+                mana_cost: "{3}{R}{R}",
+                oracle_text: "For Mirrodin! (When this Equipment enters the battlefield, create a 2/2 red Rebel creature token, then attach this to it.)\nEquipped creature gets +2/+2 and has flying and haste.\nEquip {3}{R}{R}"
+            }
+        },
+        {
+            id: "a6e8d7b9-ff5e-48ae-9e38-d2b6a45b119b",
+            name: "Exuberant Fuseling",
+            type_line: "Creature — Phyrexian Goblin Warrior",
+            mana_cost: "{R}",
+            cmc: 1,
+            colors: [
+                "R"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "129",
+            image: "https://cards.scryfall.io/border_crop/front/a/6/a6e8d7b9-ff5e-48ae-9e38-d2b6a45b119b.jpg?1675957080",
+            power: "0",
+            toughness: "1",
+            card_face: {
+                name: "Exuberant Fuseling",
+                type_line: {
+                    full: "Creature — Phyrexian Goblin Warrior",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Goblin",
+                        "Warrior"
+                    ]
+                },
+                mana_cost: "{R}",
+                power: "0",
+                oracle_text: "Trample\nExuberant Fuseling gets +1/+0 for each oil counter on it.\nWhen Exuberant Fuseling enters the battlefield and whenever another creature or artifact you control is put into a graveyard from the battlefield, put an oil counter on Exuberant Fuseling.",
+                toughness: "1"
+            }
+        },
+        {
+            id: "c4c2c914-e9a7-450b-88d9-8885fe0f6643",
+            name: "Forgehammer Centurion",
+            type_line: "Creature — Phyrexian Warrior",
+            mana_cost: "{2}{R}",
+            cmc: 3,
+            colors: [
+                "R"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "130",
+            image: "https://cards.scryfall.io/border_crop/front/c/4/c4c2c914-e9a7-450b-88d9-8885fe0f6643.jpg?1675957081",
+            power: "3",
+            toughness: "2",
+            card_face: {
+                name: "Forgehammer Centurion",
+                type_line: {
+                    full: "Creature — Phyrexian Warrior",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Warrior"
+                    ]
+                },
+                mana_cost: "{2}{R}",
+                power: "3",
+                oracle_text: "Whenever another creature or artifact you control is put into a graveyard from the battlefield, put an oil counter on Forgehammer Centurion.\nWhenever Forgehammer Centurion attacks, you may remove two oil counters from it. When you do, target creature can't block this turn.",
+                toughness: "2"
+            }
+        },
+        {
+            id: "2c83600d-ea4d-4219-8dbb-34c4215a2005",
+            name: "Free from Flesh",
+            type_line: "Instant",
+            mana_cost: "{R}",
+            cmc: 1,
+            colors: [
+                "R"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "131",
+            image: "https://cards.scryfall.io/border_crop/front/2/c/2c83600d-ea4d-4219-8dbb-34c4215a2005.jpg?1675957085",
+            flavor_text: "He finally understood that phyresis was not an ending, but a new, perfect beginning.",
+            card_face: {
+                name: "Free from Flesh",
+                type_line: {
+                    full: "Instant",
+                    main: "Instant",
+                    sub: ""
+                },
+                mana_cost: "{R}",
+                oracle_text: "Target creature gets +2/+2 until end of turn. Put two oil counters on it."
+            }
+        },
+        {
+            id: "65e5fc08-7a04-4bba-81ba-990889cae96a",
+            name: "Furnace Punisher",
+            type_line: "Creature — Phyrexian Warrior",
+            mana_cost: "{2}{R}",
+            cmc: 3,
+            colors: [
+                "R"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "132",
+            image: "https://cards.scryfall.io/border_crop/front/6/5/65e5fc08-7a04-4bba-81ba-990889cae96a.jpg?1675957086",
+            power: "3",
+            toughness: "3",
+            flavor_text: "She marks her favorite creations with a searing brand, leaving all others to be consumed by the furnace.",
+            card_face: {
+                name: "Furnace Punisher",
+                type_line: {
+                    full: "Creature — Phyrexian Warrior",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Warrior"
+                    ]
+                },
+                mana_cost: "{2}{R}",
+                power: "3",
+                oracle_text: "Menace\nAt the beginning of each player's upkeep, Furnace Punisher deals 2 damage to that player unless they control two or more basic lands.",
+                toughness: "3"
+            }
+        },
+        {
+            id: "aa625ab0-1e79-4497-a5da-98fe1abfd024",
+            name: "Furnace Strider",
+            type_line: "Creature — Phyrexian Beast",
+            mana_cost: "{4}{R}",
+            cmc: 5,
+            colors: [
+                "R"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "133",
+            image: "https://cards.scryfall.io/border_crop/front/a/a/aa625ab0-1e79-4497-a5da-98fe1abfd024.jpg?1675957087",
+            power: "4",
+            toughness: "5",
+            flavor_text: "With the Quiet Furnace closed to all other factions, Urabrask's smiths were free to build anything their creativity demanded.",
+            card_face: {
+                name: "Furnace Strider",
+                type_line: {
+                    full: "Creature — Phyrexian Beast",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Beast"
+                    ]
+                },
+                mana_cost: "{4}{R}",
+                power: "4",
+                oracle_text: "Furnace Strider enters the battlefield with two oil counters on it.\nRemove an oil counter from Furnace Strider: Target creature you control gains haste until end of turn.",
+                toughness: "5"
+            }
+        },
+        {
+            id: "a3e4efa6-5783-4a51-99c6-116d1a8f01cf",
+            name: "Gleeful Demolition",
+            type_line: "Sorcery",
+            mana_cost: "{R}",
+            cmc: 1,
+            colors: [
+                "R"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "134",
+            image: "https://cards.scryfall.io/border_crop/front/a/3/a3e4efa6-5783-4a51-99c6-116d1a8f01cf.jpg?1675957089",
+            flavor_text: "Urabrask encourages creativity in all its forms, even the destructive ones. Especially the destructive ones.",
+            card_face: {
+                name: "Gleeful Demolition",
+                type_line: {
+                    full: "Sorcery",
+                    main: "Sorcery",
+                    sub: ""
+                },
+                mana_cost: "{R}",
+                oracle_text: "Destroy target artifact. If you controlled that artifact, create three 1/1 red Phyrexian Goblin creature tokens."
+            }
+        },
+        {
+            id: "0380a4c9-a5d3-465f-8584-e546b54f91e0",
+            name: "Hazardous Blast",
+            type_line: "Sorcery",
+            mana_cost: "{3}{R}",
+            cmc: 4,
+            colors: [
+                "R"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "135",
+            image: "https://cards.scryfall.io/border_crop/front/0/3/0380a4c9-a5d3-465f-8584-e546b54f91e0.jpg?1675957089",
+            flavor_text: "The Machine Orthodoxy finds strength in numbers. The Quiet Furnace finds that amusing.",
+            card_face: {
+                name: "Hazardous Blast",
+                type_line: {
+                    full: "Sorcery",
+                    main: "Sorcery",
+                    sub: ""
+                },
+                mana_cost: "{3}{R}",
+                oracle_text: "Hazardous Blast deals 1 damage to each creature your opponents control. Creatures your opponents control can't block this turn."
+            }
+        },
+        {
+            id: "f22108ec-28f0-44d3-ba6b-3075f5f6bc65",
+            name: "Hexgold Halberd",
+            type_line: "Artifact — Equipment",
+            mana_cost: "{1}{R}",
+            cmc: 2,
+            colors: [
+                "R"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "136",
+            image: "https://cards.scryfall.io/border_crop/front/f/2/f22108ec-28f0-44d3-ba6b-3075f5f6bc65.jpg?1675957093",
+            card_face: {
+                name: "Hexgold Halberd",
+                type_line: {
+                    full: "Artifact — Equipment",
+                    main: "Artifact",
+                    sub: [
+                        "Equipment"
+                    ]
+                },
+                mana_cost: "{1}{R}",
+                oracle_text: "For Mirrodin! (When this Equipment enters the battlefield, create a 2/2 red Rebel creature token, then attach this to it.)\nAs long as it's your turn, equipped creature has first strike and trample.\nEquip {2}{R}"
+            }
+        },
+        {
+            id: "0ec44465-68d4-4dca-a313-7f2ab0ce2e63",
+            name: "Hexgold Slash",
+            type_line: "Instant",
+            mana_cost: "{R}",
+            cmc: 1,
+            colors: [
+                "R"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "137",
+            image: "https://cards.scryfall.io/border_crop/front/0/e/0ec44465-68d4-4dca-a313-7f2ab0ce2e63.jpg?1675957093",
+            flavor_text: "\"No matter how tough they are, even Phyrexians prefer to keep their guts on the inside.\"\n—Jor Kadeen",
+            card_face: {
+                name: "Hexgold Slash",
+                type_line: {
+                    full: "Instant",
+                    main: "Instant",
+                    sub: ""
+                },
+                mana_cost: "{R}",
+                oracle_text: "Hexgold Slash deals 2 damage to target creature. If that creature has toxic, Hexgold Slash deals 4 damage to that creature instead."
+            }
+        },
+        {
+            id: "6528e012-4091-4722-b706-c51772676167",
+            name: "Koth, Fire of Resistance",
+            type_line: "Legendary Planeswalker — Koth",
+            mana_cost: "{2}{R}{R}",
+            cmc: 4,
+            colors: [
+                "R"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "138",
+            image: "https://cards.scryfall.io/border_crop/front/6/5/6528e012-4091-4722-b706-c51772676167.jpg?1675957094",
+            card_face: {
+                name: "Koth, Fire of Resistance",
+                type_line: {
+                    full: "Legendary Planeswalker — Koth",
+                    main: "Legendary Planeswalker",
+                    sub: [
+                        "Koth"
+                    ]
+                },
+                mana_cost: "{2}{R}{R}",
+                oracle_text: "+2: Search your library for a basic Mountain card, reveal it, put it into your hand, then shuffle.\n−3: Koth, Fire of Resistance deals damage to target creature equal to the number of Mountains you control.\n−7: You get an emblem with \"Whenever a Mountain enters the battlefield under your control, this emblem deals 4 damage to any target.\""
+            }
+        },
+        {
+            id: "f7155c42-a824-4bbe-9f7a-fa01e7625fd6",
+            name: "Kuldotha Cackler",
+            type_line: "Creature — Phyrexian Hyena",
+            mana_cost: "{2}{R}",
+            cmc: 3,
+            colors: [
+                "R"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "139",
+            image: "https://cards.scryfall.io/border_crop/front/f/7/f7155c42-a824-4bbe-9f7a-fa01e7625fd6.jpg?1675957096",
+            power: "2",
+            toughness: "3",
+            flavor_text: "You would laugh too if you just burned through a tyrranax's stomach.",
+            card_face: {
+                name: "Kuldotha Cackler",
+                type_line: {
+                    full: "Creature — Phyrexian Hyena",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Hyena"
+                    ]
+                },
+                mana_cost: "{2}{R}",
+                power: "2",
+                oracle_text: "Trample\nWhenever Kuldotha Cackler attacks, it gets +X/+0 until end of turn, where X is the number of permanents you control with oil counters on them.",
+                toughness: "3"
+            }
+        },
+        {
+            id: "2e6af42f-35ec-432f-9879-2a0fb938a9f6",
+            name: "Magmatic Sprinter",
+            type_line: "Creature — Phyrexian Warrior",
+            mana_cost: "{2}{R}",
+            cmc: 3,
+            colors: [
+                "R"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "140",
+            image: "https://cards.scryfall.io/border_crop/front/2/e/2e6af42f-35ec-432f-9879-2a0fb938a9f6.jpg?1675957098",
+            power: "3",
+            toughness: "2",
+            card_face: {
+                name: "Magmatic Sprinter",
+                type_line: {
+                    full: "Creature — Phyrexian Warrior",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Warrior"
+                    ]
+                },
+                mana_cost: "{2}{R}",
+                power: "3",
+                oracle_text: "Haste\nWhen Magmatic Sprinter enters the battlefield, put two oil counters on target artifact or creature you control.\nAt the beginning of your end step, return Magmatic Sprinter to its owner's hand unless you remove two oil counters from it.",
+                toughness: "2"
+            }
+        },
+        {
+            id: "d2e3291b-de5c-4a10-9915-2cd2d84a815c",
+            name: "Molten Rebuke",
+            type_line: "Sorcery",
+            mana_cost: "{4}{R}",
+            cmc: 5,
+            colors: [
+                "R"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "141",
+            image: "https://cards.scryfall.io/border_crop/front/d/2/d2e3291b-de5c-4a10-9915-2cd2d84a815c.jpg?1675957100",
+            flavor_text: "\"Perhaps this will show the Orthodoxy what we think of their attempts at indoctrination.\"",
+            card_face: {
+                name: "Molten Rebuke",
+                type_line: {
+                    full: "Sorcery",
+                    main: "Sorcery",
+                    sub: ""
+                },
+                mana_cost: "{4}{R}",
+                oracle_text: "Choose one or both —\n• Molten Rebuke deals 5 damage to target creature or planeswalker.\n• Destroy target Equipment."
+            }
+        },
+        {
+            id: "98395039-1353-4fa8-b51d-c4e1cadf9263",
+            name: "Nahiri's Sacrifice",
+            type_line: "Sorcery",
+            mana_cost: "{1}{R}",
+            cmc: 2,
+            colors: [
+                "R"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "142",
+            image: "https://cards.scryfall.io/border_crop/front/9/8/98395039-1353-4fa8-b51d-c4e1cadf9263.jpg?1675957101",
+            flavor_text: "Nahiri's last free breath became a defiant roar as she tore apart Sheoldred's Coliseum.",
+            card_face: {
+                name: "Nahiri's Sacrifice",
+                type_line: {
+                    full: "Sorcery",
+                    main: "Sorcery",
+                    sub: ""
+                },
+                mana_cost: "{1}{R}",
+                oracle_text: "As an additional cost to cast this spell, sacrifice an artifact or creature with mana value X.\nNahiri's Sacrifice deals X damage divided as you choose among any number of target creatures."
+            }
+        },
+        {
+            id: "7177431e-5cc4-4ecd-8848-f51903289072",
+            name: "Oxidda Finisher",
+            type_line: "Creature — Ogre Rebel",
+            mana_cost: "{5}{R}{R}",
+            cmc: 7,
+            colors: [
+                "R"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "143",
+            image: "https://cards.scryfall.io/border_crop/front/7/1/7177431e-5cc4-4ecd-8848-f51903289072.jpg?1675957101",
+            power: "7",
+            toughness: "5",
+            flavor_text: "Popular wisdom says that Phyrexians don't feel fear. But popular wisdom has never tried to hold a bridge against an angry ogre.",
+            card_face: {
+                name: "Oxidda Finisher",
+                type_line: {
+                    full: "Creature — Ogre Rebel",
+                    main: "Creature",
+                    sub: [
+                        "Ogre",
+                        "Rebel"
+                    ]
+                },
+                mana_cost: "{5}{R}{R}",
+                power: "7",
+                oracle_text: "Affinity for Equipment (This spell costs {1} less to cast for each Equipment you control.)\nTrample",
+                toughness: "5"
+            }
+        },
+        {
+            id: "cd37d1b1-70ce-466e-890d-36be82433035",
+            name: "Rebel Salvo",
+            type_line: "Instant",
+            mana_cost: "{2}{R}",
+            cmc: 3,
+            colors: [
+                "R"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "144",
+            image: "https://cards.scryfall.io/border_crop/front/c/d/cd37d1b1-70ce-466e-890d-36be82433035.jpg?1675957104",
+            flavor_text: "\"That Great Work of yours is looking pretty fragile, Urabrask!\"",
+            card_face: {
+                name: "Rebel Salvo",
+                type_line: {
+                    full: "Instant",
+                    main: "Instant",
+                    sub: ""
+                },
+                mana_cost: "{2}{R}",
+                oracle_text: "Affinity for Equipment (This spell costs {1} less to cast for each Equipment you control.)\nRebel Salvo deals 5 damage to target creature or planeswalker. That permanent loses indestructible until end of turn."
+            }
+        },
+        {
+            id: "7cac1827-69af-469d-b88c-fb9f2f33866a",
+            name: "Red Sun's Twilight",
+            type_line: "Sorcery",
+            mana_cost: "{X}{R}{R}",
+            cmc: 2,
+            colors: [
+                "R"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "145",
+            image: "https://cards.scryfall.io/border_crop/front/7/c/7cac1827-69af-469d-b88c-fb9f2f33866a.jpg?1675957106",
+            flavor_text: "\"Where once there was apathy, Urabrask brought passion, and the Great Work truly began.\"\n—Monument inscription",
+            card_face: {
+                name: "Red Sun's Twilight",
+                type_line: {
+                    full: "Sorcery",
+                    main: "Sorcery",
+                    sub: ""
+                },
+                mana_cost: "{X}{R}{R}",
+                oracle_text: "Destroy up to X target artifacts. If X is 5 or more, for each artifact destroyed this way, create a token that's a copy of it. Those tokens gain haste. Exile them at the beginning of the next end step."
+            }
+        },
+        {
+            id: "6249aabe-8f21-4257-9e04-ceffd44d42a5",
+            name: "Resistance Skywarden",
+            type_line: "Creature — Ogre Rebel",
+            mana_cost: "{3}{R}{R}",
+            cmc: 5,
+            colors: [
+                "R"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "146",
+            image: "https://cards.scryfall.io/border_crop/front/6/2/6249aabe-8f21-4257-9e04-ceffd44d42a5.jpg?1677085614",
+            power: "5",
+            toughness: "5",
+            flavor_text: "When the Vulshok taught him the word for \"home,\" he knew it was what he had been fighting for.",
+            card_face: {
+                name: "Resistance Skywarden",
+                type_line: {
+                    full: "Creature — Ogre Rebel",
+                    main: "Creature",
+                    sub: [
+                        "Ogre",
+                        "Rebel"
+                    ]
+                },
+                mana_cost: "{3}{R}{R}",
+                power: "5",
+                oracle_text: "Menace, reach",
+                toughness: "5"
+            }
+        },
+        {
+            id: "7f04c2e5-9100-439a-9aa4-28d388518e4a",
+            name: "Sawblade Scamp",
+            type_line: "Creature — Phyrexian Beast",
+            mana_cost: "{R}",
+            cmc: 1,
+            colors: [
+                "R"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "147",
+            image: "https://cards.scryfall.io/border_crop/front/7/f/7f04c2e5-9100-439a-9aa4-28d388518e4a.jpg?1675957107",
+            power: "1",
+            toughness: "1",
+            flavor_text: "Sometimes the Great Work requires destruction to allow for more efficient reconstruction.",
+            card_face: {
+                name: "Sawblade Scamp",
+                type_line: {
+                    full: "Creature — Phyrexian Beast",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Beast"
+                    ]
+                },
+                mana_cost: "{R}",
+                power: "1",
+                oracle_text: "Haste\nWhenever you cast a noncreature spell, put an oil counter on Sawblade Scamp.\n{T}, Remove an oil counter from Sawblade Scamp: It deals 1 damage to each opponent.",
+                toughness: "1"
+            }
+        },
+        {
+            id: "a6147bdc-4e02-48be-9ab9-c212f70d9194",
+            name: "Shrapnel Slinger",
+            type_line: "Artifact Creature — Phyrexian Beast",
+            mana_cost: "{1}{R}",
+            cmc: 2,
+            colors: [
+                "R"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "148",
+            image: "https://cards.scryfall.io/border_crop/front/a/6/a6147bdc-4e02-48be-9ab9-c212f70d9194.jpg?1675957108",
+            power: "2",
+            toughness: "2",
+            flavor_text: "\"They may have unlimited mites, but that just means we have unlimited ammunition.\"\n—Urabrask",
+            card_face: {
+                name: "Shrapnel Slinger",
+                type_line: {
+                    full: "Artifact Creature — Phyrexian Beast",
+                    main: "Artifact Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Beast"
+                    ]
+                },
+                mana_cost: "{1}{R}",
+                power: "2",
+                oracle_text: "When Shrapnel Slinger enters the battlefield, you may sacrifice a creature. When you do, destroy target artifact an opponent controls.",
+                toughness: "2"
+            }
+        },
+        {
+            id: "2b7dadf0-7323-403e-b353-33c121bdb0db",
+            name: "Slobad, Iron Goblin",
+            type_line: "Legendary Creature — Phyrexian Goblin Artificer",
+            mana_cost: "{2}{R}",
+            cmc: 3,
+            colors: [
+                "R"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "149",
+            image: "https://cards.scryfall.io/border_crop/front/2/b/2b7dadf0-7323-403e-b353-33c121bdb0db.jpg?1675957112",
+            power: "3",
+            toughness: "3",
+            flavor_text: "Once he fought to save Mirrodin. Now he fights to remake it.",
+            card_face: {
+                name: "Slobad, Iron Goblin",
+                type_line: {
+                    full: "Legendary Creature — Phyrexian Goblin Artificer",
+                    main: "Legendary Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Goblin",
+                        "Artificer"
+                    ]
+                },
+                mana_cost: "{2}{R}",
+                power: "3",
+                oracle_text: "{T}, Sacrifice an artifact: Add an amount of {R} equal to the sacrificed artifact's mana value. Spend this mana only to cast artifact spells or activate abilities of artifacts.",
+                toughness: "3"
+            }
+        },
+        {
+            id: "c3a0c7f3-7fb9-43de-a9af-96532c31e5ed",
+            name: "Solphim, Mayhem Dominus",
+            type_line: "Legendary Creature — Phyrexian Horror",
+            mana_cost: "{2}{R}{R}",
+            cmc: 4,
+            colors: [
+                "R"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "150",
+            image: "https://cards.scryfall.io/border_crop/front/c/3/c3a0c7f3-7fb9-43de-a9af-96532c31e5ed.jpg?1675957113",
+            power: "5",
+            toughness: "4",
+            card_face: {
+                name: "Solphim, Mayhem Dominus",
+                type_line: {
+                    full: "Legendary Creature — Phyrexian Horror",
+                    main: "Legendary Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Horror"
+                    ]
+                },
+                mana_cost: "{2}{R}{R}",
+                power: "5",
+                oracle_text: "If a source you control would deal noncombat damage to an opponent or a permanent an opponent controls, it deals double that damage to that player or permanent instead.\n{1}{R/P}{R/P}, Discard two cards: Put an indestructible counter on Solphim, Mayhem Dominus. ({R/P} can be paid with either {R} or 2 life.)",
+                toughness: "4"
+            }
+        },
+        {
+            id: "1efd4ae5-0076-46a0-a113-58cfff53144f",
+            name: "Thrill of Possibility",
+            type_line: "Instant",
+            mana_cost: "{1}{R}",
+            cmc: 2,
+            colors: [
+                "R"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "151",
+            image: "https://cards.scryfall.io/border_crop/front/1/e/1efd4ae5-0076-46a0-a113-58cfff53144f.jpg?1675957114",
+            flavor_text: "As the infection spread, Nahiri's thoughts grew tangled. She needed to protect what she loved from Phyrexia... or maybe only Phyrexia could protect what she loved.",
+            card_face: {
+                name: "Thrill of Possibility",
+                type_line: {
+                    full: "Instant",
+                    main: "Instant",
+                    sub: ""
+                },
+                mana_cost: "{1}{R}",
+                oracle_text: "As an additional cost to cast this spell, discard a card.\nDraw two cards."
+            }
+        },
+        {
+            id: "b3ef034f-37e5-4baa-a7a9-5fd0de792535",
+            name: "Urabrask's Anointer",
+            type_line: "Artifact Creature — Phyrexian Wizard",
+            mana_cost: "{3}{R}",
+            cmc: 4,
+            colors: [
+                "R"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "152",
+            image: "https://cards.scryfall.io/border_crop/front/b/3/b3ef034f-37e5-4baa-a7a9-5fd0de792535.jpg?1675957115",
+            power: "4",
+            toughness: "2",
+            flavor_text: "\"You were so eager to spy on my work, I assume you'll appreciate a hands-on demonstration.\"",
+            card_face: {
+                name: "Urabrask's Anointer",
+                type_line: {
+                    full: "Artifact Creature — Phyrexian Wizard",
+                    main: "Artifact Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Wizard"
+                    ]
+                },
+                mana_cost: "{3}{R}",
+                power: "4",
+                oracle_text: "When Urabrask's Anointer enters the battlefield, it deals X damage to any target, where X is the number of permanents you control with oil counters on them.",
+                toughness: "2"
+            }
+        },
+        {
+            id: "68f9f9d8-9ea0-4608-a79c-a09a87918186",
+            name: "Urabrask's Forge",
+            type_line: "Artifact",
+            mana_cost: "{2}{R}",
+            cmc: 3,
+            colors: [
+                "R"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "153",
+            image: "https://cards.scryfall.io/border_crop/front/6/8/68f9f9d8-9ea0-4608-a79c-a09a87918186.jpg?1675957116",
+            card_face: {
+                name: "Urabrask's Forge",
+                type_line: {
+                    full: "Artifact",
+                    main: "Artifact",
+                    sub: ""
+                },
+                mana_cost: "{2}{R}",
+                oracle_text: "At the beginning of combat on your turn, put an oil counter on Urabrask's Forge, then create an X/1 red Phyrexian Horror creature token with trample and haste, where X is the number of oil counters on Urabrask's Forge. Sacrifice that token at the beginning of the next end step."
+            }
+        },
+        {
+            id: "f67e7a16-ff30-4fb9-9fcb-6561eec50caf",
+            name: "Vindictive Flamestoker",
+            type_line: "Creature — Phyrexian Wizard",
+            mana_cost: "{R}",
+            cmc: 1,
+            colors: [
+                "R"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "154",
+            image: "https://cards.scryfall.io/border_crop/front/f/6/f67e7a16-ff30-4fb9-9fcb-6561eec50caf.jpg?1675957119",
+            power: "1",
+            toughness: "2",
+            flavor_text: "Her faith burns hot enough to sear away the flesh of the heretic.",
+            card_face: {
+                name: "Vindictive Flamestoker",
+                type_line: {
+                    full: "Creature — Phyrexian Wizard",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Wizard"
+                    ]
+                },
+                mana_cost: "{R}",
+                power: "1",
+                oracle_text: "Whenever you cast a noncreature spell, put an oil counter on Vindictive Flamestoker.\n{6}{R}, Sacrifice Vindictive Flamestoker: Discard your hand, then draw four cards. This ability costs {1} less to activate for each oil counter on Vindictive Flamestoker.",
+                toughness: "2"
+            }
+        },
+        {
+            id: "73d74045-cc9b-4b01-bc5f-0f2eb4b01580",
+            name: "Volt Charge",
+            type_line: "Instant",
+            mana_cost: "{2}{R}",
+            cmc: 3,
+            colors: [
+                "R"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "155",
+            image: "https://cards.scryfall.io/border_crop/front/7/3/73d74045-cc9b-4b01-bc5f-0f2eb4b01580.jpg?1675957122",
+            flavor_text: "\"There's a war brewing between Norn and Urabrask. Exploit the chaos, and we can take them both down for good.\"\n—Koth",
+            card_face: {
+                name: "Volt Charge",
+                type_line: {
+                    full: "Instant",
+                    main: "Instant",
+                    sub: ""
+                },
+                mana_cost: "{2}{R}",
+                oracle_text: "Volt Charge deals 3 damage to any target. Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)"
+            }
+        },
+        {
+            id: "f05078dd-b928-4b3f-9636-f299ebac180b",
+            name: "Vulshok Splitter",
+            type_line: "Artifact — Equipment",
+            mana_cost: "{3}{R}",
+            cmc: 4,
+            colors: [
+                "R"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "156",
+            image: "https://cards.scryfall.io/border_crop/front/f/0/f05078dd-b928-4b3f-9636-f299ebac180b.jpg?1675957122",
+            flavor_text: "\"Not my style, but it'll get the job done.\"\n—Nahiri",
+            card_face: {
+                name: "Vulshok Splitter",
+                type_line: {
+                    full: "Artifact — Equipment",
+                    main: "Artifact",
+                    sub: [
+                        "Equipment"
+                    ]
+                },
+                mana_cost: "{3}{R}",
+                oracle_text: "For Mirrodin! (When this Equipment enters the battlefield, create a 2/2 red Rebel creature token, then attach this to it.)\nEquipped creature gets +2/+0.\nEquip {2}{R} ({2}{R}: Attach to target creature you control. Equip only as a sorcery.)"
+            }
+        },
+        {
+            id: "3db6d202-9c6f-4485-9224-173b23de7054",
+            name: "Adaptive Sporesinger",
+            type_line: "Creature — Phyrexian Druid",
+            mana_cost: "{2}{G}",
+            cmc: 3,
+            colors: [
+                "G"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "157",
+            image: "https://cards.scryfall.io/border_crop/front/3/d/3db6d202-9c6f-4485-9224-173b23de7054.jpg?1675957123",
+            power: "2",
+            toughness: "2",
+            card_face: {
+                name: "Adaptive Sporesinger",
+                type_line: {
+                    full: "Creature — Phyrexian Druid",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Druid"
+                    ]
+                },
+                mana_cost: "{2}{G}",
+                power: "2",
+                oracle_text: "Vigilance\nWhen Adaptive Sporesinger enters the battlefield, choose one —\n• Target creature gets +2/+2 and gains vigilance until end of turn.\n• Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
+                toughness: "2"
+            }
+        },
+        {
+            id: "61e220d0-38c9-4584-940b-8a9e983ecfe7",
+            name: "Armored Scrapgorger",
+            type_line: "Creature — Phyrexian Beast",
+            mana_cost: "{1}{G}",
+            cmc: 2,
+            colors: [
+                "G"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "158",
+            image: "https://cards.scryfall.io/border_crop/front/6/1/61e220d0-38c9-4584-940b-8a9e983ecfe7.jpg?1675957126",
+            power: "0",
+            toughness: "3",
+            flavor_text: "\"Eat. Sort. Eat. Sort. Eat.\"",
+            card_face: {
+                name: "Armored Scrapgorger",
+                type_line: {
+                    full: "Creature — Phyrexian Beast",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Beast"
+                    ]
+                },
+                mana_cost: "{1}{G}",
+                power: "0",
+                oracle_text: "Armored Scrapgorger gets +3/+0 as long as it has three or more oil counters on it.\n{T}: Add one mana of any color.\nWhenever Armored Scrapgorger becomes tapped, exile target card from a graveyard and put an oil counter on Armored Scrapgorger.",
+                toughness: "3"
+            }
+        },
+        {
+            id: "411bda96-6c65-475d-9850-0a9b3eefa553",
+            name: "Bloated Contaminator",
+            type_line: "Creature — Phyrexian Beast",
+            mana_cost: "{2}{G}",
+            cmc: 3,
+            colors: [
+                "G"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "159",
+            image: "https://cards.scryfall.io/border_crop/front/4/1/411bda96-6c65-475d-9850-0a9b3eefa553.jpg?1678455105",
+            power: "4",
+            toughness: "4",
+            card_face: {
+                name: "Bloated Contaminator",
+                type_line: {
+                    full: "Creature — Phyrexian Beast",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Beast"
+                    ]
+                },
+                mana_cost: "{2}{G}",
+                power: "4",
+                oracle_text: "Trample\nToxic 1 (Players dealt combat damage by this creature also get a poison counter.)\nWhenever Bloated Contaminator deals combat damage to a player, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
+                toughness: "4"
+            }
+        },
+        {
+            id: "e5290a4c-1f98-4e97-a407-f951e386b8b0",
+            name: "Branchblight Stalker",
+            type_line: "Creature — Phyrexian Elf Scout",
+            mana_cost: "{1}{G}",
+            cmc: 2,
+            colors: [
+                "G"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "160",
+            image: "https://cards.scryfall.io/border_crop/front/e/5/e5290a4c-1f98-4e97-a407-f951e386b8b0.jpg?1675957129",
+            power: "3",
+            toughness: "1",
+            flavor_text: "Some Vicious Swarm aspirants hang motionless in the canopy for weeks, allowing poisonous flowers to root in their flesh and weave tendrils through their hair.",
+            card_face: {
+                name: "Branchblight Stalker",
+                type_line: {
+                    full: "Creature — Phyrexian Elf Scout",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Elf",
+                        "Scout"
+                    ]
+                },
+                mana_cost: "{1}{G}",
+                power: "3",
+                oracle_text: "Toxic 2 (Players dealt combat damage by this creature also get two poison counters.)",
+                toughness: "1"
+            }
+        },
+        {
+            id: "89b39293-6f57-4294-85fc-c718bdbb4d40",
+            name: "Cankerbloom",
+            type_line: "Creature — Phyrexian Fungus",
+            mana_cost: "{1}{G}",
+            cmc: 2,
+            colors: [
+                "G"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "161",
+            image: "https://cards.scryfall.io/border_crop/front/8/9/89b39293-6f57-4294-85fc-c718bdbb4d40.jpg?1675957129",
+            power: "3",
+            toughness: "2",
+            card_face: {
+                name: "Cankerbloom",
+                type_line: {
+                    full: "Creature — Phyrexian Fungus",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Fungus"
+                    ]
+                },
+                mana_cost: "{1}{G}",
+                power: "3",
+                oracle_text: "{1}, Sacrifice Cankerbloom: Choose one —\n• Destroy target artifact.\n• Destroy target enchantment.\n• Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
+                toughness: "2"
+            }
+        },
+        {
+            id: "7b43ba43-f7ae-4e00-b797-2360c3ccd839",
+            name: "Carnivorous Canopy",
+            type_line: "Sorcery",
+            mana_cost: "{2}{G}",
+            cmc: 3,
+            colors: [
+                "G"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "162",
+            image: "https://cards.scryfall.io/border_crop/front/7/b/7b43ba43-f7ae-4e00-b797-2360c3ccd839.jpg?1675957130",
+            card_face: {
+                name: "Carnivorous Canopy",
+                type_line: {
+                    full: "Sorcery",
+                    main: "Sorcery",
+                    sub: ""
+                },
+                mana_cost: "{2}{G}",
+                oracle_text: "Destroy target artifact, enchantment, or creature with flying. If that permanent's mana value was 3 or less, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)"
+            }
+        },
+        {
+            id: "635146da-d415-4107-a7f9-2c46189e5c52",
+            name: "Conduit of Worlds",
+            type_line: "Artifact",
+            mana_cost: "{2}{G}{G}",
+            cmc: 4,
+            colors: [
+                "G"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "163",
+            image: "https://cards.scryfall.io/border_crop/front/6/3/635146da-d415-4107-a7f9-2c46189e5c52.jpg?1675957133",
+            card_face: {
+                name: "Conduit of Worlds",
+                type_line: {
+                    full: "Artifact",
+                    main: "Artifact",
+                    sub: ""
+                },
+                mana_cost: "{2}{G}{G}",
+                oracle_text: "You may play lands from your graveyard.\n{T}: Choose target nonland permanent card in your graveyard. If you haven't cast a spell this turn, you may cast that card. If you do, you can't cast additional spells this turn. Activate only as a sorcery."
+            }
+        },
+        {
+            id: "18af2c85-e58f-4043-99d3-e90121348aca",
+            name: "Contagious Vorrac",
+            type_line: "Creature — Phyrexian Boar Beast",
+            mana_cost: "{2}{G}",
+            cmc: 3,
+            colors: [
+                "G"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "164",
+            image: "https://cards.scryfall.io/border_crop/front/1/8/18af2c85-e58f-4043-99d3-e90121348aca.jpg?1675957134",
+            power: "3",
+            toughness: "3",
+            card_face: {
+                name: "Contagious Vorrac",
+                type_line: {
+                    full: "Creature — Phyrexian Boar Beast",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Boar",
+                        "Beast"
+                    ]
+                },
+                mana_cost: "{2}{G}",
+                power: "3",
+                oracle_text: "When Contagious Vorrac enters the battlefield, look at the top four cards of your library. You may reveal a land card from among them and put it into your hand. Put the rest on the bottom of your library in a random order. If you didn't put a card into your hand this way, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
+                toughness: "3"
+            }
+        },
+        {
+            id: "f8855fbf-4f1e-4c44-9653-bbbfc3f2fafd",
+            name: "Copper Longlegs",
+            type_line: "Creature — Phyrexian Spider",
+            mana_cost: "{1}{G}",
+            cmc: 2,
+            colors: [
+                "G"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "165",
+            image: "https://cards.scryfall.io/border_crop/front/f/8/f8855fbf-4f1e-4c44-9653-bbbfc3f2fafd.jpg?1675957136",
+            power: "1",
+            toughness: "3",
+            flavor_text: "Its webs are not true silk, but woven from thousands of delicate mycosynth strands.",
+            card_face: {
+                name: "Copper Longlegs",
+                type_line: {
+                    full: "Creature — Phyrexian Spider",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Spider"
+                    ]
+                },
+                mana_cost: "{1}{G}",
+                power: "1",
+                oracle_text: "Reach\n{1}{G}, Sacrifice Copper Longlegs: Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
+                toughness: "3"
+            }
+        },
+        {
+            id: "dd4bcb42-f5cf-410d-8f20-1006b0f92abe",
+            name: "Evolved Spinoderm",
+            type_line: "Creature — Phyrexian Beast",
+            mana_cost: "{2}{G}{G}",
+            cmc: 4,
+            colors: [
+                "G"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "166",
+            image: "https://cards.scryfall.io/border_crop/front/d/d/dd4bcb42-f5cf-410d-8f20-1006b0f92abe.jpg?1675957137",
+            power: "5",
+            toughness: "5",
+            card_face: {
+                name: "Evolved Spinoderm",
+                type_line: {
+                    full: "Creature — Phyrexian Beast",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Beast"
+                    ]
+                },
+                mana_cost: "{2}{G}{G}",
+                power: "5",
+                oracle_text: "Evolved Spinoderm enters the battlefield with four oil counters on it.\nEvolved Spinoderm has trample as long as it has two or fewer oil counters on it. Otherwise, it has hexproof.\nAt the beginning of your upkeep, remove an oil counter from Evolved Spinoderm. Then if it has no oil counters on it, sacrifice it.",
+                toughness: "5"
+            }
+        },
+        {
+            id: "13366c60-1200-4ad2-bbf4-77596121fcd2",
+            name: "Evolving Adaptive",
+            type_line: "Creature — Phyrexian Warrior",
+            mana_cost: "{G}",
+            cmc: 1,
+            colors: [
+                "G"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "167",
+            image: "https://cards.scryfall.io/border_crop/front/1/3/13366c60-1200-4ad2-bbf4-77596121fcd2.jpg?1675957138",
+            power: "0",
+            toughness: "0",
+            card_face: {
+                name: "Evolving Adaptive",
+                type_line: {
+                    full: "Creature — Phyrexian Warrior",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Warrior"
+                    ]
+                },
+                mana_cost: "{G}",
+                power: "0",
+                oracle_text: "Evolving Adaptive enters the battlefield with an oil counter on it.\nEvolving Adaptive gets +1/+1 for each oil counter on it.\nWhenever another creature enters the battlefield under your control, if that creature has greater power or toughness than Evolving Adaptive, put an oil counter on Evolving Adaptive.",
+                toughness: "0"
+            }
+        },
+        {
+            id: "572e174e-99f7-4b5e-8506-1833adddbf07",
+            name: "Expand the Sphere",
+            type_line: "Sorcery",
+            mana_cost: "{3}{G}",
+            cmc: 4,
+            colors: [
+                "G"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "168",
+            image: "https://cards.scryfall.io/border_crop/front/5/7/572e174e-99f7-4b5e-8506-1833adddbf07.jpg?1675957140",
+            card_face: {
+                name: "Expand the Sphere",
+                type_line: {
+                    full: "Sorcery",
+                    main: "Sorcery",
+                    sub: ""
+                },
+                mana_cost: "{3}{G}",
+                oracle_text: "Look at the top six cards of your library. Put up to two land cards from among them onto the battlefield tapped and the rest on the bottom of your library in a random order. If you put fewer than two lands onto the battlefield this way, proliferate a number of times equal to the difference. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)"
+            }
+        },
+        {
+            id: "184c985d-cb70-41a7-9f66-3506708b7e26",
+            name: "Green Sun's Twilight",
+            type_line: "Sorcery",
+            mana_cost: "{X}{G}",
+            cmc: 1,
+            colors: [
+                "G"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "169",
+            image: "https://cards.scryfall.io/border_crop/front/1/8/184c985d-cb70-41a7-9f66-3506708b7e26.jpg?1675957142",
+            card_face: {
+                name: "Green Sun's Twilight",
+                type_line: {
+                    full: "Sorcery",
+                    main: "Sorcery",
+                    sub: ""
+                },
+                mana_cost: "{X}{G}",
+                oracle_text: "Reveal the top X plus one cards of your library. Choose a creature card and/or a land card from among them. Put those cards into your hand and the rest on the bottom of your library in a random order. If X is 5 or more, instead put the chosen cards onto the battlefield or into your hand and the rest on the bottom of your library in a random order."
+            }
+        },
+        {
+            id: "0955b64f-6721-4fa6-b161-cae404cb5b9f",
+            name: "Ichorspit Basilisk",
+            type_line: "Creature — Phyrexian Basilisk",
+            mana_cost: "{2}{G}",
+            cmc: 3,
+            colors: [
+                "G"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "170",
+            image: "https://cards.scryfall.io/border_crop/front/0/9/0955b64f-6721-4fa6-b161-cae404cb5b9f.jpg?1675957143",
+            power: "1",
+            toughness: "3",
+            flavor_text: "Warm forges and tasty goblins lured it from the Hunter Maze to the Quiet Furnace.",
+            card_face: {
+                name: "Ichorspit Basilisk",
+                type_line: {
+                    full: "Creature — Phyrexian Basilisk",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Basilisk"
+                    ]
+                },
+                mana_cost: "{2}{G}",
+                power: "1",
+                oracle_text: "Deathtouch\nToxic 1 (Players dealt combat damage by this creature also get a poison counter.)",
+                toughness: "3"
+            }
+        },
+        {
+            id: "a6b36e23-a414-400c-a3a5-e23883e866d3",
+            name: "Incubation Sac",
+            type_line: "Artifact",
+            mana_cost: "{G}",
+            cmc: 1,
+            colors: [
+                "G"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "171",
+            image: "https://cards.scryfall.io/border_crop/front/a/6/a6b36e23-a414-400c-a3a5-e23883e866d3.jpg?1675957145",
+            flavor_text: "\"This one needs a bit longer to ripen.\"\n—Glissa Sunslayer",
+            card_face: {
+                name: "Incubation Sac",
+                type_line: {
+                    full: "Artifact",
+                    main: "Artifact",
+                    sub: ""
+                },
+                mana_cost: "{G}",
+                oracle_text: "Incubation Sac enters the battlefield with three oil counters on it.\n{4}, {T}, Remove an oil counter from Incubation Sac: Create a 3/3 colorless Phyrexian Golem artifact creature token. Activate only as a sorcery."
+            }
+        },
+        {
+            id: "83dfb2a5-cd5c-46c6-9bb8-7c5d00f3e003",
+            name: "Infectious Bite",
+            type_line: "Instant",
+            mana_cost: "{1}{G}",
+            cmc: 2,
+            colors: [
+                "G"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "172",
+            image: "https://cards.scryfall.io/border_crop/front/8/3/83dfb2a5-cd5c-46c6-9bb8-7c5d00f3e003.jpg?1675957147",
+            flavor_text: "\"Let me tell you why you must never close your eyes when on watch. Not even for a second.\"\n—Jor Kadeen",
+            card_face: {
+                name: "Infectious Bite",
+                type_line: {
+                    full: "Instant",
+                    main: "Instant",
+                    sub: ""
+                },
+                mana_cost: "{1}{G}",
+                oracle_text: "Target creature you control deals damage equal to its power to target creature you don't control. Each opponent gets a poison counter."
+            }
+        },
+        {
+            id: "f7427def-c4b2-475a-8dc9-7e89409d9abb",
+            name: "Lattice-Blade Mantis",
+            type_line: "Creature — Phyrexian Insect",
+            mana_cost: "{3}{G}",
+            cmc: 4,
+            colors: [
+                "G"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "173",
+            image: "https://cards.scryfall.io/border_crop/front/f/7/f7427def-c4b2-475a-8dc9-7e89409d9abb.jpg?1675957148",
+            power: "4",
+            toughness: "3",
+            flavor_text: "\"Urabrask doesn't think big enough.\"\n—Glissa Sunslayer",
+            card_face: {
+                name: "Lattice-Blade Mantis",
+                type_line: {
+                    full: "Creature — Phyrexian Insect",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Insect"
+                    ]
+                },
+                mana_cost: "{3}{G}",
+                power: "4",
+                oracle_text: "Lattice-Blade Mantis enters the battlefield with two oil counters on it.\nWhenever Lattice-Blade Mantis attacks, you may remove an oil counter from it. If you do, untap it and it gets +1/+1 until end of turn.",
+                toughness: "3"
+            }
+        },
+        {
+            id: "bc79106b-9aa2-4add-b9ca-e3c7aafd9821",
+            name: "Maze's Mantle",
+            type_line: "Enchantment — Aura",
+            mana_cost: "{2}{G}",
+            cmc: 3,
+            colors: [
+                "G"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "174",
+            image: "https://cards.scryfall.io/border_crop/front/b/c/bc79106b-9aa2-4add-b9ca-e3c7aafd9821.jpg?1675957150",
+            card_face: {
+                name: "Maze's Mantle",
+                type_line: {
+                    full: "Enchantment — Aura",
+                    main: "Enchantment",
+                    sub: [
+                        "Aura"
+                    ]
+                },
+                mana_cost: "{2}{G}",
+                oracle_text: "Flash\nEnchant creature\nWhen Maze's Mantle enters the battlefield, if enchanted creature has toxic, that creature gains hexproof until end of turn.\nEnchanted creature gets +2/+2."
+            }
+        },
+        {
+            id: "1dd64b1d-bcef-476c-bf0b-3ac7df7cbed3",
+            name: "Nissa, Ascended Animist",
+            type_line: "Legendary Planeswalker — Nissa",
+            mana_cost: "{3}{G}{G}{G/P}{G/P}",
+            cmc: 7,
+            colors: [
+                "G"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "175",
+            image: "https://cards.scryfall.io/border_crop/front/1/d/1dd64b1d-bcef-476c-bf0b-3ac7df7cbed3.jpg?1675957150",
+            card_face: {
+                name: "Nissa, Ascended Animist",
+                type_line: {
+                    full: "Legendary Planeswalker — Nissa",
+                    main: "Legendary Planeswalker",
+                    sub: [
+                        "Nissa"
+                    ]
+                },
+                mana_cost: "{3}{G}{G}{G/P}{G/P}",
+                oracle_text: "Compleated ({G/P} can be paid with {G} or 2 life. For each {G/P} paid with life, this planeswalker enters with two fewer loyalty counters.)\n+1: Create an X/X green Phyrexian Horror creature token, where X is Nissa, Ascended Animist's loyalty.\n−1: Destroy target artifact or enchantment.\n−7: Until end of turn, creatures you control get +1/+1 for each Forest you control and gain trample."
+            }
+        },
+        {
+            id: "9649de6c-a9f7-4f0a-8bf7-cacaea60ed54",
+            name: "Noxious Assault",
+            type_line: "Sorcery",
+            mana_cost: "{3}{G}{G}",
+            cmc: 5,
+            colors: [
+                "G"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "176",
+            image: "https://cards.scryfall.io/border_crop/front/9/6/9649de6c-a9f7-4f0a-8bf7-cacaea60ed54.jpg?1675957153",
+            flavor_text: "Even as they brought the beast down, they could feel its poison working into their blood, altering their bodies, and filling their minds with the thrill of the eternal hunt.",
+            card_face: {
+                name: "Noxious Assault",
+                type_line: {
+                    full: "Sorcery",
+                    main: "Sorcery",
+                    sub: ""
+                },
+                mana_cost: "{3}{G}{G}",
+                oracle_text: "Creatures you control get +2/+2 until end of turn. Whenever a creature blocks this turn, its controller gets a poison counter."
+            }
+        },
+        {
+            id: "78493579-1fad-4664-96d7-195bf59ceef2",
+            name: "Oil-Gorger Troll",
+            type_line: "Creature — Phyrexian Troll Warrior",
+            mana_cost: "{3}{G}{G}",
+            cmc: 5,
+            colors: [
+                "G"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "177",
+            image: "https://cards.scryfall.io/border_crop/front/7/8/78493579-1fad-4664-96d7-195bf59ceef2.jpg?1675957155",
+            power: "3",
+            toughness: "4",
+            flavor_text: "Metal or flesh, it didn't matter—seasoned with ichor, it all tasted so good.",
+            card_face: {
+                name: "Oil-Gorger Troll",
+                type_line: {
+                    full: "Creature — Phyrexian Troll Warrior",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Troll",
+                        "Warrior"
+                    ]
+                },
+                mana_cost: "{3}{G}{G}",
+                power: "3",
+                oracle_text: "When Oil-Gorger Troll enters the battlefield, you gain 3 life. Then if you control a permanent with an oil counter on it, draw a card.",
+                toughness: "4"
+            }
+        },
+        {
+            id: "758dbe61-6dc7-4b08-bdd6-7262257955fc",
+            name: "Paladin of Predation",
+            type_line: "Creature — Phyrexian Knight",
+            mana_cost: "{5}{G}{G}",
+            cmc: 7,
+            colors: [
+                "G"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "178",
+            image: "https://cards.scryfall.io/border_crop/front/7/5/758dbe61-6dc7-4b08-bdd6-7262257955fc.jpg?1675997685",
+            power: "6",
+            toughness: "7",
+            flavor_text: "The strategies and politics of the Vicious Swarm are as subtle as Vorinclex himself.",
+            card_face: {
+                name: "Paladin of Predation",
+                type_line: {
+                    full: "Creature — Phyrexian Knight",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Knight"
+                    ]
+                },
+                mana_cost: "{5}{G}{G}",
+                power: "6",
+                oracle_text: "Toxic 6 (Players dealt combat damage by this creature also get six poison counters.)\nPaladin of Predation can't be blocked by creatures with power 2 or less.",
+                toughness: "7"
+            }
+        },
+        {
+            id: "5e7eef9e-68ae-4743-ad89-64f6fafbe365",
+            name: "Plague Nurse",
+            type_line: "Creature — Phyrexian Cleric",
+            mana_cost: "{3}{G}",
+            cmc: 4,
+            colors: [
+                "G"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "179",
+            image: "https://cards.scryfall.io/border_crop/front/5/e/5e7eef9e-68ae-4743-ad89-64f6fafbe365.jpg?1675957156",
+            power: "3",
+            toughness: "4",
+            card_face: {
+                name: "Plague Nurse",
+                type_line: {
+                    full: "Creature — Phyrexian Cleric",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Cleric"
+                    ]
+                },
+                mana_cost: "{3}{G}",
+                power: "3",
+                oracle_text: "Toxic 2\n{2}{G}: Each other creature you control with toxic gains toxic 1 until end of turn. Activate only once each turn. (A player dealt combat damage by a creature with toxic also gets poison counters equal to that creature's total toxic value.)",
+                toughness: "4"
+            }
+        },
+        {
+            id: "419fab07-f921-4eff-91e2-1974ae121077",
+            name: "Predation Steward",
+            type_line: "Creature — Phyrexian Elf Warrior",
+            mana_cost: "{1}{G}",
+            cmc: 2,
+            colors: [
+                "G"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "180",
+            image: "https://cards.scryfall.io/border_crop/front/4/1/419fab07-f921-4eff-91e2-1974ae121077.jpg?1675957158",
+            power: "2",
+            toughness: "2",
+            flavor_text: "\"Best we move on. That gurgling means it's feeding time.\"\n—Melira",
+            card_face: {
+                name: "Predation Steward",
+                type_line: {
+                    full: "Creature — Phyrexian Elf Warrior",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Elf",
+                        "Warrior"
+                    ]
+                },
+                mana_cost: "{1}{G}",
+                power: "2",
+                oracle_text: "Predation Steward enters the battlefield with two oil counters on it.\n{2}{G}, {T}, Remove an oil counter from Predation Steward: Target creature gets +2/+2 until end of turn. Activate only as a sorcery.",
+                toughness: "2"
+            }
+        },
+        {
+            id: "6b71fd8f-e688-4210-bc5b-a3f19b5b3497",
+            name: "Rustvine Cultivator",
+            type_line: "Creature — Phyrexian Elf Druid",
+            mana_cost: "{G}",
+            cmc: 1,
+            colors: [
+                "G"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "181",
+            image: "https://cards.scryfall.io/border_crop/front/6/b/6b71fd8f-e688-4210-bc5b-a3f19b5b3497.jpg?1675957160",
+            power: "1",
+            toughness: "2",
+            flavor_text: "\"All elves aspire to be part of nature. Only Phyrexia can truly grant that wish.\"\n—Glissa Sunslayer",
+            card_face: {
+                name: "Rustvine Cultivator",
+                type_line: {
+                    full: "Creature — Phyrexian Elf Druid",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Elf",
+                        "Druid"
+                    ]
+                },
+                mana_cost: "{G}",
+                power: "1",
+                oracle_text: "{T}: Put an oil counter on Rustvine Cultivator.\n{T}, Remove an oil counter from Rustvine Cultivator: Untap target land.",
+                toughness: "2"
+            }
+        },
+        {
+            id: "123f0c76-1fde-439e-a76d-eccf96f8d941",
+            name: "Ruthless Predation",
+            type_line: "Sorcery",
+            mana_cost: "{1}{G}",
+            cmc: 2,
+            colors: [
+                "G"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "182",
+            image: "https://cards.scryfall.io/border_crop/front/1/2/123f0c76-1fde-439e-a76d-eccf96f8d941.jpg?1675957163",
+            flavor_text: "In the Hunter Maze, today's apex predator is tomorrow's prey.",
+            card_face: {
+                name: "Ruthless Predation",
+                type_line: {
+                    full: "Sorcery",
+                    main: "Sorcery",
+                    sub: ""
+                },
+                mana_cost: "{1}{G}",
+                oracle_text: "Target creature you control gets +1/+2 until end of turn. It fights target creature you don't control. (Each deals damage equal to its power to the other.)"
+            }
+        },
+        {
+            id: "d7898399-3c52-402c-9cd7-baad2cb7f00e",
+            name: "Skyscythe Engulfer",
+            type_line: "Creature — Phyrexian Beast",
+            mana_cost: "{5}{G}",
+            cmc: 6,
+            colors: [
+                "G"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "183",
+            image: "https://cards.scryfall.io/border_crop/front/d/7/d7898399-3c52-402c-9cd7-baad2cb7f00e.jpg?1675957163",
+            power: "6",
+            toughness: "5",
+            flavor_text: "\"I bet even Skithiryx would take the long way around this one.\"\n—Kara Vrist, resistance spymaster",
+            card_face: {
+                name: "Skyscythe Engulfer",
+                type_line: {
+                    full: "Creature — Phyrexian Beast",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Beast"
+                    ]
+                },
+                mana_cost: "{5}{G}",
+                power: "6",
+                oracle_text: "Reach, trample\nSkyscythe Engulfer can't be blocked by creatures with flying.",
+                toughness: "5"
+            }
+        },
+        {
+            id: "71c1a1d0-5616-42f8-a59c-42c1ccd48d26",
+            name: "Sylvok Battle-Chair",
+            type_line: "Artifact — Equipment",
+            mana_cost: "{4}{G}{G}",
+            cmc: 6,
+            colors: [
+                "G"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "184",
+            image: "https://cards.scryfall.io/border_crop/front/7/1/71c1a1d0-5616-42f8-a59c-42c1ccd48d26.jpg?1675957164",
+            card_face: {
+                name: "Sylvok Battle-Chair",
+                type_line: {
+                    full: "Artifact — Equipment",
+                    main: "Artifact",
+                    sub: [
+                        "Equipment"
+                    ]
+                },
+                mana_cost: "{4}{G}{G}",
+                oracle_text: "For Mirrodin! (When this Equipment enters the battlefield, create a 2/2 red Rebel creature token, then attach this to it.)\nEquipped creature gets +4/+4 and has trample.\nEquip {5}{G}{G}"
+            }
+        },
+        {
+            id: "75a4a340-453b-471a-82ba-48ebf20b271a",
+            name: "Thirsting Roots",
+            type_line: "Sorcery",
+            mana_cost: "{G}",
+            cmc: 1,
+            colors: [
+                "G"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "185",
+            image: "https://cards.scryfall.io/border_crop/front/7/5/75a4a340-453b-471a-82ba-48ebf20b271a.jpg?1675957166",
+            card_face: {
+                name: "Thirsting Roots",
+                type_line: {
+                    full: "Sorcery",
+                    main: "Sorcery",
+                    sub: ""
+                },
+                mana_cost: "{G}",
+                oracle_text: "Choose one —\n• Search your library for a basic land card, reveal it, put it into your hand, then shuffle.\n• Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)"
+            }
+        },
+        {
+            id: "6d9f51dd-0393-4b3c-bea5-8f74634ab0e5",
+            name: "Thrun, Breaker of Silence",
+            type_line: "Legendary Creature — Troll Shaman",
+            mana_cost: "{3}{G}{G}",
+            cmc: 5,
+            colors: [
+                "G"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "186",
+            image: "https://cards.scryfall.io/border_crop/front/6/d/6d9f51dd-0393-4b3c-bea5-8f74634ab0e5.jpg?1675957167",
+            power: "5",
+            toughness: "5",
+            card_face: {
+                name: "Thrun, Breaker of Silence",
+                type_line: {
+                    full: "Legendary Creature — Troll Shaman",
+                    main: "Legendary Creature",
+                    sub: [
+                        "Troll",
+                        "Shaman"
+                    ]
+                },
+                mana_cost: "{3}{G}{G}",
+                power: "5",
+                oracle_text: "This spell can't be countered.\nTrample\nThrun, Breaker of Silence can't be the target of nongreen spells your opponents control or abilities from nongreen sources your opponents control.\nAs long as it's your turn, Thrun has indestructible.",
+                toughness: "5"
+            }
+        },
+        {
+            id: "3583ea03-525f-4c70-9d7e-ccc6002ee9e1",
+            name: "Titanic Growth",
+            type_line: "Instant",
+            mana_cost: "{1}{G}",
+            cmc: 2,
+            colors: [
+                "G"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "187",
+            image: "https://cards.scryfall.io/border_crop/front/3/5/3583ea03-525f-4c70-9d7e-ccc6002ee9e1.jpg?1675957169",
+            flavor_text: "\"It is as the Mirrans say: True strength comes from within.\"\n—Ich-Tekik, Salvage Splicer",
+            card_face: {
+                name: "Titanic Growth",
+                type_line: {
+                    full: "Instant",
+                    main: "Instant",
+                    sub: ""
+                },
+                mana_cost: "{1}{G}",
+                oracle_text: "Target creature gets +4/+4 until end of turn."
+            }
+        },
+        {
+            id: "157cf43c-f7f2-4362-bfc8-11682e94b747",
+            name: "Tyrranax Atrocity",
+            type_line: "Creature — Phyrexian Dinosaur",
+            mana_cost: "{3}{G}{G}",
+            cmc: 5,
+            colors: [
+                "G"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "188",
+            image: "https://cards.scryfall.io/border_crop/front/1/5/157cf43c-f7f2-4362-bfc8-11682e94b747.jpg?1675957171",
+            power: "4",
+            toughness: "4",
+            flavor_text: "While some predators specialize in speed, size, or deadly venom, the adaptive tyrranax see no need to limit themselves.",
+            card_face: {
+                name: "Tyrranax Atrocity",
+                type_line: {
+                    full: "Creature — Phyrexian Dinosaur",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Dinosaur"
+                    ]
+                },
+                mana_cost: "{3}{G}{G}",
+                power: "4",
+                oracle_text: "Haste\nToxic 3 (Players dealt combat damage by this creature also get three poison counters.)",
+                toughness: "4"
+            }
+        },
+        {
+            id: "0fb52b44-da5f-4f7a-a6c2-7924b855e051",
+            name: "Tyrranax Rex",
+            type_line: "Creature — Phyrexian Dinosaur",
+            mana_cost: "{4}{G}{G}{G}",
+            cmc: 7,
+            colors: [
+                "G"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "189",
+            image: "https://cards.scryfall.io/border_crop/front/0/f/0fb52b44-da5f-4f7a-a6c2-7924b855e051.jpg?1675957171",
+            power: "8",
+            toughness: "8",
+            card_face: {
+                name: "Tyrranax Rex",
+                type_line: {
+                    full: "Creature — Phyrexian Dinosaur",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Dinosaur"
+                    ]
+                },
+                mana_cost: "{4}{G}{G}{G}",
+                power: "8",
+                oracle_text: "This spell can't be countered.\nTrample, ward {4}, haste\nToxic 4 (Players dealt combat damage by this creature also get four poison counters.)",
+                toughness: "8"
+            }
+        },
+        {
+            id: "c7b362a5-382a-4016-b4f2-aa7b683354c4",
+            name: "Tyvar's Stand",
+            type_line: "Instant",
+            mana_cost: "{X}{G}",
+            cmc: 1,
+            colors: [
+                "G"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "190",
+            image: "https://cards.scryfall.io/border_crop/front/c/7/c7b362a5-382a-4016-b4f2-aa7b683354c4.jpg?1675957174",
+            flavor_text: "\"When they write songs about this battle, I will make sure your name is forgotten, devil.\"",
+            card_face: {
+                name: "Tyvar's Stand",
+                type_line: {
+                    full: "Instant",
+                    main: "Instant",
+                    sub: ""
+                },
+                mana_cost: "{X}{G}",
+                oracle_text: "Target creature you control gets +X/+X and gains hexproof and indestructible until end of turn. (A creature with hexproof and indestructible can't be the target of spells or abilities your opponents control. Damage and effects that say \"destroy\" don't destroy it.)"
+            }
+        },
+        {
+            id: "4d4e6a91-59cc-4f7f-af25-16acabdafb1a",
+            name: "Unnatural Restoration",
+            type_line: "Sorcery",
+            mana_cost: "{1}{G}",
+            cmc: 2,
+            colors: [
+                "G"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "191",
+            image: "https://cards.scryfall.io/border_crop/front/4/d/4d4e6a91-59cc-4f7f-af25-16acabdafb1a.jpg?1675957174",
+            flavor_text: "\"If you don't reassemble me immediately, the Mother of Machines will notice my absence, and this entire layer will face her wrath!\"",
+            card_face: {
+                name: "Unnatural Restoration",
+                type_line: {
+                    full: "Sorcery",
+                    main: "Sorcery",
+                    sub: ""
+                },
+                mana_cost: "{1}{G}",
+                oracle_text: "Return target permanent card from your graveyard to your hand. Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)"
+            }
+        },
+        {
+            id: "d1b032e3-14e3-48ba-ab8a-d2b4f8d31a7d",
+            name: "Venerated Rotpriest",
+            type_line: "Creature — Phyrexian Druid",
+            mana_cost: "{G}",
+            cmc: 1,
+            colors: [
+                "G"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "192",
+            image: "https://cards.scryfall.io/border_crop/front/d/1/d1b032e3-14e3-48ba-ab8a-d2b4f8d31a7d.jpg?1675957177",
+            power: "1",
+            toughness: "2",
+            flavor_text: "\"This was once a peaceful spring, but I wouldn't advise taking a sip.\"\n—Melira",
+            card_face: {
+                name: "Venerated Rotpriest",
+                type_line: {
+                    full: "Creature — Phyrexian Druid",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Druid"
+                    ]
+                },
+                mana_cost: "{G}",
+                power: "1",
+                oracle_text: "Toxic 1 (Players dealt combat damage by this creature also get a poison counter.)\nWhenever a creature you control becomes the target of a spell, target opponent gets a poison counter.",
+                toughness: "2"
+            }
+        },
+        {
+            id: "dd9df44a-a0ab-435f-914c-aa11cd88f4ec",
+            name: "Venomous Brutalizer",
+            type_line: "Creature — Phyrexian Knight",
+            mana_cost: "{2}{G}{G}",
+            cmc: 4,
+            colors: [
+                "G"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "193",
+            image: "https://cards.scryfall.io/border_crop/front/d/d/dd9df44a-a0ab-435f-914c-aa11cd88f4ec.jpg?1675957178",
+            power: "4",
+            toughness: "4",
+            card_face: {
+                name: "Venomous Brutalizer",
+                type_line: {
+                    full: "Creature — Phyrexian Knight",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Knight"
+                    ]
+                },
+                mana_cost: "{2}{G}{G}",
+                power: "4",
+                oracle_text: "Toxic 3 (Players dealt combat damage by this creature also get three poison counters.)\nWhen Venomous Brutalizer enters the battlefield, you may pay {1}{G}. If you do, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
+                toughness: "4"
+            }
+        },
+        {
+            id: "85ad30a1-3ecc-42ca-afe8-85df5bad9196",
+            name: "Viral Spawning",
+            type_line: "Sorcery",
+            mana_cost: "{2}{G}",
+            cmc: 3,
+            colors: [
+                "G"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "194",
+            image: "https://cards.scryfall.io/border_crop/front/8/5/85ad30a1-3ecc-42ca-afe8-85df5bad9196.jpg?1680795489",
+            card_face: {
+                name: "Viral Spawning",
+                type_line: {
+                    full: "Sorcery",
+                    main: "Sorcery",
+                    sub: ""
+                },
+                mana_cost: "{2}{G}",
+                oracle_text: "Create a 3/3 green Phyrexian Beast creature token with toxic 1. (Players dealt combat damage by it also get a poison counter.)\nCorrupted — As long as an opponent has three or more poison counters and Viral Spawning is in your graveyard, it has flashback {2}{G}. (You may cast this card from your graveyard for its flashback cost. Then exile it.)"
+            }
+        },
+        {
+            id: "fb419d9d-e06f-48c8-a4f8-a57f9be39e50",
+            name: "Zopandrel, Hunger Dominus",
+            type_line: "Legendary Creature — Phyrexian Horror",
+            mana_cost: "{5}{G}{G}",
+            cmc: 7,
+            colors: [
+                "G"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "195",
+            image: "https://cards.scryfall.io/border_crop/front/f/b/fb419d9d-e06f-48c8-a4f8-a57f9be39e50.jpg?1675957181",
+            power: "4",
+            toughness: "6",
+            card_face: {
+                name: "Zopandrel, Hunger Dominus",
+                type_line: {
+                    full: "Legendary Creature — Phyrexian Horror",
+                    main: "Legendary Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Horror"
+                    ]
+                },
+                mana_cost: "{5}{G}{G}",
+                power: "4",
+                oracle_text: "Reach\nAt the beginning of each combat, double the power and toughness of each creature you control until end of turn.\n{G/P}{G/P}, Sacrifice two other creatures: Put an indestructible counter on Zopandrel, Hunger Dominus. ({G/P} can be paid with either {G} or 2 life.)",
+                toughness: "6"
+            }
+        },
+        {
+            id: "4a1f905f-1d55-4d02-9d24-e58070793d3f",
+            name: "Atraxa, Grand Unifier",
+            type_line: "Legendary Creature — Phyrexian Angel",
+            mana_cost: "{3}{G}{W}{U}{B}",
+            cmc: 7,
+            colors: [
+                "B",
+                "G",
+                "U",
+                "W"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "196",
+            image: "https://cards.scryfall.io/border_crop/front/4/a/4a1f905f-1d55-4d02-9d24-e58070793d3f.jpg?1676519555",
+            power: "7",
+            toughness: "7",
+            card_face: {
+                name: "Atraxa, Grand Unifier",
+                type_line: {
+                    full: "Legendary Creature — Phyrexian Angel",
+                    main: "Legendary Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Angel"
+                    ]
+                },
+                mana_cost: "{3}{G}{W}{U}{B}",
+                power: "7",
+                oracle_text: "Flying, vigilance, deathtouch, lifelink\nWhen Atraxa, Grand Unifier enters the battlefield, reveal the top ten cards of your library. For each card type, you may put a card of that type from among the revealed cards into your hand. Put the rest on the bottom of your library in a random order. (Artifact, battle, creature, enchantment, instant, land, planeswalker, and sorcery are card types.)",
+                toughness: "7"
+            }
+        },
+        {
+            id: "563e9ba5-e0ec-4fb3-8301-689aa145cc19",
+            name: "Bladehold War-Whip",
+            type_line: "Artifact — Equipment",
+            mana_cost: "{1}{R}{W}",
+            cmc: 3,
+            colors: [
+                "R",
+                "W"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "197",
+            image: "https://cards.scryfall.io/border_crop/front/5/6/563e9ba5-e0ec-4fb3-8301-689aa145cc19.jpg?1675957183",
+            card_face: {
+                name: "Bladehold War-Whip",
+                type_line: {
+                    full: "Artifact — Equipment",
+                    main: "Artifact",
+                    sub: [
+                        "Equipment"
+                    ]
+                },
+                mana_cost: "{1}{R}{W}",
+                oracle_text: "For Mirrodin! (When this Equipment enters the battlefield, create a 2/2 red Rebel creature token, then attach this to it.)\nEquip abilities you activate of other Equipment cost {1} less to activate.\nEquipped creature has double strike.\nEquip {3}{R}{W}"
+            }
+        },
+        {
+            id: "30c22eb9-5056-4c0b-a5d8-41e09161eb40",
+            name: "Cephalopod Sentry",
+            type_line: "Artifact Creature — Phyrexian Squid",
+            mana_cost: "{2}{W}{U}",
+            cmc: 4,
+            colors: [
+                "U",
+                "W"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "198",
+            image: "https://cards.scryfall.io/border_crop/front/3/0/30c22eb9-5056-4c0b-a5d8-41e09161eb40.jpg?1675957185",
+            power: "*",
+            toughness: "5",
+            flavor_text: "Silent observers swim through the air of Norn's Seedcore, watching the nascent Invasion Tree for any signs of interference.",
+            card_face: {
+                name: "Cephalopod Sentry",
+                type_line: {
+                    full: "Artifact Creature — Phyrexian Squid",
+                    main: "Artifact Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Squid"
+                    ]
+                },
+                mana_cost: "{2}{W}{U}",
+                power: "*",
+                oracle_text: "Flying\nCephalopod Sentry's power is equal to the number of artifacts you control.",
+                toughness: "5"
+            }
+        },
+        {
+            id: "45db6b46-c4b4-4684-8a49-53a64ffc82f2",
+            name: "Charforger",
+            type_line: "Creature — Phyrexian Beast",
+            mana_cost: "{1}{B}{R}",
+            cmc: 3,
+            colors: [
+                "B",
+                "R"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "199",
+            image: "https://cards.scryfall.io/border_crop/front/4/5/45db6b46-c4b4-4684-8a49-53a64ffc82f2.jpg?1675957186",
+            power: "2",
+            toughness: "3",
+            card_face: {
+                name: "Charforger",
+                type_line: {
+                    full: "Creature — Phyrexian Beast",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Beast"
+                    ]
+                },
+                mana_cost: "{1}{B}{R}",
+                power: "2",
+                oracle_text: "When Charforger enters the battlefield, create a 1/1 red Phyrexian Goblin creature token.\nWhenever another creature or artifact you control is put into a graveyard from the battlefield, put an oil counter on Charforger.\nRemove three oil counters from Charforger: Exile the top card of your library. You may play that card this turn.",
+                toughness: "3"
+            }
+        },
+        {
+            id: "eee24300-fff8-4405-9629-9f62b4a839ef",
+            name: "Cinderslash Ravager",
+            type_line: "Creature — Phyrexian Warrior",
+            mana_cost: "{4}{R}{G}",
+            cmc: 6,
+            colors: [
+                "G",
+                "R"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "200",
+            image: "https://cards.scryfall.io/border_crop/front/e/e/eee24300-fff8-4405-9629-9f62b4a839ef.jpg?1675957188",
+            power: "5",
+            toughness: "5",
+            card_face: {
+                name: "Cinderslash Ravager",
+                type_line: {
+                    full: "Creature — Phyrexian Warrior",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Warrior"
+                    ]
+                },
+                mana_cost: "{4}{R}{G}",
+                power: "5",
+                oracle_text: "This spell costs {1} less to cast for each permanent you control with oil counters on it.\nVigilance\nWhen Cinderslash Ravager enters the battlefield, it deals 1 damage to each creature your opponents control.",
+                toughness: "5"
+            }
+        },
+        {
+            id: "d38961ce-0257-412f-acec-c5c9886061f8",
+            name: "Ezuri, Stalker of Spheres",
+            type_line: "Legendary Creature — Phyrexian Elf Warrior",
+            mana_cost: "{2}{G}{U}",
+            cmc: 4,
+            colors: [
+                "G",
+                "U"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "201",
+            image: "https://cards.scryfall.io/border_crop/front/d/3/d38961ce-0257-412f-acec-c5c9886061f8.jpg?1675957189",
+            power: "3",
+            toughness: "3",
+            flavor_text: "\"Ah, my old friends. Have you decided at last to stop clinging to the past and join me in the grand pursuit of perfection?\"",
+            card_face: {
+                name: "Ezuri, Stalker of Spheres",
+                type_line: {
+                    full: "Legendary Creature — Phyrexian Elf Warrior",
+                    main: "Legendary Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Elf",
+                        "Warrior"
+                    ]
+                },
+                mana_cost: "{2}{G}{U}",
+                power: "3",
+                oracle_text: "When Ezuri, Stalker of Spheres enters the battlefield, you may pay {3}. If you do, proliferate twice.\nWhenever you proliferate, draw a card.",
+                toughness: "3"
+            }
+        },
+        {
+            id: "b2bf633e-0470-4b87-99ed-5ad1683b0954",
+            name: "Glissa Sunslayer",
+            type_line: "Legendary Creature — Phyrexian Zombie Elf",
+            mana_cost: "{1}{B}{G}",
+            cmc: 3,
+            colors: [
+                "B",
+                "G"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "202",
+            image: "https://cards.scryfall.io/border_crop/front/b/2/b2bf633e-0470-4b87-99ed-5ad1683b0954.jpg?1675957191",
+            power: "3",
+            toughness: "3",
+            card_face: {
+                name: "Glissa Sunslayer",
+                type_line: {
+                    full: "Legendary Creature — Phyrexian Zombie Elf",
+                    main: "Legendary Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Zombie",
+                        "Elf"
+                    ]
+                },
+                mana_cost: "{1}{B}{G}",
+                power: "3",
+                oracle_text: "First strike, deathtouch\nWhenever Glissa Sunslayer deals combat damage to a player, choose one —\n• You draw a card and you lose 1 life.\n• Destroy target enchantment.\n• Remove up to three counters from target permanent.",
+                toughness: "3"
+            }
+        },
+        {
+            id: "e7e4d8f7-874d-4b2a-ad23-afab479784ea",
+            name: "Jor Kadeen, First Goldwarden",
+            type_line: "Legendary Creature — Human Rebel",
+            mana_cost: "{R}{W}",
+            cmc: 2,
+            colors: [
+                "R",
+                "W"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "203",
+            image: "https://cards.scryfall.io/border_crop/front/e/7/e7e4d8f7-874d-4b2a-ad23-afab479784ea.jpg?1675957193",
+            power: "2",
+            toughness: "2",
+            card_face: {
+                name: "Jor Kadeen, First Goldwarden",
+                type_line: {
+                    full: "Legendary Creature — Human Rebel",
+                    main: "Legendary Creature",
+                    sub: [
+                        "Human",
+                        "Rebel"
+                    ]
+                },
+                mana_cost: "{R}{W}",
+                power: "2",
+                oracle_text: "Trample\nWhenever Jor Kadeen, First Goldwarden attacks, it gets +X/+X until end of turn, where X is the number of equipped creatures you control. Then if Jor Kadeen's power is 4 or greater, draw a card.",
+                toughness: "2"
+            }
+        },
+        {
+            id: "0d97f59a-07b8-47ef-aa88-d94f8c3feae4",
+            name: "Kaito, Dancing Shadow",
+            type_line: "Legendary Planeswalker — Kaito",
+            mana_cost: "{2}{U}{B}",
+            cmc: 4,
+            colors: [
+                "B",
+                "U"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "204",
+            image: "https://cards.scryfall.io/border_crop/front/0/d/0d97f59a-07b8-47ef-aa88-d94f8c3feae4.jpg?1675957193",
+            card_face: {
+                name: "Kaito, Dancing Shadow",
+                type_line: {
+                    full: "Legendary Planeswalker — Kaito",
+                    main: "Legendary Planeswalker",
+                    sub: [
+                        "Kaito"
+                    ]
+                },
+                mana_cost: "{2}{U}{B}",
+                oracle_text: "Whenever one or more creatures you control deal combat damage to a player, you may return one of them to its owner's hand. If you do, you may activate loyalty abilities of Kaito twice this turn rather than only once.\n+1: Up to one target creature can't attack or block until your next turn.\n0: Draw a card.\n−2: Create a 2/2 colorless Drone artifact creature token with deathtouch and \"When this creature leaves the battlefield, each opponent loses 2 life and you gain 2 life.\""
+            }
+        },
+        {
+            id: "6865b8c7-b260-48e8-a905-64cbf06b7e57",
+            name: "Kaya, Intangible Slayer",
+            type_line: "Legendary Planeswalker — Kaya",
+            mana_cost: "{3}{W}{W}{B}{B}",
+            cmc: 7,
+            colors: [
+                "B",
+                "W"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "205",
+            image: "https://cards.scryfall.io/border_crop/front/6/8/6865b8c7-b260-48e8-a905-64cbf06b7e57.jpg?1675957195",
+            card_face: {
+                name: "Kaya, Intangible Slayer",
+                type_line: {
+                    full: "Legendary Planeswalker — Kaya",
+                    main: "Legendary Planeswalker",
+                    sub: [
+                        "Kaya"
+                    ]
+                },
+                mana_cost: "{3}{W}{W}{B}{B}",
+                oracle_text: "Hexproof\n+2: Each opponent loses 3 life and you gain 3 life.\n0: You draw two cards. Then each opponent may scry 1.\n−3: Exile target creature or enchantment. If it wasn't an Aura, create a token that's a copy of it, except it's a 1/1 white Spirit creature with flying in addition to its other types."
+            }
+        },
+        {
+            id: "4152a5a8-e5a1-46b0-8f75-b9ac341da474",
+            name: "Kethek, Crucible Goliath",
+            type_line: "Legendary Creature — Phyrexian Beast",
+            mana_cost: "{2}{B}{R}",
+            cmc: 4,
+            colors: [
+                "B",
+                "R"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "206",
+            image: "https://cards.scryfall.io/border_crop/front/4/1/4152a5a8-e5a1-46b0-8f75-b9ac341da474.jpg?1675957198",
+            power: "4",
+            toughness: "4",
+            card_face: {
+                name: "Kethek, Crucible Goliath",
+                type_line: {
+                    full: "Legendary Creature — Phyrexian Beast",
+                    main: "Legendary Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Beast"
+                    ]
+                },
+                mana_cost: "{2}{B}{R}",
+                power: "4",
+                oracle_text: "At the beginning of your end step, you may sacrifice another creature. If you do, reveal cards from the top of your library until you reveal a nonlegendary creature card with lesser mana value, put it onto the battlefield, then put the rest on the bottom of your library in a random order.",
+                toughness: "4"
+            }
+        },
+        {
+            id: "6df77017-c4a7-4b79-a16b-26463bd6a96a",
+            name: "Lukka, Bound to Ruin",
+            type_line: "Legendary Planeswalker — Lukka",
+            mana_cost: "{2}{R}{R/G/P}{G}",
+            cmc: 5,
+            colors: [
+                "G",
+                "R"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "207",
+            image: "https://cards.scryfall.io/border_crop/front/6/d/6df77017-c4a7-4b79-a16b-26463bd6a96a.jpg?1675957198",
+            card_face: {
+                name: "Lukka, Bound to Ruin",
+                type_line: {
+                    full: "Legendary Planeswalker — Lukka",
+                    main: "Legendary Planeswalker",
+                    sub: [
+                        "Lukka"
+                    ]
+                },
+                mana_cost: "{2}{R}{R/G/P}{G}",
+                oracle_text: "Compleated ({R/G/P} can be paid with {R}, {G}, or 2 life. If life was paid, this planeswalker enters with two fewer loyalty counters.)\n+1: Add {R}{G}. Spend this mana only to cast creature spells or activate abilities of creatures.\n−1: Create a 3/3 green Phyrexian Beast creature token with toxic 1.\n−4: Lukka deals X damage divided as you choose among any number of target creatures and/or planeswalkers, where X is the greatest power among creatures you controlled as you activated this ability."
+            }
+        },
+        {
+            id: "36bda977-e5d1-4813-a5f5-265023965142",
+            name: "Malcator, Purity Overseer",
+            type_line: "Legendary Creature — Phyrexian Elephant Wizard",
+            mana_cost: "{1}{W}{U}",
+            cmc: 3,
+            colors: [
+                "U",
+                "W"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "208",
+            image: "https://cards.scryfall.io/border_crop/front/3/6/36bda977-e5d1-4813-a5f5-265023965142.jpg?1675957200",
+            power: "1",
+            toughness: "1",
+            card_face: {
+                name: "Malcator, Purity Overseer",
+                type_line: {
+                    full: "Legendary Creature — Phyrexian Elephant Wizard",
+                    main: "Legendary Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Elephant",
+                        "Wizard"
+                    ]
+                },
+                mana_cost: "{1}{W}{U}",
+                power: "1",
+                oracle_text: "When Malcator, Purity Overseer enters the battlefield, create a 3/3 colorless Phyrexian Golem artifact creature token.\nAt the beginning of your end step, if three or more artifacts entered the battlefield under your control this turn, create a 3/3 colorless Phyrexian Golem artifact creature token.",
+                toughness: "1"
+            }
+        },
+        {
+            id: "e1329ad9-5989-4920-b17b-943b9b4a0cd9",
+            name: "Melira, the Living Cure",
+            type_line: "Legendary Creature — Human Scout",
+            mana_cost: "{G}{W}",
+            cmc: 2,
+            colors: [
+                "G",
+                "W"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "209",
+            image: "https://cards.scryfall.io/border_crop/front/e/1/e1329ad9-5989-4920-b17b-943b9b4a0cd9.jpg?1675957200",
+            power: "3",
+            toughness: "3",
+            card_face: {
+                name: "Melira, the Living Cure",
+                type_line: {
+                    full: "Legendary Creature — Human Scout",
+                    main: "Legendary Creature",
+                    sub: [
+                        "Human",
+                        "Scout"
+                    ]
+                },
+                mana_cost: "{G}{W}",
+                power: "3",
+                oracle_text: "If you would get one or more poison counters, instead you get one poison counter and you can't get additional poison counters this turn.\nExile Melira, the Living Cure: Choose another target creature or artifact. When it's put into a graveyard this turn, return that card to the battlefield under its owner's control.",
+                toughness: "3"
+            }
+        },
+        {
+            id: "c1171899-07d8-4e60-a79b-f162f59dc3ce",
+            name: "Migloz, Maze Crusher",
+            type_line: "Legendary Creature — Phyrexian Beast",
+            mana_cost: "{1}{R}{G}",
+            cmc: 3,
+            colors: [
+                "G",
+                "R"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "210",
+            image: "https://cards.scryfall.io/border_crop/front/c/1/c1171899-07d8-4e60-a79b-f162f59dc3ce.jpg?1675957202",
+            power: "4",
+            toughness: "4",
+            card_face: {
+                name: "Migloz, Maze Crusher",
+                type_line: {
+                    full: "Legendary Creature — Phyrexian Beast",
+                    main: "Legendary Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Beast"
+                    ]
+                },
+                mana_cost: "{1}{R}{G}",
+                power: "4",
+                oracle_text: "Migloz, Maze Crusher enters the battlefield with five oil counters on it.\n{1}, Remove an oil counter from Migloz: It gains vigilance and menace until end of turn.\n{2}, Remove two oil counters from Migloz: It gets +2/+2 until end of turn.\n{3}, Remove three oil counters from Migloz: Destroy target artifact or enchantment.",
+                toughness: "4"
+            }
+        },
+        {
+            id: "578e35b9-7252-4767-a1f3-aecd71256515",
+            name: "Nahiri, the Unforgiving",
+            type_line: "Legendary Planeswalker — Nahiri",
+            mana_cost: "{1}{R}{R/W/P}{W}",
+            cmc: 4,
+            colors: [
+                "R",
+                "W"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "211",
+            image: "https://cards.scryfall.io/border_crop/front/5/7/578e35b9-7252-4767-a1f3-aecd71256515.jpg?1675957205",
+            card_face: {
+                name: "Nahiri, the Unforgiving",
+                type_line: {
+                    full: "Legendary Planeswalker — Nahiri",
+                    main: "Legendary Planeswalker",
+                    sub: [
+                        "Nahiri"
+                    ]
+                },
+                mana_cost: "{1}{R}{R/W/P}{W}",
+                oracle_text: "Compleated ({R/W/P} can be paid with {R}, {W}, or 2 life. If life was paid, this planeswalker enters with two fewer loyalty counters.)\n+1: Until your next turn, up to one target creature attacks a player each combat if able.\n+1: Discard a card, then draw a card.\n0: Exile target creature or Equipment card with mana value less than Nahiri's loyalty from your graveyard. Create a token that's a copy of it. That token gains haste. Exile it at the beginning of the next end step."
+            }
+        },
+        {
+            id: "87519b36-1d95-4020-a61d-6afb75555e3e",
+            name: "Necrogen Rotpriest",
+            type_line: "Creature — Phyrexian Zombie Cleric",
+            mana_cost: "{2}{B}{G}",
+            cmc: 4,
+            colors: [
+                "B",
+                "G"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "212",
+            image: "https://cards.scryfall.io/border_crop/front/8/7/87519b36-1d95-4020-a61d-6afb75555e3e.jpg?1675957207",
+            power: "1",
+            toughness: "5",
+            card_face: {
+                name: "Necrogen Rotpriest",
+                type_line: {
+                    full: "Creature — Phyrexian Zombie Cleric",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Zombie",
+                        "Cleric"
+                    ]
+                },
+                mana_cost: "{2}{B}{G}",
+                power: "1",
+                oracle_text: "Toxic 2 (Players dealt combat damage by this creature also get two poison counters.)\nWhenever a creature you control with toxic deals combat damage to a player, that player gets an additional poison counter.\n{1}{B}{G}: Target creature you control with toxic gains deathtouch until end of turn.",
+                toughness: "5"
+            }
+        },
+        {
+            id: "b298cf34-7aa5-4f97-a86c-7f28d2113b87",
+            name: "Ovika, Enigma Goliath",
+            type_line: "Legendary Creature — Phyrexian Nightmare",
+            mana_cost: "{5}{U}{R}",
+            cmc: 7,
+            colors: [
+                "R",
+                "U"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "213",
+            image: "https://cards.scryfall.io/border_crop/front/b/2/b298cf34-7aa5-4f97-a86c-7f28d2113b87.jpg?1675957207",
+            power: "6",
+            toughness: "6",
+            card_face: {
+                name: "Ovika, Enigma Goliath",
+                type_line: {
+                    full: "Legendary Creature — Phyrexian Nightmare",
+                    main: "Legendary Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Nightmare"
+                    ]
+                },
+                mana_cost: "{5}{U}{R}",
+                power: "6",
+                oracle_text: "Flying\nWard—{3}, Pay 3 life.\nWhenever you cast a noncreature spell, create X 1/1 red Phyrexian Goblin creature tokens, where X is the mana value of that spell. They gain haste until end of turn.",
+                toughness: "6"
+            }
+        },
+        {
+            id: "f7531ed3-235f-4368-98a8-e4e1947c53fb",
+            name: "Ria Ivor, Bane of Bladehold",
+            type_line: "Legendary Creature — Phyrexian Knight",
+            mana_cost: "{2}{W}{B}",
+            cmc: 4,
+            colors: [
+                "B",
+                "W"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "214",
+            image: "https://cards.scryfall.io/border_crop/front/f/7/f7531ed3-235f-4368-98a8-e4e1947c53fb.jpg?1675957209",
+            power: "3",
+            toughness: "4",
+            card_face: {
+                name: "Ria Ivor, Bane of Bladehold",
+                type_line: {
+                    full: "Legendary Creature — Phyrexian Knight",
+                    main: "Legendary Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Knight"
+                    ]
+                },
+                mana_cost: "{2}{W}{B}",
+                power: "3",
+                oracle_text: "Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)\nAt the beginning of combat on your turn, the next time target creature would deal combat damage to one or more players this combat, prevent that damage. If damage is prevented this way, create that many 1/1 colorless Phyrexian Mite artifact creature tokens with toxic 1 and \"This creature can't block.\"",
+                toughness: "4"
+            }
+        },
+        {
+            id: "31147651-9a5e-4329-923b-e464f67135e9",
+            name: "Serum-Core Chimera",
+            type_line: "Creature — Phyrexian Chimera",
+            mana_cost: "{2}{U}{R}",
+            cmc: 4,
+            colors: [
+                "R",
+                "U"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "215",
+            image: "https://cards.scryfall.io/border_crop/front/3/1/31147651-9a5e-4329-923b-e464f67135e9.jpg?1675957210",
+            power: "2",
+            toughness: "4",
+            card_face: {
+                name: "Serum-Core Chimera",
+                type_line: {
+                    full: "Creature — Phyrexian Chimera",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Chimera"
+                    ]
+                },
+                mana_cost: "{2}{U}{R}",
+                power: "2",
+                oracle_text: "Flying\nWhenever you cast a noncreature spell, put an oil counter on Serum-Core Chimera.\nRemove three oil counters from Serum-Core Chimera: Draw a card. Then you may discard a nonland card. When you discard a card this way, Serum-Core Chimera deals 3 damage to target creature or planeswalker. Activate only as a sorcery.",
+                toughness: "4"
+            }
+        },
+        {
+            id: "4a37aa46-bcf3-48a5-9f74-05e4878ad96f",
+            name: "Slaughter Singer",
+            type_line: "Creature — Phyrexian Cleric",
+            mana_cost: "{G}{W}",
+            cmc: 2,
+            colors: [
+                "G",
+                "W"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "216",
+            image: "https://cards.scryfall.io/border_crop/front/4/a/4a37aa46-bcf3-48a5-9f74-05e4878ad96f.jpg?1675957213",
+            power: "2",
+            toughness: "2",
+            flavor_text: "After giving in to the thrill of the hunt, he could never again return to the quiet of the Basilica.",
+            card_face: {
+                name: "Slaughter Singer",
+                type_line: {
+                    full: "Creature — Phyrexian Cleric",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Cleric"
+                    ]
+                },
+                mana_cost: "{G}{W}",
+                power: "2",
+                oracle_text: "Toxic 2 (Players dealt combat damage by this creature also get two poison counters.)\nWhenever another creature you control with toxic attacks, it gets +1/+1 until end of turn.",
+                toughness: "2"
+            }
+        },
+        {
+            id: "b9cba67a-b714-49b0-9797-24aca283f162",
+            name: "Tainted Observer",
+            type_line: "Creature — Phyrexian Bird",
+            mana_cost: "{1}{G}{U}",
+            cmc: 3,
+            colors: [
+                "G",
+                "U"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "217",
+            image: "https://cards.scryfall.io/border_crop/front/b/9/b9cba67a-b714-49b0-9797-24aca283f162.jpg?1675957214",
+            power: "2",
+            toughness: "3",
+            card_face: {
+                name: "Tainted Observer",
+                type_line: {
+                    full: "Creature — Phyrexian Bird",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Bird"
+                    ]
+                },
+                mana_cost: "{1}{G}{U}",
+                power: "2",
+                oracle_text: "Flying\nToxic 1 (Players dealt combat damage by this creature also get a poison counter.)\nWhenever another creature enters the battlefield under your control, you may pay {2}. If you do, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
+                toughness: "3"
+            }
+        },
+        {
+            id: "66605fe1-9a20-4c95-b53e-1249cedb978b",
+            name: "Tyvar, Jubilant Brawler",
+            type_line: "Legendary Planeswalker — Tyvar",
+            mana_cost: "{1}{B}{G}",
+            cmc: 3,
+            colors: [
+                "B",
+                "G"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "218",
+            image: "https://cards.scryfall.io/border_crop/front/6/6/66605fe1-9a20-4c95-b53e-1249cedb978b.jpg?1675957216",
+            card_face: {
+                name: "Tyvar, Jubilant Brawler",
+                type_line: {
+                    full: "Legendary Planeswalker — Tyvar",
+                    main: "Legendary Planeswalker",
+                    sub: [
+                        "Tyvar"
+                    ]
+                },
+                mana_cost: "{1}{B}{G}",
+                oracle_text: "You may activate abilities of creatures you control as though those creatures had haste.\n+1: Untap up to one target creature.\n−2: Mill three cards, then you may return a creature card with mana value 2 or less from your graveyard to the battlefield."
+            }
+        },
+        {
+            id: "1b5b94b8-0420-40f2-b989-39cb43cff916",
+            name: "Venser, Corpse Puppet",
+            type_line: "Legendary Creature — Phyrexian Zombie Wizard",
+            mana_cost: "{U}{B}",
+            cmc: 2,
+            colors: [
+                "B",
+                "U"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "219",
+            image: "https://cards.scryfall.io/border_crop/front/1/b/1b5b94b8-0420-40f2-b989-39cb43cff916.jpg?1675957216",
+            power: "1",
+            toughness: "3",
+            card_face: {
+                name: "Venser, Corpse Puppet",
+                type_line: {
+                    full: "Legendary Creature — Phyrexian Zombie Wizard",
+                    main: "Legendary Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Zombie",
+                        "Wizard"
+                    ]
+                },
+                mana_cost: "{U}{B}",
+                power: "1",
+                oracle_text: "Lifelink, toxic 1\nWhenever you proliferate, choose one —\n• If you don't control a creature named The Hollow Sentinel, create The Hollow Sentinel, a legendary 3/3 colorless Phyrexian Golem artifact creature token.\n• Target artifact creature you control gains flying and lifelink until end of turn.",
+                toughness: "3"
+            }
+        },
+        {
+            id: "626c46a3-72b8-4e04-adf2-c9c7aaf94f04",
+            name: "Vivisection Evangelist",
+            type_line: "Creature — Phyrexian Cleric",
+            mana_cost: "{3}{W}{B}",
+            cmc: 5,
+            colors: [
+                "B",
+                "W"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "220",
+            image: "https://cards.scryfall.io/border_crop/front/6/2/626c46a3-72b8-4e04-adf2-c9c7aaf94f04.jpg?1675957217",
+            power: "4",
+            toughness: "4",
+            flavor_text: "\"May you rejoice in the magnificence of Norn. May your flesh serve perfection.\"",
+            card_face: {
+                name: "Vivisection Evangelist",
+                type_line: {
+                    full: "Creature — Phyrexian Cleric",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Cleric"
+                    ]
+                },
+                mana_cost: "{3}{W}{B}",
+                power: "4",
+                oracle_text: "Vigilance\nCorrupted — When Vivisection Evangelist enters the battlefield, if an opponent has three or more poison counters, destroy target creature or planeswalker an opponent controls.",
+                toughness: "4"
+            }
+        },
+        {
+            id: "8a48705f-bd8a-43f1-b1fe-14a5c9a83ccd",
+            name: "Voidwing Hybrid",
+            type_line: "Creature — Phyrexian Bat",
+            mana_cost: "{U}{B}",
+            cmc: 2,
+            colors: [
+                "B",
+                "U"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "221",
+            image: "https://cards.scryfall.io/border_crop/front/8/a/8a48705f-bd8a-43f1-b1fe-14a5c9a83ccd.jpg?1675957222",
+            power: "2",
+            toughness: "1",
+            card_face: {
+                name: "Voidwing Hybrid",
+                type_line: {
+                    full: "Creature — Phyrexian Bat",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Bat"
+                    ]
+                },
+                mana_cost: "{U}{B}",
+                power: "2",
+                oracle_text: "Flying\nToxic 1 (Players dealt combat damage by this creature also get a poison counter.)\nWhen you proliferate, return Voidwing Hybrid from your graveyard to your hand.",
+                toughness: "1"
+            }
+        },
+        {
+            id: "9746e3ab-c0a6-46c1-a418-275b419962e4",
+            name: "Argentum Masticore",
+            type_line: "Artifact Creature — Phyrexian Masticore",
+            mana_cost: "{5}",
+            cmc: 5,
+            colors: [],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "222",
+            image: "https://cards.scryfall.io/border_crop/front/9/7/9746e3ab-c0a6-46c1-a418-275b419962e4.jpg?1675957222",
+            power: "5",
+            toughness: "5",
+            card_face: {
+                name: "Argentum Masticore",
+                type_line: {
+                    full: "Artifact Creature — Phyrexian Masticore",
+                    main: "Artifact Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Masticore"
+                    ]
+                },
+                mana_cost: "{5}",
+                power: "5",
+                oracle_text: "First strike, protection from multicolored\nAt the beginning of your upkeep, sacrifice Argentum Masticore unless you discard a card. When you discard a card this way, destroy target nonland permanent an opponent controls with mana value less than or equal to the mana value of the discarded card.",
+                toughness: "5"
+            }
+        },
+        {
+            id: "cdedebad-f71e-4434-871e-5bbbd3c07a12",
+            name: "Atraxa's Skitterfang",
+            type_line: "Artifact Creature — Phyrexian Insect",
+            mana_cost: "{3}",
+            cmc: 3,
+            colors: [],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "223",
+            image: "https://cards.scryfall.io/border_crop/front/c/d/cdedebad-f71e-4434-871e-5bbbd3c07a12.jpg?1675957223",
+            power: "2",
+            toughness: "2",
+            card_face: {
+                name: "Atraxa's Skitterfang",
+                type_line: {
+                    full: "Artifact Creature — Phyrexian Insect",
+                    main: "Artifact Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Insect"
+                    ]
+                },
+                mana_cost: "{3}",
+                power: "2",
+                oracle_text: "Atraxa's Skitterfang enters the battlefield with three oil counters on it.\nAt the beginning of combat on your turn, you may remove an oil counter from Atraxa's Skitterfang. When you do, target creature you control gains your choice of flying, vigilance, deathtouch, or lifelink until end of turn.",
+                toughness: "2"
+            }
+        },
+        {
+            id: "8e2f0ae2-db68-4338-93f9-9d9268cec41e",
+            name: "Basilica Skullbomb",
+            type_line: "Artifact",
+            mana_cost: "{1}",
+            cmc: 1,
+            colors: [
+                "A"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "224",
+            image: "https://cards.scryfall.io/border_crop/front/8/e/8e2f0ae2-db68-4338-93f9-9d9268cec41e.jpg?1675957224",
+            flavor_text: "It shines with the conviction of a zealous acolyte.",
+            card_face: {
+                name: "Basilica Skullbomb",
+                type_line: {
+                    full: "Artifact",
+                    main: "Artifact",
+                    sub: ""
+                },
+                mana_cost: "{1}",
+                oracle_text: "{1}, Sacrifice Basilica Skullbomb: Draw a card.\n{2}{W}, Sacrifice Basilica Skullbomb: Target creature you control gets +2/+2 and gains flying until end of turn. Draw a card. Activate only as a sorcery."
+            }
+        },
+        {
+            id: "66270dd2-9139-4329-9621-852962836688",
+            name: "Dross Skullbomb",
+            type_line: "Artifact",
+            mana_cost: "{1}",
+            cmc: 1,
+            colors: [
+                "A"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "225",
+            image: "https://cards.scryfall.io/border_crop/front/6/6/66270dd2-9139-4329-9621-852962836688.jpg?1675957225",
+            flavor_text: "It seethes with the ambition of a ruthless gladiator.",
+            card_face: {
+                name: "Dross Skullbomb",
+                type_line: {
+                    full: "Artifact",
+                    main: "Artifact",
+                    sub: ""
+                },
+                mana_cost: "{1}",
+                oracle_text: "{1}, Sacrifice Dross Skullbomb: Draw a card.\n{2}{B}, Sacrifice Dross Skullbomb: Return target creature card from your graveyard to your hand. Draw a card. Activate only as a sorcery."
+            }
+        },
+        {
+            id: "29d2c689-af37-433a-a012-e8d384702811",
+            name: "Dune Mover",
+            type_line: "Artifact Creature — Phyrexian Golem",
+            mana_cost: "{2}",
+            cmc: 2,
+            colors: [],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "226",
+            image: "https://cards.scryfall.io/border_crop/front/2/9/29d2c689-af37-433a-a012-e8d384702811.jpg?1675957228",
+            power: "2",
+            toughness: "1",
+            flavor_text: "The shifting, unpredictable sands were deemed a disobedient affront to the Flesh Singularity.",
+            card_face: {
+                name: "Dune Mover",
+                type_line: {
+                    full: "Artifact Creature — Phyrexian Golem",
+                    main: "Artifact Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Golem"
+                    ]
+                },
+                mana_cost: "{2}",
+                power: "2",
+                oracle_text: "Toxic 1 (Players dealt combat damage by this creature also get a poison counter.)\nWhen Dune Mover enters the battlefield, you may search your library for a basic land card, reveal it, then shuffle and put that card on top.",
+                toughness: "1"
+            }
+        },
+        {
+            id: "6e0958a1-1bac-48be-888d-f7573f409a9b",
+            name: "The Filigree Sylex",
+            type_line: "Legendary Artifact",
+            mana_cost: "{2}",
+            cmc: 2,
+            colors: [],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "227",
+            image: "https://cards.scryfall.io/border_crop/front/6/e/6e0958a1-1bac-48be-888d-f7573f409a9b.jpg?1675957230",
+            card_face: {
+                name: "The Filigree Sylex",
+                type_line: {
+                    full: "Legendary Artifact",
+                    main: "Legendary Artifact",
+                    sub: ""
+                },
+                mana_cost: "{2}",
+                oracle_text: "{T}: Put an oil counter on The Filigree Sylex.\n{T}, Sacrifice The Filigree Sylex: Destroy each nonland permanent with mana value equal to the number of oil counters on The Filigree Sylex.\n{T}, Remove ten oil counters from among permanents you control and sacrifice The Filigree Sylex: It deals 10 damage to any target."
+            }
+        },
+        {
+            id: "cb530f9d-cf35-48a7-8711-f74b3d9a35a7",
+            name: "Furnace Skullbomb",
+            type_line: "Artifact",
+            mana_cost: "{1}",
+            cmc: 1,
+            colors: [
+                "A"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "228",
+            image: "https://cards.scryfall.io/border_crop/front/c/b/cb530f9d-cf35-48a7-8711-f74b3d9a35a7.jpg?1675957232",
+            flavor_text: "It burns with the passion of an unbound creator.",
+            card_face: {
+                name: "Furnace Skullbomb",
+                type_line: {
+                    full: "Artifact",
+                    main: "Artifact",
+                    sub: ""
+                },
+                mana_cost: "{1}",
+                oracle_text: "{1}, Sacrifice Furnace Skullbomb: Draw a card.\n{1}{R}, Sacrifice Furnace Skullbomb: Put two oil counters on target artifact or creature you control. Draw a card. Activate only as a sorcery."
+            }
+        },
+        {
+            id: "e0e73b63-17cc-4dca-abd6-728b74bc37a8",
+            name: "Graaz, Unstoppable Juggernaut",
+            type_line: "Legendary Artifact Creature — Juggernaut",
+            mana_cost: "{8}",
+            cmc: 8,
+            colors: [],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "229",
+            image: "https://cards.scryfall.io/border_crop/front/e/0/e0e73b63-17cc-4dca-abd6-728b74bc37a8.jpg?1675957233",
+            power: "7",
+            toughness: "5",
+            card_face: {
+                name: "Graaz, Unstoppable Juggernaut",
+                type_line: {
+                    full: "Legendary Artifact Creature — Juggernaut",
+                    main: "Legendary Artifact Creature",
+                    sub: [
+                        "Juggernaut"
+                    ]
+                },
+                mana_cost: "{8}",
+                power: "7",
+                oracle_text: "Juggernauts you control attack each combat if able.\nJuggernauts you control can't be blocked by Walls.\nOther creatures you control have base power and toughness 5/3 and are Juggernauts in addition to their other creature types.",
+                toughness: "5"
+            }
+        },
+        {
+            id: "e555abb1-ffd4-4143-9be8-ec8a758f5c2a",
+            name: "Ichorplate Golem",
+            type_line: "Artifact Creature — Phyrexian Golem",
+            mana_cost: "{3}",
+            cmc: 3,
+            colors: [],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "230",
+            image: "https://cards.scryfall.io/border_crop/front/e/5/e555abb1-ffd4-4143-9be8-ec8a758f5c2a.jpg?1675957234",
+            power: "2",
+            toughness: "3",
+            card_face: {
+                name: "Ichorplate Golem",
+                type_line: {
+                    full: "Artifact Creature — Phyrexian Golem",
+                    main: "Artifact Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Golem"
+                    ]
+                },
+                mana_cost: "{3}",
+                power: "2",
+                oracle_text: "Whenever a creature enters the battlefield under your control, if it has one or more oil counters on it, put an oil counter on it.\nCreatures you control with oil counters on them get +1/+1.",
+                toughness: "3"
+            }
+        },
+        {
+            id: "1073aee2-aea6-473d-97c6-248778d79d80",
+            name: "Maze Skullbomb",
+            type_line: "Artifact",
+            mana_cost: "{1}",
+            cmc: 1,
+            colors: [
+                "A"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "231",
+            image: "https://cards.scryfall.io/border_crop/front/1/0/1073aee2-aea6-473d-97c6-248778d79d80.jpg?1675957236",
+            flavor_text: "It pulses with the might of an apex predator.",
+            card_face: {
+                name: "Maze Skullbomb",
+                type_line: {
+                    full: "Artifact",
+                    main: "Artifact",
+                    sub: ""
+                },
+                mana_cost: "{1}",
+                oracle_text: "{1}, Sacrifice Maze Skullbomb: Draw a card.\n{2}{G}, Sacrifice Maze Skullbomb: Target creature you control gets +3/+3 and gains trample until end of turn. Draw a card. Activate only as a sorcery."
+            }
+        },
+        {
+            id: "d76fe2f2-ce2c-49e4-9f00-89c82f2fae8d",
+            name: "Mirran Safehouse",
+            type_line: "Artifact",
+            mana_cost: "{3}",
+            cmc: 3,
+            colors: [
+                "A"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "232",
+            image: "https://cards.scryfall.io/border_crop/front/d/7/d76fe2f2-ce2c-49e4-9f00-89c82f2fae8d.jpg?1675957237",
+            flavor_text: "\"Melira helped me design it. Those who are infected by the oil cannot cross the threshold. We should be safe inside.\"\n—Koth",
+            card_face: {
+                name: "Mirran Safehouse",
+                type_line: {
+                    full: "Artifact",
+                    main: "Artifact",
+                    sub: ""
+                },
+                mana_cost: "{3}",
+                oracle_text: "As long as Mirran Safehouse is on the battlefield, it has all activated abilities of all land cards in all graveyards."
+            }
+        },
+        {
+            id: "ab892e7b-6797-4ede-ab5d-d9d0fa488c80",
+            name: "Monument to Perfection",
+            type_line: "Artifact",
+            mana_cost: "{2}",
+            cmc: 2,
+            colors: [
+                "A"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "233",
+            image: "https://cards.scryfall.io/border_crop/front/a/b/ab892e7b-6797-4ede-ab5d-d9d0fa488c80.jpg?1675957240",
+            card_face: {
+                name: "Monument to Perfection",
+                type_line: {
+                    full: "Artifact",
+                    main: "Artifact",
+                    sub: ""
+                },
+                mana_cost: "{2}",
+                oracle_text: "{3}, {T}: Search your library for a basic, Sphere, or Locus land card, reveal it, put it into your hand, then shuffle.\n{3}: Monument to Perfection becomes a 9/9 Phyrexian Construct artifact creature, loses all abilities, and gains indestructible and toxic 9. Activate only if there are nine or more lands with different names among the basic, Sphere, and Locus lands you control."
+            }
+        },
+        {
+            id: "9df0adcf-7ad0-4d70-8dcd-28f69471495b",
+            name: "Myr Convert",
+            type_line: "Artifact Creature — Phyrexian Myr",
+            mana_cost: "{2}",
+            cmc: 2,
+            colors: [],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "234",
+            image: "https://cards.scryfall.io/border_crop/front/9/d/9df0adcf-7ad0-4d70-8dcd-28f69471495b.jpg?1675957241",
+            power: "2",
+            toughness: "1",
+            flavor_text: "Humble, obedient, and tireless, myr require little modification to excel as servants of Phyrexia.",
+            card_face: {
+                name: "Myr Convert",
+                type_line: {
+                    full: "Artifact Creature — Phyrexian Myr",
+                    main: "Artifact Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Myr"
+                    ]
+                },
+                mana_cost: "{2}",
+                power: "2",
+                oracle_text: "Toxic 1 (Players dealt combat damage by this creature also get a poison counter.)\n{T}, Pay 2 life: Add one mana of any color.",
+                toughness: "1"
+            }
+        },
+        {
+            id: "56bfdd21-4d46-4ec2-ba25-f16b6993f1a8",
+            name: "Myr Custodian",
+            type_line: "Artifact Creature — Myr",
+            mana_cost: "{3}",
+            cmc: 3,
+            colors: [],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "235",
+            image: "https://cards.scryfall.io/border_crop/front/5/6/56bfdd21-4d46-4ec2-ba25-f16b6993f1a8.jpg?1675957243",
+            power: "2",
+            toughness: "3",
+            flavor_text: "\"Myr will go where the work is. We always have. We always will.\"\n—Urtet, Remnant of Memnarch",
+            card_face: {
+                name: "Myr Custodian",
+                type_line: {
+                    full: "Artifact Creature — Myr",
+                    main: "Artifact Creature",
+                    sub: [
+                        "Myr"
+                    ]
+                },
+                mana_cost: "{3}",
+                power: "2",
+                oracle_text: "When Myr Custodian enters the battlefield, scry 2. Then each opponent may scry 1. (To scry X, that player looks at the top X cards of their library, then put any number of them on the bottom and the rest on top in any order.)",
+                toughness: "3"
+            }
+        },
+        {
+            id: "6046e50a-f4c9-4029-a589-62a19371b734",
+            name: "Myr Kinsmith",
+            type_line: "Artifact Creature — Myr",
+            mana_cost: "{4}",
+            cmc: 4,
+            colors: [],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "236",
+            image: "https://cards.scryfall.io/border_crop/front/6/0/6046e50a-f4c9-4029-a589-62a19371b734.jpg?1675957244",
+            power: "3",
+            toughness: "1",
+            flavor_text: "\"Our resistance is like the myr: small and easily overlooked, but loyal and resilient beyond measure.\"\n—Melira",
+            card_face: {
+                name: "Myr Kinsmith",
+                type_line: {
+                    full: "Artifact Creature — Myr",
+                    main: "Artifact Creature",
+                    sub: [
+                        "Myr"
+                    ]
+                },
+                mana_cost: "{4}",
+                power: "3",
+                oracle_text: "When Myr Kinsmith enters the battlefield, you may search your library for a Myr card, reveal it, put it into your hand, then shuffle.",
+                toughness: "1"
+            }
+        },
+        {
+            id: "b5adb509-6ad3-4838-925d-1cafa926b83a",
+            name: "Phyrexian Atlas",
+            type_line: "Artifact",
+            mana_cost: "{3}",
+            cmc: 3,
+            colors: [
+                "A"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "237",
+            image: "https://cards.scryfall.io/border_crop/front/b/5/b5adb509-6ad3-4838-925d-1cafa926b83a.jpg?1675957245",
+            flavor_text: "Since conquering Mirrodin, Phyrexian engineers have worked tirelessly to transform the plane's original two layers into a more fitting array of nine.",
+            card_face: {
+                name: "Phyrexian Atlas",
+                type_line: {
+                    full: "Artifact",
+                    main: "Artifact",
+                    sub: ""
+                },
+                mana_cost: "{3}",
+                oracle_text: "{T}: Add one mana of any color.\nCorrupted — Whenever Phyrexian Atlas becomes tapped, each opponent who has three or more poison counters loses 1 life."
+            }
+        },
+        {
+            id: "3056ac38-7630-4301-88bb-a012a5b186ed",
+            name: "Prophetic Prism",
+            type_line: "Artifact",
+            mana_cost: "{2}",
+            cmc: 2,
+            colors: [
+                "A"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "238",
+            image: "https://cards.scryfall.io/border_crop/front/3/0/3056ac38-7630-4301-88bb-a012a5b186ed.jpg?1675957247",
+            flavor_text: "\"The five suns may have dimmed, but their light still guides us.\"\n—Thrun",
+            card_face: {
+                name: "Prophetic Prism",
+                type_line: {
+                    full: "Artifact",
+                    main: "Artifact",
+                    sub: ""
+                },
+                mana_cost: "{2}",
+                oracle_text: "When Prophetic Prism enters the battlefield, draw a card.\n{1}, {T}: Add one mana of any color."
+            }
+        },
+        {
+            id: "75a1beec-bafe-4243-b91e-040a88fb0e95",
+            name: "Prosthetic Injector",
+            type_line: "Artifact — Equipment",
+            mana_cost: "{1}",
+            cmc: 1,
+            colors: [
+                "A"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "239",
+            image: "https://cards.scryfall.io/border_crop/front/7/5/75a1beec-bafe-4243-b91e-040a88fb0e95.jpg?1675957249",
+            flavor_text: "Why carry a subject to a surgical lab when you can bring the surgical lab to them?",
+            card_face: {
+                name: "Prosthetic Injector",
+                type_line: {
+                    full: "Artifact — Equipment",
+                    main: "Artifact",
+                    sub: [
+                        "Equipment"
+                    ]
+                },
+                mana_cost: "{1}",
+                oracle_text: "Equipped creature gets +0/+2 and has toxic 1. (Players dealt combat damage by equipped creature also get a poison counter.)\nEquip {1}"
+            }
+        },
+        {
+            id: "1ec8f984-5ed4-4b34-8b2a-a113cbba001d",
+            name: "Ribskiff",
+            type_line: "Artifact — Vehicle",
+            mana_cost: "{4}",
+            cmc: 4,
+            colors: [
+                "A"
+            ],
+            rarity: "uncommon",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "240",
+            image: "https://cards.scryfall.io/border_crop/front/1/e/1ec8f984-5ed4-4b34-8b2a-a113cbba001d.jpg?1675957252",
+            power: "4",
+            toughness: "4",
+            card_face: {
+                name: "Ribskiff",
+                type_line: {
+                    full: "Artifact — Vehicle",
+                    main: "Artifact",
+                    sub: [
+                        "Vehicle"
+                    ]
+                },
+                mana_cost: "{4}",
+                power: "4",
+                oracle_text: "Toxic 2 (Players dealt combat damage by this creature also get two poison counters.)\nWhen Ribskiff enters the battlefield, draw a card.\nCrew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)",
+                toughness: "4"
+            }
+        },
+        {
+            id: "bf9991fd-ea6a-4ed7-b5f1-46a95f8d0634",
+            name: "Soulless Jailer",
+            type_line: "Artifact Creature — Phyrexian Golem",
+            mana_cost: "{2}",
+            cmc: 2,
+            colors: [],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "241",
+            image: "https://cards.scryfall.io/border_crop/front/b/f/bf9991fd-ea6a-4ed7-b5f1-46a95f8d0634.jpg?1675957252",
+            power: "0",
+            toughness: "4",
+            flavor_text: "\"Lock the door and eat the key.\"\n—Vraan, Executioner Thane",
+            card_face: {
+                name: "Soulless Jailer",
+                type_line: {
+                    full: "Artifact Creature — Phyrexian Golem",
+                    main: "Artifact Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Golem"
+                    ]
+                },
+                mana_cost: "{2}",
+                power: "0",
+                oracle_text: "Permanent cards in graveyards can't enter the battlefield.\nPlayers can't cast noncreature spells from graveyards or exile.",
+                toughness: "4"
+            }
+        },
+        {
+            id: "d2934af5-aa4f-4c88-adbd-dcd847ef43a2",
+            name: "Staff of Compleation",
+            type_line: "Artifact",
+            mana_cost: "{3}",
+            cmc: 3,
+            colors: [
+                "A"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "242",
+            image: "https://cards.scryfall.io/border_crop/front/d/2/d2934af5-aa4f-4c88-adbd-dcd847ef43a2.jpg?1675957252",
+            card_face: {
+                name: "Staff of Compleation",
+                type_line: {
+                    full: "Artifact",
+                    main: "Artifact",
+                    sub: ""
+                },
+                mana_cost: "{3}",
+                oracle_text: "{T}, Pay 1 life: Destroy target permanent you own.\n{T}, Pay 2 life: Add one mana of any color.\n{T}, Pay 3 life: Proliferate.\n{T}, Pay 4 life: Draw a card.\n{5}: Untap Staff of Compleation."
+            }
+        },
+        {
+            id: "98c2b2af-739f-413c-8c36-da6f78df0acb",
+            name: "Surgical Skullbomb",
+            type_line: "Artifact",
+            mana_cost: "{1}",
+            cmc: 1,
+            colors: [
+                "A"
+            ],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "243",
+            image: "https://cards.scryfall.io/border_crop/front/9/8/98c2b2af-739f-413c-8c36-da6f78df0acb.jpg?1675957256",
+            flavor_text: "It crackles with the intellect of a twisted genius.",
+            card_face: {
+                name: "Surgical Skullbomb",
+                type_line: {
+                    full: "Artifact",
+                    main: "Artifact",
+                    sub: ""
+                },
+                mana_cost: "{1}",
+                oracle_text: "{1}, Sacrifice Surgical Skullbomb: Draw a card.\n{2}{U}, Sacrifice Surgical Skullbomb: Return target creature to its owner's hand. Draw a card. Activate only as a sorcery."
+            }
+        },
+        {
+            id: "2daa3621-8a2c-4b4b-87ac-f981192a0567",
+            name: "Sword of Forge and Frontier",
+            type_line: "Artifact — Equipment",
+            mana_cost: "{3}",
+            cmc: 3,
+            colors: [
+                "A"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "244",
+            image: "https://cards.scryfall.io/border_crop/front/2/d/2daa3621-8a2c-4b4b-87ac-f981192a0567.jpg?1675957256",
+            card_face: {
+                name: "Sword of Forge and Frontier",
+                type_line: {
+                    full: "Artifact — Equipment",
+                    main: "Artifact",
+                    sub: [
+                        "Equipment"
+                    ]
+                },
+                mana_cost: "{3}",
+                oracle_text: "Equipped creature gets +2/+2 and has protection from red and from green.\nWhenever equipped creature deals combat damage to a player, exile the top two cards of your library. You may play those cards this turn. You may play an additional land this turn.\nEquip {2}"
+            }
+        },
+        {
+            id: "9747e4b0-fcf9-4f1d-b990-2a3e461adfee",
+            name: "Tablet of Compleation",
+            type_line: "Artifact",
+            mana_cost: "{2}",
+            cmc: 2,
+            colors: [
+                "A"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "245",
+            image: "https://cards.scryfall.io/border_crop/front/9/7/9747e4b0-fcf9-4f1d-b990-2a3e461adfee.jpg?1675957259",
+            card_face: {
+                name: "Tablet of Compleation",
+                type_line: {
+                    full: "Artifact",
+                    main: "Artifact",
+                    sub: ""
+                },
+                mana_cost: "{2}",
+                oracle_text: "{T}: Put an oil counter on Tablet of Compleation.\n{T}: Add {C}. Activate only if Tablet of Compleation has two or more oil counters on it.\n{1}, {T}: Draw a card. Activate only if Tablet of Compleation has five or more oil counters on it."
+            }
+        },
+        {
+            id: "1431fe83-7dc7-4c40-8d66-6525560e4323",
+            name: "Zenith Chronicler",
+            type_line: "Artifact Creature — Phyrexian Construct",
+            mana_cost: "{2}",
+            cmc: 2,
+            colors: [],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "246",
+            image: "https://cards.scryfall.io/border_crop/front/1/4/1431fe83-7dc7-4c40-8d66-6525560e4323.jpg?1675957261",
+            power: "3",
+            toughness: "1",
+            flavor_text: "It watches through the never-ending day, motionless save for the unsettling, twitching dance it performs as each sun reaches its apex.",
+            card_face: {
+                name: "Zenith Chronicler",
+                type_line: {
+                    full: "Artifact Creature — Phyrexian Construct",
+                    main: "Artifact Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Construct"
+                    ]
+                },
+                mana_cost: "{2}",
+                power: "3",
+                oracle_text: "Whenever a player casts their first multicolored spell each turn, each other player draws a card.",
+                toughness: "1"
+            }
+        },
+        {
+            id: "c16f96f5-a2a6-4ac4-bdae-326cee92bf2e",
+            name: "The Autonomous Furnace",
+            type_line: "Land — Sphere",
+            mana_cost: "",
+            cmc: 0,
+            colors: [],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "247",
+            image: "https://cards.scryfall.io/border_crop/front/c/1/c16f96f5-a2a6-4ac4-bdae-326cee92bf2e.jpg?1675957261",
+            flavor_text: "In Urabrask's domain, mighty forges echo day and night with the clangor of the Great Work.",
+            card_face: {
+                name: "The Autonomous Furnace",
+                type_line: {
+                    full: "Land — Sphere",
+                    main: "Land",
+                    sub: [
+                        "Sphere"
+                    ]
+                },
+                mana_cost: "",
+                oracle_text: "The Autonomous Furnace enters the battlefield tapped.\n{T}: Add {R}.\n{1}{R}, {T}, Sacrifice The Autonomous Furnace: Draw a card."
+            }
+        },
+        {
+            id: "1441fba4-fe06-4b5f-a103-aa6cf59a3859",
+            name: "Blackcleave Cliffs",
+            type_line: "Land",
+            mana_cost: "",
+            cmc: 0,
+            colors: [],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "248",
+            image: "https://cards.scryfall.io/border_crop/front/1/4/1441fba4-fe06-4b5f-a103-aa6cf59a3859.jpg?1675957263",
+            flavor_text: "Where ambition meets industry, passion is poisoned by greed.",
+            card_face: {
+                name: "Blackcleave Cliffs",
+                type_line: {
+                    full: "Land",
+                    main: "Land",
+                    sub: ""
+                },
+                mana_cost: "",
+                oracle_text: "Blackcleave Cliffs enters the battlefield tapped unless you control two or fewer other lands.\n{T}: Add {B} or {R}."
+            }
+        },
+        {
+            id: "78b0f36b-7d8c-4e77-adc2-a4dad93a81d5",
+            name: "Copperline Gorge",
+            type_line: "Land",
+            mana_cost: "",
+            cmc: 0,
+            colors: [],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "249",
+            image: "https://cards.scryfall.io/border_crop/front/7/8/78b0f36b-7d8c-4e77-adc2-a4dad93a81d5.jpg?1675957264",
+            flavor_text: "Where fire meets ferocity, a greater evolution begins.",
+            card_face: {
+                name: "Copperline Gorge",
+                type_line: {
+                    full: "Land",
+                    main: "Land",
+                    sub: ""
+                },
+                mana_cost: "",
+                oracle_text: "Copperline Gorge enters the battlefield tapped unless you control two or fewer other lands.\n{T}: Add {R} or {G}."
+            }
+        },
+        {
+            id: "bcbda15b-e49a-4445-a0e1-f221aa82c1e8",
+            name: "Darkslick Shores",
+            type_line: "Land",
+            mana_cost: "",
+            cmc: 0,
+            colors: [],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "250",
+            image: "https://cards.scryfall.io/border_crop/front/b/c/bcbda15b-e49a-4445-a0e1-f221aa82c1e8.jpg?1675957267",
+            flavor_text: "Where curiosity meets cruelty, hideous innovations arise.",
+            card_face: {
+                name: "Darkslick Shores",
+                type_line: {
+                    full: "Land",
+                    main: "Land",
+                    sub: ""
+                },
+                mana_cost: "",
+                oracle_text: "Darkslick Shores enters the battlefield tapped unless you control two or fewer other lands.\n{T}: Add {U} or {B}."
+            }
+        },
+        {
+            id: "19d469f1-2219-4466-9f8a-769ee43e28db",
+            name: "The Dross Pits",
+            type_line: "Land — Sphere",
+            mana_cost: "",
+            cmc: 0,
+            colors: [],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "251",
+            image: "https://cards.scryfall.io/border_crop/front/1/9/19d469f1-2219-4466-9f8a-769ee43e28db.jpg?1675957269",
+            flavor_text: "In Sheoldred's domain, the Steel Thanes wage a never-ending war in her long shadow.",
+            card_face: {
+                name: "The Dross Pits",
+                type_line: {
+                    full: "Land — Sphere",
+                    main: "Land",
+                    sub: [
+                        "Sphere"
+                    ]
+                },
+                mana_cost: "",
+                oracle_text: "The Dross Pits enters the battlefield tapped.\n{T}: Add {B}.\n{1}{B}, {T}, Sacrifice The Dross Pits: Draw a card."
+            }
+        },
+        {
+            id: "01d6ba55-7bc0-41c6-84be-8cd528e46a05",
+            name: "The Fair Basilica",
+            type_line: "Land — Sphere",
+            mana_cost: "",
+            cmc: 0,
+            colors: [],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "252",
+            image: "https://cards.scryfall.io/border_crop/front/0/1/01d6ba55-7bc0-41c6-84be-8cd528e46a05.jpg?1675957270",
+            flavor_text: "In Elesh Norn's domain, the gospel of unity is the highest law.",
+            card_face: {
+                name: "The Fair Basilica",
+                type_line: {
+                    full: "Land — Sphere",
+                    main: "Land",
+                    sub: [
+                        "Sphere"
+                    ]
+                },
+                mana_cost: "",
+                oracle_text: "The Fair Basilica enters the battlefield tapped.\n{T}: Add {W}.\n{1}{W}, {T}, Sacrifice The Fair Basilica: Draw a card."
+            }
+        },
+        {
+            id: "6389c242-2139-4f12-af30-2b080a1c5e83",
+            name: "The Hunter Maze",
+            type_line: "Land — Sphere",
+            mana_cost: "",
+            cmc: 0,
+            colors: [],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "253",
+            image: "https://cards.scryfall.io/border_crop/front/6/3/6389c242-2139-4f12-af30-2b080a1c5e83.jpg?1675957270",
+            flavor_text: "In Vorinclex's domain, only the mightiest survive, and all are prey in his endless hunt.",
+            card_face: {
+                name: "The Hunter Maze",
+                type_line: {
+                    full: "Land — Sphere",
+                    main: "Land",
+                    sub: [
+                        "Sphere"
+                    ]
+                },
+                mana_cost: "",
+                oracle_text: "The Hunter Maze enters the battlefield tapped.\n{T}: Add {G}.\n{1}{G}, {T}, Sacrifice The Hunter Maze: Draw a card."
+            }
+        },
+        {
+            id: "54a702cd-ca49-4570-b47e-8b090452a3c3",
+            name: "Mirrex",
+            type_line: "Land — Sphere",
+            mana_cost: "",
+            cmc: 0,
+            colors: [],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "254",
+            image: "https://cards.scryfall.io/border_crop/front/5/4/54a702cd-ca49-4570-b47e-8b090452a3c3.jpg?1675957271",
+            card_face: {
+                name: "Mirrex",
+                type_line: {
+                    full: "Land — Sphere",
+                    main: "Land",
+                    sub: [
+                        "Sphere"
+                    ]
+                },
+                mana_cost: "",
+                oracle_text: "{T}: Add {C}.\n{T}: Add one mana of any color. Activate only if Mirrex entered the battlefield this turn.\n{3}, {T}: Create a 1/1 colorless Phyrexian Mite artifact creature token with toxic 1 and \"This creature can't block.\" (Players dealt combat damage by it also get a poison counter.)"
+            }
+        },
+        {
+            id: "d6785057-0d06-4f91-b45f-c05f7c4e2b19",
+            name: "The Monumental Facade",
+            type_line: "Land — Sphere",
+            mana_cost: "",
+            cmc: 0,
+            colors: [],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "255",
+            image: "https://cards.scryfall.io/border_crop/front/d/6/d6785057-0d06-4f91-b45f-c05f7c4e2b19.jpg?1675957274",
+            card_face: {
+                name: "The Monumental Facade",
+                type_line: {
+                    full: "Land — Sphere",
+                    main: "Land",
+                    sub: [
+                        "Sphere"
+                    ]
+                },
+                mana_cost: "",
+                oracle_text: "The Monumental Facade enters the battlefield with two oil counters on it.\n{T}: Add {C}.\n{T}, Remove an oil counter from The Monumental Facade: Put an oil counter on target artifact or creature you control. Activate only as a sorcery."
+            }
+        },
+        {
+            id: "5a931463-25f6-4e31-95b4-bb4a9388009b",
+            name: "The Mycosynth Gardens",
+            type_line: "Land — Sphere",
+            mana_cost: "",
+            cmc: 0,
+            colors: [],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "256",
+            image: "https://cards.scryfall.io/border_crop/front/5/a/5a931463-25f6-4e31-95b4-bb4a9388009b.jpg?1675957276",
+            flavor_text: "As the Invasion Tree grew, its branches pierced through the world's silent core.",
+            card_face: {
+                name: "The Mycosynth Gardens",
+                type_line: {
+                    full: "Land — Sphere",
+                    main: "Land",
+                    sub: [
+                        "Sphere"
+                    ]
+                },
+                mana_cost: "",
+                oracle_text: "{T}: Add {C}.\n{1}, {T}: Add one mana of any color.\n{X}, {T}: The Mycosynth Gardens becomes a copy of target nontoken artifact you control with mana value X."
+            }
+        },
+        {
+            id: "65b26f68-3a25-4c4e-bc76-a199ab479a50",
+            name: "Razorverge Thicket",
+            type_line: "Land",
+            mana_cost: "",
+            cmc: 0,
+            colors: [],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "257",
+            image: "https://cards.scryfall.io/border_crop/front/6/5/65b26f68-3a25-4c4e-bc76-a199ab479a50.jpg?1675957278",
+            flavor_text: "Where evolution meets austerity, primal might bucks against the yoke of hierarchy.",
+            card_face: {
+                name: "Razorverge Thicket",
+                type_line: {
+                    full: "Land",
+                    main: "Land",
+                    sub: ""
+                },
+                mana_cost: "",
+                oracle_text: "Razorverge Thicket enters the battlefield tapped unless you control two or fewer other lands.\n{T}: Add {G} or {W}."
+            }
+        },
+        {
+            id: "9ed7441f-f624-49c8-8611-d9bba0e441ac",
+            name: "Seachrome Coast",
+            type_line: "Land",
+            mana_cost: "",
+            cmc: 0,
+            colors: [],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "258",
+            image: "https://cards.scryfall.io/border_crop/front/9/e/9ed7441f-f624-49c8-8611-d9bba0e441ac.jpg?1675957278",
+            flavor_text: "Where indoctrination meets inquiry, currents roil restlessly beneath the surface.",
+            card_face: {
+                name: "Seachrome Coast",
+                type_line: {
+                    full: "Land",
+                    main: "Land",
+                    sub: ""
+                },
+                mana_cost: "",
+                oracle_text: "Seachrome Coast enters the battlefield tapped unless you control two or fewer other lands.\n{T}: Add {W} or {U}."
+            }
+        },
+        {
+            id: "29c91aad-bf33-448e-b122-65940fb2e33b",
+            name: "The Seedcore",
+            type_line: "Land — Sphere",
+            mana_cost: "",
+            cmc: 0,
+            colors: [],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "259",
+            image: "https://cards.scryfall.io/border_crop/front/2/9/29c91aad-bf33-448e-b122-65940fb2e33b.jpg?1675957280",
+            card_face: {
+                name: "The Seedcore",
+                type_line: {
+                    full: "Land — Sphere",
+                    main: "Land",
+                    sub: [
+                        "Sphere"
+                    ]
+                },
+                mana_cost: "",
+                oracle_text: "{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast Phyrexian creature spells.\nCorrupted — {T}: Target 1/1 creature gets +2/+1 until end of turn. Activate only if an opponent has three or more poison counters."
+            }
+        },
+        {
+            id: "1b49ec35-2c4f-4144-85fe-226f7cb67266",
+            name: "The Surgical Bay",
+            type_line: "Land — Sphere",
+            mana_cost: "",
+            cmc: 0,
+            colors: [],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "260",
+            image: "https://cards.scryfall.io/border_crop/front/1/b/1b49ec35-2c4f-4144-85fe-226f7cb67266.jpg?1675957281",
+            flavor_text: "In Jin-Gitaxias's domain, strange and terrible experiments iterate toward perfection, unbound by ethics.",
+            card_face: {
+                name: "The Surgical Bay",
+                type_line: {
+                    full: "Land — Sphere",
+                    main: "Land",
+                    sub: [
+                        "Sphere"
+                    ]
+                },
+                mana_cost: "",
+                oracle_text: "The Surgical Bay enters the battlefield tapped.\n{T}: Add {U}.\n{1}{U}, {T}, Sacrifice The Surgical Bay: Draw a card."
+            }
+        },
+        {
+            id: "5adceb34-78c7-40dd-af31-6fb282d577ca",
+            name: "Terramorphic Expanse",
+            type_line: "Land",
+            mana_cost: "",
+            cmc: 0,
+            colors: [],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "261",
+            image: "https://cards.scryfall.io/border_crop/front/5/a/5adceb34-78c7-40dd-af31-6fb282d577ca.jpg?1675957283",
+            flavor_text: "\"The Phyrexian's monuments of today will be nothing but dust tomorrow. With enough tomorrows, so will their rule.\"\n—Koth",
+            card_face: {
+                name: "Terramorphic Expanse",
+                type_line: {
+                    full: "Land",
+                    main: "Land",
+                    sub: ""
+                },
+                mana_cost: "",
+                oracle_text: "{T}, Sacrifice Terramorphic Expanse: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle."
+            }
+        },
+        {
+            id: "db14da86-6721-4e22-9b61-4a5680d4e5a3",
+            name: "Plains",
+            type_line: "Basic Land — Plains",
+            mana_cost: "",
+            cmc: 0,
+            colors: [],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "272",
+            image: "https://cards.scryfall.io/border_crop/front/d/b/db14da86-6721-4e22-9b61-4a5680d4e5a3.jpg?1675957293",
+            card_face: {
+                name: "Plains",
+                type_line: {
+                    full: "Basic Land — Plains",
+                    main: "Basic Land",
+                    sub: [
+                        "Plains"
+                    ]
+                },
+                mana_cost: "",
+                oracle_text: "({T}: Add {W}.)"
+            }
+        },
+        {
+            id: "fa641d46-d002-4903-af72-e96971f558bc",
+            name: "Island",
+            type_line: "Basic Land — Island",
+            mana_cost: "",
+            cmc: 0,
+            colors: [],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "273",
+            image: "https://cards.scryfall.io/border_crop/front/f/a/fa641d46-d002-4903-af72-e96971f558bc.jpg?1677527331",
+            card_face: {
+                name: "Island",
+                type_line: {
+                    full: "Basic Land — Island",
+                    main: "Basic Land",
+                    sub: [
+                        "Island"
+                    ]
+                },
+                mana_cost: "",
+                oracle_text: "({T}: Add {U}.)"
+            }
+        },
+        {
+            id: "d485c620-f1fb-4715-b7c5-d2d56588308d",
+            name: "Swamp",
+            type_line: "Basic Land — Swamp",
+            mana_cost: "",
+            cmc: 0,
+            colors: [],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "274",
+            image: "https://cards.scryfall.io/border_crop/front/d/4/d485c620-f1fb-4715-b7c5-d2d56588308d.jpg?1675957293",
+            card_face: {
+                name: "Swamp",
+                type_line: {
+                    full: "Basic Land — Swamp",
+                    main: "Basic Land",
+                    sub: [
+                        "Swamp"
+                    ]
+                },
+                mana_cost: "",
+                oracle_text: "({T}: Add {B}.)"
+            }
+        },
+        {
+            id: "cd95f833-27ce-447c-b505-02137daaba4c",
+            name: "Mountain",
+            type_line: "Basic Land — Mountain",
+            mana_cost: "",
+            cmc: 0,
+            colors: [],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "275",
+            image: "https://cards.scryfall.io/border_crop/front/c/d/cd95f833-27ce-447c-b505-02137daaba4c.jpg?1675957296",
+            card_face: {
+                name: "Mountain",
+                type_line: {
+                    full: "Basic Land — Mountain",
+                    main: "Basic Land",
+                    sub: [
+                        "Mountain"
+                    ]
+                },
+                mana_cost: "",
+                oracle_text: "({T}: Add {R}.)"
+            }
+        },
+        {
+            id: "9f9e911e-7e12-4d99-806c-5cfba19ea8f3",
+            name: "Forest",
+            type_line: "Basic Land — Forest",
+            mana_cost: "",
+            cmc: 0,
+            colors: [],
+            rarity: "common",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "276",
+            image: "https://cards.scryfall.io/border_crop/front/9/f/9f9e911e-7e12-4d99-806c-5cfba19ea8f3.jpg?1675957297",
+            card_face: {
+                name: "Forest",
+                type_line: {
+                    full: "Basic Land — Forest",
+                    main: "Basic Land",
+                    sub: [
+                        "Forest"
+                    ]
+                },
+                mana_cost: "",
+                oracle_text: "({T}: Add {G}.)"
+            }
+        },
+        {
+            id: "a55a5edb-edf3-4f6c-90b8-1780b1e73997",
+            name: "Mite Overseer",
+            type_line: "Creature — Phyrexian Soldier",
+            mana_cost: "{3}{W}",
+            cmc: 4,
+            colors: [
+                "W"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "404",
+            image: "https://cards.scryfall.io/border_crop/front/a/5/a55a5edb-edf3-4f6c-90b8-1780b1e73997.jpg?1675957440",
+            power: "4",
+            toughness: "2",
+            card_face: {
+                name: "Mite Overseer",
+                type_line: {
+                    full: "Creature — Phyrexian Soldier",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Soldier"
+                    ]
+                },
+                mana_cost: "{3}{W}",
+                power: "4",
+                oracle_text: "First strike\nAs long as it's your turn, creature tokens you control get +1/+0 and have first strike.\n{3}{W/P}: Create a 1/1 colorless Phyrexian Mite artifact creature token with toxic 1 and \"This creature can't block.\" (Players dealt combat damage by it also get a poison counter. {W/P} can be paid with either {W} or 2 life.)",
+                toughness: "2"
+            }
+        },
+        {
+            id: "70d562aa-8b49-40a3-a5c1-3af8afa98edc",
+            name: "Serum Sovereign",
+            type_line: "Creature — Phyrexian Sphinx",
+            mana_cost: "{4}{U}",
+            cmc: 5,
+            colors: [
+                "U"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "405",
+            image: "https://cards.scryfall.io/border_crop/front/7/0/70d562aa-8b49-40a3-a5c1-3af8afa98edc.jpg?1675957442",
+            power: "4",
+            toughness: "4",
+            flavor_text: "A thousand riddles, each with a single answer: \"The glory of Phyrexia.\"",
+            card_face: {
+                name: "Serum Sovereign",
+                type_line: {
+                    full: "Creature — Phyrexian Sphinx",
+                    main: "Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Sphinx"
+                    ]
+                },
+                mana_cost: "{4}{U}",
+                power: "4",
+                oracle_text: "Flying\nWhenever you cast a noncreature spell, put an oil counter on Serum Sovereign.\n{U}, Remove an oil counter from Serum Sovereign: Draw a card, then scry 2.",
+                toughness: "4"
+            }
+        },
+        {
+            id: "28934cf3-c1e0-49c9-93ce-fd60b1881884",
+            name: "Kinzu of the Bleak Coven",
+            type_line: "Legendary Creature — Phyrexian Vampire",
+            mana_cost: "{4}{B}",
+            cmc: 5,
+            colors: [
+                "B"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "406",
+            image: "https://cards.scryfall.io/border_crop/front/2/8/28934cf3-c1e0-49c9-93ce-fd60b1881884.jpg?1675957442",
+            power: "5",
+            toughness: "4",
+            card_face: {
+                name: "Kinzu of the Bleak Coven",
+                type_line: {
+                    full: "Legendary Creature — Phyrexian Vampire",
+                    main: "Legendary Creature",
+                    sub: [
+                        "Phyrexian",
+                        "Vampire"
+                    ]
+                },
+                mana_cost: "{4}{B}",
+                power: "5",
+                oracle_text: "Flying\nWhenever another nontoken creature you control dies, you may pay 2 life and exile it. If you do, create a token that's a copy of that creature, except it's 1/1 and has toxic 1. (Players dealt combat damage by it also get a poison counter.)",
+                toughness: "4"
+            }
+        },
+        {
+            id: "d7c25806-1da6-4789-a17e-d2440184ec40",
+            name: "Rhuk, Hexgold Nabber",
+            type_line: "Legendary Creature — Goblin Rebel",
+            mana_cost: "{2}{R}",
+            cmc: 3,
+            colors: [
+                "R"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "407",
+            image: "https://cards.scryfall.io/border_crop/front/d/7/d7c25806-1da6-4789-a17e-d2440184ec40.jpg?1675957444",
+            power: "2",
+            toughness: "2",
+            flavor_text: "Never get between a goblin and the closest shiny object.",
+            card_face: {
+                name: "Rhuk, Hexgold Nabber",
+                type_line: {
+                    full: "Legendary Creature — Goblin Rebel",
+                    main: "Legendary Creature",
+                    sub: [
+                        "Goblin",
+                        "Rebel"
+                    ]
+                },
+                mana_cost: "{2}{R}",
+                power: "2",
+                oracle_text: "Trample, haste\nWhenever an equipped creature you control other than Rhuk, Hexgold Nabber attacks or dies, you may attach all Equipment attached to that creature to Rhuk.",
+                toughness: "2"
+            }
+        },
+        {
+            id: "0e1141ca-78c0-46e5-99f8-28069d69f23a",
+            name: "Goliath Hatchery",
+            type_line: "Enchantment",
+            mana_cost: "{4}{G}{G}",
+            cmc: 6,
+            colors: [
+                "G"
+            ],
+            rarity: "rare",
+            set: "one",
+            set_name: "Phyrexia: All Will Be One",
+            collector_number: "408",
+            image: "https://cards.scryfall.io/border_crop/front/0/e/0e1141ca-78c0-46e5-99f8-28069d69f23a.jpg?1675957447",
+            card_face: {
+                name: "Goliath Hatchery",
+                type_line: {
+                    full: "Enchantment",
+                    main: "Enchantment",
+                    sub: ""
+                },
+                mana_cost: "{4}{G}{G}",
+                oracle_text: "When Goliath Hatchery enters the battlefield, create two 3/3 green Phyrexian Beast creature tokens with toxic 1. (Players dealt combat damage by them also get a poison counter.)\nCorrupted — At the beginning of your upkeep, if an opponent has three or more poison counters, choose a creature you control, then draw cards equal to its total toxic value."
+            }
         }
-     ],
+    ],
     usg: [
         {
             id: "fe7d1839-7180-4b4c-8ddb-7df24573f740",
