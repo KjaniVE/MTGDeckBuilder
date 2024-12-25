@@ -1,11 +1,13 @@
 import {config} from "../config.js";
 import {navigateToPage} from "../navigation.js";
 
-const subscribeForm = {}
+const subscribeForm: { selectedSet: string | undefined, [key: string]: any } = {
+    selectedSet: undefined
+}
 
 function initSubscribePage() {
     insertForm();
-    document.querySelector("#subscribe form").addEventListener("submit", submitFrom);
+    document.querySelector("#subscribe form")!.addEventListener("submit", (e) => submitFrom(e as SubmitEvent));
 }
 
 
@@ -14,11 +16,13 @@ function initSubscribePage() {
 function insertForm() {
     const form = document.querySelector("#subscribe form");
 
-    addInputsToForm(form);
+    if (form instanceof HTMLFormElement) {
+        addInputsToForm(form);
+    }
     addRadioButtonsToForm();
 }
 
-function addInputsToForm(form) {
+function addInputsToForm(form: HTMLFormElement) {
     form.insertAdjacentHTML("afterbegin", `
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" required value="test">
@@ -36,44 +40,45 @@ function addInputsToForm(form) {
 }
 
 function addRadioButtonsToForm() {
-    const radioButtons = document.querySelector("#radioButtons");
+    const radioButtons = document.querySelector("#radioButtons") as HTMLElement;
 
     for (const property in config.sets) {
         if (property === config.default_set) {
             radioButtons.insertAdjacentHTML("beforeend", `
             <input type="radio" id="${property}" name="set" value="${property}" checked>
-            <label for="${property}">${config.sets[property]}</label>
+            <label for="${property}">${(config.sets as Record<string, string>)[property]}</label>
             `)
         } else {
-            radioButtons.insertAdjacentHTML("beforeend", `
+            radioButtons?.insertAdjacentHTML("beforeend", `
             <input type="radio" id="${property}" name="set" value="${property}">
-            <label for="${property}">${config.sets[property]}</label>
+            <label for="${property}">${(config.sets as Record<string, string>)[property]}</label>
             `)
         }
     }
-    document.addEventListener("change", radioChangeDetect);
+    document.addEventListener("change", (e) => radioChangeDetect(e));
 }
 
-function radioChangeDetect(e) {
-    if (e.target.type === "radio") {
-        subscribeForm.selectedSet = e.target.value
+function radioChangeDetect(e: Event) {
+    if (e.target instanceof HTMLInputElement && e.target.type === "radio") {
+        subscribeForm.selectedSet = e.target.value;
     }
 }
 
-function submitFrom(e) {
+function submitFrom(e: SubmitEvent) {
     e.preventDefault();
     const entries = document.querySelectorAll("form input");
-    const target = document.querySelector("form input[type='submit']").dataset.target;
+    const submitButton = document.querySelector("form input[type='submit']") as HTMLInputElement;
+    const target = submitButton?.dataset.target ?? null;
 
     entries.forEach(entry => {
-        subscribeForm[entry.name] = entry.value;
+        subscribeForm[(entry as HTMLInputElement).name] = (entry as HTMLInputElement).value;
     });
 
     if (!subscribeForm.set) {
         subscribeForm.selectedSet = config.default_set;
     }
 
-    navigateToPage(target);
+    navigateToPage(target!);
 }
 
 function getSubscribeForm() {

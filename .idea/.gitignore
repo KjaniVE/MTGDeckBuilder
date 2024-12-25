@@ -1,1 +1,6 @@
 *.xml
+
+# Ignore build files
+*.js
+*.js.map
+/build/
