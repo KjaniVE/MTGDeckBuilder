@@ -6,7 +6,7 @@ import {_allCards} from "../data/cards.js";
 import {addCardsToCardPool} from "./deckService.js";
 
 // ## GIVEN ##
-
+@suppresWarnings("unused")
 // important: never use the variable directly in other javascript files!!!!
 const _cards = [];
 
@@ -26,10 +26,12 @@ function loadSet(set) {
     console.log("basic lands: " + _basicLands);
 }
 
+/*
 // Retrieves the current list of cards stored in _cards.
 function getCards() {
     return _cards;
 }
+
 
 // Searches for a card by its ID in the _cards array. If found, returns the card object; otherwise, returns null.
 function findCardById(id: string): object | null {
@@ -40,6 +42,7 @@ function findCardById(id: string): object | null {
     });
     return null;
 }
+ */
 
 
 // Generates a booster pack of cards based on a predefined structure from the config object. It selects unique and random cards based on rarity and adds them to the booster pack.
