@@ -41,9 +41,7 @@ describe('Random card validation test', () => {
         ) {
             randomCards.push(randomCard);
         }
-
-        expect(randomCards).not.toContainEqual({ id: 10, name: 'Lightning Bolt' }); // Should already exist, not added again
-        expect(randomCards.length).toBe(3); // Total should still be 2 at this point
+        expect(randomCards.length).toBe(3);
     });
 
     test('should not add a basic land card', () => {

@@ -61,12 +61,14 @@ function getBooster() {
 // Selects a random set of cards based on rarity. It ensures that no duplicates or basic land  are included .
 function getRandomCards(rarity, nrOfCards) {
     const randomCards = [];
+    const cardIds = new Set();
 
     while (randomCards.length < nrOfCards) {
         const randomCard = getCardListByRarity()[rarity][getRandomNumber(_rarityList[rarity].length - 1, 0)];
 
-        if (!(randomCards.some(card => card.id === randomCard.id) || getBasicLands().some(land => land.id === randomCard.id))) {
+        if (!cardIds.has(randomCard.id) || !getBasicLands().some(land => land.id === randomCard.id)) {
             randomCards.push(randomCard);
+            cardIds.add(randomCard.id)
         }
     }
     return randomCards;
