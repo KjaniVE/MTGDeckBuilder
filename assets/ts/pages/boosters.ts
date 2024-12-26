@@ -5,6 +5,7 @@
 
 import {getSubscribeForm} from "./subscribe.js";
 import {getRandomNumber} from "../utils.js";
+import {getBooster, loadSet} from "../services/cardService.js";
 
 let _unopenedBoosters: number[] = [];
 
@@ -15,13 +16,16 @@ const _MAX_BOOSTER_VERSIONS: number = 3;
 
 function initBoostersPage(): void {
     const subscribeForm = getSubscribeForm();
+    document.querySelector("#openedBooster")!.innerHTML = "";
     setUnopenedBoosters(subscribeForm);
+    loadSet(subscribeForm.selectedSet);
 }
 
 export {initBoostersPage};
+
 // ## YOUR ADDED FUNCTIONS ##
 
-function setUnopenedBoosters(subscribeForm: any) {
+function setUnopenedBoosters(subscribeForm: any): void {
     const boosterAmount: number = subscribeForm.boostersAmount;
 
     for (let i = 0; i < boosterAmount; i++) {
@@ -31,8 +35,8 @@ function setUnopenedBoosters(subscribeForm: any) {
     renderUnopenedBoosters(subscribeForm);
 }
 
-function renderUnopenedBoosters(subscribeForm: any) {
-    const $boosters : Element = document.querySelector("#unopenedBoosters")!;
+function renderUnopenedBoosters(subscribeForm: any): void {
+    const $boosters: Element = document.querySelector("#unopenedBoosters")!;
 
     $boosters.innerHTML = "";
 
@@ -42,4 +46,32 @@ function renderUnopenedBoosters(subscribeForm: any) {
         `);
     });
 
+    $boosters.querySelectorAll("li img").forEach(booster => {
+        booster.addEventListener("click", (e) => openBooster(e));
+    })
+}
+
+function openBooster(e: Event): void {
+    const target = e.target as HTMLImageElement;
+
+    target.dataset.open = "1";
+    target.src = `images/${getSubscribeForm().selectedSet}/booster_v0.jpg`;
+    target.dataset.open = "1";
+    target.removeEventListener("click", openBooster);
+
+    renderBoosters(getBooster());
+}
+
+function renderBoosters(booster: { id: string, image: string, name: string }[]): void {
+
+    const $boosterCards: HTMLElement = document.querySelector("#openedBooster")!;
+    $boosterCards.innerHTML = "";
+
+    booster.forEach((card, index) => {
+        $boosterCards.insertAdjacentHTML("beforeend", `
+        <li class="card">
+            <img src="${card.image}" alt="${card.name}" title="${card.name}" data-id="${card.id}" data-sequence-id="${index}">
+        </li>
+        `);
+    });
 }
