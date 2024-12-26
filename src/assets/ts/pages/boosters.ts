@@ -62,7 +62,7 @@ function openBooster(e: Event): void {
     renderBoosters(getBooster());
 }
 
-function renderBoosters(booster: { id: string;}[]): void {
+function renderBoosters(booster: { id: string; }[]): void {
 
     const $boosterCards: HTMLElement = document.querySelector("#openedBooster")!;
     $boosterCards.innerHTML = "";
