@@ -2,7 +2,7 @@ import {config} from "../config.js";
 import {navigateToPage} from "../navigation.js";
 
 const subscribeForm: { selectedSet: string | undefined, [key: string]: any } = {
-    selectedSet: undefined
+    selectedSet: "ala"
 }
 
 function initSubscribePage() {
@@ -73,10 +73,6 @@ function submitFrom(e: SubmitEvent) {
     entries.forEach(entry => {
         subscribeForm[(entry as HTMLInputElement).name] = (entry as HTMLInputElement).value;
     });
-
-    if (!subscribeForm.set) {
-        subscribeForm.selectedSet = config.default_set;
-    }
 
     navigateToPage(target!);
 }

@@ -23114,3 +23114,5 @@ const _allCards = {
         }
     ]
 }
+
+export { _allCards }
