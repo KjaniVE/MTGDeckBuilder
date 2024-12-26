@@ -1,25 +1,45 @@
 //disable tslint for this file
-// @ts-nocheck
 import {config} from "../config.js";
 import {getRandomNumber} from "../utils.js";
-import {_allCards} from "../data/cards.js";
+import {_allCards as allCardsData} from "../data/cards.js";
 import {addCardsToCardPool} from "./deckService.js";
 
+const importedAllCards: AllCards = allCardsData;
+
+type Card = {
+    id: string;
+    name: string;
+    type_line: string;
+    mana_cost: string;
+    cmc: number;
+    colors: string[];
+    rarity: string;
+    set: string;
+    set_name: string;
+    collector_number: string;
+    image: string;
+    power?: string;
+    toughness?: string;
+    flavor_text?: string;
+    card_face: object
+};
+type AllCards = { [key: string]: Card[] };
+
 // ## GIVEN ##
-@suppresWarnings("unused")
+// Suppress warnings for unused variable
 // important: never use the variable directly in other javascript files!!!!
-const _cards = [];
+const _cards: { id: string; name: string; rarity: string }[] = [];
 
 // important: never use the variable directly in other javascript files!!!!
-let _rarityList = {};
+let _rarityList: { [key: string]: { id: string; name: string; rarity: string }[] } = {};
 
-const _basicLands = [];
+const _basicLands: { id: string; name: string; rarity: string }[] = [];
 
 
 // Loads a set of cards into the _cards array
-function loadSet(set) {
-    for (const card in _allCards[set]) {
-        _cards.push(_allCards[set][card]);
+function loadSet(set: string) {
+    for (const card of importedAllCards[set as keyof typeof importedAllCards]) {
+        _cards.push(card);
     }
     getCardListByRarity();
     getBasicLands();
@@ -33,29 +53,24 @@ function getCards() {
 }
 
 
-// Searches for a card by its ID in the _cards array. If found, returns the card object; otherwise, returns null.
-function findCardById(id: string): object | null {
-    _cards.forEach(card => {
-        if (card.id === id) {
-            return card;
-        }
-    });
-    return null;
-}
  */
 
+// Searches for a card by its ID in the _cards array. If found, returns the card object; otherwise, returns null.
+function findCardById(id: string): any  | null {
+    return _cards.find(card => card.id === id) || null;
+}
 
 // Generates a booster pack of cards based on a predefined structure from the config object. It selects unique and random cards based on rarity and adds them to the booster pack.
 // An array of (unique and random) card objects representing a booster pack.
-function getBooster() {
-    const currentBooster = [];
+function getBooster(): { id: string }[] {
+    const currentBooster: { id: string }[] = [];
 
-    for (const structure in config.booster.structure) {
-        const nrOfCards = config.booster.structure[structure];
+    for (const structure of Object.keys(config.booster.structure)) {
+        const nrOfCards = config.booster.structure[structure as keyof typeof config.booster.structure];
 
         // For both normal cards and wildcards, fetch via getRandomCards
         for (const card of getRandomCards(structure, nrOfCards, currentBooster)) {
-            currentBooster.push(card);
+            currentBooster.push({id: card.id}); // Only add the card ID
             addCardsToCardPool([card]);
         }
     }
@@ -64,7 +79,7 @@ function getBooster() {
 }
 
 // Selects a random set of cards based on rarity. It ensures that no duplicates or basic land  are included .
-function getRandomCards(rarity, nrOfCards, currentBooster) {
+function getRandomCards(rarity: string, nrOfCards: number, currentBooster: { id: string; }[]) {
     const randomCards = [];
     const cardIds = new Set(currentBooster.map(card => card.id)); // Track all IDs, including already added cards.
 
@@ -109,7 +124,7 @@ function getCardListByRarity() {
     return _rarityList;
 }
 
-function isBasicLand(card) {
+function isBasicLand(card: { id: string; name: string; rarity: string }) {
     return _basicLands.includes(card)
 }
 
@@ -124,6 +139,6 @@ function getBasicLands() {
     return _basicLands;
 }
 
-export {loadSet, getBooster};
+export {loadSet, getBooster, findCardById};
 
 // ## YOUR ADDED FUNCTIONS ##

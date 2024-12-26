@@ -5,7 +5,7 @@
 
 import {getSubscribeForm} from "./subscribe.js";
 import {getRandomNumber} from "../utils.js";
-import {getBooster, loadSet} from "../services/cardService.js";
+import {findCardById, getBooster, loadSet} from "../services/cardService.js";
 
 let _unopenedBoosters: number[] = [];
 
@@ -18,7 +18,7 @@ function initBoostersPage(): void {
     const subscribeForm = getSubscribeForm();
     document.querySelector("#openedBooster")!.innerHTML = "";
     setUnopenedBoosters(subscribeForm);
-    loadSet(subscribeForm.selectedSet);
+    loadSet(subscribeForm.selectedSet!);
 }
 
 export {initBoostersPage};
@@ -62,15 +62,17 @@ function openBooster(e: Event): void {
     renderBoosters(getBooster());
 }
 
-function renderBoosters(booster: { id: string, image: string, name: string }[]): void {
+function renderBoosters(booster: { id: string;}[]): void {
 
     const $boosterCards: HTMLElement = document.querySelector("#openedBooster")!;
     $boosterCards.innerHTML = "";
 
     booster.forEach((card, index) => {
+        console.log(findCardById(card.id));
+        const fullCardObject = findCardById(card.id);
         $boosterCards.insertAdjacentHTML("beforeend", `
         <li class="card">
-            <img src="${card.image}" alt="${card.name}" title="${card.name}" data-id="${card.id}" data-sequence-id="${index}">
+            <img src="${fullCardObject.image}" alt="${fullCardObject.name}" title="${fullCardObject.name}" data-id="${card.id}" data-sequence-id="${index}">
         </li>
         `);
     });
