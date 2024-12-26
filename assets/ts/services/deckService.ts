@@ -34,11 +34,13 @@ function getCardPool(){
 function defaultSort(cards){
     
 }
-
-function addCardsToCardPool(cards){
-    
+*/
+function addCardsToCardPool(cards: any[]){
+    for (const card of cards) {
+        _cardPool.push(card);
+    }
 }
-
+/*
 function getBiggestManaCostFromCardPool(){    
     
 }
@@ -88,8 +90,8 @@ function filterCardsByType(cards, types){
 function filterCardsBySearch(cards, search){
 
 }
+*/
 
+export { addCardsToCardPool };
 
-
- */
 // ## YOUR ADDED FUNCTIONS ##
