@@ -103,6 +103,7 @@ function getBasicLands() {
             basicLands.push(card);
         }
     }
+    console.log(JSON.stringify(basicLands));
     return basicLands;
 }
 
