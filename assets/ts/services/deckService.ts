@@ -4,11 +4,11 @@
 
 // important: never use the variable directly in other javascript files!!!!
 let _cardPool = [];
-
+/*
 // important: never use the variable directly in other javascript files!!!!
 let _deck = [];
 
-/*
+
 // Retrieves a sorted list of cards from the card pool, filtered by a search string and types.
 function getFilteredCardPool(search, types){
     
