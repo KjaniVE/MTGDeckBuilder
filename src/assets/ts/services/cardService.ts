@@ -124,8 +124,3 @@ function getBasicLands() {
 export {loadSet, getBooster};
 
 // ## YOUR ADDED FUNCTIONS ##
-
-function getWildCard(structure: ObjectKey) {
-    const randomIdx = getRandomNumber(config.rarities.length - 1, 0);
-    return getRandomCards(config.rarities[randomIdx], config.booster.structure[structure]);
-}
