@@ -65,7 +65,7 @@ function getRandomCards(rarity, nrOfCards) {
     while (randomCards.length < nrOfCards) {
         const randomCard = getCardListByRarity()[rarity][getRandomNumber(_rarityList[rarity].length - 1, 0)];
 
-        if (!randomCards.includes(randomCard) && !getBasicLands().includes(randomCard)) {
+        if (!(randomCards.some(card => card.id === randomCard.id) || getBasicLands().some(land => land.id === randomCard.id))) {
             randomCards.push(randomCard);
         }
     }
@@ -104,7 +104,8 @@ function getBasicLands() {
     return basicLands;
 }
 
-export { loadSet, getBooster };
+export {loadSet, getBooster};
+
 // ## YOUR ADDED FUNCTIONS ##
 
 function getWildCard(structure: ObjectKey) {
