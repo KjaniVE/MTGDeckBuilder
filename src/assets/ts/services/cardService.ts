@@ -133,6 +133,6 @@ function showBasicLands() {
     return _basicLands;
 }
 
-export {loadSet, getBooster, findCardById, showBasicLands };
+export {loadSet, getBooster, findCardById, showBasicLands, isBasicLand };
 
 // ## YOUR ADDED FUNCTIONS ##

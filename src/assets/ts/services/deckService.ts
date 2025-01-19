@@ -1,4 +1,5 @@
-import { showBasicLands} from './cardService.js';
+import { showBasicLands, isBasicLand } from './cardService.js';
+
 
 // important: never use the variable directly in other javascript files!!!!
 let _cardPool :any[] = [];
@@ -27,13 +28,40 @@ function getCardPool(): any[]{
     return _cardPool;
 }
 
- 
-/*
-function defaultSort(cards){
+ type Card = {
+    id: string;
+    name: string;
+    type_line: string;
+    mana_cost: string;
+    cmc: number;
+    colors: string[];
+    rarity: string;
+    set: string;
+    set_name: string;
+    collector_number: string;
+    image: string;
+    power?: string;
+    toughness?: string;
+    flavor_text?: string;
+    card_face: object
+ }
+
+function defaultSort(cards: Card[]): Card[] {
     const order = ["A", "B", "G", "R", "U", "W"];
+
+    return cards.sort((a, b) => {
+        if (isBasicLand(a) !== isBasicLand(b)) return isBasicLand(a) ? -1 : 1;
+
+        const isLandA = !a.colors.length || a.colors[0] === "";
+        const isLandB = !b.colors.length || b.colors[0] === "";
+
+        if (isLandA !== isLandB) return isLandA ? -1 : 1;
+        if (a.colors.length !== b.colors.length) return a.colors.length > b.colors.length ? 1 : -1;
+
+        return order.indexOf(a.colors[0]) - order.indexOf(b.colors[0]);
+    });
 }
 
- */
 
 function addCardsToCardPool(cards: any[]){
     for (const card of cards) {
@@ -92,7 +120,7 @@ function filterCardsBySearch(cards, search){
 }
 */
 
-export { addCardsToCardPool, getCardPool, getDeck, addLandsToCardPool };
+export { addCardsToCardPool, getCardPool, getDeck, addLandsToCardPool, defaultSort };
 
 // ## YOUR ADDED FUNCTIONS ##
 

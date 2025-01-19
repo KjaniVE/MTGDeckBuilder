@@ -1,13 +1,20 @@
 // ## GIVEN ##
 
-import {addLandsToCardPool, getCardPool} from "../services/deckService.js";
+import {addLandsToCardPool, defaultSort, getCardPool} from "../services/deckService.js";
 import {getUnopenedBoosters} from "./boosters.js";
 import {getBooster} from "../services/cardService.js";
 
+let isInitialized = false;
+
 function initDeckBuildingPage() {
+    if (isInitialized) {
+        return;
+    }
+    isInitialized = true;
     checkCardPool();
     addLandsToCardPool();
-    renderCardPool()
+    defaultSort(getCardPool());
+    renderCardPool();
 }
 
 function renderCardPool() {
