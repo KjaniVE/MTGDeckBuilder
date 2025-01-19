@@ -1,6 +1,13 @@
 // ## GIVEN ##
 
-import {addLandsToCardPool, defaultSort, getCardPool, getDeck} from "../services/deckService.js";
+import {
+    addLandsToCardPool,
+    defaultSort,
+    getCardPool,
+    getDeck,
+    moveCardFromPoolToDeck,
+    moveCardFromDeckToPool
+} from "../services/deckService.js";
 import {getUnopenedBoosters} from "./boosters.js";
 import {getBooster} from "../services/cardService.js";
 import {Card} from "../utils.js";
@@ -17,14 +24,20 @@ function initDeckBuildingPage() {
     defaultSort(getCardPool());
     renderCardPool();
     renderDeck();
+    const $cardPool: HTMLElement = document.querySelector("#deck-building .card-pool ul")!;
+    $cardPool.addEventListener("dblclick", moveCardToDeck);
+
+    const $deck: HTMLElement = document.querySelector("#deck-building .deck ol")!;
+    $deck.addEventListener("dblclick", moveCardToPool);
+
 }
 
-function renderCardPool():void {
+function renderCardPool(): void {
     const cardPool: Card[] = getCardPool();
-    const $cardPool:HTMLElement = document.querySelector("#deck-building .card-pool ul")!;
+    const $cardPool: HTMLElement = document.querySelector("#deck-building .card-pool ul")!;
     $cardPool.innerHTML = "";
 
-    cardPool.forEach((card :Card, index:number) :void => {
+    cardPool.forEach((card: Card, index: number): void => {
         $cardPool.insertAdjacentHTML("beforeend", `
         <li>
             <img src="${card.image}" alt="${card.name}" title="${card.name}" data-id="${card.id}" data-index="${index}">
@@ -33,8 +46,8 @@ function renderCardPool():void {
     });
 }
 
-function renderDeck():void {
-    const deck:Card[] = getDeck();
+function renderDeck(): void {
+    const deck: Card[] = getDeck();
     const $deck = document.querySelectorAll("#deck-building .deck ol li[data-cmc]");
     $deck.forEach($deck => {
         $deck.querySelector("ul")!.innerHTML = "";
@@ -48,7 +61,7 @@ function renderDeck():void {
         const $deckElement = document.querySelector(`#deck-building .deck ol li[data-cmc="${card.cmc}"] ul`)!;
         $deckElement.insertAdjacentHTML("beforeend", `
         <li>
-            <img src="${card.image}" alt="${card.name}" title="${card.name}" data-id="${card.id}">
+            <img src="${card.image}" alt="${card.name}" title="${card.name}" data-id="${card.id}" data-sequence-id="${undefined}">
         </li>
         `);
     }
@@ -58,19 +71,29 @@ function renderDeckZones() {
 
 }
 
-function showCardDetail(e: SubmitEvent) {
+function showCardDetail(e: MouseEvent) {
 
 }
 
-function moveCardToDeck(e: SubmitEvent) {
-
+function moveCardToDeck(e: MouseEvent) {
+    e.preventDefault();
+    const target = e.target as HTMLElement;
+    if (target && target.tagName === "IMG") {
+        const $cardId: string = target.dataset.id!;
+        moveCardFromPoolToDeck($cardId);
+    }
 }
 
-function moveCardToPool(e: SubmitEvent) {
-
+function moveCardToPool(e: MouseEvent) {
+    e.preventDefault();
+    const target = e.target as HTMLElement;
+    if (target && target.tagName === "IMG") {
+        const $cardId:string = target.dataset.id!;
+        moveCardFromDeckToPool($cardId);
+    }
 }
 
-export {initDeckBuildingPage};
+export {initDeckBuildingPage, renderDeck, renderCardPool};
 
 // ## YOUR ADDED FUNCTIONS ##
 

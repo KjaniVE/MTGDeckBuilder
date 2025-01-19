@@ -1,4 +1,3 @@
-//disable tslint for this file
 import {config} from "../config.js";
 import {getRandomNumber, Card} from "../utils.js";
 import {_allCards as allCardsData} from "../data/cards.js";
@@ -9,18 +8,15 @@ const importedAllCards: AllCards = allCardsData;
 type AllCards = { [key: string]: Card[] };
 
 // ## GIVEN ##
-// Suppress warnings for unused variable
-// important: never use the variable directly in other javascript files!!!!
-const _cards: { id: string; name: string; rarity: string; image: string }[] = [];
+const _cards: Card[] = [];
 
-// important: never use the variable directly in other javascript files!!!!
-let _rarityList: { [key: string]: { id: string; name: string; rarity: string }[] } = {};
+let _rarityList: { [key: string]: Card[] } = {};
 
-const _basicLands: { id: string; name: string; rarity: string }[] = [];
+const _basicLands: Card[] = [];
 
 
 // Loads a set of cards into the _cards array
-function loadSet(set: string) {
+function loadSet(set: string) :void {
     for (const card of importedAllCards[set as keyof typeof importedAllCards]) {
         _cards.push(card);
     }
@@ -29,7 +25,7 @@ function loadSet(set: string) {
 }
 
 // Searches for a card by its ID in the _cards array. If found, returns the card object; otherwise, returns null.
-function findCardById(id: string): { id: string; name: string; rarity: string; image: string} | null {
+function findCardById(id: string): Card | null {
     return _cards.find(card => card.id === id) || null;
 }
 
@@ -52,16 +48,16 @@ function getBooster(): { id: string }[] {
 }
 
 // Selects a random set of cards based on rarity. It ensures that no duplicates or basic land  are included .
-function getRandomCards(rarity: string, nrOfCards: number, currentBooster: { id: string; }[]) {
-    const randomCards = [];
+function getRandomCards(rarity: string, nrOfCards: number, currentBooster: { id: string; }[]) :Card[] {
+    const randomCards :Card[] = [];
     const cardIds = new Set(currentBooster.map(card => card.id)); // Track all IDs, including already added cards.
 
-    const cardList = rarity === "wildcard"
+    const cardList :Card[] = rarity === "wildcard"
         ? getCardListByRarity()[getRandomRarity()] // Get any rarity card for wildcards
         : getCardListByRarity()[rarity];          // Get cards of specific rarity
 
     while (randomCards.length < nrOfCards) {
-        const randomCard = cardList[getRandomNumber(cardList.length - 1, 0)];
+        const randomCard :Card = cardList[getRandomNumber(cardList.length - 1, 0)];
 
         // Ensure no duplicates, no basic lands, and no re-additions
         if (!cardIds.has(randomCard.id) && !isBasicLand(randomCard)) {
@@ -73,14 +69,14 @@ function getRandomCards(rarity: string, nrOfCards: number, currentBooster: { id:
     return randomCards;
 }
 
-function getRandomRarity() {
+function getRandomRarity() :string {
     // Logic for picking a random rarity for wildcards
-    const rarities = Object.keys(config.booster.structure).filter(r => r !== "wildcard");
+    const rarities :string[] = Object.keys(config.booster.structure).filter(r => r !== "wildcard");
     return rarities[getRandomNumber(rarities.length - 1, 0)];
 }
 
 // Organizes all cards from _cards by their rarity. If this has been done before, it returns the previously created list.
-function getCardListByRarity() {
+function getCardListByRarity() :{ [key: string]: Card[] } {
     if (Object.keys(_rarityList).length !== 0) {
         return _rarityList;
     }
@@ -97,13 +93,13 @@ function getCardListByRarity() {
     return _rarityList;
 }
 
-function isBasicLand(card: { id: string; name: string; rarity: string }) {
+function isBasicLand(card: Card) :boolean{
     return _basicLands.includes(card)
 }
 
 
 //  Retrieves all basic land cards from _cards.
-function getBasicLands() {
+function getBasicLands() :Card[] {
     for (const card of _cards) {
         if (config.basic_lands.includes(card.name)) {
             _basicLands.push(card);
@@ -112,7 +108,7 @@ function getBasicLands() {
     return _basicLands;
 }
 
-function showBasicLands() {
+function showBasicLands() :Card[] {
     return _basicLands;
 }
 
