@@ -68,7 +68,6 @@ function renderBoosters(booster: { id: string; }[]): void {
     $boosterCards.innerHTML = "";
 
     booster.forEach((card, index) => {
-        console.log(findCardById(card.id));
         const fullCardObject = findCardById(card.id);
         $boosterCards.insertAdjacentHTML("beforeend", `
         <li class="card">

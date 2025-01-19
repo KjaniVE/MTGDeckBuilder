@@ -43,17 +43,7 @@ function loadSet(set: string) {
     }
     getCardListByRarity();
     getBasicLands();
-    console.log("basic lands: " + _basicLands);
 }
-
-/*
-// Retrieves the current list of cards stored in _cards.
-function getCards() {
-    return _cards;
-}
-
-
- */
 
 // Searches for a card by its ID in the _cards array. If found, returns the card object; otherwise, returns null.
 function findCardById(id: string): any  | null {
