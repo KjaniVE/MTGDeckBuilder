@@ -1,14 +1,12 @@
-// @ts-ignore
-
-@suppress("ALL")
+import { showBasicLands} from './cardService.js';
 
 // important: never use the variable directly in other javascript files!!!!
-let _cardPool = [];
+let _cardPool :any[] = [];
+
+// important: never use the variable directly in other javascript files!!!!
+let _deck :any[] = [];
+
 /*
-// important: never use the variable directly in other javascript files!!!!
-let _deck = [];
-
-
 // Retrieves a sorted list of cards from the card pool, filtered by a search string and types.
 function getFilteredCardPool(search, types){
     
@@ -18,23 +16,25 @@ function getFilteredCardPool(search, types){
 function getFilteredDeck(search, types){
     
 }
-
+*/
 // Retrieves the complete deck.
-function getDeck(){
-
+function getDeck(): any[]{
+    return _deck;
 }
 
 // Retrieves the complete CardPool.
-function getCardPool(){
-
+function getCardPool(): any[]{
+    return _cardPool;
 }
 
  
-
+/*
 function defaultSort(cards){
-    
+    const order = ["A", "B", "G", "R", "U", "W"];
 }
-*/
+
+ */
+
 function addCardsToCardPool(cards: any[]){
     for (const card of cards) {
         _cardPool.push(card);
@@ -92,6 +92,11 @@ function filterCardsBySearch(cards, search){
 }
 */
 
-export { addCardsToCardPool };
+export { addCardsToCardPool, getCardPool, getDeck, addLandsToCardPool };
 
 // ## YOUR ADDED FUNCTIONS ##
+
+function addLandsToCardPool(): void {
+    const basicLands = showBasicLands();
+    addCardsToCardPool(basicLands);
+}
