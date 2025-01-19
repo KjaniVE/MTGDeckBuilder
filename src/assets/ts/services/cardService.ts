@@ -1,28 +1,11 @@
 //disable tslint for this file
 import {config} from "../config.js";
-import {getRandomNumber} from "../utils.js";
+import {getRandomNumber, Card} from "../utils.js";
 import {_allCards as allCardsData} from "../data/cards.js";
 import {addCardsToCardPool} from "./deckService.js";
 
 const importedAllCards: AllCards = allCardsData;
 
-type Card = {
-    id: string;
-    name: string;
-    type_line: string;
-    mana_cost: string;
-    cmc: number;
-    colors: string[];
-    rarity: string;
-    set: string;
-    set_name: string;
-    collector_number: string;
-    image: string;
-    power?: string;
-    toughness?: string;
-    flavor_text?: string;
-    card_face: object
-};
 type AllCards = { [key: string]: Card[] };
 
 // ## GIVEN ##
