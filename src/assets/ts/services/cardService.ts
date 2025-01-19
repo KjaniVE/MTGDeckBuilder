@@ -129,6 +129,6 @@ function getBasicLands() {
     return _basicLands;
 }
 
-export {loadSet, getBooster, findCardById};
+export {loadSet, getBooster, findCardById, getBasicLands };
 
 // ## YOUR ADDED FUNCTIONS ##
