@@ -21,7 +21,7 @@ function initBoostersPage(): void {
     loadSet(subscribeForm.selectedSet!);
 }
 
-export {initBoostersPage};
+export {initBoostersPage, getUnopenedBoosters };
 
 // ## YOUR ADDED FUNCTIONS ##
 
@@ -53,8 +53,10 @@ function renderUnopenedBoosters(subscribeForm: any): void {
 
 function openBooster(e: Event): void {
     const target = e.target as HTMLImageElement;
+    const dataIndex :number = parseInt(<string>target.dataset.index);
 
     target.dataset.open = "1";
+    _unopenedBoosters[dataIndex] = 0;
     target.src = `images/${getSubscribeForm().selectedSet}/booster_v0.jpg`;
     target.dataset.open = "1";
     target.removeEventListener("click", openBooster);
@@ -75,4 +77,8 @@ function renderBoosters(booster: { id: string; }[]): void {
         </li>
         `);
     });
+}
+
+function getUnopenedBoosters(): number[] {
+    return _unopenedBoosters;
 }
