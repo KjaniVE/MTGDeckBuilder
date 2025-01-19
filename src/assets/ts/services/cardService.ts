@@ -28,7 +28,7 @@ type AllCards = { [key: string]: Card[] };
 // ## GIVEN ##
 // Suppress warnings for unused variable
 // important: never use the variable directly in other javascript files!!!!
-const _cards: { id: string; name: string; rarity: string }[] = [];
+const _cards: { id: string; name: string; rarity: string; image: string }[] = [];
 
 // important: never use the variable directly in other javascript files!!!!
 let _rarityList: { [key: string]: { id: string; name: string; rarity: string }[] } = {};
@@ -46,7 +46,7 @@ function loadSet(set: string) {
 }
 
 // Searches for a card by its ID in the _cards array. If found, returns the card object; otherwise, returns null.
-function findCardById(id: string): { id: string; name: string; rarity: string } | null {
+function findCardById(id: string): { id: string; name: string; rarity: string; image: string} | null {
     return _cards.find(card => card.id === id) || null;
 }
 

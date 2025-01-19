@@ -70,7 +70,7 @@ function renderBoosters(booster: { id: string; }[]): void {
     $boosterCards.innerHTML = "";
 
     booster.forEach((card, index) => {
-        const fullCardObject = findCardById(card.id);
+        const fullCardObject = findCardById(card.id)!;
         $boosterCards.insertAdjacentHTML("beforeend", `
         <li class="card">
             <img src="${fullCardObject.image}" alt="${fullCardObject.name}" title="${fullCardObject.name}" data-id="${card.id}" data-sequence-id="${index}">
