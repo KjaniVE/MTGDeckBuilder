@@ -67,14 +67,6 @@ function renderDeck(): void {
     }
 }
 
-function renderDeckZones() {
-
-}
-
-function showCardDetail(e: MouseEvent) {
-
-}
-
 function moveCardToDeck(e: MouseEvent) {
     e.preventDefault();
     const target = e.target as HTMLElement;
