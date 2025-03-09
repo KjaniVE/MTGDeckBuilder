@@ -98,25 +98,73 @@ function moveCardFromDeckToPool(cardId: string): void {
     renderDeck();
 }
 
-/*
+
 
 function getCreatureCount(){
-    
+    const deck = getDeck();
+    let count = 0;
+
+    for (const card in deck) {
+        if (deck[card].type_line.toLowerCase().includes("creature")) {
+            count++;
+        }
+    }
+    return count;
 }
 
 function getLandCount(){
-    
+    const deck = getDeck();
+    let count = 0;
+
+    for (const card in deck) {
+        if (deck[card].type_line.toLowerCase().includes("land")) {
+            count++;
+        }
+    }
+    return count;
 }
 
 function getNoneCreatureNoneLandCount(){
-    
+    const deck = getDeck();
+    let count = 0;
+
+    for (const card in deck) {
+        if (!deck[card].type_line.toLowerCase().includes("land") && !deck[card].type_line.toLowerCase().includes("creature")) {
+            count++;
+        }
+    }
+    return count;
 }
+
 
 // Counts the occurrence of each mana type in the deck.
-function getManasCount(){
-    
+function getManasCount() {
+    const deck = getDeck();
+    const mana: { [key: string]: number } = {
+        W: 0,
+        U: 0,
+        B: 0,
+        R: 0,
+        G: 0,
+        A: 0
+    };
+
+    for (const card of deck) {
+        const manaCost = card.mana_cost.replace(/[{}]/g, '');
+        if (manaCost === "") {
+            mana.A++;
+        } else {
+            for (const manaType of manaCost) {
+                if (manaType in mana) {
+                    mana[manaType]++;
+                }
+            }
+        }
+    }
+    return mana;
 }
 
+/*
 function filterCards(cards, search, types){
     
 }
@@ -137,7 +185,11 @@ export {
     addLandsToCardPool,
     defaultSort,
     moveCardFromPoolToDeck,
-    moveCardFromDeckToPool
+    moveCardFromDeckToPool,
+    getCreatureCount,
+    getLandCount,
+    getNoneCreatureNoneLandCount,
+    getManasCount
 };
 
 // ## YOUR ADDED FUNCTIONS ##
