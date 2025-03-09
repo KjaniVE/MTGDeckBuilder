@@ -3,6 +3,7 @@
 import {getRandomNumber} from "./utils.js";
 import {initBoostersPage} from "./pages/boosters.js";
 import {initDeckBuildingPage} from "./pages/deck.js";
+import { initStatsPage} from "./pages/stats.js";
 
 const NR_OF_BACKGROUNDS = 3;
 
@@ -12,6 +13,7 @@ type PageInitializers =
 const initPages: PageInitializers = {
     boosters: initBoostersPage,
     "deck-building": initDeckBuildingPage,
+    stats: initStatsPage
 }
 
 function initNavigation() {
